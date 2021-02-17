@@ -1,0 +1,341 @@
+/* sumLang */
+#sumLangNav {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    overflow: scroll;
+    left:0;
+    top:0;
+    width:0;
+    height: 100%;
+    border: 1px solid black;
+    animation: menuSideNav 0.5s;
+    background-color: lightblue;
+    font-size: 22px;
+    background: url('phoneBG.jpeg');
+    background-size: cover;
+}
+#sumLangNav a {
+    position: relative;
+    top:1%;
+    left:85%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px lightblue;
+    text-decoration: none;
+    padding:5px;
+    
+}
+#sumLangNav a:hover {
+    color:lightblue;
+    text-shadow:3px 3px white;
+}
+#sumLangNav p {
+    background-color:lightblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius:5px;
+    padding:3px;
+    width:80%;
+    margin-left: 20px;
+}
+#sumLangNav button {
+    background-color: white;
+    color:black;
+    display: block;
+    font-size:22px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    padding:5px;
+    margin: 10px 10px 10px 20px;
+    width:85%;
+}
+
+/* jawa Lang */
+#jawaLangNav {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    overflow: scroll;
+    left:0;
+    top:0;
+    width:0;
+    height: 100%;
+    border: 1px solid black;
+    animation: menuSideNav 0.5s;
+    background-color: lightblue;
+    font-size: 22px;
+    background: url('phoneBG.jpeg');
+    background-size: cover;
+}
+#jawaLangNav a {
+    position: relative;
+    top:1%;
+    left:85%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px lightblue;
+    text-decoration: none;
+    padding:5px;
+    
+}
+#jawaLangNav a:hover {
+    color:lightblue;
+    text-shadow:3px 3px white;
+}
+#jawaLangNav p {
+    background-color:lightblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius:5px;
+    padding:3px;
+    width:80%;
+    margin-left: 20px;
+}
+#jawaLangNav button {
+    background-color: white;
+    color:black;
+    display: block;
+    font-size:22px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    padding:5px;
+    margin: 10px 10px 10px 20px;
+    width:85%;
+}
+
+/* kalSul lang */
+#kalSulLangNav {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    overflow: scroll;
+    left:0;
+    top:0;
+    width:0;
+    height: 100%;
+    border: 1px solid black;
+    animation: menuSideNav 0.5s;
+    background-color: lightblue;
+    font-size: 22px;
+    background: url('phoneBG.jpeg');
+    background-size: cover;
+}
+#kalSulLangNav a {
+    position: relative;
+    top:1%;
+    left:85%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px lightblue;
+    text-decoration: none;
+    padding:5px;
+    
+}
+#kalSulLangNav a:hover {
+    color:lightblue;
+    text-shadow:3px 3px white;
+}
+#kalSulLangNav p {
+    background-color:lightblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius:5px;
+    padding:3px;
+    width:80%;
+    margin-left: 20px;
+}
+#kalSulLangNav button {
+    background-color: white;
+    color:black;
+    display: block;
+    font-size:22px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    padding:5px;
+    margin: 10px 10px 10px 20px;
+    width:85%;
+}
+
+/* NT lang */
+#NTLangNav {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    overflow: scroll;
+    left:0;
+    top:0;
+    width:0;
+    height: 100%;
+    border: 1px solid black;
+    animation: menuSideNav 0.5s;
+    background-color: lightblue;
+    font-size: 22px;
+    background: url('phoneBG.jpeg');
+    background-size: cover;
+}
+#NTLangNav a {
+    position: relative;
+    top:1%;
+    left:85%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px lightblue;
+    text-decoration: none;
+    padding:5px;
+    
+}
+#NTLangNav a:hover {
+    color:lightblue;
+    text-shadow:3px 3px white;
+}
+#NTLangNav p {
+    background-color:lightblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius:5px;
+    padding:3px;
+    width:80%;
+    margin-left: 20px;
+}
+#NTLangNav button {
+    background-color: white;
+    color:black;
+    display: block;
+    font-size:22px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    padding:5px;
+    margin: 10px 10px 10px 20px;
+    width:85%;
+}
+
+/* ampa lang */
+#amPaLangNav {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    overflow: scroll;
+    left:0;
+    top:0;
+    width:0;
+    height: 100%;
+    border: 1px solid black;
+    animation: menuSideNav 0.5s;
+    background-color: lightblue;
+    font-size: 22px;
+    background: url('phoneBG.jpeg');
+    background-size: cover;
+}
+#amPaLangNav a {
+    position: relative;
+    top:1%;
+    left:85%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px lightblue;
+    text-decoration: none;
+    padding:5px;
+    
+}
+#amPaLangNav a:hover {
+    color:lightblue;
+    text-shadow:3px 3px white;
+}
+#amPaLangNav p {
+    background-color:lightblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius:5px;
+    padding:3px;
+    width:80%;
+    margin-left: 20px;
+}
+#amPaLangNav button {
+    background-color: white;
+    color:black;
+    display: block;
+    font-size:22px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    padding:5px;
+    margin: 10px 10px 10px 20px;
+    width:85%;
+}
+
+/* asing lang */
+#asingLangNav {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    overflow: scroll;
+    left:0;
+    top:0;
+    width:0;
+    height: 100%;
+    border: 1px solid black;
+    animation: menuSideNav 0.5s;
+    background-color: lightblue;
+    font-size: 22px;
+    background: url('phoneBG.jpeg');
+    background-size: cover;
+}
+#asingLangNav a {
+    position: relative;
+    top:1%;
+    left:85%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px lightblue;
+    text-decoration: none;
+    padding:5px;
+    
+}
+#asingLangNav a:hover {
+    color:lightblue;
+    text-shadow:3px 3px white;
+}
+#asingLangNav p {
+    background-color:lightblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius:5px;
+    padding:3px;
+    width:80%;
+    margin-left: 20px;
+}
+#asingLangNav button {
+    background-color: white;
+    color:black;
+    display: block;
+    font-size:22px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    padding:5px;
+    margin: 10px 10px 10px 20px;
+    width:85%;
+}

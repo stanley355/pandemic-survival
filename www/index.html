@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no">
+        <meta name="color-scheme" content="light dark">
+        
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/lang.css">
+        <link rel="stylesheet" href="css/game.css">
+        <link rel="stylesheet" href="css/query.css">
+        <title>Surviving COVID-19 Labyrinth</title>
+    </head>
+
+<body>
+    <div id="mainMenuDiv">
+        <div id="loaderText"><p id="rotatePhone">Miringkan ponselmu untuk bermain</p></div>
+        <div id="loader"></div>
+    
+        <!-- Main menu -->
+        <div id="menuScreen">
+            <div id="menuImage"> <!-- Background -->
+                <div id="menuList">
+                    <button id="newGameBtn"></button> <br>
+                    <button id="contBtn"></button> <br>
+                    <button id="langBtn"></button> <br>
+                    <button id="profBtn"></button> <br>
+                    <button id="creditBtn"></button><br>
+                </div>
+            </div> <!-- Background -->
+        </div>
+
+        <!-- Continue -->
+        <div id="contNav">
+            <a href="#" id="closeContNavBtn">&times;</a> <br> <br>
+            <button id="lvl1Btn">Level 1</button> 
+            <button id="lvl2Btn">Level 2</button>
+            <button id="lvl3Btn">Level 3</button>
+        </div>
+
+        <div id="langNav">
+            <a href="#" id="closeLangNavBtn">&times;</a>
+            <p id="chooseLang"></p>
+            <button id="sumLang">Sumatra</button>
+            <button id="jawaLang">Jawa & Bali</button>
+            <button id="kalSulLang">Kalimantan & Sulawesi</button>
+            <button id="NTLang">Nusa Tenggara Barat & Nusa Tenggara Timur</button>
+            <button id="amPaLang">Ambon & Papua</button>
+            <button id="asingLang">Asing & Nasional</button>
+        </div>
+
+        <div id="sumLangNav">
+            <a href="#" id="closeSumNavBtn">&times;</a>
+            <p>Bahasa di Pulau Sumatra dan Sekitarnya</p>
+            <button id="aneuk">Aneuk Jamee</button>
+            <button id="nias">Nias (Li Niha Yöu)</button>
+            <button id="minang">Minangkabau (Bukittingi)</button>
+            <button id="jambi">Jambi</button>
+            <button id="kerinci">Kerinci (Pondok Tinggi)</button>
+            <button id="palembang">Palembang</button>
+            <button id="besemah">Besemah</button>
+            <button id="bangka">Melayu Bangka</button>
+            <button id="nasal">Nasal</button>
+            <button id="rejang">Rejang</button>
+            <button id="lampung">Lampung (Dialek A)</button>
+        </div>
+
+        <div id="jawaLangNav">
+            <a href="#" id="closeJawaNavBtn">&times;</a>
+            <p>Bahasa di Pulau Jawa, Bali dan sekitarnya</p>
+            <button id="betawi">Betawi</button>
+            <button id="sunda">Sunda</button>
+            <button id="cirebon">Cirebon</button>
+            <button id="jawa">Jawa</button>
+            <button id="pemalang">Pemalang</button>
+            <button id="osing">Osing</button>
+            <button id="madura">Madura (Tapal Kuda)</button>
+            <button id="bali">Bali</button>
+        </div>
+
+        <div id="kalSulLangNav">
+            <a href="#" id="closeKalSulNavBtn">&times;</a>
+            <p>Bahasa di Pulau Kalimantan, Sulawesi, dan sekitarnya</p>
+            <button id="ngaju">Dayak Ngaju</button>
+            <button id="kanayan">Dayak Kanayan't (Ahe)</button>
+            <button id="maanyan">Dayak Ma'anyan</button>
+            <button id="lebang">Dayak Lebang Sintang</button>
+            <button id="manado">Melayu Manado</button>
+            <button id="bugis">Bugis</button>
+            <button id="tolaki">Tolaki</button>
+            <button id="ciacia">Cia-cia (Lapandewa)</button>
+        </div>
+
+        <div id="NTLangNav">
+            <a href="#" id="closeNTNavBtn">&times;</a>
+            <p>Bahasa di Pulau Nusa Tenggara Barat dan Timur</p>
+            <button id="sasak">Sasak (Menu-Meni)</button>
+            <button id="kupang">Melayu Kupang</button>
+            <button id="uab">Uab Meto (Sonbai)</button>
+            <button id="amarasi">Amarasi</button>
+            <button id="helong">Helong (Bolok)</button>
+            <button id="fataluku">Fataluku</button>
+            <button id="sabu">Sabu (Hèb'a)</button>
+            <button id="lamaholot">Lamaholot (Solor)</button>
+            <button id="mangBar">Manggarai Barat</button>
+            <button id="mangTeng">Manggarai Tengah</button>
+        </div>
+
+        <div id="amPaLangNav">
+            <a href="#" id="closeAmPaNavBtn">&times;</a>
+            <p>Bahasa di Pulau Ambon dan Papua</p>
+            <button id="papua">Melayu Papua</button>
+            <button id="biak">Biak</button>
+            <button id="lani">Lani (Wone)</button>
+        </div>
+
+        <div id="asingLangNav">
+            <a href="#" id="closeAsingNavBtn">&times;</a>
+            <p>Bahasa Asing & Nasional</p>
+            <button id="indonesia">Indonesia</button>
+            <button id="english">English</button>
+            <button id="italian">Italiano</button>
+            <button id="japan">日本語</button>
+            <button id="chinese">中文</button>
+        </div>
+
+        <div id="profNav">
+            <a href="#" id="closeProfNavBtn" onclick="closeProfNav()">&times;</a> 
+            <p id="enterName"></p>
+            <form>
+                <input type="text" id="nameBox" size="20"> <br>
+                
+            </form>
+            <button id="getName">>></button>
+            
+            <p id="chooseGender"></p>
+            <button id="male"></button>
+            <button id="female"></button>
+        </div>
+    
+        <div id="creditNav">
+            <a href="#" id="closeCreditNavBtn" onclick="closeCreditNav()">&times;</a>
+            <div id="acknowledge">
+            <img id="logoAtma" src="img/logoAtma.png" >
+            <h3>Terima kasih kepada</h3>
+                <p>
+                    <b>Tim Inti:</b><br>
+                    Ketua Proyek: Yanti <br>
+                    Programmer: Stanley Winata <br>
+                    Desainer: Charles Kaunang & Stela Angela <br>
+                    Konsultan: Andri Lesmana
+                </p>
+
+                <p>
+                    <b>Penerjemah Bahasa di Pulau Sumatra dan Sekitarnya</b> <br>
+                    Aneuk Jamee: Tasnim Lubis <br>
+                    Nias: Rebecca Evelyn Laiya <br>
+                    Minangkabau (Bukittinggi): Murniati Agustian <br>
+                    Jambi: Yanti <br>
+                    Kerinci (Dialek Pondok Tinggi): Ernanda <br>
+                    Palembang: Linny Oktovianny <br>
+                    Besemah: Dendi Wijaya <br>
+                    Melayu Bangka: Merlin Sanjaya <br>
+                    Nasal: Johan Safri <br>
+                    Rejang (Dialek Lebong): Resy Novalia <br>
+                    Lampung (Dialek A): Wuri Syaputri <br>
+                </p>
+
+                <p>
+                    <b>Penerjemah Bahasa di Jakarta, Jawa, Bali dan Sekitarnya</b> <br>
+                    Betawi: Ferdinan Okki Kurniawan <br>
+                    Sunda (Dialek Sumedang): Sri Wiyanti <br>
+                    Cirebon: Muhamad Fanni Al Farisi <br>
+                    Jawa: Ika Nurhayani <br>
+                    Pemalang: Heri Tanujaya <br>
+                    Osing (Banyuwangi): Titis Sugiyantiningtyas <br>
+                    Madura (Dialek Tapal Kuda Probolinggo): Ali Wafa <br>
+                    Bali: I Ketut Trika Adi Ana
+                </p>
+
+                <p>
+                    <b>Penerjemah Bahasa di Kalimantan, Sulawesi, dan Sekitarnya</b> <br>
+                    Dayak Ngaju: Tri Amy Lusiana Dewi <br>
+                    Dayak Kanayan't (Ahe): Oren Rianto <br>
+                    Dayak Ma'anyan: Agin Daya Sintanu <br>
+                    Dayak Lebang Sintang: Oktavani Yenny <br>
+                    Melayu Manado: Fienny Langi <br>
+                    Bugis: Samsir <br>
+                    Tolaki: Kiki Nurwahyuni <br>
+                    Ciacia(Dialek Batuatas): Husni
+                </p>
+
+                <p>
+                    <b>Penerjemah Bahasa di NTT, NTB, dan Sekitarnya</b> <br>
+                    Sasak (Menu-Meni): Hurmayani <br>
+                    Melayu Kupang: Jacklin Patricia Bunga <br>
+                    Uab Meto (Sonbai): Yefri Bilaut <br>
+                    Amarasi: Sarlince Bana <br>
+                    Helong Bolok: Dominikus Tauk <br>
+                    Fataluku (Lospalos ,Timor Leste): Rosita Da Costa <br>
+                    Sabu (Lii Hawu dialek Hèb'a): Leonardo Lede Lay <br>
+                    Lamaholot (Solor): Darius <br>
+                    Manggarai Barat: Bruder Maksimus Boi <br>
+                    Manggarai Tengah (Ruteng): Bruder Benyamin Natalis K. Thundang <br>
+                </p>
+
+                <p>
+                    <b>Penerjemah Bahasa di Pulau Ambon, Papua, dan Sekitarnya</b> <br>
+                    Melayu Papua: Cutberth Geraldy Ruwayari <br>
+                    Biak: Susan Yulita Mampioper <br>
+                    Lani: Dius Kogoya
+                </p>
+
+                <p>
+                    <b>Penerjemah Bahasa Asing</b> <br>
+                    Inggris: Yanti <br>
+                    Italia: Antonia Soriente & Luigi Sausa <br>
+                    Jepang: Asako Shiohara <br>
+                    Mandarin: Stanley Winata
+                </p>
+            </div>
+            
+        </div> 
+
+        <!-- Gamescreen -->
+        <div id="gameScreen">
+            <!-- <audio id="player1" style="display:none;" autoplay><source src="level1.mp3" type="audio/mpeg"></audio> -->
+            <!-- Menu button -->
+            <button id="sideNavBtn"><img src="img/menu.png";></button>
+            <div id="sideNav">
+                <a href="#" id="closeSideNavBtn">&times;</a>
+                <button id="sideNavNewGame"></button> <br>
+                <button id="sideNavBack"></button> <br>
+            </div>
+    
+            <!-- Obtain Item List -->
+            <div id="obtainItemList">
+                <img id="obtainMaskImg" src="img/maskImg.png";>
+                <img id="obtainSanitImg" src="img/sanitImg.png";>
+                <img id="obtainFoodboxImg" src="img/foodbox.png";>
+                <img id="obtainTomatoImg" src="img/tomato.png";>
+                <img id="obtainBreadImg" src="img/bread.png";>
+                <img id="obtainFishImg" src="img/fish.png";>
+            </div>
+    
+            <!-- Textbox popping on the first time -->
+            <div id="onloadTextBox">
+                <p style="padding-left: 10px; padding-right: 10px;" id="onloadText"></p>
+                <button id="onloadTextButton">>></button>
+            </div>
+            
+            <!-- Level 1 to 3 healthBars-->
+            <!-- <progress id="health1" value="25000" max="25000"></progress> 
+            <progress id="health2" value="40000" max="40000"></progress>
+            <progress id="health3" value="70000" max="70000"></progress>         -->
+    
+            <div id="healthBar">
+                <div id="healthLine">I</div>
+            </div>
+
+            <!-- popping image list -->
+            <div id="imgList">
+                <img id="handWashImg" src="img/handWashed.png";>
+                <img id="tomatoImg" src="img/tomato.png";>
+                <img id="maskImg" src="img/maskImg.png";>
+                <img id="sanitImg" src="img/sanitImg.png";>
+                <img id="virusImg" src="img/virus.png";>
+                <img id="carCrashImg" src="img/carCrash.png";>
+                <img id="breadImg" src="img/bread.png";>
+                <img id="fishImg" src="img/fish.png";>
+            </div>
+
+            <!-- The canvas-->
+            <canvas id="screen1">
+                Your Phone doesn't support this game!
+            </canvas>
+            <canvas id="screen2">
+                Your Phone doesn't support this game!
+            </canvas>
+            <canvas id="screen3">
+                Your Phone doesn't support this game!
+            </canvas>
+
+            <!-- Top, Left, Right, Down buttons level 1 to 3-->
+            <div id="analog1">
+                <button id="topArrow1"><img src="img/upArrow.png";></button><br>
+                <button id="leftArrow1"><img src="img/leftArrow.png";></button>
+                <button id="rightArrow1"><img src="img/rightArrow.png";></button><br>
+                <button id="downArrow1"><img src="img/downArrow.png";></button>
+            </div>
+    
+            <div id="analog2">
+                <button id="topArrow2"><img src="img/upArrow.png";></button><br>
+                <button id="leftArrow2"><img src="img/leftArrow.png";></button>
+                <button id="rightArrow2"><img src="img/rightArrow.png";></button><br>
+                <button id="downArrow2"><img src="img/downArrow.png";></button>
+            </div>
+    
+            <div id="analog3">
+                <button id="topArrow3"><img src="img/upArrow.png";></button><br>
+                <button id="leftArrow3"><img src="img/leftArrow.png";></button>
+                <button id="rightArrow3"><img src="img/rightArrow.png";></button><br>
+                <button id="downArrow3"><img src="img/downArrow.png";></button>
+            </div>
+    
+            <!-- Textbox -->
+            <div id="textBox">
+                <p id="text"></p>
+            </div>
+    
+            <!-- Toggle Text Button level 1 to 3-->
+            <button id="toggleBtn1"><img src="img/circle.png";></button>
+            <button id="toggleBtn2"><img src="img/circle.png";></button>
+            <button id="toggleBtn3"><img src="img/circle.png";></button>
+        </div> <!-- Gamescreen Ends-->
+
+
+    </div> <!-- mainMenuDiv ends -->
+        
+
+</body>
+                  
+</html>    
+<script type="text/javascript" src="js/class.js"></script>
+<script type="text/javascript" src="js/variables.js"></script>
+<script type="text/javascript" src="js/system.js"></script>
+<script type="text/javascript" src="js/text.js"></script>
+<script type="text/javascript" src="js/changeLang.js"></script>
+<script type="text/javascript" src="js/sumatLang.js"></script>
+<script type="text/javascript" src="js/jawaLang.js"></script>
+<script type="text/javascript" src="js/kalSulLang.js"></script>
+<script type="text/javascript" src="js/NTLang.js"></script>
+<script type="text/javascript" src="js/amPaLang.js"></script>
+<script type="text/javascript" src="js/asingLang.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+    

@@ -1,0 +1,512 @@
+body {
+  background-color: lightblue;
+  font-family: monospace;
+}
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  animation: spin 3s linear infinite;
+}
+#textLoader {
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  margin: -75px 0 0 -75px;
+  font-size: 24px;
+  font-weight: bold;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Gamescreen */
+#gameScreen {
+  display: none;
+  width: 1000px;
+  height: 500px;
+}
+
+/* onloadText */
+#onloadTextBox {
+  display:block;
+  z-index: 1;
+  position: absolute;
+  top:20%;
+  left: 28%;
+  width:50%;
+  height: 70%;
+  color: black;
+  background-color: #f2f2f2;
+  opacity: 0.9;
+  border: 1px solid black;
+  border-radius: 3%;
+  font-family: monospace;
+  font-size:20px;
+  text-align: justify;
+  animation-name: animateLoadText;
+  animation-duration:2s;
+}
+#onloadTextButton {
+  background:none;
+  border: none;
+  margin-left: 5px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+@keyframes animateLoadText {
+  from { opacity: 0; }
+  to { opacity: 0.9; }
+}
+
+
+
+/* Open Menu button */
+#openMenu {
+  position: absolute;
+  background: none;
+  top:20px;
+  left: 20px;
+  border: none;
+  z-index: 0;
+}
+#openMenu img {
+  width: 50px;
+  height: 50px;
+}
+#menu {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height:100%;
+  font-size:12px;
+  font-family:monospace;
+  background-color: #f2f2f2;
+  opacity:0.9;
+  border: 1px solid black;
+  border-radius: 3%;
+  display:none;
+}
+#menu #closeMenu {
+  border:none;
+  text-decoration:underline;
+}
+#menu #menuNewGame {
+  margin:10px 0 0 15px;
+  background-color:lightblue;
+  border-radius:5px;
+}
+#menu #menuLanguage {
+  margin:10px 0 0 15px;
+  background-color:lightblue;
+  border-radius:5px;
+}
+#menu #menuBackMainMenu {
+  margin:10px 0 0 15px;
+  background-color:lightblue;
+  border-radius:5px;
+}
+
+/* obtain item list */
+#obtainItemList {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  width: 400px;
+  height: 70px;
+  display:block;
+  z-index: 1;
+}
+#obtainItemList img{
+  width: 70px;
+  height: 70px;
+  animation-name: obtainImgAnimate;
+  animation-duration: 2s;
+}
+#obtainMaskImg {
+  display: none;
+}
+#obtainSanitImg {
+  display: none;
+}
+#obtainFoodboxImg {
+  display: none;
+}
+#obtainTomatoImg {
+  display: none;
+}
+#obtainBreadImg {
+  display: none;
+}
+#obtainFishImg {
+  display: none;
+}
+
+@keyframes obtainImgAnimate {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* progress bar */
+progress {
+  position:absolute;
+  top: 5%;
+  left: 65%;
+  width:30%;
+  height:10%;
+}
+
+/* Popping Image List */
+#imgList {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 300px;
+  height: 300px;
+  animation-name: imageAnimate;
+  animation-duration: 1s;
+  z-index: 0;
+}
+#imgList img {
+  width: 300px;
+  height: 300px;
+}
+#handWashImg {
+  display:none;
+}
+#maskImg {
+  display:none;
+}
+#sanitImg {
+  display:none;
+}
+#tomatoImg {
+  display:none;
+}
+#virusImg {
+  display:none;
+}
+#fishImg {
+  display:none;
+}
+#breadImg {
+  display:none;
+}
+#carCrashImg {
+  display:none;
+}
+
+@keyframes imageAnimate {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* top, right, down, left button */
+#analog {
+  position:absolute;
+  top: 50%;
+  left:2%;
+  z-index: 0;
+}
+#analog img {
+  width: 60px;
+  height: 60px;
+}
+#topArrow {
+  margin-left: 50px;
+  background:none;
+  border:none;
+}
+#leftArrow {
+  background:none;
+  border:none;
+}
+#rightArrow {
+  margin-left: 35px;
+  background:none;
+  border:none;
+}
+#downArrow {
+  margin-left: 50px;
+  background:none;
+  border:none;
+}
+
+
+/* Textbox */
+#textBox {
+  display:none;
+  position:absolute;
+  background-color: #99ff99;
+  top:80%;
+  left: 25%;
+  width:60%;
+  height:20%;
+  border-radius:10px;
+  border:1px solid white;
+  animation-name: textBoxAnimate;
+  animation-duration: 2s;
+  z-index:0;
+}
+@keyframes textBoxAnimate {
+  from {height: 0%;}
+  to {height: 20%;}
+}
+#text{
+  color: black;
+  font-family: monospace;
+  font-size:24px;
+  margin-top: 0;
+  margin-left: 5px;
+  animation-name: textAnimate;
+  animation-duration: 2s;
+}
+@keyframes textAnimate {
+  from {color: greenyellow;}
+  to {color: black;}
+}
+
+/* toggle button */
+#buttonA {
+  position:absolute;
+  color: white;
+  background-color: transparent;
+  top:62%;
+  left: 85%;
+  border-radius: 50%;
+  border:3px solid white;
+  z-index:0;
+}
+#buttonA img {
+  width: 75px;
+  height: 75px;
+}
+
+canvas {
+    width:1330px;
+    height:550px;
+    border:5px solid whitesmoke;
+    border-radius:5px;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+
+/* media queries */
+/* iphone 5 */
+@media (min-width: 550px) and (max-width:570px) and (min-height: 301px) and (max-height:330px) {
+  #textLoader { font-size: 20px; top: 70%; left: 57%;}
+  #loader { margin: -45px 0 0 -60px;}
+  canvas {width: 540px; height: 300px;}
+  #onloadTextBox { font-size: 12px;}
+  #analog img {width: 40px; height: 40px;}
+  #buttonA img {width: 40px; height: 40px;}
+  #text {font-size:14px;}
+  #imgList img {width:150px; height:150px;}
+}
+
+/* Small phones */
+@media (min-width: 550px) and (max-width:600px) and (min-height: 250px) and (max-height:300px) {
+  #textLoader { font-size: 20px; top: 70%; left: 57%;}
+  #loader { margin: -45px 0 0 -60px;}
+  canvas {width: 590px; height: 300px;}
+  #onloadTextBox { font-size: 12px;}
+  #analog img {width: 40px; height: 40px;}
+  #buttonA img {width: 40px; height: 40px;}
+  #text {font-size:14px;}
+  #imgList img {width:150px; height:150px;}
+}
+/* Moto G4 */
+@media (min-width: 601px) and (max-width:640px) and (min-height: 301px) and (max-height:360px){
+  #textLoader { font-size: 20px; top: 65%; left: 57%;}
+  #loader { margin: -50px 0 0 -60px;}
+  canvas {width: 610px; height: 330px;}
+  #onloadTextBox { font-size: 14px;}
+  #analog img {width: 50px; height: 50px;}
+  #buttonA img {width: 50px; height: 50px; left:75%;}
+  #text {font-size:14px;}
+  #textBox { top:75%; left: 27%; width:55%;height:20%;}
+  #imgList {top: 18%; left:40%;}
+  #imgList img {width:200px; height:200px;}
+}
+/* Galaxy fold */
+@media (min-width: 641px) and (max-width:655px) and (min-height: 270px) and (max-height:290px){
+  #textLoader { font-size: 20px; top: 65%; left: 57%;}
+  #loader { margin: -60px 0 0 -60px;}
+  canvas {width: 635px; height: 270px;}
+  #onloadTextBox { font-size: 12px;}
+  progress {width: 32%;}
+  #analog img {width: 40px; height: 40px;}
+  #buttonA img {width: 40px; height: 40px; left:75%;}
+  #text {font-size:16px;}
+  #textBox { top:75%; left: 27%; width:55%;height:20%;}
+  #imgList {top: 18%; left:37%;}
+  #imgList img {width:150px; height:150px;}
+}
+
+/* iphone 6/7/8 */
+@media (min-width: 656px) and (max-width:670px) and (min-height: 350px) and (max-height:380px){
+  #textLoader { font-size: 20px; top: 65%; left: 57%;}
+  #loader { margin: -50px 0 0 -60px;}
+  canvas {width: 635px; height: 350px;}
+  #onloadTextBox { font-size: 14px;}
+  #analog img {width: 50px; height: 50px;}
+  #buttonA img {width: 50px; height: 50px; left:75%;}
+  #text {font-size:16px;}
+  #textBox { top:75%; left: 27%; width:55%;height:20%;}
+  #imgList {top: 18%; left:37%;}
+  #imgList img {width:200px; height:200px;}
+}
+
+/* surface duo*/
+@media (min-width: 700px) and (max-width:721px) and (min-height: 500px) and (max-height:541px){
+  #textLoader { font-size: 20px; top: 60%; left: 56%;}
+  #loader { margin: -50px 0 0 -60px;}
+  canvas {width: 690px; height: 510px;}
+  #onloadTextBox { font-size: 16px;}
+  #analog {top: 60%;}
+  #analog img {width: 60px; height: 60px;}
+  #buttonA { left: 83%;}
+  #buttonA img {width: 60px; height: 60px;}
+  progress {height: 5%;}
+  #text {font-size:16px;}
+  #textBox { top:75%; left: 28%; width:53%;height:20%;}
+  #imgList {top: 18%; left:37%;}
+  #imgList img {width:250px; height:250px;}
+}
+
+
+/* iphone 6/7/8 plus */
+@media (min-width: 730px) and (max-width:740px) and (min-height: 400px) and (max-height:420px){
+  #textLoader { font-size: 20px; top: 65%; left: 56%;}
+  #loader { margin: -50px 0 0 -60px;}
+  canvas {width: 705px; height: 390px;}
+  #onloadTextBox { font-size: 14px;}
+  #analog img {width: 50px; height: 50px;}
+  #buttonA img {width: 60px; height: 60px; left:65%;}
+  #text {font-size:16px;}
+  #textBox { top:75%; left: 27%; width:55%;height:20%;}
+  #imgList {top: 18%; left:37%;}
+  #imgList img {width:200px; height:200px;}
+}
+
+/* iphone X */
+@media (min-width: 780px) and (max-width:815px) and (min-height: 370px) and (max-height:400px){
+  #textLoader { font-size: 20px; top: 65%; left: 55%;}
+  #loader { margin: -50px 0 0 -60px;}
+  canvas {width: 790px; height: 360px;}
+  #onloadTextBox { font-size: 14px;}
+  #analog img {width: 50px; height: 50px;}
+  #buttonA img {width: 60px; height: 60px; left:65%;}
+  progress {width: 32%;}
+  #text {font-size:16px;}
+  #textBox { top:75%; left: 25%; width:55%;height:20%;}
+  #imgList {top: 15%; left:35%;}
+  #imgList img {width:250px; height:250px;}
+}
+
+/* pixel 2*/
+@media (min-width: 820px) and (max-width:840px) and (min-height: 410px) and (max-height:420px){
+  #textLoader { font-size: 20px; top: 65%; left: 55%;}
+  #loader { margin: -50px 0 0 -60px;}
+  canvas {width: 800px; height: 380px;}
+  #onloadTextBox { font-size: 14px;}
+  #analog img {width: 50px; height: 50px;}
+  #buttonA img {width: 60px; height: 60px; left:65%;}
+  progress {width: 32%;}
+  #text {font-size:16px;}
+  #textBox { top:75%; left: 25%; width:58%;height:20%;}
+  #imgList {top: 15%; left:35%;}
+  #imgList img {width:250px; height:250px;}
+}
+
+/* ipad horizontal */
+@media (min-width: 1000px) and (max-width:1030px) and (min-height: 750px) and (max-height:770px){
+  #textLoader { font-size: 30px; top: 40%; left: 43%;}
+  #loader { margin: -70px 0 0 -150px;}
+  canvas {width: 820px; height: 610px;}
+  #onloadTextBox { top: 10%; left: 25%; font-size: 24px; width:40%; height: 70%;}
+  #analog {top: 45%;}
+  #analog img {width: 80px; height: 80px;}
+  #topArrow { margin-left: 65px;}
+  #downArrow { margin-left: 65px;}
+  #buttonA {top:55%; left: 67%;}
+  #buttonA img {width: 80px; height: 80px;}
+  progress {left: 60%; width: 30%; height:5%;}
+  #text {font-size:24px;}
+  #textBox { top:65%; left: 25%; width:40%;height:20%;}
+  #imgList {top: 15%; left:27%;}
+  #imgList img {width:350px; height:350px;}
+}
+/* ipad vertical */
+@media (min-width: 750px) and (max-width:770px) and (min-height: 1000px) and (max-height:1030px){
+  #textLoader { font-size: 30px; top: 40%; left: 52%;}
+  #loader { margin: -70px 0 0 -70px;}
+  canvas {width: 750px; height: 980px;}
+  #onloadTextBox { top: 10%; left: 15%; font-size: 24px; width:70%; height: 50%;}
+  #analog {top: 65%;}
+  #analog img {width: 90px; height: 90px;}
+  #topArrow { margin-left: 65px;}
+  #downArrow { margin-left: 65px;}
+  #buttonA {top:70%; left: 80%;}
+  #buttonA img {width: 100px; height: 100px;}
+  progress {top: 2%; left: 60%; width: 35%; height:5%;}
+  #text {font-size:26px;}
+  #textBox { top:75%; left: 35%; width:40%;height:20%;}
+  #imgList {top: 15%; left:27%;}
+  #imgList img {width:400px; height:400px;}
+}
+
+/* ipad pro vertical */
+@media (min-width: 1000px) and (max-width:1030px) and (min-height: 1300px) and (max-height:1370px){
+  #textLoader { font-size: 30px; top: 40%; left: 43%;}
+  #loader { margin: -70px 0 0 -150px;}
+  canvas {width: 840px; height: 610px;}
+  #onloadTextBox { top: 45%; left: 25%; font-size: 24px; width:40%; height: 40%;}
+  #analog {top: 55%;}
+  #analog img {width: 80px; height: 80px;}
+  #topArrow { margin-left: 65px;}
+  #downArrow { margin-left: 65px;}
+  #buttonA {top:55%; left: 67%;}
+  #buttonA img {width: 80px; height: 80px;}
+  progress {top: 2%; left: 50%; width: 30%; height:5%;}
+  #text {font-size:28px;}
+  #textBox { top:65%; left: 25%; width:40%;height:20%;}
+  #imgList {top: 15%; left:27%;}
+  #imgList img {width:350px; height:350px;}
+}
+
+/* Computer/Laptop */
+@media (min-width: 1100px)  and (min-height: 500px) {
+  #textLoader { font-size: 24px; top: 40%; left: 46%;}
+  #loader { margin: -70px 0 0 -150px;}
+  canvas {width: 1310px; height: 595px;}
+  #onloadTextBox { top: 25%; left: 25%; font-size: 26px; width:50%; height: 65%;}
+  #onloadTextButton {font-size:26px;}
+  #analog {top: 50%;}
+  #analog img {width: 90px; height: 90px;}
+  #topArrow { margin-left: 80px;}
+  #downArrow { margin-left: 80px;}
+  #rightArrow {margin-left:60px;}
+  #buttonA {top:60%; left: 85%;}
+  #buttonA img {width: 100px; height: 100px;}
+  progress {top: 2%; left: 60%; width: 37%; height:10%;}
+  #text {font-size:26px;}
+  #textBox { top:75%; left: 23%; width:55%;height:20%;}
+  #imgList {top: 10%; left:35%;}
+  #imgList img {width:350px; height:350px;} 
+  #menu button { font-size: 26px; margin-top: 30px;}
+}
