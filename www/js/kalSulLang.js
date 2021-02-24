@@ -234,7 +234,7 @@ nama + ": Wah, aku harun supa iye endau.",
 "Permainan lepah. Tarima kasih jadi memainkan permainan jituh.",  
 "Sambil kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Gantau kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Permainan selesai. Ikau tetabrak mobil.",
 
 ]
 
@@ -474,7 +474,7 @@ nama + ": Ade ah, aku baru batamu ia tadi.",
 "Permainan salasai. Tarima kasih dah bamain pamainan nian.",  
 "Keba kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> pasuburat'n </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Pamainan dah lakak. Kitak ngarudu oto.",
 
 ]
 
@@ -714,7 +714,7 @@ nama + ": Wah, aku wau panalu hanye nien.",
 "Permainan luput. Terime kasis haut tuli permainan ina.",  
 "Kawi Kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kawan Kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Permainan luput. Hanyu tahebu mobil.",
 
 ]
 
@@ -954,7 +954,7 @@ nama + ": Wah, aku aruk ketemu Hidok tadi.",
 "Permainan dah abin. Terimo kasieh dah main ke permainan ituk.",  
 "Hepiak kibok kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah haket </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Hepiak kanan kota:" + "<br>" + "<ul>" +"<li> Utai jat </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Permainan berakhir. Kitok tertabrak oto.",
 
 ]
 
@@ -1153,7 +1153,7 @@ nama + ": (Hmmm, nda ada disini le tu yang kita da cari).", //55
 nama + ":  Ni ikang brapa Satu kilo, tanta?",
 "Tukang ba jual ikang: Rp35.000.",
 nama + ": se kamari 1 kilo jo, tanta. Napa depe doi.",
-"Tukang ba jual ikang: Makase ne. napa tu ikanga.", //65
+"Tukang ba jual ikang: Makase ne. napa tu ikang.", //65
 "Tanta-tanta: tu tukang ba jual roti yang biasa ba jual situ, so kamana kang?", //66
 "Tukang ba jual daging: Cari apa?",
 nama + ": (Duh, tu om nda pake masker. Mau' jo ba bli pa dia).", 
@@ -1193,7 +1193,7 @@ nama + ": Ya astaga, tadi torang dua baru bakudapa.",
 "Permainan so klar. Makase banya so bermain ini permainan.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Permainan tamat. Ngana oto so tabrak.",
 
 ]
 
@@ -1436,8 +1436,7 @@ nama + ": Wah, silaloku siruntu.",
 "Cappuni cule-culewe. Terima kasih pada purani maccule.",  
 "Siwali abiona koyae :" + "<br>" + "<ul>" +"<li> Pasa Baru </li>" +"<li> Bola doko </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Siwali ataunna kotae:" + "<br>" + "<ul>" +"<li> Akkuburukenh </li>" +"<li> Kantor Walikota </li>" + "<li> Pasa Laung </li>"+ "</ul>", //104
-
-
+"Cappuni cule-culewe. Tattumpukki oto.",
 ]
 
 // tolaki
@@ -1678,7 +1677,7 @@ nama + ": Wah, epoka ku teposuangge ingoni.",
 "Moiri nggambo:" + "<br>" + "<ul>" +"<li> Daoa woohu </li>" +"<li> Laika Waraka </li>" + "<li> Pelaikaa Apartemen </li>"+ "</ul>", //103    
 "Ihana wonua:" + "<br>" + "<ul>" +"<li> Koburu </li>" +"<li> Kandoro Walikota </li>" + "<li> Daoa Mbeleesu </li>"+ "</ul>", //104
 
-
+"Ariito pae pae, morumbati koto o' oto.",
 ]
 
 // ciacia
@@ -1918,6 +1917,6 @@ nama + ": Wee, indau bithamo opotabu iya haleo.",
 "Kabharabanto selesaimo. Tarimakasi poolimo kabharabae kabharabamamiana.",   
 "Iwiwi kota:" + "<br>" + "<ul>" +"<li> dhaoa Baru </li>" +"<li> Rumah sakit </li>" + "<li> kaana mocinggi </li>"+ "</ul>", //103    
 "Soana kota:" + "<br>" + "<ul>" +"<li> Tampano pikoburua </li>" +"<li> Kantoro Pamarinta </li>" + "<li> dhaoa molengo </li>"+ "</ul>", //104
-
+"Bharabhaa nopoolimo. Isoo motabraki oto.",
 
 ]

@@ -235,7 +235,7 @@ nama + ": Aduh, sa baru ketemu dia tadi.",
 "Permainan su selesai. Terima kasih su memainkan permainan ini.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Permainan berakir. Ko dapa tabrak Mobil.",
 
 ]
 
@@ -476,6 +476,7 @@ nama + ": Boo, insanja yasrow baboi.",
 "Farfnak imbren kwar. Kasumasa snar mgafnak farfnak ine.",  
 "Barasar kota:" + "<br>" + "<ul>" +"<li> Pasar Bebabo </li>" +"<li> Rum beduf </li>" + "<li> Rum anaenef apartemen </li>"+ "</ul>", //103    
 "Baraku kota:" + "<br>" + "<ul>" +"<li> Mob bekaran ram  </li>" +"<li> Kantor Walikota </li>" + "<li> PasarBekwar </li>"+ "</ul>", //104
+"Farfnak namnai, mobil far pum au",
 ]
 
 // lani
@@ -714,6 +715,6 @@ nama + ": Eyahh, An nimbirak awoo aret lambunggirak bee.",
 "Yine irik paga agarak. Aeee waaa yine yime nogo abbok aret kunggotak.",  
 "kwarenggwan panggwe tii oo tini nggok mee:" + "<br>" + "<ul>" +"<li> Kunggomengganom awoo ogobak kirik mee </li>" +"<li> Andi paga awii wurik mee </li>" + "<li> Oo'o onggo punuk mengganom </li>"+ "</ul>", //103    
 "Obenggwan panggwe tii oo tini nggok mee:" + "<br>" + "<ul>" +"<li> Akummi kambak pigomengganom </li>" +"<li> Oo'o tini nggok awii kambonak </li>" + "<li> kunggomengganom induk errak mee </li>"+ "</ul>", //104
-
+"Yine kuniyak abok aret ekorak. Kat mobin nen ambiranggakerak.",
 
 ]

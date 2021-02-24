@@ -231,7 +231,7 @@ nama + ": Wah, saya baru ketemu dia tadi.",
 "Permainan berakhir. Terima kasih sudah memainkan permainan ini.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Permainan berakhir. Anda tertabrak mobil.",
 
 ]
 
@@ -468,7 +468,7 @@ nama + ": Oh, no! I have just met him.",
 "Game over. Thank you for playing this game!",  
 "West part of the city:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Hospital </li>" + "<li> Apartment </li>"+ "</ul>", //103    
 "Eastern part of the city:" + "<br>" + "<ul>" +"<li> Cemetary </li>" +"<li> Mayor Office </li>" + "<li> Pasar lama </li>"+ "</ul>", //104
-
+"Game over. You were hit by a car.",
 
 ]
 
@@ -709,7 +709,7 @@ nama+ "：哎呀！我才见到他们。",
 "第三级别完成了！",
 "西边:" + "<br>" + "<ul>" +"<li> 新巴杀 </li>" +"<li> 医院 </li>" + "<li> 公寓 </li>"+ "</ul>", //103    
 "东边:" + "<br>" + "<ul>" +"<li> 墓地区 </li>" +"<li> 办公室 </li>" + "<li> 旧巴沙 </li>"+ "</ul>", //104
-
+"游戏结束。你被车撞死了！",
 
 ]
 
@@ -950,6 +950,7 @@ nama + ": Oh no. L'ho appena incontrato poco fa.",
 "Il gioco è finito. Grazie per aver giocato a questo gioco.",  
 "A sinistra della città:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Ospedale </li>" + "<li> Complesso di appartamenti </li>"+ "</ul>", //103    
 "A destra della città:" + "<br>" + "<ul>" +"<li> Cimitero </li>" +"<li> Comune </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
+"Partita finita. Sei stato investito da un'auto",
 ]
 
 // japanese
@@ -1190,6 +1191,6 @@ nama + ": 本当ですか, 彼にさっきあったばかりです.",
 "以上でゲーム終了です. ここまでプレイしていただきありがとうございました.",  
 "西区:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> 病院 </li>" + "<li> アパート </li>"+ "</ul>", //103    
 "東区:" + "<br>" + "<ul>" +"<li> 墓地 </li>" +"<li> 市役所 </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"ゲームオーバーです　車にひかれてしまいました.",
 
 ]

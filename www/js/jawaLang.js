@@ -233,7 +233,7 @@ nama + ": Wah, gue baru ketemu dia tadi.",
 "Permaenan selese. Makasi udeh maenin permaenan ini.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Kuburan </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Permaenan selese. Lu ketabrak mobil.",
 
 ]
 
@@ -474,6 +474,7 @@ nama + ": Wah, tadi abdi nembe tepang.",
 "Kaulinan Beres. Nuhun tos ngamaenkeun kauilnan ieu.",
 "Kenca kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Katuhu kota:" + "<br>" + "<ul>" +"<li> Makam </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
+"Pertandingan engeusan. Anjeun katabrak mobil.",
 ]
 
 // cirebon
@@ -712,7 +713,7 @@ nama + ": Wah, isun nembe ketemu mau.",
 "Dolanan wis pragat. Kesuwun wis dolanan.",
 "Kiwe kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Tengen kota:" + "<br>" + "<ul>" +"<li> Makam </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Pragat. Ira ketabrak mobil.",
 
 ]
 
@@ -954,7 +955,7 @@ nama + ": Wah, aku bar ketemu deweke mau.",
 "Dolanan wis rampung. Maturnuwun wis dolanan.", 
 "Kiwa kuta:" + "<br>" + "<ul>" +"<li> Pasar Anyar </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103
 "Tengen kuta:" + "<br>" + "<ul>" +"<li> Kuburan </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lawas </li>"+ "</ul>", //104
-
+"Dolanan rampung. Sampeyan ketabrak mobil.",
 ]
 
 // pemalang
@@ -1192,7 +1193,7 @@ nama + ": Wah, enyong miki nembe ketemu kae.",
 "Dolanane wis entek. Matur suwun wis dolanan mainan kiye.",  
 "Kiwe kota:" + "<br>" + "<ul>" +"<li> Pasar Lawas </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Tengen kota:" + "<br>" + "<ul>" +"<li> Kuburan </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lawas </li>"+ "</ul>", //104
-
+"Dolanan wis rampung. Sampeyan ditabrak mobil.",
 ]
 
 // osing
@@ -1430,7 +1431,7 @@ nama + ": Wah, isun buru ketemu lare iku mau.",
 "Memengan mari. Kesuwun uwes memengan ring permainan iki.",  
 "Kiwo kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Tengen kota:" + "<br>" + "<ul>" +"<li> kuburan </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Memengan mari. Riko ketabrak montor.",
 
 ]
 
@@ -1671,7 +1672,7 @@ nama + ": Bâ, engkok ghuruwen ketemon bik jiah.",
 "Maènan marèh. Keso'on la maèn.",  
 "Kacèrrah kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Roma saket </li>" + "<li> Peruma'an apartemen </li>"+ "</ul>", //103    
 "Kanannah kota:" + "<br>" + "<ul>" +"<li> Kobhuren </li>" +"<li> Kantorrah Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Maènan la marèh. Kakèh è tabrak montor.",
 
 ]
 
@@ -1912,6 +1913,6 @@ nama + ": Wah, saya baru ketemu dia tadi.",
 "Plalianan puput. Matur suksma sampun maplalianan puniki.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Setra </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Plalian puput. Ida dane tabrak mobil.",
 
 ]

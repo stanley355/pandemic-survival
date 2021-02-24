@@ -222,6 +222,12 @@ function showItemImage(txtNum){
 			document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
 			document.getElementById("textBox").style.opacity ='0.8';
 		break;
+		case 54:
+			imgList.style.display = 'block';
+			document.getElementById("tomatoImg").style.display = 'block';
+			document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
+			document.getElementById("textBox").style.opacity ='0.8';
+		break;
 		//level 3
 		case 105:
 			imgList.style.display = 'block';

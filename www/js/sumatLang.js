@@ -231,8 +231,7 @@ nama + ": Ai mak, kami baru basuo tadi.",
 "Permainan alah salasi. Tarimo kasih alah mamainkan permainan iko.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
-
+"Pamainan barakhi. Munak tatabrak mobil.",
 ]
 
 //nias
@@ -469,6 +468,7 @@ nama + ":He, avena falakhi ndrao khönia.",
 "Ma'awai permainan ha'a. Saohaögölö ma famai draugö khöma.",  
 "kabera banua sebua :" + "<br>" + "<ul>" +"<li> Fasa Baru </li>" +"<li> Ruma Saki  </li>" + "<li> Nomo </li>"+ "</ul>", //103    
 "kabölö banua sebua :" + "<br>" + "<ul>" +"<li> Lewatö </li>" +"<li> Gödo Walikota </li>" + "<li> Fasa Lama </li>"+ "</ul>", //104
+"Ma Avali Permaina, ma la tadru ndraugö moto.",
 ]
 
 //minang
@@ -706,7 +706,7 @@ nama + ": Ondeh, ambo baru basobok jo inyo tadi.",
 "Permainan salasai. Tarino kasih alah mamainkan permainan ko.",  
 "Kida kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Suok kota:" + "<br>" + "<ul>" +"<li> Pusaro  </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Pamainan salasai. Awak dilantak oto.",
 
 ]
 
@@ -945,7 +945,7 @@ nama + ": Wah, tadi sayo baru ketemu dio.",
 "Permaenan abis. Terimo kasih la maen permaenan ni.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Kuburan </li>" +"<li> Kantor walikota </li>" + "<li> Pasar lama </li>"+ "</ul>", //104
-
+"Permaenan abis. Kau ditabrak mobil.",
 ]
 
 // kerinci
@@ -967,12 +967,12 @@ var onloadTextKerinci = [
     // level 1
     "Selamat datua kek permainan Surviving Covid Labyrinth. Kek permainan ineh, ikao berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Salamo berpetualang ikao harus mengikuti protokol kesehatan, misal manjago jarak aman, masouh jahoi dingan sabeun, make cairan pembersih tangan, make masker, dan iduak baimpoiq-impoiq.", //0
     "Seloh kana ateh layar, adea garis kesehatan nge mageih taau tingkat kesehatan ikao. Kok garis toh aboih, mako permainan salesae, ikao harus ngulang lao dari awal untuk level itoh.", //1
-    "Petualangan ikao di level 1 salesae kalo ikao salamaq baloik kumah kek ujung imbao." + "<br>" + "Sebelum bertualang, ilaoq lah ikao ngatao nguse kantei ikao." + "<br>"+ "Selamat berpetualang!", //2
+    "Petualangan ikao di level 1 lah salesae kalo ikao salamaq baloik kumah kek ujun imbao." + "<br>" + "Sebelum bertualang, ilaoq lah ikao ngatao nguse kantei ikao." + "<br>"+ "Selamat berpetualang!", //2
     // level 2
     "Selamat datang kembali. Di level ineh ikao melanjutkan petualangan. Petualangan dimulae dingan bakicaek nge Mak.", //3
     "Mok kalupan protokol kesehatan. Kitao neh agih maso pandemi Covid-19. Selamat menempuh petualangan di level 2 ineh.",//4
     // level 3
-    "Selamat, ikao lah sampae level terakhir petualangan ikao. Di level ineh ikao bahu tibea kek dusen nguse padik." + "<br>" + "Ati-hati nyaberon jalua. Tetap patuhi protokol kesehatan, apolagi jago jarak aman, make masker, mok bakumpau kek uha banyuak.", //5
+    "Selamat, ikao lah sampae level terakhir petualangan ikao. Di level ineh ikao bahu tibea kek dusen, ndok nguse padik." + "<br>" + "Ati-ati nyaberon jalua. Tetap patuhi protokol kesehatan, apolagi jago jarak aman, make masker, mok bakumpau kek uha banyuak.", //5
     "Sebelum ikao masauk dusen, ikao harus cek suhu, magih  Kartu Kewaspadaan Kesehatan ikao. Selamat bertualang!", //6
     "Daftar baron nge ndok dibeloi:" + "<br>" + "<ul>" +"<li> Laauk </li>" +"<li> Rutei tawa </li>" + "<li> Masker </li>"+ "</ul>", //7
     // system
@@ -997,7 +997,7 @@ var txt1Kerinci = [
     nama + ": Iyea lah.", 
     nama + ": Ineh masker dari tino ikao. Pakae lah!", //15
     "Oke, tarimo kasih!", // 16
-    "Mak: Sayang, ikao lah baloik. Tulau beloi saben untuk masoih jahoi, yea?", 
+    "Mak: Ikao lah baloik. Tulau beloi saben untuk masoih jahoi, yea?", 
     nama + ": Kek manao, Mak?", 
     "Mak: Kek kede Indouk Ani.", 
     "Yani: Ndok melei apo?", //20
@@ -1007,16 +1007,16 @@ var txt1Kerinci = [
     nama + ": Adea sabun untuk masoih jahoi?", 
     "Ani: Oh, adea. Ineh!", //25
     "Dapuak sabun untuk masouh jahoi!", //26
-    "Mak: Tarimo kasih, Sayang. Mok kalupan masouh jahoi sebelum masauk kumah, yea!",
+    "Mak: Tarimo kasih. Mok kalupan masouh jahoi sebelum masauk kumah, yea!",
     "Jahoi bersoih!",
     "Hore, level 1 salesae!",
     nama + ": Ineh sabun, Mak.", //30
 ]
 var txt2Kerinci = [
-    "Mak: Isua ikao ngatak gule untuk nantan?", //0
+    "Mak: Isua ikao ngantak gule untuk nantan?", //0
 nama + ": Iyea, Mak.", //1
 "Ati-ati, yea!",
-"Seloh umah: Hai, " + nama + " Adea ikao taau, Indouk Joko keno Covid.",
+"Uha seloh umah: " + nama + " Adea ikao taau, Indouk Joko keno Covid.",
 "Anok nek: Hosh...hosh… Akau ndok baloik sapuluh menit gih.",
 "Anok nek: Hatsi...hatsi...", //5
 nama + ": Itek, piyao anok, Tek?", //6
@@ -1062,7 +1062,7 @@ nama + ": Iyea lah, ineh kipe.", //45
 "Suduah melei sabun cair", //46
 "Uha bajago sembako: Tarimo kasih.", 
 "Seloh umah: Oh, ikao lah gedua, yea. " + nama,
-"Tino: Halo, " + nama +". Adea titipan dari nantan?",
+"Tino: " + nama +", Adea titipan dari nantan?",
 nama + ": Akau ka tempek Nantan, Tino.", //50
 "Hore, jahoi bersoih!", //51
 nama + ": Ineh saben nge tomat dari pasa titipan Nantan.", //52
@@ -1079,7 +1079,7 @@ var txt3Kerinci = [
     "Supir bus: Tarimo kasih lah make jaso kamai. Alau lah cek suhu tubuh itou sebelum masauk dusen.",
 "Pemudi: Kalo suhu ikao dateh 37,5 derajat Celsius, ikao iduak buloih masauk kusen yea.", //1
 "Pemudi: Alah, lamao nya.",
-"Pemuda: Apea suhu akeu, Ni?",
+"Pemuda: Apea suhu akeu, Buk?",
 "Uha mariso suhu: 36,8 derajat Celsius. Maae masauk.",
 "Uha mariso suhu: Akau cek suhu duleu yea.", //5
 "Uha mariso suhu: 36,2 derajat. Kimak ka Kartu Kewaspadaan Kesehatan itou", //6
@@ -1116,7 +1116,7 @@ nama + ": Akao ndok nuwek, ineh tempek apo? Piyao dijago uha?",
 "Wartawan: Apea dendo uha nge melanggar protokol Covid-19, Pak?", 
 "Pak Wali: Kek wilayah kitao Rp250.000.", 
 "Petugas Covid: Alah, batambah banyuak nge kenao.",
-"Petugas Covid: Apo gawe? Ndok sarah, yea?", //40
+"Petugas Covid: Piyao ikao inei? Ndok sarah, yea?", //40
 nama + ": Akeu tasesak, Pak.", //41
 "Petugas Covid: Ineh kuburan korban Covid-19.",
 "Uha bajagua: Alah, lamao nya sampae baron.",
@@ -1129,11 +1129,11 @@ nama + ": Iyea, sebelum ke terminal bis akau rapid. Jadi duak dapuak bus pertama
 nama + ": Mok nganggap remeh! Batambah banyuak nge kenao!", //50
 nama + ": Kalo ikao iduak make masker, akao woa lah nge melei nasai. Sagin akao baloik lao inei", //51
 nama + ": (Hmmm, sagin akao melei masker ndok nyo).",
-"Saudara: Oh, tarimo kasih. Tulau melei rutei kek Pasar Baru.",
+"Saudara: Oh, tarimo kasih. Tulau melei rutei kek Pasa Baheu.",
 "Uha bajagua: Yea, pileih lah.",
 nama + ": (Hmmm, baron nge ndok dibeloi ijia inei).", //55
 "Indouk-indouk: Hmmm, ndok melei apo?", //56
-"Uha bajagua: Masker adea? Toko sabeloh toko adik akeu kek Pasar Lama adea nyuwon masker.",
+"Uha bajagua: Nalok masker yea? Kede sabeloh kede adik akeu, kek Pasa Lamao, adea uha nyuwon masker.",
 "Uha nge melei: Tek, jadi apea galo sayou, dagon, laauk?",
 "Uha bajagua: Rp45.000.",
 "Uha bajago laauk nge sayou: Ikan dan sayur: Pilieh woa, laauk nge sayou.", //60
@@ -1147,17 +1147,17 @@ nama + ": Iyea lah, sakilo, Tek. Ineh kipe.",
 nama + ": (Alah, uha toh iduak make masker. Akau iduak balanjea itou).", 
 nama + ": Iduak, Pak.", 
 "Uha nge melei: Pak, buwoh ineh apea galo?", //70
-"Uha bajago buwah: Jadi total Rp50.000, Tek.", //71
-"Uha bajago buwah: Pileih lah. Buwoh ilauk.",
+"Uha bajago buah: Jadi total Rp50.000, Tek.", //71
+"Uha bajago buah: Pileih lah. Buwoh ilauk.",
 "Indouk-indouk: Tukan rutei itou, pindah ka Pasa Lamao.",
 "Laauk suduah melei!",
 "Uha bajagua kek kaki limao: Pasa? Oh, jalua woa luhaih dari inei.", //75
 "Uha bajago: Masker? Oh, beloi woa seloh ineh!", //76
 "Petugas: Akau ndok ngatao uha nge iduak make masker toh.",
-"Indouk-indouk: Ikao adea nengo? Uha ngatao adea sakeluarga kek dusen diisolahi dumuah.",
+"Indouk-indouk: Ikao adea nengo? Uha ngatao adea sakeluarga kek dusen diisolasi dumuah.",
 "Indouk-indouk: Iyea, Bu. Nge keno Covid-19 batambah terauh.",
 "Uha nge melei: Apea hargo duwo masker neh?", //80
-"Uha bajago bajeu: Rp20.000.", //81
+"Uha bajagua bajeu: Rp20.000.", //81
 "Uha bajago rutei: Beloi lah rutei.",
 "Uha bajago rutei: Beloi lah. Rutei gih angak.",
 nama + ": Tigo bungkuh rutei neh apea?",
@@ -1168,9 +1168,9 @@ nama + ": Iyealah, ineh kipe, Pak.", //86
 "Uha bajago bajeu: Nalok apo?",
 "Uha bajago bajeu: Nalok apo? Masker ilauk ilauk.", //90
 nama + ": Apea empak neh, Tek?", //91
-"Uha bajago bajeu: Rp40.000.", 
+"Uha bajagua bajeu: Rp40.000.", 
 nama + ": Iyealah, akau melei empak masker, Tek. Ineh kipe.", 
-"Uha bajago bajeu: Tarimo kasih. Ineh masker.", 
+"Uha bajagua bajeu: Tarimo kasih. Ineh masker.", 
 "Masker sudah melei!", //95
 nama + ": Adea apo neh?", //96
 "Petugas Covid: Kantei ikao akeu buwea isolasi kareno hasil tesnyo positif Covid.",
@@ -1181,6 +1181,7 @@ nama + ": Alah, akeu bahu subeak nyo tadeh.",
 "Lah aboih. Tarimo kasih lah maae ineh.",  
 "Seloh kihei dusen:" + "<br>" + "<ul>" +"<li> Pasa Baheu </li>" +"<li> Umoh sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Seloh kanan dusen:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lamao </li>"+ "</ul>", //104
+"Lah aboih. Ikao diarak uto.",
 ]
 
 // palembang
@@ -1418,7 +1419,7 @@ nama + ": Nah, aku baru bae betemu dio tadi.",
 "Permainan berakhir. Mokasih la mainke permainan ini.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Sebelah Kanan kota:" + "<br>" + "<ul>" +"<li> Kuburan </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lamo </li>"+ "</ul>", //104
-
+"Permainan berakhir. Kamok tetumbur  mobil.",
 
 ]
 
@@ -1659,7 +1660,7 @@ nama + ": ayay, aku empai betemu nga die tadi.",
 "Pepuse'an la udem. Terime kaseh la mainka puse'an ini.",  
 "Kidau kuta:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Ghumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kuta:" + "<br>" + "<ul>" +"<li> Bada penguburan </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lame </li>"+ "</ul>", //104
-
+"Pepuse'an la udem. Kaba tetumbur mubel.",
 
 ]
 
@@ -1706,7 +1707,7 @@ var txt1Bangka = [
     "Penjage Gerbang: Bagus, ka la pakai masker! Sekarang ka la jadi lewat.",
     nama + ": Sinmung!" ,
     "Inget, selalu jage jarak aman, ok!", //10
-    "*Uhuk* Ka ade ninggok cucukku dak ? Je dak makai masker pas pegi.", //11
+    "*Uhuk* Ka ade ninggok cucuku dak ? Je dak makai masker pas pegi.", //11
     nama + ": Oh, ku ninggok je di utan.", 
     "Nenek: Pacak dak tulung berin masker nih kik je, Nak?", 
     nama + ": Pacak, Nek.", 
@@ -1808,7 +1809,7 @@ nama + ": Ni, Pak.",
 "Penjual sayur: Total harge a Rp25.000, Bu.",
 "Penjual sayur: Cari ape, Dek?",
 nama + ": (Waduh, ibu neh dak bemasker. Ku enggak belanje gi je la).", //15
- nama + ": Enggak, Bu.", //16
+ nama + ": Endak, Bu.", //16
 "Ibu-ibu: Hmmm, ke mane ok tukang jual sayur yang biasa a di sini nih?",
 "Bapak-bapak: Manthit lah, kunci gudang ku tarok dimane, ok?",
 "Penjage pabrik: Ku harus tetep begawe biarpun pandemi nih agik ade.",
@@ -1829,7 +1830,7 @@ nama + ": Numpang nanyak, ni tempet ape, ok? Ngape kene jage?",
 "Nenek-nenek: tengah nyebrang jalan, ka harus chai-chai, woh.",
 "Wartawan: Ape yang Bapak nek pada kik masyarakat nih biar dak tertular Covid?", //35
 "Walikota: Tetep jage jarak aman, selalu pakai masker, same dak  berkerumun.", //36
-"Wartawan: Berapa denda bagi pelanggar protokol Covid-19, Pak?", 
+"Wartawan: Berape dende buet pelanggar protokol Covid-19 Pak?", 
 "Walikota: Gi daerah kite Rp250.000.", 
 "Petugas Covid: Waduh, jumlah korban a nambah terus tiap ari.",
 "Petugas Covid: Ade ape, Dek? Nek nyekar, ok?", //40
@@ -1837,16 +1838,16 @@ nama + ": Ku kesasar, Pak.", //41
 "Petugas Covid: Ni kuburan orang tekene Covid-19.",
 "Penjage toko: Aduh, lame wo barang a nih sampai.",
 "Seperadek: Hai! " + nama + " la lame dak ketemu!",
-nama + ": Aok, la lame dak ketemu. Enduk ngape ka dak makai masker gi jabo neh?", //45
+nama + ": , la lame dak Aokketemu. Enduk ngape ka dak makai masker gi jabo neh?", //45
 "Seperadek: Tenanglah, anye di depan rumah bai! Oh aok leh, adek ku la nunggu ka.", //46
 "Seperadek: Oy, ka la sampai! Ngape lame a wo? Ku baru la nek gi meli makan buet ka. .",
-nama + ": Iya, sebelum ke terminal bis aku rapid dulu. Jadi tadi ketinggalan bus pertama.",
+nama + ": Aok, soal a sebelum ku ke terminal bis ku harus rapid dulu. Jadi, tadi ketinggelan bis yang pertama",
 "Seperadek: Kik ape rapid? Ku ge sering dak bemasker hemen keluer-keluer.",
 nama + ": Jangan anggep remeh! Semakin ari semakin banyak yang tertular tau dak!", //50
 nama + ": Men ka engak pakai masker, biar ku bai lah yang meli makan. Kelak ku ngulek dudi.", //51
 nama + ": (Hmmm, kelak ku meli masker kik jeorang).",
 "Seperadek: Oh, sinmung. Tulung sekalian beli roti gi pasar baru ok.",
-"Penjual barang: aok, ambik la barang yang nek akak beli, Dek.",
+"Penjual barang: Aok, ambik la barang yang nek akak beli, Kak.",
 nama + ": (Hmmm, barang yang nek ku beli dakde gi sini).", //55
 "Ibu-ibu: Hmmm, meli ape, ok?", //56
 "Penjual: Cari masker ok, Dek? Gi toko sebelah seperadek ku di pasar lame ade jual masker.",
@@ -1897,7 +1898,7 @@ nama + ": Waduh, ku baru lah sude ketemu je tadik.",
 "Permainan la selesai. Sinmung la main permainan ni.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lame </li>"+ "</ul>", //104
-
+"Permainan la sude. Ka ketabrak oto.",
 
 ]
 
@@ -2134,8 +2135,9 @@ nama + ": Ai, Nyak mpai khadu betunggo lawan yo jenu.",
 "Hasil tes: Meuwat-reaktif!", //100
 "Petugas Covid: Kau mesti isolasi mandiri selamo 14 wali. Sampai betunggo agi!",
 "Penggukhaun temat. Tekhimo kasih kak nggukhaukun penggukhaun sijo.",  
-"sebelah Kikhi kota:" + "<br>" + "<ul>" +"<li> Pekan Mpai </li>" +"<li> Khumah Sakit </li>" + "<li> Pekhumahan apartemen </li>"+ "</ul>", //103    
-"sebelah Kanan kota:" + "<br>" + "<ul>" +"<li> Kubukhan </li>" +"<li> Kantukh Walikota </li>" + "<li> Pekan Sako </li>"+ "</ul>", //104
+"Sebelah Kikhi kota:" + "<br>" + "<ul>" +"<li> Pekan Mpai </li>" +"<li> Khumah Sakit </li>" + "<li> Pekhumahan apartemen </li>"+ "</ul>", //103    
+"Sebelah Kanan kota:" + "<br>" + "<ul>" +"<li> Kubukhan </li>" +"<li> Kantukh Walikota </li>" + "<li> Pekan Sako </li>"+ "</ul>", //104
+"Penggukhauan temat. Kau tumbukh setum.",
 ]
 
 // rejang
@@ -2371,6 +2373,7 @@ nama + ": Woi, uku bi sudo temau si ano.",
 "Permainan gi sudo. Mokasiak sudo main permainan yo.",  
 "Kideu kota:" + "<br>" + "<ul>" +"<li> Pasar Belau </li>" +"<li> Umeak sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanen kota:" + "<br>" + "<ul>" +"<li> Kakea Kubua </li>" +"<li> Kator Walikota </li>" + "<li> Pasar An </li>"+ "</ul>", //104
+"Permainan bi abis. Ko tnumbua stom.",
 ]
 
 // lampung
@@ -2466,7 +2469,7 @@ nama + ": Oh, mawat nyepok api-api, Mak.",
 nama + ": Pekhmisi, khelaya mit menara liwat dipa, yu?",
 "Mekhanai: Oh, niku hakhus mutakh khelaya jak awal.", //25
 "Hore, culuk tebasuh!", //26
-"Among/Ajjong : Halo, " +nama+ " Seingokku, emakmu nitipko bekal makai Among/Ajjong.",
+"Among/Ajjong : Halo, " +nama+ " Ade titipan dari kakek ka, dak?",
 nama + ": Iyu!",
 nama + ": Inji bekal jak Emak pakai Among/Ajjong.",
 "Among/Ajjong: Oh, tekhima kasih.", //30
@@ -2608,6 +2611,6 @@ nama + ": Wah, nyak ampai ketemu ya kakhu.",
 "Pekhmainan selesai. Terima kasih khadu mainko pekhmainan inji.",  
 "Kikhi kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Pekhmainan berahikh. Niku ketakhejang mubil.",
 
 ]

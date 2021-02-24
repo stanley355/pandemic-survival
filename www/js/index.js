@@ -17,6 +17,7 @@ document.body.onload = function(){ loadGameFunction(); changeLang('Default');}
 var menuScreen = document.getElementById("menuScreen");
 var gameScreen = document.getElementById("gameScreen");
 
+
 // New game button
 var newGameBtn = document.getElementById('newGameBtn');
 
@@ -30,8 +31,8 @@ newGameBtn.onclick= function(){
   document.getElementById("screen1").style.display = 'block';
   document.getElementById("analog1").style.display = 'block';
   document.getElementById("toggleBtn1").style.display = 'block';
+  audio1.play();
   initGame();
-
 };
 
 // Continue button
@@ -65,6 +66,7 @@ lvl1Btn.onclick= function(){
   document.getElementById("screen1").style.display = 'block';
   document.getElementById("analog1").style.display = 'block';
   document.getElementById("toggleBtn1").style.display = 'block';
+  audio1.play();
   initGame();
 };
 
@@ -78,6 +80,7 @@ lvl2Btn.onclick= function(){
   document.getElementById("screen2").style.display = 'block';
   document.getElementById("analog2").style.display = 'block';
   document.getElementById("toggleBtn2").style.display = 'block';
+  audio2.play();
   initGame2();
 };
 
@@ -91,6 +94,7 @@ lvl3Btn.onclick= function(){
   document.getElementById("screen3").style.display = 'block';
   document.getElementById("analog3").style.display = 'block';
   document.getElementById("toggleBtn3").style.display = 'block';
+  audio3.play();
   initGame3();
 };
 
@@ -278,7 +282,7 @@ var namaBaru;
 getNameBtn.onclick = function (){
   namaBaru = nama.replace('Dwi', nameBox);
   nama = namaBaru;
-  // closeProfNav();
+  closeProfNav();
 }
 
 var chooseGender = document.getElementById("chooseGender");
@@ -341,6 +345,8 @@ sideNavBack.onclick= function(){
   closeProfNav();
   closeCreditNav();
   closeSideNav();
+  audio1.pause();
+  audio3.pause();
   document.getElementById("screen1").style.display = 'none';
   document.getElementById("analog1").style.display = 'none';
   document.getElementById("toggleBtn1").style.display = 'none';

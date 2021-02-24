@@ -234,7 +234,7 @@ nama + ": Wah, baruq saq bedait kance e.",
 "Permaenan selese. Terima Kasi uah o mianan permainan ni.",
 "Kiri kote:" + "<br>" + "<ul>" +"<li> Peken Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kote:" + "<br>" + "<ul>" +"<li> Kuburan </li>" +"<li> Kantor Walikote </li>" + "<li> Peken Laeq </li>"+ "</ul>", //104
-
+"Permaenan selese. Kamu tetabrak siq montor.",
 
 ]
 
@@ -473,7 +473,7 @@ nama + ": Aduh, beta baru katemu dia tadi.",
 "Permainan berakhir. Terima kasih su maen ini permainan.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Permainan selese. Oto tabrak sang Lu.",
 ]
 
 // uab meto
@@ -953,7 +953,7 @@ nama + ": Au fe'en ne kutefe.",
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Mas Fe'u </li>" +"<li> Uim Menes</li>" + "<li> Uim susun </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Niut Nate' </li>" +"<li> Kantor Walikota </li>" + "<li> Masa' mna'</li>"+ "</ul>", //104
 
-
+"Abaete namsop. Oto ambet ko.",
 ]
 
 // helong
@@ -1193,7 +1193,7 @@ nama + ": Amah lo, auk halas tutnalan apin.",
 "In kuti-lena ka hidi. Noran mamo ta kuti in lena ia son.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Balu </li>" +"<li> um ili </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> man in puan nitu </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar blan </li>"+ "</ul>", //104
-
+"In kuti ka hidi. Oto tiris ku.",
 
 ]
 
@@ -1433,7 +1433,7 @@ nama + ": Wah, ana tenta tava aci.",
 "Leulana hai sai. Obrigado a leuelana e hai fai.",
 "Kota welika:" + "<br>" + "<ul>" +"<li> merkado miri </li>" +"<li> Hospital </li>" + "<li> apartemen le'e</li>"+ "</ul>", //103
 "Kota tenen:" + "<br>" + "<ul>" +"<li> lutur aliwana </li>" +"<li> Kantor Walikota </li>" + "<li> Merkado rata </li>"+ "</ul>", //104
-
+"Leulana hai sai. Kareta e soke,",
 
 ]
 
@@ -1673,7 +1673,7 @@ nama + ": B'ote ke, ngine ne peabu ko yaa nga noo.",
 "Moko ke ne pemanga. Terima kasih rowi do èla ke pepemanga pa b'ara pemanga nad'e.",  
 "Keriu kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Èmu pèd'a  </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Ked'anga kota:" + "<br>" + "<ul>" +"<li> Keko </li>" +"<li> Kato </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Moko ke ne pemanga. Mèle ou ri oto.",
 
 ]
 
@@ -1693,20 +1693,20 @@ var indexTextLamaholot = [
     "Baliko kə mənu utama",
 ]
 var onloadTextLamaholot = [
-    // level 1
-    "Səlamatə. Mo'e səkarã pi di pərmainan Surviving Covid Labyrinth onə. Pi pərmainan onə pi mo'e bərpətualang pi masa pandemi Covid-19 onə." + "<br>" + "Səlama mo mai'ko lega-lega pe, mo məsti dore protokol kəsehatan, helok de'ĩ doã-doã, pu'o limat pake sabõ, ta'ã masker tərus, nə pepa doã-doã dari kayak aya.", //0
-    "Pe layar wana gere pe, kənaris kəsehatan mo'ẽnə. Kalu kənaris mo'ẽnə pe wahak, pərmainan mo'ẽnə pe juga wahak kə nə mo'e məsti balik dari level noronekunə na'ẽ.", //1
-    "Pərmainan mo'ẽnə pi level 1 pi wahak kalau mo'e səlamat ma'iko lango mo'ẽnə pe pənəonə wutũ." + "<br>" + "Səbelum ma'iko lega-lega pe, wat nə təmã sənarẽ mo'ẽ pe. bertualang, ada baiknya kamu berpamitan dengan teman baikmu." + "<br>"+ "Səlamatə, mo'e bisa ma'iko lega-lega!", //2
-    // level 2
-    "Səlamatə. Ti hərũ wəkit muri. Pi level pi, mo'e lanjutkan muri petualangan mo'ẽnə. Petualangan mo'ẽnə pi dimulai dengan mo'e pətutuko nə əma moẽ.", //3
-    "Petə̃ untuk tətap dore protokol kesehatan karna tite pi masih di pandemi Covid-19 onə pi. Selamat berpetualangan pi level kərua pi.",//4
-    // level 3
-    "Səlamatə, mo'e həwo di level wahaknai na'ẽ. pi level pi, mo'e bənə həwo di bendar to notok kaka ade mo'ẽ. " + "<br>" + "Pana mə məgə-məgə gawe larã. Dore protokol kəsehatan, helok de'ĩ doã-doã, ta'ã masker tərus, nə pepa doã-doã dari kayak aya.", //5
-    "Səbəlum maso ia bendar, mo'e harus pəresa suhu wekĩ badã mo'ẽ ne noni Sura' Kewaspadaan Kesehatan mo'ẽ. Səlamatə, mo'e bisa ma'iko lega-lega!", //6
-    "Tulis ekã yang harus tite hope:" + "<br>" + "<ul>" +"<li> Ikã </li>" +"<li> Bolo </li>" + "<li> Masker </li>"+ "</ul>", //7
-    // system
-    "Pərmainan wahak kə. Oto tarak mo'e.",
-    "Pərmainan wahak kə. Kəsehatan mo'ẽnə wahak kə.",
+       // level 1
+       "Səlamatə. Mo'e səkarã pi di pərmainan Surviving Covid Labyrinth onə. Pi pərmainan onə pi mo'e bərpətualang pi masa pandemi Covid-19 onə." + "<br>" + "Səlama mo mai'ko lega-lega pe, mo məsti dore protokol kəsehatan, helok de'ĩ doã-doã, pu'o limat pake sabõ, ta'ã masker tərus, nə pepa doã-doã dari kayak aya.", //0
+       "Pe layar wana gere pe, kənaris kəsehatan mo'ẽnə. Kalu kənaris mo'ẽnə pe wahak, pərmainan mo'ẽnə pe juga wahak kə nə mo'e məsti balik dari level noronekunə na'ẽ.", //1
+       "Pərmainan mo'ẽnə pi level 1 pi wahak kalau mo'e səlamat ma'iko lango mo'ẽnə pe pənəonə wutũ." + "<br>" + "Səbelum ma'iko lega-lega pe, wat nə təmã sənarẽ mo'ẽ pe. " + "<br>"+ "Səlamatə, mo'e bisa ma'iko lega-lega!", //2
+       // level 2
+       "Səlamatə. Ti hərũ wəkit muri. Pi level pi, mo'e lanjutkan muri petualangan mo'ẽnə. Petualangan mo'ẽnə pi dimulai dengan mo'e pətutuko nə əma moẽ.", //3
+       "Petə̃ untuk tətap dore protokol kesehatan karna tite pi masih di pandemi Covid-19 onə pi. Selamat berpetualangan pi level kərua pi.",//4
+       // level 3
+       "Səlamatə, mo'e həwo di level wahaknai na'ẽ. pi level pi, mo'e bənə həwo di bendar to notok kaka ade mo'ẽ. " + "<br>" + "Pana mə məgə-məgə gawe larã. Dore protokol kəsehatan, helok de'ĩ doã-doã, ta'ã masker tərus, nə pepa doã-doã dari kayak aya.", //5
+       "Səbəlum maso ia bendar, mo'e harus pəresa suhu wekĩ badã mo'ẽ ne noni Sura' Kewaspadaan Kesehatan mo'ẽ. Səlamatə, mo'e bisa ma'iko lega-lega!", //6
+       "Tulis ekã yang harus tite hope:" + "<br>" + "<ul>" +"<li> Ikã </li>" +"<li> Bolo </li>" + "<li> Masker </li>"+ "</ul>", //7
+       // system
+       "Pərmainan wahak kə. Oto tarak mo'e.",
+       "Pərmainan wahak kə. Kəsehatan mo'ẽnə wahak kə.",
 ]
 var txt1Lamaholot = [
     "Temã: Weh, mo maiko di ga mai? Pai kia!", //0
@@ -1715,7 +1715,7 @@ var txt1Lamaholot = [
     "Temã: Mo'e bisa pu'o limã mo'ẽ di lango go'ẽ ərətə̃.",
     "Hore, limã mo'ẽ pu'oro kae!",
     "Kəropõ: *Uhuk* Maaf e, tenda go'ẽ liko larã mo'ẽ. Kũ mo'e bisa pana dore pe rae pe.", //5
-    "Penjaga  Gerbang: Ama kũ pukə̃ a nə mo gərə ma'ã masker la? Pi masker pi go sorõ mo'e.", //6
+    "Penjaga  Gerbang: Nə pukə̃ a nə mo gərə ma'ã masker la? Pi masker pi go sorõ mo'e.", //6
     "Masker na hodero kae",
     "Penjaga Gerbang: Kləmu ke karna mo ma'ã masker kae. Mo bisa lewatə səkarã.",
     nama + ": Terima kasih!" ,
@@ -1865,7 +1865,7 @@ nama + ": (Hmmm, pali go hope nə masker untuk ra'e).",
 "Pədu'ũ: Hə'ə̃, Mo bisa pile ekã, Ade.",
 nama + ": (Hmmm, ekã yang go mo hope pe di pi amu).", //55
 "əma-əma: Hmmm, mo məri hope a?", //56
-"Pədu'ũ: Mo səba masker e, Ade? Toko di sebelah toko saudaraku di Pasar Lama jual masker.",
+"Pədu'ũ: Mo səba masker e, Ade? Toko pe dahe toko Saudaraku pe Pasar Lama pe du'ũ maskerə..",
 "Pəmbeli: əma, jadi wulũ, dagĩ, nə ikã pi səmuã na'ẽ pira?",
 "Pədu'ũ: Rp45.000, əma.",
 "Pədu'ũ (Ikã nə wulũ): Mo bisa pile, Ade ikã nə wulũ pi.", //60
@@ -1878,7 +1878,7 @@ nama + ": Hə'ə̃, go hope kilo to'u, əma. Pi doi pi.",
 "Pədu'ũ (dagĩ): Mo səba a ne, Ade?",
 nama + ": ( Be, bapa pe na'ã masker la gə. Go gərə hope di na'e la).", 
 nama + ": Amu, Bapa.", 
-"Pəmbeli: Bapa, Pak, kayo uã pi səmuã na'ẽ pira?", //70
+"Pəmbeli: Bapa, kayo uã pi səmuã na'ẽ pira?", //70
 "Pənjual (Kayo Uã): Səmuã na'ẽ Rp50.000, əma.", //71
 "Pənjual (Kayo Uã): Hope kae pe, Ade. Uã səgar morẽ ləku a.",
 "əma-əma: Na'e yang du'ũ bolo pe rae pe, pindah kae kə Pasar Lama, Ade.",
@@ -1913,6 +1913,7 @@ nama + ": Be, go bənə hərũro neku pəra pe.",
 "Permainan wahak kae. Terima kasih karna ma'ã permainan pi kae.",  
 "Bendar nekĩ:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> lango-lango </li>"+ "</ul>", //103    
 "Bendar wanã:" + "<br>" + "<ul>" +"<li> nuok </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
+"Pərmainan wahak kə. Oto tarak mo'e.",
 ]
 
 // manggarai Barat
@@ -2151,7 +2152,7 @@ nama + ": Ole, aku ho di sumang iha bao.",
 "Poli maeng ho ga. Tabe ga, poli ikut one maeng ho .",  
 "Leo one mai kota:" + "<br>" + "<ul>" +"<li> Pasar weru  </li>" +"<li> mbaru latang ata beti </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "One wanang kota:" + "<br>" + "<ul>" +"<li> bo'a </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Poli maeng ho ga. Hau tabrak le oto.",
 
 ]
 
@@ -2391,6 +2392,6 @@ nama + ": Ole, bao di cumang hia aku.",
 "Polin maen ga. Terima kasih poli maen permaenan ho'o.",  
 "Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
 "Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-
+"Poli permainan , ite tabrak le oto.",
 
 ]

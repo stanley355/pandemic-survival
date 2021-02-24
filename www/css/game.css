@@ -4,6 +4,8 @@
     width: 355px;
     height: 635px;
 }
+
+audio {display:none;}
 #screen1 {
   display:none;
 }

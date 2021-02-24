@@ -61,7 +61,7 @@ class Item {
             //txtNum = 22 - sembako/props
             //txtNum = 26 - washHand kakek
             //txtNum = 51 - washHand nenek
-            if (txtNum == 16 || txtNum == 22 || txtNum == 26 || txtNum == 51 ){ 
+            if (txtNum == 16 || txtNum == 22 || txtNum == 26 || txtNum == 51 || txtNum == 54){ 
                 typeText2(txtNum);
                 showItemImage(txtNum);
             }

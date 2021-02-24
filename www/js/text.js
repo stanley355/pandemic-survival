@@ -3,6 +3,9 @@ var tBox =  document.getElementById('textBox');
 var t = document.getElementById("text");
 var pause = false; //if pause = true, the player can't walk
 var nama = document.getElementById('textBox').value;
+var audio1 = document.getElementById("audio1");
+var audio2 = document.getElementById("audio2");
+var audio3 = document.getElementById("audio3");
 
 //obtained items images
 var obtItemList = document.getElementById('obtainItemList');
@@ -268,6 +271,8 @@ function toggleText(){
         // health2.style.display = 'block';
         analog2.style.display = 'block';
         toggleBtn2.style.display = 'block';
+		audio1.pause();
+		audio2.play();
         initGame2();
     }
     else {
@@ -511,7 +516,10 @@ function toggleText2(){
 		else if (buySoap2 == true && buyTomato == true && washTomato == true) {t.innerHTML = txt2[56]; }
 		else {t.innerHTML = txt2[50];}
 	}
-	else if (t.innerHTML === txt2[52]) { t.innerHTML = txt2[53]; txt2[51] = txt2[54];  }
+	else if (t.innerHTML === txt2[52]) { 
+		t.innerHTML = txt2[53]; 
+		txt2[51] = txt2[54];  
+	}
 	//wash tomato
 	else if (t.innerHTML === txt2[54]) {
 		tBox.style.display = 'none';
@@ -536,6 +544,8 @@ function toggleText2(){
         // health3.style.display = 'block';
         analog3.style.display = 'block';
         toggleBtn3.style.display = 'block';
+		audio2.pause();
+		audio3.play();
         initGame3();
 	}
 	else {
@@ -813,7 +823,7 @@ function toggleText3(){
         // health3.style.display = 'none';
         analog3.style.display = 'none';
         toggleBtn3.style.display = 'none';
-
+		audio3.pause();
 	}
 	//carCrash
 	else if (t.innerHTML === txt3[105]) {location.reload();}
