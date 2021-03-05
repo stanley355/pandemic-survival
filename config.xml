@@ -2,9 +2,9 @@
 <widget id="com.example.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Surviving Covid Labyrinth</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A multilingual COVID-19 survival game for native Indonesian.
     </description>
-    <author email="dev@cordova.apache.org" >
+    <author email="winatastanley355@gmail.com" >
         SCL Team
     </author>
     <content src="index.html" />
@@ -15,8 +15,25 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="SplashScreen" value="screen"/>
+    <preference name="SplashScreenDelay" value="2000" />
     <platform name="android">
-        <icon background="icon.png" density="mdpi" foreground="icon.png" />
+        <!-- icon -->
+        <icon src="www/assets/mdpi.png" density="mdpi" />
+        <icon src="www/assets/ldpi.png" density="ldpi" />
+        <icon src="www/assets/hdpi.png" density="hdpi" />
+        <icon src="www/assets/xdpi.png" density="xhdpi" />
+        <icon src="www/assets/xxdpi.png" density="xxhdpi" />
+        <!-- splash -->
+        <splash src="www/assets/hdpi.png" density="hdpi" />
+        <splash src="www/assets/ldpi.png" density="ldpi" />
+        <splash src="www/assets/mdpi.png" density="mdpi" />
+        <splash src="www/assets/xhdpi.png" density="xhdpi" />
+
+        <!-- <splash src="www/assets/hdpi.png" density="port-hdpi" />
+        <splash src="www/assets/ldpi.png" density="port-ldpi" />
+        <splash src="www/assets/mdpi.png" density="port-mdpi" />
+        <splash src="www/assets/xhdpi.png" density="port-xhdpi" /> -->
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">

@@ -49,7 +49,7 @@ function draw() {
     house1a.drawItem(house1Image); //leftmost house
     house1b.drawItem(house3Image); //middle house
     house1c.drawItem(house3Image);//rightmost house
-    // decreaseHealth1(); // health decrease
+    decreaseHealth1(); // health decrease
     spriteAnimation(); //facing rules & player tasks
     requestAnimationFrame(draw);
 }
@@ -59,8 +59,7 @@ function initGame() {
     imageSources();
 	speedX = 5;
     speedY = 5;
-    // healthSpeed = 2;
-    // moveHealth();
+    healthSpeed = 2;
     objects1(); //object list for level 1
     renderOnloadText(0); //onload text
     requestAnimationFrame(draw);
@@ -147,7 +146,7 @@ function draw2() {
     tower2front.drawItem(props3Image); //lumber in front of tower
     house2gfront.drawItem(props3Image); //stove
     tent2.drawItem(props3Image); //tent
-    // decreaseHealth2();
+    decreaseHealth2();
     spriteAnimation2();
     requestAnimationFrame(draw2);
 }
@@ -359,6 +358,7 @@ function draw3() {
     stand3f.drawItem(stand4Image); //stand behind stand abc
     stand3s.drawItem(stand2Image); //stand in front house3ai
     sprites3ax.drawSprites(spritesImage3); //stand3s seller
+    decreaseHealth3();
     spriteAnimation3();
     requestAnimationFrame(draw3);
 }
@@ -368,7 +368,7 @@ function initGame3() {
     imageSources();
 	speedX = 5;
     speedY = 5;
-    // healthSpeed3 = 2;
+    healthSpeed3 = 3;
     objects3(); //object list for level 3
     renderOnloadText(5);
     requestAnimationFrame(draw3);

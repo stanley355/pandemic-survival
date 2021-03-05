@@ -1,4 +1,4 @@
-class Background { //zclass to draw background so the canX and canY can be multiplied in easier syntax
+class Background { //class to draw background so the canX and canY can be multiplied in easier syntax
     constructor(picX, picY, picW, picH){ 
         //target picture X, Y, Width, Height
         this.picX = picX;
@@ -43,7 +43,6 @@ class Item {
         let diffY = Math.abs((this.canY + this.canH / 2.0) - (playerNum.canY + playerNum.canH / 2.0));             
         if (diffX < (this.canW / 2.0 + playerNum.canW / 2.0 + rightLeft) && diffY < (this.canH / 2.0 + playerNum.canH / 2.0 + topBottom)){
             //txtNum = 4 - first handwash
-            //txtNum = 23 - on collision with shop
             //txtNum = 28 - second handwash    
             if (txtNum == 4 || txtNum == 23 || txtNum == 28){ 
                 typeText(txtNum);
@@ -61,7 +60,7 @@ class Item {
             //txtNum = 22 - sembako/props
             //txtNum = 26 - washHand kakek
             //txtNum = 51 - washHand nenek
-            if (txtNum == 16 || txtNum == 22 || txtNum == 26 || txtNum == 51 || txtNum == 54){ 
+            if (txtNum == 16 || txtNum == 22 || txtNum == 26 || txtNum == 51){ 
                 typeText2(txtNum);
                 showItemImage(txtNum);
             }
@@ -163,7 +162,7 @@ class Char { //for 384x256 pic
         this.picX, this.picY, this.picW, this.picH, //target picture X, Y, Width, Height
         this.canX, this.canY, this.canW, this.canH); //canvas draw X, Y, Width, Height
     }
-    checkCollision2(playerNum, topBottom, rightLeft, txtNum) {	//checkCollison for level 2 sprites
+    checkCollision2(playerNum, topBottom, rightLeft, txtNum) {	//checkCollison for level 2 char
         let diffX = Math.abs((this.canX + this.canW / 2.0 ) - (playerNum.canX + playerNum.canW / 2.0));
         let diffY = Math.abs((this.canY + this.canH / 2.0 ) - (playerNum.canY + playerNum.canH / 2.0));      
         if (diffX < (this.canW / 2.0 + playerNum.canW / 2.0 + rightLeft) && diffY < (this.canH / 2.0 + playerNum.canH / 2.0 + topBottom) ){
@@ -171,7 +170,7 @@ class Char { //for 384x256 pic
             return true;
         } else {return false;}
     }
-    checkCollision3(playerNum, topBottom, rightLeft, txtNum) {	//checkCollison for level 2 sprites
+    checkCollision3(playerNum, topBottom, rightLeft, txtNum) {	//checkCollison for level 3 char
         let diffX = Math.abs((this.canX + this.canW / 2.0 ) - (playerNum.canX + playerNum.canW / 2.0));
         let diffY = Math.abs((this.canY + this.canH / 2.0 ) - (playerNum.canY + playerNum.canH / 2.0));      
         if (diffX < (this.canW / 2.0 + playerNum.canW / 2.0 + rightLeft) && diffY < (this.canH / 2.0 + playerNum.canH / 2.0 + topBottom) ){
@@ -199,6 +198,7 @@ class Player {
         this.picX, this.picY, this.picW, this.picH,  //target picture X, Y, Width, Height
         this.canX, this.canY, this.canW, this.canH); //canvas draw X, Y, Width, Height
     }
+    
     //movement for player level1
     moveUp() {
         if (pause == false){
@@ -260,7 +260,8 @@ class Player {
                     this.picX += 48;
                     if (this.picX > 280) this.picX = 144;
                 }
-            } else { //if female
+            } 
+            else { //if female
                 if (this.picX < 143){ //non mask
                     this.picY = 192;
                     this.picX += 48;
@@ -297,7 +298,8 @@ class Player {
                     this.picX += 48;
                     if (this.picX > 280) this.picX = 144;
                 } 
-            } else { //if female
+            } 
+            else { //if female
                 // mask vs non-mask
                 if (this.picX < 143){ //non mask
                     this.picY = 240;
@@ -333,7 +335,8 @@ class Player {
                     this.picX += 48;
                     if (this.picX > 280) this.picX = 144;
                 }
-            } else { //if female
+            } 
+            else { //if female
                 if (this.picX < 143){ //non mask
                     this.picY = 288;
                     this.picX += 48;
@@ -366,7 +369,8 @@ class Player {
                 this.picY = 144;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
-            } else { // female
+            } 
+            else { // female
                 this.picY = 336;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
@@ -387,11 +391,12 @@ class Player {
                 land2c.moveDownAllLand();
             } 
             //animation
-            if (this.picY < 192){
+            if (this.picY < 192){ //if male
                 this.picY = 0;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
-            } else {
+            } 
+            else { //if female
                 this.picY = 192;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
@@ -412,11 +417,12 @@ class Player {
                 land2c.moveLeftAllLand();
             }
             //animation
-            if (this.picY < 192) {
+            if (this.picY < 192) { //if male
                 this.picY = 48;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
-            } else {
+            } 
+            else { //if female
                 this.picY = 240;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
@@ -437,11 +443,12 @@ class Player {
                 land2c.moveRightAllLand();
             }
             //animation
-            if (this.picY < 192){
+            if (this.picY < 192){ //male
                 this.picY = 96;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
-            } else {
+            } 
+            else { //female
                 this.picY = 288;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
@@ -463,11 +470,12 @@ class Player {
                 land3b.moveUpAllLand();
             }
             //animation
-            if (this.picY < 192){
+            if (this.picY < 192){ //male
                 this.picY = 144;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
-            } else {
+            } 
+            else { //female
                 this.picY = 336;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
@@ -487,11 +495,12 @@ class Player {
                 land3b.moveDownAllLand();
             }
             //animation
-            if (this.picY < 192){
+            if (this.picY < 192){ //male
                 this.picY = 0;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
-            } else {
+            } 
+            else { //female
                 this.picY = 192;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
@@ -511,11 +520,12 @@ class Player {
             }
              
             //animation
-            if (this.picY < 192){
+            if (this.picY < 192){ //male
                 this.picY = 48;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
-            } else {
+            } 
+            else { //female
                 this.picY = 240;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
@@ -535,11 +545,12 @@ class Player {
                 land3b.moveRightAllLand();
             }
             //animation
-            if (this.picY < 192){
+            if (this.picY < 192){ //male
                 this.picY = 96;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;
-            } else {
+            } 
+            else { //female
                 this.picY = 288;
                 this.picX += 48;
                 if (this.picX > 280) this.picX = 144;

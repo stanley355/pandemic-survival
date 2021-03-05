@@ -183,7 +183,6 @@ body {
     height: 100%;
     border: 1px solid black;
     animation: menuSideNav 0.5s;
-    background-color: lightblue;
     font-size: 22px;
     background: url('phoneBG.jpeg');
     background-size: cover;
@@ -231,6 +230,7 @@ input[type=text] {
     border: 3px solid lightblue;
     border-radius: 4px;
 }
+
 
 
 #creditNav {

@@ -56,7 +56,7 @@
                 <a href="#" id="closeSumNavBtn">&times;</a>
                 <p>Bahasa di Pulau Sumatra dan Sekitarnya</p>
                 <button id="aneuk">Aneuk Jamee</button>
-                <button id="nias">Nias (Li Niha Yöu)</button>
+                <button id="nias">Nias (Li Niha Raya)</button>
                 <button id="minang">Minangkabau (Bukittingi)</button>
                 <button id="jambi">Jambi</button>
                 <button id="kerinci">Kerinci (Pondok Tinggi)</button>
@@ -75,7 +75,7 @@
                 <button id="sunda">Sunda</button>
                 <button id="cirebon">Cirebon</button>
                 <button id="jawa">Jawa</button>
-                <button id="pemalang">Pemalang</button>
+                <button id="pemalang">Jawa (Ngapak)</button>
                 <button id="osing">Osing</button>
                 <button id="madura">Madura (Tapal Kuda)</button>
                 <button id="bali">Bali</button>
@@ -114,12 +114,12 @@
                 <p>Bahasa di Pulau Ambon dan Papua</p>
                 <button id="papua">Melayu Papua</button>
                 <button id="biak">Biak</button>
-                <button id="lani">Lani (Wone)</button>
+                <!-- <button id="lani">Lani (Wone)</button> -->
             </div>
     
             <div id="asingLangNav">
                 <a href="#" id="closeAsingNavBtn">&times;</a>
-                <p>Bahasa Asing & Nasional</p>
+                <p>Bahasa Nasional & Asing</p>
                 <button id="indonesia">Indonesia</button>
                 <button id="english">English</button>
                 <button id="italian">Italiano</button>
@@ -132,10 +132,7 @@
         <div id="profNav">
             <a href="#" id="closeProfNavBtn" onclick="closeProfNav()">&times;</a> 
             <p id="enterName"></p>
-            <form>
-                <input type="text" id="nameBox" size="20"> <br>
-                
-            </form>
+            <input type="text" id="nameBox" size="20" value="Dwi"> <br>                
             <button id="getName">>></button>
             
             <p id="chooseGender"></p>
@@ -149,15 +146,16 @@
             <img id="logoAtma" src="img/logoAtma.png" >
             <h3>Terima kasih kepada</h3>
                 <p>
-                    <b>Tim Inti:</b><br>
+                    <b>Tim Developer:</b><br>
                     Ketua Proyek: Yanti <br>
                     Programmer: Stanley Winata <br>
                     Desainer: Charles Kaunang & Stela Angela <br>
+                    Musik Latar: Nicholas Axel Tanujaya <br>
                     Konsultan: Andri Lesmana
                 </p>
 
                 <p>
-                    <b>Penerjemah Bahasa di Pulau Sumatra dan Sekitarnya</b> <br>
+                    <b>Penerjemah Bahasa di Sumatra dan Sekitarnya</b> <br>
                     Aneuk Jamee: Tasnim Lubis <br>
                     Nias: Rebecca Evelyn Laiya <br>
                     Minangkabau (Bukittinggi): Murniati Agustian <br>
@@ -218,7 +216,7 @@
 
                 <p>
                     <b>Penerjemah Bahasa Asing</b> <br>
-                    Inggris: Yanti <br>
+                    Inggris: Yanti & Stanley Winata<br>
                     Italia: Antonia Soriente & Luigi Sausa <br>
                     Jepang: Asako Shiohara <br>
                     Mandarin: Stanley Winata
@@ -257,14 +255,10 @@
             </div>
             
             <!-- Level 1 to 3 healthBars-->
-            <!-- <progress id="health1" value="25000" max="25000"></progress> 
-            <progress id="health2" value="40000" max="40000"></progress>
-            <progress id="health3" value="70000" max="70000"></progress>         -->
+            <progress id="health1" value="50000" max="50000"></progress> 
+            <progress id="health2" value="100000" max="100000"></progress>
+            <progress id="health3" value="150000" max="150000"></progress>        
     
-            <div id="healthBar">
-                <div id="healthLine">I</div>
-            </div>
-
             <!-- popping image list -->
             <div id="imgList">
                 <img id="handWashImg" src="img/handWashed.png";>
@@ -324,7 +318,6 @@
 
     </div> <!-- mainMenuDiv ends -->
         
-
 </body>
                   
 </html>    
@@ -332,14 +325,6 @@
 <script type="text/javascript" src="js/variables.js"></script>
 <script type="text/javascript" src="js/system.js"></script>
 <script type="text/javascript" src="js/text.js"></script>
-<script type="text/javascript" src="js/changeLang.js"></script>
-<script type="text/javascript" src="js/sumatLang.js"></script>
-<script type="text/javascript" src="js/jawaLang.js"></script>
-<script type="text/javascript" src="js/kalSulLang.js"></script>
-<script type="text/javascript" src="js/NTLang.js"></script>
-<script type="text/javascript" src="js/amPaLang.js"></script>
-<script type="text/javascript" src="js/asingLang.js"></script>
+<script type="text/javascript" src="js/langList.js"></script>
 <script type="text/javascript" src="js/init.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
-
-    

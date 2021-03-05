@@ -1,8 +1,13 @@
+window.screen.orientation.lock('landscape');
+window.addEventListener("orientationchange", function(){
+    console.log(screen.orientation.type); // e.g. portrait
+});
+
 // loadGame on first time
 var loadGame;
 
 function loadGameFunction() {
-  loadGame = setTimeout(showScreen, 1000);
+  loadGame = setTimeout(showScreen, 4500);
 }
 
 function showScreen() {
@@ -11,7 +16,7 @@ function showScreen() {
   document.getElementById("menuScreen").style.display = "block";
 }
 
-document.body.onload = function(){ loadGameFunction(); changeLang('Default');}
+document.body.onload = function(){ loadGameFunction(); changeLang('indonesia');}
 
 // main menu
 var menuScreen = document.getElementById("menuScreen");
@@ -31,6 +36,9 @@ newGameBtn.onclick= function(){
   document.getElementById("screen1").style.display = 'block';
   document.getElementById("analog1").style.display = 'block';
   document.getElementById("toggleBtn1").style.display = 'block';
+  document.getElementById("health1").style.display = 'block';
+  document.getElementById("health2").style.display = 'none';
+  document.getElementById("health3").style.display = 'none';
   audio1.play();
   initGame();
 };
@@ -66,6 +74,9 @@ lvl1Btn.onclick= function(){
   document.getElementById("screen1").style.display = 'block';
   document.getElementById("analog1").style.display = 'block';
   document.getElementById("toggleBtn1").style.display = 'block';
+  document.getElementById("health1").style.display = 'block';
+  document.getElementById("health2").style.display = 'none';
+  document.getElementById("health3").style.display = 'none';
   audio1.play();
   initGame();
 };
@@ -80,6 +91,9 @@ lvl2Btn.onclick= function(){
   document.getElementById("screen2").style.display = 'block';
   document.getElementById("analog2").style.display = 'block';
   document.getElementById("toggleBtn2").style.display = 'block';
+  document.getElementById("health1").style.display = 'none';
+  document.getElementById("health2").style.display = 'block';
+  document.getElementById("health3").style.display = 'none';
   audio2.play();
   initGame2();
 };
@@ -94,6 +108,9 @@ lvl3Btn.onclick= function(){
   document.getElementById("screen3").style.display = 'block';
   document.getElementById("analog3").style.display = 'block';
   document.getElementById("toggleBtn3").style.display = 'block';
+  document.getElementById("health1").style.display = 'none';
+  document.getElementById("health2").style.display = 'none';
+  document.getElementById("health3").style.display = 'block';
   audio3.play();
   initGame3();
 };
@@ -235,7 +252,7 @@ amPaLang.onclick= function(){ openAmPaNav();}
 closeAmPaNavBtn.onclick= function(){ closeAmPaNav(); }
 document.getElementById("papua").onclick= function(){ changeLang('papua')};
 document.getElementById("biak").onclick= function(){ changeLang('biak')};
-document.getElementById("lani").onclick= function(){ changeLang('lani')};
+// document.getElementById("lani").onclick= function(){ changeLang('lani')};
 
 // asing lang
 var asingLang = document.getElementById("asingLang");
@@ -274,16 +291,6 @@ function closeProfNav(){
 }
 profBtn.onclick= function(){ openProfNav()};
 closeProfNavBtn.onclick= function(){ closeProfNav()};
-
-var enterName = document.getElementById("enterName"); //string telling the user to enter their name
-var nameBox = document.getElementById('nameBox').value; //the name input box
-var getNameBtn = document.getElementById("getName"); //the button showing to get the value of the name
-var namaBaru;
-getNameBtn.onclick = function (){
-  namaBaru = nama.replace('Dwi', nameBox);
-  nama = namaBaru;
-  closeProfNav();
-}
 
 var chooseGender = document.getElementById("chooseGender");
 var maleBtn = document.getElementById("male");
@@ -346,6 +353,7 @@ sideNavBack.onclick= function(){
   closeCreditNav();
   closeSideNav();
   audio1.pause();
+  audio2.pause();
   audio3.pause();
   document.getElementById("screen1").style.display = 'none';
   document.getElementById("analog1").style.display = 'none';

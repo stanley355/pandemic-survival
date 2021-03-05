@@ -408,12 +408,36 @@ function animate3a(){
 	}
 }
 
-
+//showing image for certain item
+function showItemImage(txtNum){
+	// 4 & 28 level 1
+	if (txtNum === 4 || txtNum === 28 ){
+		document.getElementById("handWashImg").style.display = 'block';
+		document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
+		document.getElementById("textBox").style.opacity ='0.8';
+	} 
+	// 26 & 51 level 2
+	else if (txtNum === 26 || txtNum === 51 ){
+		document.getElementById("handWashImg").style.display = 'block';
+		document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
+		document.getElementById("textBox").style.opacity ='0.8';
+	}
+	// level 3
+	else if (txtNum === 105) {
+			document.getElementById("carCrashImg").style.display = 'block';
+			document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
+			document.getElementById("textBox").style.opacity ='0.8';
+	}
+	else {
+		tBox.style.backgroundColor = '#99ff99';
+	    tBox.style.opacity = '1';
+	}
+}
 
 //game health Render
-// var health1 = document.getElementById("health1"); //health bar
-// var health2 = document.getElementById("health2");
-// var health3 = document.getElementById("health3");
+var health1 = document.getElementById("health1"); //health bar
+var health2 = document.getElementById("health2");
+var health3 = document.getElementById("health3");
 var healthSpeed1 = 2;
 var healthSpeed2 = 2;
 var healthSpeed3 = 2;
@@ -450,23 +474,3 @@ function decreaseHealth3(){
 		t.innerHTML = onloadTextList[9];
 	}
 }
-
-// var healthSpeed = 0;
-// var healthLine= document.getElementById("healthLine");
-    
-// function moveHealth() {
-//   if (pause == false) {
-// 	var healthWidth = 100;
-//     var id = setInterval(frame, 1000);
-//     function frame() {
-//       if (healthWidth < 0) {
-//         clearInterval(id);
-//         healthSpeed = 0;
-//       } else {
-//         healthWidth -= healthSpeed;
-//         healthLine.style.width = healthWidth + "%";
-//       }
-//     }
-//   }
-// }
-

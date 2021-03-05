@@ -115,10 +115,10 @@ audio {display:none;}
 
 progress {
   position:absolute;
-  top: 2%;
+  top: 4%;
   left: 60%;
   width:35%;
-  height:5%;
+  height:7%;
   color:red;
   }
   progress::-webkit-progress-bar {

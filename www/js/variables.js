@@ -73,7 +73,7 @@ function imageSources(){
 	charMaskImage2 = new Image();
 	charMaskImage2.src = 'img/char2Mask.png';
 	
-	//houses source
+	//houses & building pic
 	house1Image = new Image();
 	house1Image.src = 'img/house1.png';
 
@@ -193,54 +193,6 @@ function imageSources(){
 	tombImage.src = 'img/tomb.png';
 }
 
-//showing image for certain item
-function showItemImage(txtNum){
-	switch(txtNum){
-		//level 1
-		case 4: 
-		imgList.style.display = 'block';
-		document.getElementById("handWashImg").style.display = 'block';
-		document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
-		document.getElementById("textBox").style.opacity ='0.8';
-		break;
-		case 28:
-		imgList.style.display = 'block';
-		document.getElementById("handWashImg").style.display = 'block';
-		document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
-		document.getElementById("textBox").style.opacity ='0.8';
-		break;
-		//level 2
-		case 26:
-			imgList.style.display = 'block';
-			document.getElementById("handWashImg").style.display = 'block';
-			document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
-			document.getElementById("textBox").style.opacity ='0.8';
-		break;
-		case 51:
-			imgList.style.display = 'block';
-			document.getElementById("handWashImg").style.display = 'block';
-			document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
-			document.getElementById("textBox").style.opacity ='0.8';
-		break;
-		case 54:
-			imgList.style.display = 'block';
-			document.getElementById("tomatoImg").style.display = 'block';
-			document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
-			document.getElementById("textBox").style.opacity ='0.8';
-		break;
-		//level 3
-		case 105:
-			imgList.style.display = 'block';
-			document.getElementById("carCrashImg").style.display = 'block';
-			document.getElementById("textBox").style.backgroundColor = '#f2f2f2';
-			document.getElementById("textBox").style.opacity ='0.8';
-		break;
-		default:
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-	}
-}
-
 //objects list for level 1
 var background1, player1, tree1, ismaleplayer;
 ismaleplayer = true;
@@ -250,8 +202,8 @@ function objects1(){
 	background1 = new Background(0, 43, 40, 40);
 	//land landNum, cols, rows, landY
 	land1a = new LandList(0, 27, 16, 5); //1st layer
-	//sprites
 
+	//sprites
 	var posY;
 	posY = ismaleplayer ? 0 : 192;
 
@@ -281,7 +233,6 @@ function objects1(){
 	tent1 = new Item(575, 0, 50, 80, 240, 320, 40, 40);//tent in the forest southwest
 	well1 = new Item(525, 0, 50, 95, 745, 400, 35, 55);//well in the forest southeast
 	gate1 = new Item(580, 90, 175, 120, 290, 220, 60, 40); //gate near sprite1B
-
 }
 
 //collision check for distinct objects level 1
@@ -313,7 +264,7 @@ function itemCollisionCheck(){
 	else {return false}
 }
 
-var background2, backTree2a, player2, tree2;
+var background2, player2, tree2;
 function objects2(){
 	background2 = new Background(0, 43, 64, 42);
 	land2a = new LandList(1, 30, 34, 5); //lvlNum, col, row, landY
@@ -573,6 +524,7 @@ function objects3(){
 	//sprites
 	var posY;
 	posY = ismaleplayer ? 0 : 192;
+
 	player3 = new Player(192, posY, 45, 48, 130, 55, 30, 30);
 	sprites3a = new Sprites(7, 6, 45, 48, 65, 45, 30, 30); //kakek near truck
 	sprites3b = new Sprites(7, 2, 45, 48, 910, 160, 30, 30); //family near river
@@ -809,4 +761,3 @@ function itemCollisionCheck3(){
 	) {return true}
 	else { return false}
 }
-
