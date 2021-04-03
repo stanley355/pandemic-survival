@@ -1,1 +1,1 @@
-{"plugins":["cordova-plugin-whitelist"]}
+{"plugins":["cordova-plugin-whitelist","cordova-android-support-gradle-release","cordova-plugin-splashscreen","cordova-plugin-screen-orientation","es6-promise-plugin"]}

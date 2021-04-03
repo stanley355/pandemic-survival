@@ -5102,7 +5102,7 @@ var indexTextList = [
 var onloadText = document.getElementById("onloadText"); //text pops on the first game onload
 var onloadTextList = [
     // level 1
-    "Selamat datang dalam permainan Surviving Covid Labyrinth. Dalam permainan ini kamu akan berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Selama berpetualang kamu harus mengikuti protokol kesehatan, seperti menjaga jarak aman, mencuci tangan dengan sabun, menggunakan cairan pembersih tangan, menggunakan masker, dan menghindari kerumunan.", //0
+    "Selamat datang dalam permainan Pandemic Survival. Dalam permainan ini kamu akan berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Selama berpetualang kamu harus mengikuti protokol kesehatan, seperti menjaga jarak aman, mencuci tangan dengan sabun, menggunakan cairan pembersih tangan, menggunakan masker, dan menghindari kerumunan.", //0
     "Di sisi kanan atas layar, ada garis kesehatan yang menunjukkan tingkat kesehatanmu. Jika garis tersebut habis, maka permainan akan berakhir dan kamu harus mengulang dari awal untuk level itu.", //1
     "Petualangan kamu di level 1 selesai kalau kamu selamat pulang ke rumahmu di ujung hutan." + "<br>" + "Sebelum bertualang, ada baiknya kamu berpamitan dengan teman baikmu." + "<br>"+ "Selamat berpetualang!", //2
     // level 2

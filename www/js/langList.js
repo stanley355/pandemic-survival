@@ -15,7 +15,7 @@ var indexTextAneuk = [
 ]
 var onloadTextAneuk = [
     //level 1
-    "Salamaik datang dalam pamainan Surviving Covid Labyrinth. Dalam bamain, munak  akan bapetualang dalam situasi pandemi Covid-19." + "<br>" + "Salamo bapatualang munak harui mangikuti protokol kesehatan, sarupoi manjago jarak aman, mancuci tangan samo sabun, manggunokan cairan pambasih tangan, manggunokan masker, alah tu manajuhi karumunan.", //0
+    "Salamaik datang dalam pamainan Pandemic Survival. Dalam bamain, munak  akan bapetualang dalam situasi pandemi Covid-19." + "<br>" + "Salamo bapatualang munak harui mangikuti protokol kesehatan, sarupoi manjago jarak aman, mancuci tangan samo sabun, manggunokan cairan pambasih tangan, manggunokan masker, alah tu manajuhi karumunan.", //0
     "Di sabalah kanan di ateh layar, ada garis kasehatan yang manunjukkan tingkek kasehatan munak. Apobilo  garisnyo  habih, itu masonyo parmainan  barakhir dan munak harui mangulang dari patamo untuk level itu.", //1
     "Patualangan munak di level 1 alah salasai kalau munak salamaik pulang ke rumah munak di ujung hutan." + "<br>" + "Sabalum batualang, ado paralunyo munak minta izin samo kawan baik munak." + "<br>"+ "Salamaik bapatualang!", //2
     //level 2
@@ -251,7 +251,7 @@ var indexTextNias = [
 ]
 var onloadTextNias = [
     //level 1
-    "Ya'ahowu, aine data famai ba  Surviving Covid Labyrinth. Ba permainan ha'a gö manörö-nörö ba ginötö fökhö Covid-9i" + "<br>" + "ba fanörö-nörö  mö, moguna ta amoniö ita ta ö'ö nifahöi samatörö : Ta 'amoni'ö gotalua jamö sana ita, Sasai tanau fama sabu, oguna'ö mbalu-mbalu mbawa, areuö ndraugö moroi ba gotalua sato, .", //0
+    "Ya'ahowu, aine data famai ba  Pandemic Survival. Ba permainan ha'a gö manörö-nörö ba ginötö fökhö Covid-9i" + "<br>" + "ba fanörö-nörö  mö, moguna ta amoniö ita ta ö'ö nifahöi samatörö : Ta 'amoni'ö gotalua jamö sana ita, Sasai tanau fama sabu, oguna'ö mbalu-mbalu mbawa, areuö ndraugö moroi ba gotalua sato, .", //0
     "Ba gabölö  layar, so tadra fa'abölö boto u.  Na ma'ahori tadra fa'abölö boto u, eluaha nia ma'awali permainan ha'a ba tola efuli ndraugö ba mbosimu sioföna ", //1
     "Fanörö-nörö mö ba mbosi si'oföna, ma awali, tola manavuli draugö ba nomou ba balö gatua " + "<br>" + "Fatua lönana mofanö ndraugö, tola manona ndraugö khö naveu ." + "<br>"+ "!", //2
     //level 2
@@ -488,7 +488,7 @@ var indexTextMinang = [
 ]
 var onloadTextMinang = [
     //level1
-    "Salamaik datang di permainan Surviving Covid Labyrinth ko. Di siko awak ka bapatualang dalam situasi pandemi Covid-19." + "<br>" + "salamo bapatualang awak harus patuah ikuik protokol kesehatan, co manjago jarak aman, mambasuah tangan jo sabun, pakai cairan pambarasiahan tangan, gunoan masker, dan mainda karumunan.", //0
+    "Salamaik datang di permainan Pandemic Survival ko. Di siko awak ka bapatualang dalam situasi pandemi Covid-19." + "<br>" + "salamo bapatualang awak harus patuah ikuik protokol kesehatan, co manjago jarak aman, mambasuah tangan jo sabun, pakai cairan pambarasiahan tangan, gunoan masker, dan mainda karumunan.", //0
     "Di subalah suok ateh layar, ado garih kesehatan nan manunjuakan dima posisi kesehatan awak. Bilo garih tu abih, lah ka salasai permainan ko dan awak harus maulang dari mulo liak untuak  level tu.", //1
     "Patualangan awak di level 1 salasai kalau awak salamaik baliak ka rumah awak nan di ujuang rimbo." + "<br>" + "Sabalum batualang, ado eloknyo awak mangecek ka konco palangkin tu dulu." + "<br>"+ "Salamaik bapatualang!", //2
     //level2
@@ -727,7 +727,7 @@ var indexTextJambi= [
 ]
 var onloadTextJambi = [
     // level 1
-    "Selamat datang di permaenan Surviving Covid Labyrinth ni. Dalam permaenan ni, ceritonyo kau bertualang slamo pandemi Covid-19." + "<br>" + "Slamo betualang kau harus ngikuti protokol kesehatan, misalnyo jago jarak, cuci tangan pake sabun, pake cairan pembersih tangan, pake masker, samo hindari rame-rame.", //0
+    "Selamat datang di permaenan Pandemic Survival ni. Dalam permaenan ni, ceritonyo kau bertualang slamo pandemi Covid-19." + "<br>" + "Slamo betualang kau harus ngikuti protokol kesehatan, misalnyo jago jarak, cuci tangan pake sabun, pake cairan pembersih tangan, pake masker, samo hindari rame-rame.", //0
     "Di bagian kanan atas layar ado garis kesehatan kau. Kalau garis itu abis, permaenan abis jugo. Jadi, kau harus ngulang maen dari depan level tu.", //1
     "Petualangan kau di level 1 selesai kalu kau selamat balek ke rumah kau di ujung utan." + "<br>" + "Sebelum betualang, kau pamit dululah samo kawan baek kau." + "<br>"+ "Selamat betualang!", //2
     // level 2
@@ -965,7 +965,7 @@ var indexTextKerinci = [
 ]
 var onloadTextKerinci = [
     // level 1
-    "Selamat datua kek permainan Surviving Covid Labyrinth. Kek permainan ineh, ikao berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Salamo berpetualang ikao harus mengikuti protokol kesehatan, misal manjago jarak aman, masouh jahoi dingan sabeun, make cairan pembersih tangan, make masker, dan iduak baimpoiq-impoiq.", //0
+    "Selamat datua kek permainan Pandemic Survival. Kek permainan ineh, ikao berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Salamo berpetualang ikao harus mengikuti protokol kesehatan, misal manjago jarak aman, masouh jahoi dingan sabeun, make cairan pembersih tangan, make masker, dan iduak baimpoiq-impoiq.", //0
     "Seloh kana ateh layar, adea garis kesehatan nge mageih taau tingkat kesehatan ikao. Kok garis toh aboih, mako permainan salesae, ikao harus ngulang lao dari awal untuk level itoh.", //1
     "Petualangan ikao di level 1 lah salesae kalo ikao salamaq baloik kumah kek ujun imbao." + "<br>" + "Sebelum bertualang, ilaoq lah ikao ngatao nguse kantei ikao." + "<br>"+ "Selamat berpetualang!", //2
     // level 2
@@ -1201,7 +1201,7 @@ var indexTextPalembang = [
 ]
 var onloadTextPalembang = [
     // level 1
-    "Selamat datang jeru permainan Surviving Covid Labyrinth. Dalam permainan ini kamok nak bepelesiran dalem keadaan pandemi Covid-19." + "<br>" + "Selamo bepelesiran kamok musti nuruti protokol kesehatan, cak nyago jarak aman, masu tangan samo sabun, ngunoke cairan pembersih tangan, make penutup cungur samo mulut, serto ngindari wong rami.", //0
+    "Selamat datang jeru permainan Pandemic Survival. Dalam permainan ini kamok nak bepelesiran dalem keadaan pandemi Covid-19." + "<br>" + "Selamo bepelesiran kamok musti nuruti protokol kesehatan, cak nyago jarak aman, masu tangan samo sabun, ngunoke cairan pembersih tangan, make penutup cungur samo mulut, serto ngindari wong rami.", //0
     "Di sebela kanan pucuk  layar, ado garis kesehatan yang nunjukke tingkat kesehatan kamok. Apobilo garis itu habis, mako permainan akan berakhir dan kamok musti ngulang dari awal untuk sampe level itu.", //1
     "Petualangan kamok di level 1 selesai kalu kamok selamat balek ke rumah kamok di ujung hutan." + "<br>" + "Sebelum bertualang, ado baiknyo kamok berpamitan dengan kawan baik kamok." + "<br>"+ "Selamat berpetualang!", //2
 // level 2
@@ -1440,7 +1440,7 @@ var indexTextBesemah = [
 ]
 var onloadTextBesemah = [
     // level 1
-    "Selamat datang di puse'an Surviving Covid Labyrinth. di puse'an ini kaba kak bepejalanan dalam kondisi pandemi Covid-19." + "<br>" + "Selame bepejalanan kaba harus ngikuti protokol kesehatan, misale njage jarak, mbasoh tangan nga sabun, makai cairan pembersih tangan, makai masker, nga dide nak rugok rami.", //0
+    "Selamat datang di puse'an Pandemic Survival. di puse'an ini kaba kak bepejalanan dalam kondisi pandemi Covid-19." + "<br>" + "Selame bepejalanan kaba harus ngikuti protokol kesehatan, misale njage jarak, mbasoh tangan nga sabun, makai cairan pembersih tangan, makai masker, nga dide nak rugok rami.", //0
     "Di pucok kanan layar, ade gares kesehatan ye nunjukka tingkat kesehatan kaba. Ame gares tu la digek, berati puse'an ni la udem udem tu kaba ngulang agi san di muke kandek level itu.", //1
     "Pejalanan kaba di level 1 la udem ame kaba dide ngengape pas balek ke ghumah di ujong ghimbe." + "<br>" + "Sebelum bepejalanan, ilo'e kaba pamet kudai nga kance dampeng kaba." + "<br>"+ "Selamat bepejalanan!", //2
     // level 2
@@ -1681,7 +1681,7 @@ var indexTextBangka = [
 ]
 var onloadTextBangka = [
     // level 1
-    "Selamat datang di dalem permainan  Surviving Covid Labyrinth. Dalem permainan ni ka akan berpetualang di dalem situasi pandemi Covid-19." + "<br>" + "Selame berpetualang ka harus ngikutin protokol kesehatan, kayak jage jarak aman, cuci tangan pakai sabun, pakai cairan pemberseh tangan, pakai masker, same menghindari kerumunan.", //0
+    "Selamat datang di dalem permainan  Pandemic Survival. Dalem permainan ni ka akan berpetualang di dalem situasi pandemi Covid-19." + "<br>" + "Selame berpetualang ka harus ngikutin protokol kesehatan, kayak jage jarak aman, cuci tangan pakai sabun, pakai cairan pemberseh tangan, pakai masker, same menghindari kerumunan.", //0
     "Di sebelah kanan pucuk layar, ade garis kesehatan yang nunjukkin tingkat kesehatan ka. Hemen garis a tuh abis, permainan a selesai dan ka harus ngulang dari awal untuk level tu.", //1
     "Petualangan ka di level 1 selesai men ka selamat pulang ke rumah ka di ujung utan." + "<br>" + "Sebelum bertualang, ade baek a ka mada kik kawan baek ka dulu." + "<br>"+ "Selamat berpetualang!", //2
 // level 2
@@ -1919,7 +1919,7 @@ var indexTextNasal = [
 ]
 var onloadTextNasal = [
     // level 1
-    "Selamat khatung delum penggukhauan Surviving Covid Labyrinth. Delum penggukhauan sijo kau hago kelapahan delum keadaan pandemi Covid-19." + "<br>" + "Selamo kelapahan kau mesti nukhuti atukhan kesihatan, njuk-njuk njago jakhak aman, mbasuh culuk khan sabun, makai cayikhan pembekhesih culuk, makai masker, khadu ni jauhi khekhamian.", //0
+    "Selamat khatung delum penggukhauan Pandemic Survival. Delum penggukhauan sijo kau hago kelapahan delum keadaan pandemi Covid-19." + "<br>" + "Selamo kelapahan kau mesti nukhuti atukhan kesihatan, njuk-njuk njago jakhak aman, mbasuh culuk khan sabun, makai cayikhan pembekhesih culuk, makai masker, khadu ni jauhi khekhamian.", //0
     "Di sebelah kanan atas layakh, wat gakhis kesihatan sai nandokun tingkat kesihatanmu. Amun gakhis sudi kak belo, tando penggukhauan temat khan kau mesti ngulang njak pangkal luwut untuk tingkat sudi.", //1
     "Kelapahanmu di tingkat  1 khadu, amun kau selamat mulang ilung bahunmu di hujung khimbo." + "<br>" + "Semakkung kelapahan, sehelaunyo kau pamit pai khan indai akrabmu." + "<br>"+ "Selamat kelapahan!", //2
     // level 2
@@ -2155,7 +2155,7 @@ var indexTextRejang = [
 ]
 var onloadTextRejang = [
     // level 1
-    "Selamat teko neak lem permainan Surviving Covid Labyrinth. Lem permainan yo ko betualang neak lem keadaan pandemi Covid-19." + "<br>" + "Lem ko betualang ko harus temotoa cao kesehatan, awei jemago jarak aman, puk tangen ngen sabun, makei bioa pembersih tangen, makei masker, ngen milok kekopoa.", //0
+    "Selamat teko neak lem permainan Pandemic Survival. Lem permainan yo ko betualang neak lem keadaan pandemi Covid-19." + "<br>" + "Lem ko betualang ko harus temotoa cao kesehatan, awei jemago jarak aman, puk tangen ngen sabun, makei bioa pembersih tangen, makei masker, ngen milok kekopoa.", //0
     "Nak kanen das layar, ade gais kesehatan tmunjuk tiket kesehatan nu. Amen gais o abis, brartai permainan nu bi sudo ngen ko wajib mulang igai nak level o ano.", //1
     "Petualang nu nak level 1 sudo amen ko bi selamat belek moi umeak nu nak ujung imbo." + "<br>" + "Ayok betualang, de baik ne ko pamit kileak ngen kuat baik nu." + "<br>"+ "Selamat betualang!", //2
     // level 2
@@ -2391,7 +2391,7 @@ var indexTextLampung = [
 ]
 var onloadTextLampung = [
     // level 1
-    "Selamat togok dilom pekhmainan Surviving Covid Labyrinth. Dilom pekhmainan sinji niku haga bekhpetualang dilom situasi pandemi Covid-19." + "<br>" + "Selama bekhpetualang niku hakhus nutukko protokol kesehatan, injuk ngejaga jarak aman, mbasuh culuk pakai sabun, makai caikhan pembekhsih culuk, makai masker, khik ngehindakhi kerumunan.", //0
+    "Selamat togok dilom pekhmainan Pandemic Survival. Dilom pekhmainan sinji niku haga bekhpetualang dilom situasi pandemi Covid-19." + "<br>" + "Selama bekhpetualang niku hakhus nutukko protokol kesehatan, injuk ngejaga jarak aman, mbasuh culuk pakai sabun, makai caikhan pembekhsih culuk, makai masker, khik ngehindakhi kerumunan.", //0
     "Di sisi kanan atas layakh, wat gakhis kesehatan sai nunjukko tingkat kesehatanmu. Kik gakhis hinno bela, maka pekhmainan haga berakhikh khik niku hakhus ngulang jak awal pakai level hinno.", //1
     "Petualangan mu di level 1 selesai kik niku selamat mulang mit lambanmu di ujung pullan." + "<br>" + "Semakkung bekhtualang, wat helauni niku  nangguh guk khik betikmu." + "<br>"+ "Selamat bekhpetualang!", //2
     // level 2
@@ -2630,7 +2630,7 @@ var indexTextBetawi = [
 ]
 var onloadTextBetawi = [
     // level 1
-    "Selamet dateng di permaenan Surviving Covid Labyrinth. Di permaenan ini lu bakalan betualang di situasi pandemi Covid-19." + "<br>" + "Pas betualang lu kudu ngikutin protokol kesehatan, keyek ngejage jarak yang aman, nyuci tangan make sabun, make caeran bakal ngebersihin tangan, make masker, terus ngindarin kerumunan.", //0
+    "Selamet dateng di permaenan Pandemic Survival. Di permaenan ini lu bakalan betualang di situasi pandemi Covid-19." + "<br>" + "Pas betualang lu kudu ngikutin protokol kesehatan, keyek ngejage jarak yang aman, nyuci tangan make sabun, make caeran bakal ngebersihin tangan, make masker, terus ngindarin kerumunan.", //0
     "Di bagian kanan atas layar, ada garis sehat yang nunjukin tingkat sehatlu. Kalo garis entu abis, artinye permaenan bakalan selese terus lu  kudu ngulang dari awal buat level itu.", //1
     "Petualangan lu di level 1 selese kalo lu selamet pulang ke rumahlu di ujung utan." + "<br>" + "Sebelum betualang, sebaiknye lu pamitan ama temen baeklu." + "<br>"+ "Selamat berpetualang!", //2
     // level 2
@@ -2869,7 +2869,7 @@ var indexTextSunda = [
 ]
 var onloadTextSunda = [
     // level 1
-    "Wilujeng sumping di pertandingan/kaulinan Surviving Covid Labyrinth. Dina pertandingan/kaulinan ieu anjeun bakal ngagaduhan patualangan dina mangsa sasalad Covid-19." + "<br>" + "Salami petualangan anjeun kedah merhatoskeun protokol kaséhatan, sapertos ngajaga jarak anu aman, ngumbah panangan nganggo sabun, nganggo sanitizer, nganggo masker, sareng ngajauhan pakumpulan.", //0
+    "Wilujeng sumping di pertandingan/kaulinan Pandemic Survival. Dina pertandingan/kaulinan ieu anjeun bakal ngagaduhan patualangan dina mangsa sasalad Covid-19." + "<br>" + "Salami petualangan anjeun kedah merhatoskeun protokol kaséhatan, sapertos ngajaga jarak anu aman, ngumbah panangan nganggo sabun, nganggo sanitizer, nganggo masker, sareng ngajauhan pakumpulan.", //0
     "Di sisi katuhu luhur layar, aya garis kaséhatan anu nunjukkeun tingkat kaséhatan anjeun. Upami garisna séép, pertandingan/kaulinan tamat, anjeun kedah ngawitan deui ti awal dina level éta.", //1
     "Patualangan/kaulinan anjeun di level 1 bakal rengse lamun anjeun salamet mulih ka bumi anu di tungtung leuweung." + "<br>" + "Sateuacan ngawitan, saéna anjeun pamitan ka réréncangan." + "<br>"+ "Wilujeng patualangan!", //2
     // level 2
@@ -3107,7 +3107,7 @@ var indexTextCirebon = [
 ]
 var onloadTextCirebon = [
     // level 1
-    "Wilujeng rawuh ing dolanan Surviving Covid Labyrinth. Ning dolanan niki, sampean bakal berpetualang ing situasi Covid-19." + "<br>" + "Slamet nganclong, sampean kudu ngikuti aturan kesehatan, yaiku jaga jarak, mbasu tangan, ngenggo cairan pembersih tangan, ngenggo masker, lan ngehindari krumunan wong.", //0 
+    "Wilujeng rawuh ing dolanan Pandemic Survival. Ning dolanan niki, sampean bakal berpetualang ing situasi Covid-19." + "<br>" + "Slamet nganclong, sampean kudu ngikuti aturan kesehatan, yaiku jaga jarak, mbasu tangan, ngenggo cairan pembersih tangan, ngenggo masker, lan ngehindari krumunan wong.", //0 
     "Ning layar duwur nengen, ana garis kesehatan kang nunjuknang tingkat kesehatane sampean. Lamun garise entok, artie dolanane arepan pragat. Lamun kaya konon artie sampean kudu ngulang sing pertama maning ning level kuen.", //1
     "Petualangane sampean ning level 1 pragat lamun sampean selamat balik ning umae ira ning ujung alas." + "<br>"+ "Slamet nganclong!", //2
     // level 2
@@ -3586,7 +3586,7 @@ var indexTextPemalang = [
 ]
 var onloadTextPemalang = [
     // level 1
-    "Slamet teka maning nang dolana Surviving Covid Labyrinth. Nang dolanan kiye kowen berpetualang nang njero situasine pandemi Covid-19." + "<br>" + "Selama berpetualang kowen kudu ngikuti protokol kesehatan, kayak njege jarak sing aman, tangane wisuh atik sabun, nganggo cairan pembersih tangan, nganggo masker, trus ngindari kumpul-kumpul wong akeh.", //0
+    "Slamet teka maning nang dolana Pandemic Survival. Nang dolanan kiye kowen berpetualang nang njero situasine pandemi Covid-19." + "<br>" + "Selama berpetualang kowen kudu ngikuti protokol kesehatan, kayak njege jarak sing aman, tangane wisuh atik sabun, nganggo cairan pembersih tangan, nganggo masker, trus ngindari kumpul-kumpul wong akeh.", //0
     "Nang sisi tengen nduwure layar, ana garis kesehatan sing nodokna tingkat kesehatane kowen. Ning garise wis entek, mengko dolanane juge apan rampung trus kowen kudu ngulang sing awal maning kanggo level kuwe.", //1
     "Petualangane kowen nang level 1 rampung ning kowen slamet balik maring umahe kowen sing nang ujunge utan." + "<br>" + "Sedurunge bertualang, ana apike kowen pamitan ndisit maring kanca apike kowen." + "<br>"+ "Slamet berpetualang!", //2
     // level 2
@@ -3824,7 +3824,7 @@ var indexTextOsing = [
 ]
 var onloadTextOsing = [
     // level 1
-    "Selamet teko ring memengan Surviving Covid Labyrinth. Ring memengan  iki riko arep berpetualang noring situasi pandemi Covid-19." + "<br>" + "Selama berpetualang riko kudu ngetutaken protokol kesehatan, koyo njogo jarak aman, wesuh tangan ambi sabun, nganggo cairan pembersih tangan, nganggo masker, lan hindari kumpul - kumpul .", //0
+    "Selamet teko ring memengan Pandemic Survival. Ring memengan  iki riko arep berpetualang noring situasi pandemi Covid-19." + "<br>" + "Selama berpetualang riko kudu ngetutaken protokol kesehatan, koyo njogo jarak aman, wesuh tangan ambi sabun, nganggo cairan pembersih tangan, nganggo masker, lan hindari kumpul - kumpul .", //0
     "Ring sisih kanan nduwur layar, ono garis kesehatan hang nunjukno tingkat kesehatane riko. Umpomo garis iku entek, dadi memengan arep mari lan riko kudu ngulang teko awal enggo level iku.", //1
     "Petualangan riko ring level 1 mari umpomo riko selamet moleh ring umae riko ring ujung alas." + "<br>" + "Sakdurunge bertualang, ono apike riko pamitan ambi konco akrab riko." + "<br>"+ "Selamat berpetualang!", //2
     // level 2
@@ -4063,7 +4063,7 @@ var indexTextMadura = [
 ]
 var onloadTextMadura = [
     // level 1
-    "La dâpa' dâlem maènan Surviving Covid Labyrinth. Neng maènan rèya, kakè alân-jhâlân neng kabâd̟âân larah Covid-19." + "<br>" + "pas ajhâlân kakè kodhu norotèn protokol kesehatan, nga' jhâ’ ma'-semma' ka orèng lè aman, becco tananggah bi' sabon, ngangghuy caèran kangghuy mersè’èn tanang, ngangghuy masker, bân jhâui orèng pol kompol.", //0
+    "La dâpa' dâlem maènan Pandemic Survival. Neng maènan rèya, kakè alân-jhâlân neng kabâd̟âân larah Covid-19." + "<br>" + "pas ajhâlân kakè kodhu norotèn protokol kesehatan, nga' jhâ’ ma'-semma' ka orèng lè aman, becco tananggah bi' sabon, ngangghuy caèran kangghuy mersè’èn tanang, ngangghuy masker, bân jhâui orèng pol kompol.", //0
     "Neng kanan attas lajâr, bâdâ ghâris kesehatan sè mastè'aghi kakè bârâs apa enjâ’. Mon ghâris jârèya la tadâ’, artèna maènan rèya la marèh bân kakè kodhu ngulang dâri adâ’ polè neng ondhâk rowa.", //1
     "kakè la marèh ajhâlân neng ondhâk 1 mon bisah salamet molè ka romanah neng konco'en alas." + "<br>" + "Sebelummah ajhâlân, lebbi bhâghus kakè apamitan bik kancanah." + "<br>"+ "Ajhâlân lah!", //2
     // level 2
@@ -4302,7 +4302,7 @@ var indexTextBali = [
 ]
 var onloadTextBali = [
     // level 1
-    "Swasti Prapta ring plalian Surviving Covid Labyrinth. Ring plalian puniki ida dane berpetualang rikalaning pandemi Covid-19." + "<br>" + "Rikala berpetualang ida dane patut nginutin protokol kesehatan, sakadi jaga jarak aman, ngawajikin tangan antuk sabun, nganggen cairan pembersih tangan, nganggen masker, miwah ngedohin rame.", //0 
+    "Swasti Prapta ring plalian Pandemic Survival. Ring plalian puniki ida dane berpetualang rikalaning pandemi Covid-19." + "<br>" + "Rikala berpetualang ida dane patut nginutin protokol kesehatan, sakadi jaga jarak aman, ngawajikin tangan antuk sabun, nganggen cairan pembersih tangan, nganggen masker, miwah ngedohin rame.", //0 
     "Driki kenawan baduur layar, wenten garis kesehatan sane wenten indik tingkat kesehatan ida dane. Yening garis punika telas, janten plalian ida dane puput miwah patut ngulang saking awal ring level punika.", //1
     "Petualangan ida dane ring level 1 sampun puput ida dane selamat mewali budal ke jero ring alas." + "<br>" + "Sedereng mapetualang, becikne ida dane mepamit sareng sawitra." + "<br>"+ "Rahajeng mapetualang!", //2 
     // level 2
@@ -4543,7 +4543,7 @@ var indexTextNgaju = [
 ]
 var onloadTextNgaju = [
     // level 1
-    "Selamat Hasundau hong permainan Surviving Covid Labyrinth. Hong permainan jituh ikau akan berpetualang hong situasi pandemi Covid-19." + "<br>" + "Selama berpetualang tuh ikau harus mahapan protokol kesehatan, kilau menjaga jarak aman, menyau lenge dengan sabun, mehapan cairan pembersih lenge, mehapan masker, dan menghindari kerumunan uluh are.", //0
+    "Selamat Hasundau hong permainan Pandemic Survival. Hong permainan jituh ikau akan berpetualang hong situasi pandemi Covid-19." + "<br>" + "Selama berpetualang tuh ikau harus mahapan protokol kesehatan, kilau menjaga jarak aman, menyau lenge dengan sabun, mehapan cairan pembersih lenge, mehapan masker, dan menghindari kerumunan uluh are.", //0
     "Melai hila gantau hunjun layar, tege garis karigas je menujukkan tingkat karigasmuh. Amun garis jite lepah, maka permainan te akan berakhir dan ikau harus mengulang bara sulak  akan level jite.", //1
     "Petualangan kamu di level 1 selesai kalau kamu selamat pulang ke rumahmu di ujung hutan." + "<br>" + "Sebelum bertualang, ada baiknya kamu berpamitan dengan teman baikmu." + "<br>"+ "Selamat berpetualang!", //2
     // level 2
@@ -4783,7 +4783,7 @@ var indexTextKanayan = [
 ]
 var onloadTextKanayan = [
     // level 1
-    "Salamat atan'k ka pamainan Surviving Covid Labyrinth. Dalamp pamaianan nian kao akan bapatualang dalamp situasi pandemi Covid-19." + "<br>" + "Salama bapatualang kao harus ngikuti protokol kasehatan, lea manjaga jarak aman, nyasah kokot man sabun, gunaan cairan pembersih kokot, gunaan masker, man ngindari karumunan.", //0
+    "Salamat atan'k ka pamainan Pandemic Survival. Dalamp pamaianan nian kao akan bapatualang dalamp situasi pandemi Covid-19." + "<br>" + "Salama bapatualang kao harus ngikuti protokol kasehatan, lea manjaga jarak aman, nyasah kokot man sabun, gunaan cairan pembersih kokot, gunaan masker, man ngindari karumunan.", //0
     "Ka balah kanan atas, ada garis kasehatan nang nunjukan tingkat kasehatannyu. Kade garis koa abis, maka pamainan akan lakak man kao harus ngulang dari awal untuk level koa.", //1
     "Patualangannyu ka level asa dah lakak kade kao salamat pulank ka rumahnyu ka ujun'k abut-abut." + "<br>" + "Sanape bapatualang, ada gagasnya kao bapamitan't ba ayunk baik nyu." + "<br>"+ "Salamat bapatualang!", //2
     // level 2
@@ -5023,7 +5023,7 @@ var indexTextMaanyan = [
 ]
 var onloadTextMaanyan = [
     // level 1
-    "Selamat datang hang permainan Surviving Covid Labyrinth. hawuang permainan ina hanyu kai bapetualang pas situasi pandemi Covid-19." + "<br>" + "Selawah bapetualang hanyu harus uma protokol kesehatan, nyalah menjaga jarak aman, mui tangan makai sabun, makai cairan pembersih tangan, makai masker, baya lawit tika kerumunan.", //0
+    "Selamat datang hang permainan Pandemic Survival. hawuang permainan ina hanyu kai bapetualang pas situasi pandemi Covid-19." + "<br>" + "Selawah bapetualang hanyu harus uma protokol kesehatan, nyalah menjaga jarak aman, mui tangan makai sabun, makai cairan pembersih tangan, makai masker, baya lawit tika kerumunan.", //0
     "Hang amau tuhi kawan layar, naan garis kesehatan isa ngampi dinung tingkat kesehatannu. Amun garis iru galis, permainan ni luput dan hanyu harus ngulang lagi tika awal makai level iru.", //1
     "Petualangan Nu hg level 1 haut luput amun hanyu selamat hampe hang lewu nu sa naan hang ujung jumpun." + "<br>" + "Sehuan batualang, naan maeh ni amun hanyu bapamitan baya hengau maeh Nu." + "<br>"+ "Selamat berpetualang!", //2
 // level 2
@@ -5263,7 +5263,7 @@ var indexTextLebang = [
 ]
 var onloadTextLebang = [
     // level 1
-    "Helamat atang dalam permainan Surviving Covid Labyrinth. Dalam permainan ituk kitok akan begeap de awak pandemi Covid-19." + "<br>" + "Selama begeap kitok arun ngikot ke protokol kesehatan, po njego jarak , mahuak jari makai habon, nguno cairan pembersih jari, makai masker, dan no bedampeng.", //0
+    "Helamat atang dalam permainan Pandemic Survival. Dalam permainan ituk kitok akan begeap de awak pandemi Covid-19." + "<br>" + "Selama begeap kitok arun ngikot ke protokol kesehatan, po njego jarak , mahuak jari makai habon, nguno cairan pembersih jari, makai masker, dan no bedampeng.", //0
     "De hihi kanan atan layar, bihik garin kesehatan neng nunyuak tingkat kesehatan kitok. Atik garin iyok abin, maka permainan akan berakhir dan kitok arun mengulang ari awal untuak level ituk.", //1
     "Petualangan kitok di level 1 selesai atik kitok helamat pulang ke biliak kitok de ujong utan." + "<br>" + "Hempan begeap, bihik baiknya kitok berpamitan dengan teman baik kitok." + "<br>"+ "helamat begeap!", //2
     // level 2
@@ -5503,7 +5503,7 @@ var indexTextManado = [
 ]
 var onloadTextManado = [
     // level 1
-    "Selamat datang dalam permainan Surviving Covid Labyrinth. Di ini permainan, ngana mo bajalang di tampa yang sementara ada dalam keadaan pandemi Covid-19." + "<br>" + "Selama bajalang, ngana musti iko tu aturan kesehatan, rupa jang baku dekat, cuci tangan pake sabong, pake tu cairan anti kuman for ja se bersih tangan, pake masker, kong jang baku ruju.", //0
+    "Selamat datang dalam permainan Pandemic Survival. Di ini permainan, ngana mo bajalang di tampa yang sementara ada dalam keadaan pandemi Covid-19." + "<br>" + "Selama bajalang, ngana musti iko tu aturan kesehatan, rupa jang baku dekat, cuci tangan pake sabong, pake tu cairan anti kuman for ja se bersih tangan, pake masker, kong jang baku ruju.", //0
     "Lia di layar paling atas sablah kanan, ada tanda rupa garis-garis, for ja se tunjung ngana pe tingkat kesehatan di itu level. Kalo tu garis-garis abis, ngana berarti musti ulang tu level dari pertama.", //1
     "Ngana pe petualangan di level 1 langsung klar kalo ngana sampe pa ngana pe rumah di ujung utang dengan selamat." + "<br>" + " Sebelum bajalang, lebe bae ngana ba bilang tre dulu pa ngana pe tamang bae." + "<br>"+ " Selamat bajalang.!", //2
     // level 2
@@ -5743,7 +5743,7 @@ var indexTextBugis = [
 ]
 var onloadTextBugis = [
     // level 1
-    "salama topada salama, namelona pammulai iyae cule-culewe yanaritu Surviving Covid Labyrinth. Rilalenna matu yewe cule-culewe pada engkaki sompe'ritengga lasa mallebbange riasenge Covid-19." + "<br>" + "Ritengga somperetta matu riwajikiki maccueri aturang pemerentata, pada-padanna trijagai jara'ta sibawa taue, tuli ribissai jaritta nasibawai sabung, pakeki cairang pabbissa jari, pakeki pattutu timu, nennia aja tomaddeppu-deppungeng.", //0
+    "salama topada salama, namelona pammulai iyae cule-culewe yanaritu Pandemic Survival. Rilalenna matu yewe cule-culewe pada engkaki sompe'ritengga lasa mallebbange riasenge Covid-19." + "<br>" + "Ritengga somperetta matu riwajikiki maccueri aturang pemerentata, pada-padanna trijagai jara'ta sibawa taue, tuli ribissai jaritta nasibawai sabung, pakeki cairang pabbissa jari, pakeki pattutu timu, nennia aja tomaddeppu-deppungeng.", //0
     "Disunna yero layar'e, engka garisi riita pannesangekki kondisinna kesehatatta makkokkoe. Narekko iyaro garisi'e teddengngi, majeppu iyaro cule-culewe rianggapni selesai nennia haruski lisu mangulang ripammulanna paimeng.", //1
     "Sompereng pammulatta rianggap'i selesai narekko engkaki salama lisu ribolata ricappa'na ale'e." + "<br>" + "Riolo denapamelotta jokka sompe, pada engkaki massimang risahaba'ta ." + "<br>"+ "Salamakki rosomperetta!", //2
     // level 2
@@ -5984,7 +5984,7 @@ var indexTextTolaki = [
 ]
 var onloadTextTolaki = [
     // level 1
-    "Salama leu luwuako mbeleu komiuto ine pae pae Surviving Covid Labyrinth. ni pepae paea ino aito mbe pae pae ine situasi covid 19." + "<br>" + "Salama pepae paea i tondori'i protokol kasehata, hendeakono dagai jarak, wohiki kae mie ronga osabu, pakei cairan pembersih okae, pakei masker miu, ronga iyamo pekombulu.", //0
+    "Salama leu luwuako mbeleu komiuto ine pae pae Pandemic Survival. ni pepae paea ino aito mbe pae pae ine situasi covid 19." + "<br>" + "Salama pepae paea i tondori'i protokol kasehata, hendeakono dagai jarak, wohiki kae mie ronga osabu, pakei cairan pembersih okae, pakei masker miu, ronga iyamo pekombulu.", //0
     "Ine wawo hana layar, la garisi kasehata, keno oputo nggiro garisi itoono pepae paea miu, pondarambu menduaka ari portama.", //1
     "Potualangamu ni level 1 keto ari sau salama mbule nilaikamu ine tundu lalonggasu." + "<br>" + "Sebelum bertualang, ada baiknya kamu berpamitan dengan teman baikmu." + "<br>"+ "Pepae paeto!", //2
     // level 2
@@ -6225,7 +6225,7 @@ var indexTextCiacia = [
 ]
 var onloadTextCiacia = [
     // level 1
-    "Mai kabundo bharabhaano Surviving Covid Labyrinth. Bharabhaana isoo cubanca i lalono kalelee Covid-19." + "<br>" + "I bancaa isoo kahokoloe kahadharino kesehata, misaramo kambelaie tadhea amani, pohonai lima pake sobo, pake wee pabarasi lima, pake maskere, dhori kabhokolie pororompua.", //0  
+    "Mai kabundo bharabhaano Pandemic Survival. Bharabhaana isoo cubanca i lalono kalelee Covid-19." + "<br>" + "I bancaa isoo kahokoloe kahadharino kesehata, misaramo kambelaie tadhea amani, pohonai lima pake sobo, pake wee pabarasi lima, pake maskere, dhori kabhokolie pororompua.", //0  
     "I wiwi soana wawo layara, anee kabhori kesehata notujuaso hendeno kesehatamiu. Hawane kabhorincu nohabisi, Bharabanto poolimo dhori isoo tabe cumulangie minaaso awala ngaso leveleancu.", //1
     "Bhancaamiu i levele 1 kapaoolisie hawane isoo salamati kabhale i kaanamiu i yuju hamota." + "<br>" + "Hawane ciapo cikabanca, hawane namimbali isoo kaposanga i rambanga omelamiu." + "<br>"+ "Mai tokabancaaso!", //2
 // level2
@@ -6466,7 +6466,7 @@ var indexTextSasak = [
 ]
 var onloadTextSasak =[
     // level 1
-    "Ee aneh ite maen Surviving Covid Labyrinth. Leq permaenan ni  kamu eaq o  bekelampan dalem situasi wabah Covid-19." + "<br>" + "Selame o bekelampan, kamu harus turut protokol kesehatan, maraq misal jagaq bates, bisoq ime kadu sabun, kadu masker, dait dendek bekuwur kuwur  .", //0
+    "Ee aneh ite maen Pandemic Survival. Leq permaenan ni  kamu eaq o  bekelampan dalem situasi wabah Covid-19." + "<br>" + "Selame o bekelampan, kamu harus turut protokol kesehatan, maraq misal jagaq bates, bisoq ime kadu sabun, kadu masker, dait dendek bekuwur kuwur  .", //0
     " Leq seri kanan atas layar, araq garis kesehatan saq pelitoq tingket kesehatan o. Mung garis nu bis, permaenan ni jaqn selese nah kamu harus ulang oleq tinget saq pertame.", //1
     "Pengelampan kamu leq tingket sekeq selese muo selamet uleq jok bale o leq potong gawah." + "<br>" + "Sendekman o bekelampan, perlu o pamit kance sahabat o." + "<br>"+ "Selamet bekelampan!", //2 
     // level 2
@@ -6706,7 +6706,7 @@ var indexTextKupang = [
 ]
 var onloadTextKupang = [
     // level 1
-    "Salamat datang di permainan Surviving Covid Labyrinth. Di ini permainan lu akan bajalan kaliling di situasi pandemi Covid-19." + "<br>" + "Salama bajalan kaliling lu harus ikut protokol kesehatan, jaga jarak aman, cuci tangan deng sabun, pake cairan pembersih tangan, pake masker, dan jangan pi tampat yang rame.", //0
+    "Salamat datang di permainan Pandemic Survival. Di ini permainan lu akan bajalan kaliling di situasi pandemi Covid-19." + "<br>" + "Salama bajalan kaliling lu harus ikut protokol kesehatan, jaga jarak aman, cuci tangan deng sabun, pake cairan pembersih tangan, pake masker, dan jangan pi tampat yang rame.", //0
     "Di bagian kanan atas layar, ada garis kesehatan yang kasi tunjuk lu pung tingkat kesehatan. Kalo itu garis  habis, maka itu permainan akan barenti ju dan lu harus ulang dari itu level.", //1
     "Lu pung perjalanan di level 1 selesai kalo lu salamat pulang pi lu pung rumah di ujung hutan sana." + "<br>" + "Sebelum bajalan kaliling, lebae lu kastahu lu pung kawan bae." + "<br>"+ "Salamat bajalan kaliling!", //2
     // level 2
@@ -6944,7 +6944,7 @@ var indexTextUab = [
 ]
 var onloadTextUab = [
     // level 1
-    "Am koenom aum nu'baet Surviving Covid Labyrinth. Anbi baet ain ho of mufun ambi ete menas pandemi Covid-19." + "<br>" + "Anbi ete ho mufun nan, ho musti munaob plenat nako ana'plenat kesehatan, ma'loken es nok es, fanu' nimak nok oel nok sabu, ampaek sabu fanu'nimak, ampaek masker, nok kaisam tam nu buat.", //0
+    "Am koenom aum nu'baet Pandemic Survival. Anbi baet ain ho of mufun ambi ete menas pandemi Covid-19." + "<br>" + "Anbi ete ho mufun nan, ho musti munaob plenat nako ana'plenat kesehatan, ma'loken es nok es, fanu' nimak nok oel nok sabu, ampaek sabu fanu'nimak, ampaek masker, nok kaisam tam nu buat.", //0
     "An bi layar in fafon a'ne'un anmu' tuis aomina le naton ho aom aomina'. Kalu'tuis nan oke' mak abaetem sa'namsop onanet hom harus amfain nako munin he nati mupen ela' nan.", //1
     "Ho naote mbi ela mes-an  namsop kalu' hom fain on ho ume an bi mepat in panin." + "<br>" + " le' fe' ho kam nao , lebae hom museon maen sin ho benu'." + "<br>"+ "Mnao mok aomin!", //2
     // level 2
@@ -7182,7 +7182,7 @@ var indexTextAmarasi  = [
 ]
 var onloadTextAmarasi = [
     // level 1
-    "Koenokot tam ek baet Surviving covid labyrinth. Ek baet ai ho amnao biak pandemi  Covid-19." + "<br>" + "Selama homnaoho mutuina protokol kesehatan, es am makrona, boe nimmin nok sabu, paek saub nimif, paek masker, oket muro noko tomfaun.", //0
+    "Koenokot tam ek baet Pandemic Survival. Ek baet ai ho amnao biak pandemi  Covid-19." + "<br>" + "Selama homnaoho mutuina protokol kesehatan, es am makrona, boe nimmin nok sabu, paek saub nimif, paek masker, oket muro noko tomfaun.", //0
     "Ek bnapak reko fafan layar, mui garis aomina nun rur nasaeba aominakit. Karu he garis nan oke baet nan murair ma mufainik nok era' ahunut.", //1
     "Hom nao biak er es oke hen ho num moin mam fain ek houmi nasje panne ." + "<br>" + "Nao maee, nareok homtoit parmisi mok Benu' reko." + "<br>"+ "Koenok numnao !", //2
     // level 2
@@ -7423,7 +7423,7 @@ var indexTextHelong = [
 ]
 var onloadTextHelong = [
     // level 1
-    "Banan isi, maa tam se in kuti-lena  Surviving Covid Labyrinth dalen. se in kuti-lena ia tiam ku lail-luis ingu-mana se oras ngasing ota Covid-19." + "<br>" + "Dedeng lail-luis ingu-mana lia lam ku musti muir tahe in puting kit de ili-koerngasing nga, el doas le dani apa deken, boe imang nol sabun, pake saub ui, pake masker, kon nam katang apang sas de in nakbua atuil hut mamo.", //0
+    "Banan isi, maa tam se in kuti-lena  Pandemic Survival dalen. se in kuti-lena ia tiam ku lail-luis ingu-mana se oras ngasing ota Covid-19." + "<br>" + "Dedeng lail-luis ingu-mana lia lam ku musti muir tahe in puting kit de ili-koerngasing nga, el doas le dani apa deken, boe imang nol sabun, pake saub ui, pake masker, kon nam katang apang sas de in nakbua atuil hut mamo.", //0
     "Susu kanan dapa ka, muik tuin in tulu-balang ku le ku ili tam iil loo. Eta tuin na hidi kam ku kuti pait de munan de elan partama.", //1
     "Ku lail-luis hidi elan partama eta ku puti le pait lako ku um in se alas pu-puis sua." + "<br>" + "Lail-luis bi kam, ku seon napat nol ku olet-sobat ta le." + "<br>"+ "Lail-luis tia!", //2
     // level 2
@@ -7664,7 +7664,7 @@ var indexTextFataluku = [
 ]
 var onloadTextFataluku = [
     // level 1
-    "Selamat mau Surviving Covid Labyrinth leulana nae. leuleulana e mucune a kois pandemi Covid-19 cicirai." + "<br>" + "Ratan cicirai a tengki protokol kesehatan nerepai, aitel tapa nita karune, savan tana wahu, irat em tana varesenpai,masker uza, tapa horu- horu fai.", //0
+    "Selamat mau Pandemic Survival leulana nae. leuleulana e mucune a kois pandemi Covid-19 cicirai." + "<br>" + "Ratan cicirai a tengki protokol kesehatan nerepai, aitel tapa nita karune, savan tana wahu, irat em tana varesenpai,masker uza, tapa horu- horu fai.", //0
     "E fanu nae tenen hiane, garis kesehatan tele e humeren tingkat. Ele garis iva sai, e leulana o sai tu a tengki level ivi ali nei pai.", //1
     "E leulana level 1 (Ukani) sai kalau a navar fulen la e le irin nae." + "<br>" + "Akaon leule nae, iraun ia a e lan acita tini." + "<br>"+ "Selamat leuleule!", //2
     // level 2
@@ -7904,7 +7904,7 @@ var indexTextSabu = [
 ]
 var onloadTextSabu = [
     // level 1
-    "Pa d'ara pemanga Surviving Covid Labyrinth. Pa nad'e minamii ou ne wohe la'a rui pa awe Covid-19." + "<br>" + "Pa d'ara pemanga nad'e, do j'èma ta pedute ri ou ne lii naa ngati èmu pèd'a, lii ta pej'èu èni, lonye kae ri hab'u, wutu ub'a hewènga j'e lema pej'èu èni ti dou lowe.", //0
+    "Pa d'ara pemanga Pandemic Survival. Pa nad'e minamii ou ne wohe la'a rui pa awe Covid-19." + "<br>" + "Pa d'ara pemanga nad'e, do j'èma ta pedute ri ou ne lii naa ngati èmu pèd'a, lii ta pej'èu èni, lonye kae ri hab'u, wutu ub'a hewènga j'e lema pej'èu èni ti dou lowe.", //0
     "Pa ked'anga papa nanni, era èhi gari pa gari nanne do ped'elo ne do mèu pa ngi'u ou, do telia ti nanne ne ta do ie ou. Kinga èle gari nanne, nanne do telia ta èle ke awe ou ne pemanga, j'e pemanga ri ou kej'ari rai ti petari rai.", //1
     "Kinga moko ou ne pemanga pa level èhi d'e, j'e b'ale ou la èmu pa ro'a j'ami." + "<br>" + "Nga do d'o pemanga dae, pelangu nga ihianga ou." + "<br>"+ "Helama pewohe la'a rui!", //2
     // level 2
@@ -8144,7 +8144,7 @@ var indexTextLamaholot = [
 ]
 var onloadTextLamaholot = [
        // level 1
-       "Selamate. Mo'e sekarã pi di permainan Surviving Covid Labyrinth one. Pi permainan one pi mo'e berpetualang pi masa pandemi Covid-19 one." + "<br>" + "Selama mo mai'ko lega-lega pe, mo mesti dore protokol kesehatan, helok de'ĩ doã-doã, pu'o limat pake sabõ, ta'ã masker terus, ne pepa doã-doã dari kayak aya.", //0
+       "Selamate. Mo'e sekarã pi di permainan Pandemic Survival one. Pi permainan one pi mo'e berpetualang pi masa pandemi Covid-19 one." + "<br>" + "Selama mo mai'ko lega-lega pe, mo mesti dore protokol kesehatan, helok de'ĩ doã-doã, pu'o limat pake sabõ, ta'ã masker terus, ne pepa doã-doã dari kayak aya.", //0
        "Pe layar wana gere pe, kenaris kesehatan mo'ẽne. Kalu kenaris mo'ẽne pe wahak, permainan mo'ẽne pe juga wahak ke ne mo'e mesti balik dari level noronekune na'ẽ.", //1
        "Permainan mo'ẽne pi level 1 pi wahak kalau mo'e selamat ma'iko lango mo'ẽne pe peneone wutũ." + "<br>" + "Sebelum ma'iko lega-lega pe, wat ne temã senarẽ mo'ẽ pe. " + "<br>"+ "Selamate, mo'e bisa ma'iko lega-lega!", //2
        // level 2
@@ -8383,7 +8383,7 @@ var indexTextMangBar = [
 ]
 var onloadTextMangBar = [
     // level 1
-    "Tabe ga one maeng Surviving Covid Labyrinth. One maing ho hau lako reme situasi pandemi Covid-19." + "<br>" + "Du lako hau harus ikut protokol kesehatan, neho neka ruis tau, cuci lime agu sabun, pake wae latang cuci lime, pake masker, agu neka kaeng nekek ca.", //0
+    "Tabe ga one maeng Pandemic Survival. One maing ho hau lako reme situasi pandemi Covid-19." + "<br>" + "Du lako hau harus ikut protokol kesehatan, neho neka ruis tau, cuci lime agu sabun, pake wae latang cuci lime, pake masker, agu neka kaeng nekek ca.", //0
     "One pala betan layar, manga garis kesehatan kudut bae tingkat kesehatan dite. Ome taung garis hitu, maka polig maing. Poli hitu ga hau harus puung kole wa kudu maeng one mai leve hitu.", //1
     "Tanda polin lako dehau one level satu ga ome nganceng hau kole nger one mbarum le comong puar." + "<br>" + "Eme kudu lako hau dian keta eme tombo dedia latang haem. Di'a-di'a lako ga!", //2
     // level 2
@@ -8623,7 +8623,7 @@ var indexTextMangTeng = [
 ]
 var onloadTextMangTeng = [
     // level 1
-    "Selamat datang one permainan Surviving Covid Labyrinth. One permainan ho'o ite akan berpetualang one situasi pandemi Covid-19." + "<br>" + "Selama berpetualang ite paka lorong protokol kesehatan, neho neka di ruis tau, samo lime pake sabun, pake cairan kut bersih lime, pake masker, agu neka ngo one lawa do.", //0
+    "Selamat datang one permainan Pandemic Survival. One permainan ho'o ite akan berpetualang one situasi pandemi Covid-19." + "<br>" + "Selama berpetualang ite paka lorong protokol kesehatan, neho neka di ruis tau, samo lime pake sabun, pake cairan kut bersih lime, pake masker, agu neka ngo one lawa do.", //0
     "One sisi kanan eta layar, manga garis kesehatan hot toing tingkat kesehatan dite. Eme taung garis hitu, polin maen hitu ga agu ite harus ulang kole one mai awal level hitu.", //1
     "Poli Petualangan dite one level 1 ga eme ite selamat kole nger one mbaru sina comong puar." + "<br>" + "Sebelum bertualang, di'an eme ite pamit agu teman dite." + "<br>"+ "Selamat berpetualang!", //2
     // level 2
@@ -8863,7 +8863,7 @@ var indexTextPapua = [
 ]
 var onloadTextPapua = [
     // level 1
-    "Selamat datang dalam permainan Surviving Covid Labyrinth. Dalam permainan ini Ko akan berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Selama berpetualang Ko harus ikut protokol kesehatan, seperti menjaga jarak aman, mencuci tangan deng sabun, pakai cairan pembersih tangan, pakai masker, dan menghindari dari orang banyak.", //0
+    "Selamat datang dalam permainan Pandemic Survival. Dalam permainan ini Ko akan berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Selama berpetualang Ko harus ikut protokol kesehatan, seperti menjaga jarak aman, mencuci tangan deng sabun, pakai cairan pembersih tangan, pakai masker, dan menghindari dari orang banyak.", //0
     "Di sisi kanan atas layar, ada garis kesehatan yang kasi tunjuk ko pu tingkat kesehatan. kalo garis itu habis, brarti permainan akan selesai dan Ko harus ulang dari awal untuk level itu.", //1
     "Ko pu Petualangan di level 1 selesai kalo Ko selamat pulang ke ko pu rumah di ujung hutan." + "<br>" + "Sebelum bertualang, ada baiknya Ko pamit deng teman baik." + "<br>"+ "Selamat berpetualang!", //2
     // level2
@@ -9104,7 +9104,7 @@ var indexTextBiak = [
 ]   
 var onloadTextBiak = [
     // level 1
-    "Rarama bebye ro farfnak Surviving Covid Labyrinth. Ro farfnak ine mgo berpetualang ro fafisu pandemi Covid-19." + "<br>" + "Selama berpetualang mgosoyuser protokol kesehatan, isone mgo swaf bepyum,mgo bon bramin kuker sabun, war besen beban bramin, menggunakan masker ma mgo kerumunan.", //0
+    "Rarama bebye ro farfnak Pandemic Survival. Ro farfnak ine mgo berpetualang ro fafisu pandemi Covid-19." + "<br>" + "Selama berpetualang mgosoyuser protokol kesehatan, isone mgo swaf bepyum,mgo bon bramin kuker sabun, war besen beban bramin, menggunakan masker ma mgo kerumunan.", //0
     "Ro babar-baraku iyoswa, ada garis kesehatan fasnadi kenem bedi. Jika garis tersebut habis ma farfnak ya imnai ma mgo fnak kuker ro roundak wer.", //1
     "Petualangan mgobeja ryo level 1 namnaikwar mbo mgo pyum ido mgo bur be rum ro sub ya bariwu. Rofyor berpetualang ro sub ya ipyum syowi mgo kofen bair be manibob." + "<br>"+ "Selamat berpetualang!", //2
     // level 2
@@ -9584,7 +9584,7 @@ var indexTextIndo = [
 ]
 var onloadTextIndo = [
     // level 1
-    "Selamat datang dalam permainan Surviving Covid Labyrinth. Dalam permainan ini kamu akan berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Selama berpetualang kamu harus mengikuti protokol kesehatan, seperti menjaga jarak aman, mencuci tangan dengan sabun, menggunakan cairan pembersih tangan, menggunakan masker, dan menghindari kerumunan.", //0
+    "Selamat datang dalam permainan Pandemic Survival. Dalam permainan ini kamu akan berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Selama berpetualang kamu harus mengikuti protokol kesehatan, seperti menjaga jarak aman, mencuci tangan dengan sabun, menggunakan cairan pembersih tangan, menggunakan masker, dan menghindari kerumunan.", //0
     "Di sisi kanan atas layar, ada garis kesehatan yang menunjukkan tingkat kesehatanmu. Jika garis tersebut habis, maka permainan akan berakhir dan kamu harus mengulang dari awal untuk level itu.", //1
     "Petualangan kamu di level 1 selesai kalau kamu selamat pulang ke rumahmu di ujung hutan." + "<br>" + "Sebelum bertualang, ada baiknya kamu berpamitan dengan teman baikmu." + "<br>"+ "Selamat berpetualang!", //2
     // level 2
@@ -9821,7 +9821,7 @@ var indexTextEng = [
 ]
 var onloadTextEng = [
     // level 1
-    "Welcome to Surviving Covid Labyrinth. In this game, you go on an adventure during the Covid-19 pandemic." + "<br>" + "IN your adventure, you have to keep safe distance, wash hands with soap, use hand sanitizer, wear a mask, and avoid crowds.", //0
+    "Welcome to Pandemic Survival. In this game, you go on an adventure during the Covid-19 pandemic." + "<br>" + "IN your adventure, you have to keep safe distance, wash hands with soap, use hand sanitizer, wear a mask, and avoid crowds.", //0
     "On top right corner of the screen, there is a healthbar. If the healthbar turns zero the game is over and you have to start from the beginning of the level.", //1
     "You will finish your adventure in Level 1 if you can safely return to your home at the end of the forest." + "<br>" + "Before you start your adventure, don't forget to say good-bye to your best friend." + "<br>"+ "Happy Adventure!", //2
     // level 2
@@ -10058,7 +10058,7 @@ var indexTextChinese = [
 ]
 var onloadTextChinese = [
     // level 1
-    "欢迎！在此Surviving Covid Labyrinth游戏中,你在冠状病毒疫情期间。" + "<br>" + "在冒险中,你要保持身体距离,用肥皂洗手,使用免洗洗手液,戴口罩,和避免人群。", // 0
+    "欢迎！在此Pandemic Survival游戏中,你在冠状病毒疫情期间。" + "<br>" + "在冒险中,你要保持身体距离,用肥皂洗手,使用免洗洗手液,戴口罩,和避免人群。", // 0
     "在屏幕的右上方,有你的生命值。生命值用完之后,游戏就结束了,然后你应该从那级别的开头重新开始。",// 1
     "如果会安全地回到您森林尽头的屋子,这第一级别的冒险之旅就结束了。" +" <br>" +"此外,去冒险之前,别忘记向您的朋友告别." + "祝你一路顺风",// 2
     // level 2
@@ -10299,7 +10299,7 @@ var indexTextItalian = [
 ]
 var onloadTextItalian = [
     // level 1
-    "Benvenuto nel  gioco Surviving Covid Labyrinth. In questo gioco stai per avventurarti nella situazione della pandemia  Covid-19." + "<br>" + "Durante questa avventura dovrai seguire le regole del protocollo sanitario come rispettare il distanziamento sociale, lavarsi le mani col sapone utilizzando i dispenser di igienizzante per le mani, utilizzare la mascherina ed evitare assembramenti.", //0
+    "Benvenuto nel  gioco Pandemic Survival. In questo gioco stai per avventurarti nella situazione della pandemia  Covid-19." + "<br>" + "Durante questa avventura dovrai seguire le regole del protocollo sanitario come rispettare il distanziamento sociale, lavarsi le mani col sapone utilizzando i dispenser di igienizzante per le mani, utilizzare la mascherina ed evitare assembramenti.", //0
     "In alto a destra dello schermo trovi l'indicatore del livello di salute. Se dovesse finire il gioco teminerà e dovrai ricominciare il livello daccapo.", //1
     "La tua avventura nel primo livello sarà completa se riuscirai a tornare sano e salvo a casa tua nel cuore della foresta." + "<br>" + "Prima di partire faresti meglio a salutare i tuoi amici più cari." + "<br>"+ "Buona avventura!", //2
     // level 2
@@ -10522,7 +10522,7 @@ nama + ": Oh no. L'ho appena incontrato poco fa.",
 
 // japanese
 var indexTextJapan = [
-    "新しく始める",
+    "最初から始める",
     "つづきから始める",
     "プロフィール",
     "クレジット",
@@ -10537,13 +10537,13 @@ var indexTextJapan = [
 ]
 var onloadTextJapan = [
     // level 1
-    "コロナウィルスの迷宮Surviving Covid Labyrinthへようこそ. このゲームでは、新型コロナウィルスが蔓延する世界を冒険します." + "<br>" + "冒険の間は, 距離を保ったり、石鹸で手を洗ったり, マスクをしたり, 人が密集する場所を避けたりする必要があります.", //0怀
+    "コロナウィルスの迷宮Pandemic Survivalへようこそ. このゲームでは、新型コロナウィルスが蔓延する世界を冒険します." + "<br>" + "冒険の間は, 距離を保ったり、石鹸で手を洗ったり, マスクをしたり, 人が密集する場所を避けたりする必要があります.", //0怀
     "画面の右側に「健康レベル」ゲージがあります. このゲージがゼロになるとゲームオーバーになり, そのレベルの最初からやり直しです.", //1
     "森の奥にある家に帰ることができれば, レベル1クリアです." + "<br>" + "冒険の前に, お友だちへのあいさつを済ましておいてくださいね." + "<br>"+ "それでは, よい旅を!", //2
 
     // level 2
     "おかえりなさい. 新しいレベルで、冒険を続けましょう. 冒険はお母さんとの会話から始まります.", //3
-    "まだコロナウィルスが流行っているから, しっかりと予防しなきゃだめよ. それではレベル2の冒険に, いってらっしゃい!",//4
+    "まだコロナウィルスが流行っているので, しっかりと予防するのを忘れないでくださいね. それではレベル2の冒険に, いってらっしゃい!",//4
     // level 3
     "おめでとう, 最後のレベルまでたどり着きましたね. このレベルでは, あなたが親戚の住む街に付いたところから冒険が始まります." + "<br>" + "道を渡るときはくれぐれも気をつけてください. 予防をしっかりと行い, 特に距離の確保, マスクの着用, 人の集まる場所を避けることは忘れないようにしましょう.", //5
     "街に入る前に, 体温を測り, 健康管理カードに記入を行いましょう. それは、良い旅を!", //6
@@ -10554,209 +10554,206 @@ var onloadTextJapan = [
 
 ]
 var txt1Japan = [
-    "友達: どこにいくの？ こっちにおいでよ.", //0
-    "友達: 石けんで手を洗うのを忘れないようにね！", //1
-    "友達: 手をちゃんと洗えば, ウィルスを防ぐことができるからね.",
-    "友達: 家の前で手を洗えるよ.",
-    "よし, きれいになったね！",
-    "若者: *ゴホゴホ* こんな道の真ん中にテントを立ててしまってすみません. 通っても大丈夫です.", //5
-    "門番: そこの君, なんでマスクをしていないんだい? このマスクを使いなさい.", //6
-    "マスクを手に入れた",
-    "門番: よし, もうマスクをつけたな. 通っていいぞ.",
-    nama + ": ありがとうございます！" ,
-    "距離を保つのを忘れないようにしましょう！", //10
-    "*ゴホゴホ* 私の孫をみませんでしたか? 家を出るときにマスクをつけていかなかったのよ.", //11
-    nama + ": その子なら, 森で見ましたよ.", 
-    "おばあさん: あの子にマスクを届けてくれませんか?", 
-    nama + ": もちろん.", 
-    nama + ": これはあなたのおばあちゃんからのマスクです. どうぞ!", //15
-    "ありがとう!", // 16
-    "お母さん: おかえりなさい. ハンドソープを買ってきてくれない?", 
-    nama + ": どこで買えばいい?", 
-    "お母さん: Aniさんのお店にあると思うわ", 
-    "Yani: なにをお探しですか?", //20
-    nama + ": ハンドソープを買いに来ました.", //21
-    "Yani: そうですか, さあ中に入って!", 
-    "Ani: いらっしゃいませ. 何をお探しですか?", 
-    nama + ": ハンドソープはありますか?", 
-    "Ani: もちろんございます. こちらです.", //25
-    "ハンドソープを手に入れた!", //26
-    "お母さん: ありがとう. 家に入る前に手を洗うのを忘れないでね!",
-    "手を洗った!",
-    "レベル1クリア!",
-    nama + ": ハンドソープ買ってきたよ", //30
-
+        "友達: どこにいくの？ まずこっちにおいでよ.", //0
+        "友達: 石けんで手を洗うのを忘れないようにね！", //1
+        "友達: 手をちゃんと洗えば, ウィルスを防ぐことができるからね.",
+        "友達: 家の前で手を洗えるよ.",
+        "よし, きれいになったな！",
+        "若者: *ゴホゴホ* こんな道の真ん中にテントを立ててしまってすみません. 通っても大丈夫です.", //5
+        "門番: そこの君, なんでマスクをしていないんだい? このマスクを使いなさい.", //6
+        "マスクを手に入れた",
+        "門番: よし, もうマスクをつけたな. 通っていいぞ.",
+        名前 + ": ありがとうございます！" ,
+        "人との距離を保つのを忘れないようにするんだぞ", //10
+        "*ゴホゴホ* 私の孫をみませんでしたか? 家を出るときにマスクをつけていかなかったのよ.", //11
+        名前 + ": その子なら, 森で見ましたよ.", 
+        "おばあさん: あの子にマスクを届けてくれませんか?", 
+        名前 + ": もちろん.", 
+        名前 + ": これはあなたのおばあちゃんからのマスクです. どうぞ!", //15
+        "ありがとう!", // 16
+        "お母さん: おかえりなさい. ハンドソープを買ってきてくれない?", 
+        名前 + ": どこで買えばいい?", 
+        "お母さん: Aniさんのお店にあると思うわ", 
+        "Yani: なにをお探しですか?", //20
+        名前 + ": ハンドソープを買いに来ました.", //21
+        "Yani: そうですか, どうぞみていってください", 
+        "Ani: いらっしゃいませ. 何をお探しですか?", 
+        nama + ": ハンドソープはありますか?", 
+        "Ani: もちろんございます. こちらです.", //25
+        "ハンドソープを手に入れた!", //26
+        "お母さん: ありがとう. 家に入る前に手を洗うのを忘れないでね!",
+        "手を洗った!",
+        "レベル1クリア!",
+        名前 + ": ハンドソープ買ってきたよ", //30
 ]
 var txt2Japan = [
-    "お母さん: おじいちゃんにお昼ご飯をとどけてくれない?", //0
-nama + ": わかった!", //1
-"気をつけてね!",
-"お隣さん: やあ, " + nama + "Jokoさんのところのお母さんがコロナウィルスにかかったってきいたよ.",
-"子ども: はぁ…はぁ...もうあと10分で帰らなくちゃ.",
-"子ども: ハクション…ハクション...", //5
-nama + ": 何かあったんですか?", //6
-"子どものお母さん: うちの子、咳と鼻水がとまらないの. 熱もあるわ. 検査を受けさせなきゃ.", 
-nama + ": コロナウィルスじゃないといいですね.", 
-"子どものお母さん: ありがとうございます.",
-"おじいさん: ゴホゴホ", //10
-nama + ": (わあ、近づかないようにしなきゃ)", //11
-nama + ": (はやくおじいちゃんにお昼ご飯をとどけなきゃ)",
-"看護師: もし診察をご希望であれば, 番号をお取りください.",
-nama + ": すみません、違います. ありがとうございます!",
-"女の人: しっかりと距離を保ってくださいね.", //15
-"果物屋: なにかお探しかい?",
-nama + ": なんでもありません.",
-nama + ": (あの人, マスクをしていなかったな. あのお店では買い物したくないな)",
-"女の人: パン屋がどこにあるか知ってますか?",
-"果物屋: 買っていきなよ. さっき届いたばかりだよ.", //20
-nama + ": 今は大丈夫です.",
-"店員: なにかお探しかい?",
-nama + ": なんでもありません.",
-nama + ": すみません. あのタワーにはどうやっていけばいいですか?",
-"若者: 最初からやり直しだよ.", //25
-"手を洗った!", //26
-"おじいちゃん: こんにちは, " +nama+ " お母さんがお昼ご飯を届けてくれるって聞いたよ",
-nama + ": そうだよ!",
-nama + ": これがそのお昼ご飯だよ.",
-"おじいちゃん: おお、ありがとう.", //30
-"おじいちゃん: ハンドソープとトマトをおばあちゃんに買って届けてくれないかい?", //31
-nama + ": もちろん, おじいちゃん.",
-"おじいちゃん: ありがとう, このお金を使いなさい.",
-"おじいちゃん: 密を避けるのを忘れるんじゃないよ!",
-"果物屋: 見ていきなよ. どれも新鮮だよ. ", //35
-nama + ": トマトありますか?", //36
-"果物屋: ありますよ. さっき届いたばかりのだよ.",
-nama + ": 一袋いくらですか?",
-"果物屋: たったの10.000ルピアだよ.",
-nama + ": わかりました. これ代金です", //40
-"果物屋: まいどあり.", //41
-"店員: なにかお探しかい?",
-nama + ": ハンドソープありますか?",
-"店員: ありますよ. 10.000ルピアです.",
-nama + ": わかりました, これ代金です.", //45
-"ハンドソープを手に入れた", //46
-"店員: ありがとうございました.", 
-"お隣さん: あら、ずいぶん大きくなったね. " + nama,
-"おばあちゃん: いらっやし, " + nama +". おじいちゃん, なにか言っていたかい?",
-nama + ": 先におじいちゃんのところによって来たんだ.", //50
-"手を洗った!", //51
-nama + ": おじいちゃんから頼まれて、ハンドソープとトマトを買ってきたよ.", //52
-"おばあちゃん: ありがとう. " +nama + ". 先に洗いましょうか.",
-"トマトを洗った",
-nama + ": 洗ったよ, おばあちゃん.", //55
-"おばあちゃん: ありがとう. 中でお茶でも飲んでいきなさい.",
-nama + ": もちろんだよ!",
-"トマトを手に入れた",
-"レベル2クリア.",
-nama + ": (まず消毒しなくちゃ).",
-
+    "お母さん: おじいちゃんにお昼ご飯をとどけてくれない?", //0
+    nama + ": わかった!", //1
+    "気をつけてね!",
+    "お隣さん: やあ, " + nama + ".  Jokoさんのところのお母さんがコロナウィルスにかかったってきいたよ.",
+    "子ども: はぁ…はぁ…もうあと10分で帰らなくちゃ.",
+    "子ども: ハクション…ハクション...", //5
+    nama + ": 何かあったんですか?", //6
+    "子どものお母さん: うちの子、咳と鼻水がとまらないの. 熱もあるわ.  検査を受けさせなきゃ.", 
+    nama + ": コロナウィルスじゃないといいですね.", 
+    "子どものお母さん: ありがとうございます.",
+    "おじいさん: ゴホゴホ", //10
+    nama + ": (わあ、近づかないようにしなきゃ)", //11
+    nama + ": (はやくおじいちゃんにお昼ご飯をとどけなきゃ)",
+    "看護師: もし診察をご希望であれば, 番号をお取りください.",
+    nama + ": すみません、違います. ありがとうございます!",
+    "女の人: しっかりと距離を保ってくださいね.", //15
+    "果物屋: なにかお探しかい?",
+    nama + ": なんでもありません.",
+    nama + ": (この人マスクをしていないや. ここでは買い物しないようにしよう)",
+    "女の人: パン屋がどこにあるか知ってますか?",
+    "果物屋: 買っていきなよ. さっき届いたばかりだよ.", //20
+    nama + ": 今は大丈夫です.",
+    "店員: なにかお探しかい?",
+    nama + ": なんでもありません.",
+    nama + ": すみません. あのタワーにはどうやっていけばいいですか?",
+    "若者: もう一度森の入り口に戻る必要があるね.", //25
+    "手を洗った!", //26
+    "おじいちゃん: こんにちは, " +nama+ " お母さんがお昼ご飯を届けてくれるって聞いたよ",
+    nama + ": そうだよ!",
+    nama + ": おじいちゃん、お昼ご飯を届けに来たよ.",
+    "おじいちゃん: おお、ありがとう.", //30
+    "おじいちゃん: ハンドソープとトマトをおばあちゃんに買って届けてくれないかい?", //31
+    nama + ": もちろん, おじいちゃん.",
+    "おじいちゃん: ありがとう, このお金を使いなさい.",
+    "おじいちゃん: 密を避けるのを忘れるんじゃないよ!",
+    "果物屋: 見ていきなよ. どれも新鮮だよ. ", //35
+    nama + ": トマトありますか?", //36
+    "果物屋: ありますよ. さっき届いたばかりのだよ.",
+    nama + ": 一袋いくらですか?",
+    "果物屋: たったの10.000ルピアだよ.",
+    nama + ": わかりました. これ代金です", //40
+    "果物屋: まいどあり.", //41
+    "店員: なにかお探しかい?",
+    nama + ": ハンドソープありますか?",
+    "店員: ありますよ. 10.000ルピアです.",
+    nama + ": わかりました, これ代金です.", //45
+    "ハンドソープを手に入れた", //46
+    "店員: ありがとうございました.", 
+    "お隣さん: あら、ずいぶん大きくなったね. " + nama,
+    "おばあちゃん: いらっしゃい, " + nama +". おじいちゃん, なにか言っていたかい?",
+    nama + ": 先におじいちゃんのところによって来たんだ.", //50
+    "手を洗った!", //51
+    nama + ": おじいちゃんから頼まれて、ハンドソープとトマトを買ってきたよ.", //52
+    "おばあちゃん: ありがとう. " +nama + ". 先に洗いましょうか.",
+    "トマトを洗った",
+    nama + ": 洗ったよ, おばあちゃん.", //55
+    "おばあちゃん: ありがとう. 中でお茶でも飲んでいきなさい.",
+    nama + ": もちろんだよ!",
+    "トマトを手に入れた",
+    "レベル2クリア.",
+    nama + ": (まず消毒しなくちゃ)."
 
 ]
 var txt3Japan = [
-    "バスの運転手: 当バスをご利用いただきありがとうございます. ご乗車の前の検温にご協力ください.",
-"運転手: 体温が37.5度以上ある場合, 街に入ることはできません.", //1
-"若い女性: ずいぶんと時間がかかりますね.",
-"若い男性: 何度でした?",
-"検査員: 36.8度ですね. どうぞお入りください",
-"検査員: 熱を測りますね.", //5
-"検査員: 36.2度ですね. あちらで健康管理カードを確認します.", //6
-"検査員: ようこそ. こちらで体温を測ってください!",
-"カード検査員: 健康管理カードを見せていただいてもいいですか?",
-nama + ": はい、これです.",
-"カード検査員: ありがとうございます. 陰性ですね. どうぞお入りください.", //10
- "カード検査員: こちらで健康管理カードを確認します!", //11
-"客: すみません, このとうもろこしとトマトは合わせていくらですか?",
-"八百屋: 全部で25,000ルピアです.",
-"八百屋: 何をお探しですか?",
-nama + ": (わあ, この人マスクをしていないや. ここでは買い物しないようにしよう).", //15
- nama + ": 特にありません.", //16
-"女性: あれ。いつもの八百屋さん、どこに行ったんでしょう?",
-"男性: 倉庫のカギどこに置いたっけ?",
-"工場警備員: コロナウィルスが流行っているけれど、がんばって働き続けれければなりません.",
-"女性: 迎えはどこにいるのかしら?", //20
-"駐車場管理員: バスの運転手はだこに行ったんだ? 困ったもんだよ.", //21
-nama + ": すみません, ここはどういったところですか? なぜ警備しているのですか?",
-"看護師: ここは新型コロナウィルス専用の宿泊療養施設です.",
-"看護師: お体に気を付けてください. くれぐれもここに入ることのないように.",
-"医師: 新型コロナウィルスがますます増えているから, ベッドももうすぐうまってしまいそうだよ.", //25
-"医師: 熱や咳や鼻水が出たら, すぐに病院に行ってくださいね.", //26
-"経営者: コロナウィルスのせいで, 多くの企業が被害を受けているよ.",
-"女性: コロナウィルスが流行っているので, 他の人と集まるのはやめましょう.",
-"コロナ対応職員: ここの家族はコロナウィルスで自主隔離を行っています.",
-"会社員: コロナウィルスのせいで、多くの人が職を失ってしまったよ.", //30
-"子供: しっかり運動しなきゃ.", //31
-"おばあさん: すみません、私の夫をみませんでしたか?",
-"おじいさん: すみません、私の妻をみませんでしたか?",
-"おばあさん: 道を渡るときは、気を付けてくださいね.",
-"リポーター: コロナウィルスにかからないために、何かみなさんに伝えたいことはございますか?", //35
-"市長: しっかりと人との距離を保ち, 常にマスクを着用し, 人込みに行かないようにしてください.", //36
-"リポーター: 条例違反した人にはどれくらい罰金が科されるのでしょうか?", 
-"市長: ここでは、250.000ルピアです.", 
-"コロナ対応職員: 大変だ, コロナウィルスの患者数が毎日増えているよ.",
-"コロナ対応職員: 何かご用ですか? どなたかのお墓参りですか?", //40
-nama + ":道に迷ってしまったんです.", //41
-"コロナ対応職員: ここはコロナウィルスによりなくなってしまった方たちの墓地です.",
-"店員: 大変だ、商品がもうずっと来ていない.",
-"親戚: やあ! " + nama + " 久しぶりだね!",
-nama + ": やあ、久しぶり. 外なのにどうしてマスクをしていないの?", //45
-"親戚: 気にするなって, 家の前だけなら大丈夫だよ! 弟が君を待っているよ.", //46
-"親戚: やっと着いたんだね! どうしてこんな時間になったの? もうすぐで僕が代わりにご飯を買いに行くところだったよ.",
-nama + ": バス乗り場に行く前に、簡易検査を受けてきたんだ. そしたらバスに乗り遅れちゃってさ.",
-"親戚: なんで検査なんかうけたの? 僕なんかマスク付けないで外出してるよ.",
-nama + ": コロナウィルスを甘く見ちゃいけないよ! 毎日感染者が増えているんだから!", //50
-nama + ": もしマスクをしないなら, 食べ物だけ買って, すぐに帰らせてもらうよ.", //51
-nama + ": (はあ, あとで彼らにマスクを買ってあげなきゃ).",
-"親戚: ありがとう.新しい市場でパンを買ってきてくれないかな.",
-"店員: いらっしゃい, 是非店内を見ていってよ.",
-nama + ": (ここには欲しいものはなさそうだな).", //55
-"女性: 何を買うべきかしら?", //56
-"店員: マスクをお探しですか? マスクなら古い市場にある私の親戚がやっている店の近くの店にありますよ.",
-"客: すみませんこの野菜と肉と魚, 全部でおいくらですか?",
-"店員: 45,000ルピアです.",
-"魚屋:　どうぞ、お好みの魚と野菜を選んでいってくださいね.", //60
-"魚屋: どうぞ、お好みの魚と野菜を選んでいってくださいね.", //61
-nama + ": この魚は一キロ当たりいくらですか?",
-"魚屋: 35,000ルピアです",
-nama + ": それでは、一キロください. こちら代金です",
-"魚屋: ありがとうございます. こちらお買い上げの品です", //65
-"女性: いつのパン屋さんはどこにいったのかしら?", //66
-"肉屋: 何をお探しですか?",
-nama + ": (わあ、この人マスクをしていないや. ここでは買い物をしないようにしよう).", 
-nama + ": 特にありません.", 
-"客: この果物、全部でおいくらですか?", //70
-"果物屋: 全部で50,000ルピアです.", //71
-"果物屋: どうぞ買っていってください.どれも新鮮ですよ.",
-"女性: あそこのパン屋さんは古い市場に移動したみたいですよ.",
-"魚を手に入れた!",
-"屋台: Pasar Lamaだって? ここから真っすぐ歩けば付きますよ.", //75
-"店員: マスク? 隣のお店で買えますよ!", //76
-"会社員: あのマスクをしていない人に一言言わなければ.",
-"女性: 聞きましたか? 中心街に住んでいるあの大家族、自宅隔離中らしいですよ!",
-"女性: そうですね. コロナウィルスの感染者はますます増えています.",
-"客: マスク二つでおいくらですか?", //80
-"服屋: 20,000ルピアです.", //81
-"パン屋: 好きなものを買っていってくださいね.",
-"パン屋: いらっしゃい. 出来立てですよ.",
-nama + ": ３袋でいくらになりますか?",
-"パン屋: 30,000ルピアです.", //85
-nama + ": わかりました. こちら代金です", //86
-"パン屋: ありがとうございます. こちらパンです", 
-"パンを手に入れた!",
-"服屋: 何をお探しですか?",
-"服屋: 何をお探しですか? こちらのマスクはおすすめですよ.", //90
-nama + ": マスク４枚でいくらになりますか?", //91
-"服屋: 40,000ルピアです.", 
-nama + ": わかりました, ４枚ください. こちら代金です.", 
-"服屋: ありがとうございます. こちらマスクです.", 
-"マスクを手に入れた!", //95
-nama + ": 何があったんですか?", //96
-"コロナ対応職員: あなたのお友達が陽性となったため, 隔離しなければなりません.",
-nama + ": 本当ですか, 彼にさっきあったばかりです.",
-"コロナ対応職員: それでしたら、あなたも検査を受けなくてはなりません. 私の友人が検査キットを持っています.",
-"検査結果: 陰性!", //100
-"コロナ対応職員: 14日間の自宅待機をお願いします. お大事にしてください!",
-"以上でゲーム終了です. ここまでプレイしていただきありがとうございました.",  
-"西区:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> 病院 </li>" + "<li> アパート </li>"+ "</ul>", //103    
-"東区:" + "<br>" + "<ul>" +"<li> 墓地 </li>" +"<li> 市役所 </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
-"ゲームオーバーです　車にひかれてしまいました.",
+    "バスの運転手: 当バスをご利用いただきありがとうございます. ご乗車の前の検温にご協力ください.",
+    "運転手: 体温が37.5度以上ある場合, 街に入ることはできません.", //1
+    "若い女性: ずいぶんと時間がかかりますね.",
+    "若い男性: 何度でした?",
+    "検査員: 36.8度ですね. どうぞお入りください",
+    "検査員: 熱を測りますね.", //5
+    "検査員: 36.2度ですね. あちらで健康管理カードを確認します.", //6
+    "検査員: ようこそ. こちらで体温を測ってください!",
+    "カード検査員: 健康管理カードを見せていただいてもいいですか?",
+    nama + ": はい、これです.",
+    "カード検査員: ありがとうございます. 陰性ですね. どうぞお入りください.", //10
+     "カード検査員: こちらで健康管理カードを確認します!", //11
+    "客: すみません, このとうもろこしとトマトは合わせていくらですか?",
+    "八百屋: 全部で25,000ルピアです.",
+    "八百屋: 何をお探しですか?",
+    nama + ": (わあ, この人マスクをしていないや. ここでは買い物しないようにしよう).", //15
+     nama + ": 特にありません.", //16
+    "女性: あれ。いつもの八百屋さん、どこに行ったんでしょう?",
+    "男性: 倉庫のカギどこに置いたっけ?",
+    "工場警備員: コロナウィルスが流行っているけれど、がんばって働き続けなければなりません.",
+    "女性: 迎えはどこにくるのかしら?", //20
+    "駐車場管理員: バスの運転手はどこに行ったんだ? 困ったもんだよ.", //21
+    nama + ": すみません, ここはどういったところですか? なぜ警備しているのですか?",
+    "看護師: ここは新型コロナウィルス患者専用の宿泊療養施設です.",
+    "看護師: お体に気を付けてください. くれぐれもここに入ることのないように.",
+    "医師: 新型コロナウィルスがますます増えているから, ベッドももうすぐうまってしまいそうだよ.", //25
+    "医師: 熱や咳や鼻水が出たら, すぐに病院に行ってくださいね.", //26
+    "経営者: コロナウィルスのせいで, 多くの企業が被害を受けているよ.",
+    "女性: コロナウィルスが流行っているので, 他の人と集まるのはやめましょう.",
+    "コロナ対応職員: ここの家族はコロナウィルスで自宅隔離を行っています.",
+    "会社員: コロナウィルスのせいで、多くの人が職を失ってしまったよ.", //30
+    "子供: しっかり運動しなきゃ.", //31
+    "おばあさん: すみません、私の夫をみませんでしたか?",
+    "おじいさん: すみません、私の妻をみませんでしたか?",
+    "おばあさん: 道を渡るときは、気を付けてくださいね.",
+    "リポーター: コロナウィルスにかからないために、何かみなさんに伝えたいことはございますか?", //35
+    "市長: しっかりと人との距離を保ち, 常にマスクを着用し, 人込みに行かないようにしてください.", //36
+    "リポーター: 条例違反した人にはどれくらい罰金が科されるのでしょうか?", 
+    "市長: ここでは、250.000ルピアです.", 
+    "コロナ対応職員: 大変だ, コロナウィルスの患者数が毎日増えているよ.",
+    "コロナ対応職員: 何かご用ですか? どなたかのお墓参りですか?", //40
+    nama + ":道に迷ってしまったんです.", //41
+    "コロナ対応職員: ここはコロナウィルスにより亡くなってしまった方たちの墓地です.",
+    "店員: 大変だ、商品がもうずっと来ていない.",
+    "親戚: やあ! " + nama + " 久しぶりだね!",
+    nama + ": やあ、久しぶり. 外なのにどうしてマスクをしていないの?", //45
+    "親戚: 気にするなって, 家の前だけなら大丈夫だよ! 弟が君を待っているよ.", //46
+    "親戚: やっと着いたんだね! どうしてこんな時間になったの? もう少しでご飯を買いに行くところだったよ.",
+    nama + ": バス乗り場に行く前に、簡易検査を受けてきたんだ. そしたらバスに乗り遅れちゃってさ.",
+    "親戚: なんで検査なんかうけたの? 僕なんかマスク付けないで外出してるよ.",
+    nama + ": コロナウィルスを甘く見ちゃいけないよ! 毎日感染者が増えているんだから!", //50
+    nama + ": マスクをしたくないっていうなら, 僕が食べ物を買いに行くよ, また戻ってくるね.", //51
+    nama + ": (はあ, あとで彼らにマスクを買ってあげなきゃ).",
+    "親戚: ありがとう.Pasar Baruでパンを買ってきてくれないかな.",
+    "店員: いらっしゃい, 是非店内を見ていってよ.",
+    nama + ": (ここには欲しいものはなさそうだな).", //55
+    "女性: 何を買うべきかしら?", //56
+    "店員: マスクをお探しですか? マスクならPasar Lamaにある私の親戚がやっている店の近くの店にありますよ.",
+    "客: すみませんこの野菜と肉と魚, 全部でおいくらですか?",
+    "店員: 45,000ルピアです.",
+    "魚屋:　どうぞ、お好みの魚と野菜を選んでいってくださいね.", //60
+    "魚屋: どうぞ、お好みの魚と野菜を選んでいってくださいね.", //61
+    nama + ": この魚は一キロ当たりいくらですか?",
+    "魚屋: 35,000ルピアです",
+    nama + ": それでは、一キロください. こちら代金です",
+    "魚屋: ありがとうございます. こちらお買い上げの品です", //65
+    "女性: いつのパン屋さんはどこにいったのかしら?", //66
+    "肉屋: 何をお探しですか?",
+    nama + ": (わあ、この人マスクをしていないや. ここでは買い物をしないようにしよう).", 
+    nama + ": 特にありません.", 
+    "客: この果物、全部でおいくらですか?", //70
+    "果物屋: 全部で50,000ルピアです.", //71
+    "果物屋: どうぞ買っていってください.どれも新鮮ですよ.",
+    "女性: あそこのパン屋さんはPasar Lamaに移動したみたいですよ.",
+    "魚を手に入れた!",
+    "屋台: Pasar Lamaだって? ここから真っすぐ歩けば着きますよ.", //75
+    "店員: マスク? 隣のお店で買えますよ!", //76
+    "会社員: あのマスクをしていない人に一言言わなければ.",
+    "女性: 聞きましたか? 中心街に住んでいるあの大家族、自宅隔離中らしいですよ!",
+    "女性: そうですね. コロナウィルスの感染者はますます増えているということですね.",
+    "客: マスク二つでおいくらですか?", //80
+    "服屋: 20,000ルピアです.", //81
+    "パン屋: 好きなものを買っていってくださいね.",
+    "パン屋: いらっしゃい. 出来立てですよ.",
+    nama + ": ３袋でいくらになりますか?",
+    "パン屋: 30,000ルピアです.", //85
+    nama + ": わかりました. こちら代金です", //86
+    "パン屋: ありがとうございます. こちらパンです", 
+    "パンを手に入れた!",
+    "服屋: 何をお探しですか?",
+    "服屋: 何をお探しですか? こちらのマスクはおすすめですよ.", //90
+    nama + ": マスク４枚でいくらになりますか?", //91
+    "服屋: 40,000ルピアです.", 
+    nama + ": わかりました, ４枚ください. こちら代金です.", 
+    "服屋: ありがとうございます. こちらマスクです.", 
+    "マスクを手に入れた!", //95
+    nama + ": 何があったんですか?", //96
+    "コロナ対応職員: あなたのお友達が陽性となったため, 隔離しなければなりません.",
+    nama + ": 本当ですか, 彼にさっきあったばかりです.",
+    "コロナ対応職員: それでしたら、あなたも検査を受けなくてはなりません. 私の同僚が検査キットを持っています.",
+    "検査結果: 陰性!", //100
+    "コロナ対応職員: 14日間の自宅待機をお願いします. お大事にしてください!",
+    "以上でゲーム終了です. ここまでプレイしていただきありがとうございました.",  
+    "西区:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> 病院 </li>" + "<li> アパート </li>"+ "</ul>", //103    
+    "東区:" + "<br>" + "<ul>" +"<li> 墓地 </li>" +"<li> 市役所 </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104    
 ]
