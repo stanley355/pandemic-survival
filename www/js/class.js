@@ -1,3 +1,4 @@
+// git commit
 class Background { //class to draw background so the canX and canY can be multiplied in easier syntax
     constructor(picX, picY, picW, picH){ 
         //target picture X, Y, Width, Height

@@ -9833,7 +9833,7 @@ var onloadTextEng = [
     "Shopping list:" + "<br>" + "<ul>" +"<li> Ikan </li>" +"<li> Bread </li>" + "<li> Masks </li>"+ "</ul>", //7
     // system
     "Game over. You were hit by a car.",
-    "Game over. You ran out of heath.",
+    "Game over. You ran out of health.",
 ]
 var txt1Eng = [
     "Friend: Hey, where are you going? Come here!", //0
