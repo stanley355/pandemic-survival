@@ -252,7 +252,6 @@ amPaLang.onclick= function(){ openAmPaNav();}
 closeAmPaNavBtn.onclick= function(){ closeAmPaNav(); }
 document.getElementById("papua").onclick= function(){ changeLang('papua')};
 document.getElementById("biak").onclick= function(){ changeLang('biak')};
-// document.getElementById("lani").onclick= function(){ changeLang('lani')};
 
 // asing lang
 var asingLang = document.getElementById("asingLang");

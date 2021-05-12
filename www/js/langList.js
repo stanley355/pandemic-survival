@@ -8846,6 +8846,26 @@ nama + ": Ole, bao di cumang hia aku.",
 
 ]
 
+// Ende
+var indexTextEnde = [
+    
+]
+
+var onloadTextEnde =[
+]
+
+var txt1Ende = [
+
+]
+
+var txt2Ende = [
+
+]
+
+var txt3Ende = [
+
+]
+
 // papua
 var indexTextPapua = [
     "Mulai baru",
@@ -9327,245 +9347,7 @@ nama + ": Boo, insanja yasrow baboi.",
 "Farfnak namnai, mobil far pum au",
 ]
 
-// lani
-var indexTextLani = [
-    "Iyalok paga nen eriyak",
-    "Yine kunggarak egu eriyak",
-    "Awingga paga",
-    "Mande kulli wagariyak ",
-    "Ulaga ata kolaga",
-    "Ulaga",
-    "Ulogwe",
-    "Kolaga",
-    "Kone alik ambi eruu",
-    "Endage",
-    "An nendage Dius Kogoya",
-    "Iyalok paga ambinom norak ",
-]
-var onloadTextLani = [
-    // level 1
-    "Aeeee waaa yine kunugun nogo ebbe ti endage Covid ndan-ndak nalok kalok erak mee ta nen ambi wakager arinuk enik mondok logorak erugun. Yine kunugun inikime yime nogo kungi andi endage Covid-19 wonage kagak enggelame time aret nagun." + "<br>" + "Nee yine kunggwi tibaga kit mondok kinagap ndariyak paga yugu nogo mondok ndan-ndak eriyak nogo ambi, kinebe tayorogon mban logorak, ambi kinenggi top paga mban koriyak, ambi kinenggi amburu waka wariyak, ambi inetegen paga nabeka mondok naberiyak, tinuk ambi akumi inebe ambik kuwak agome norak leek.", //0 
-    "Ilime Aginggwe abenggan panggwe nabenak, kulli ambi mbanak wonage ti nogo nit ninagap ndariyak mendek nabenak. Ndi kuli mbanak nogo leek age keenok, yine kuniyak nogo ngarupurak, tinuk yine nogo iyalok paga nen erinorak.", //1 
-    "Yine iyalok paga kuniak nogo abok epunuk kiname eyongga ambepaga norak." + "<br>" + "Oberogon ambi eriyak ti yine kuniyak nogo awo nagalek logonet koreluk ambi kimbirak obelom nogo yoriyak." + "<br>"+ "Yine kunir tu ndan-ndak norak yogotak nanip ooo waaa!", //2 
-    // level 2
-    "Tubaga nogorak egu norak paga wogotak nogo waaa yogo ooo. Tubaga norak nogo kwee ninagalo ndukak nen wone ninom mbanugun.", //3
-    "Nit ninagap ndarogo eriyak yugu nogo kinaminggor perak arugup ndi ti nogo nit yogondak kungi andi Covid-19 nogo enggelame aret wonoge me. Aeee waaa yogondak nee mbere paga norak nogo ndan-ndak togon aret arinaok ooo.",//4 
-    // level 3
-    "Aee waaaa, Kit tuu nggorek norrak yogotak nogo yogondak iripaga aret ariwagorak. Ndi yogondak nogo ambinom mban eriyak nduk ari wogorak mee kat koreluk onageme ndukak pekanaok oo." + "<br>" + "Tupaga undagalogonet mondok lirogon. Mondok kinagapp ndarogo eriyak yugu lirogon erinu, iyalok lombok tii kinebe tayorogon mban logorak, inetenggen paga nabeka abu yugu mban logorak, tinuk akumi abuga kuwak ago mee logogup.", //5 
-    "Oo'o kotta unggagalek logonet, kiit mondok kinoba aganggen kin wakorak, tinuk kinamendek kinendage kinobba kinagapp ndarak liru mbanak titi'girorak. Aee waaa tubaga norak yogotak nogo nanipp oo!", //6 
-    "Kuniyak kerro endage liru mbaniyak:" + "<br>" + "<ul>" +"<li> Ikan </li>" +"<li> Roti tawar </li>" + "<li> Masker </li>"+ "</ul>", //7
-    // system
-    "Yine kuniyak abok aret ekorak. Kat mobin nen ambiranggakerak.",
-    "Yine kuniyak abok aret ekorak. Kat kagapp ndariyak leek agarak.",
-]
-var txt1Lani = [
-    "Noreluk nen: Wologwe, kit ngeme nongwe? Yime ndukak woranip!", //0 
-    "Noreluk nen: Wologwe, kinenggi top paga koriyak kinami arugup, oo!", //1 
-    "Noreluk nen: Kinenggi koromonggotak paga nen, ninenggi abok aret kokorak me kungi andi ninoba arigin abu leek.", 
-    "Noreluk nen: Kinenggi an naoronggam koriyak endak aret.", 
-    "Aee waaa, kenggi abok aret kokendak!", 
-    "App tawe erak nen: Ogalo Tubaga maluk ekorak me kinaonak ooo, togop kwee kit tu penonggwe tibaga norak endak.", //5 
-    "Paame kundak wonaga nen: Elege tawe, kit nonggop nduk inetenggen nabeka naberulik? Inetenggen nabeka ebe yi naberinip.", //6 
-    "Inetenggen paga nabeka abok kologorak", 
-    "Paame kundak wonaga nen: Opp aret, kit inetenggen paga nabeka abok yikotaka keenok! Yogondak woranip.", 
-   nama + ": Keyage waaa yoriyak!", 
-    "Kiniki aberak mban logorak nogo, Kinebe tayorogon mban arinuk opp togon logorak oo!", //10 
-    "*Uhuk* Kwe ambi anggok nen: Elege an nowoluk ambi kinegen kogotak? Ebe inetenggen paga nabeka naberalek nagarak oo!", //11 
-    nama + ": Hoo, Ebe eyonggame time nenegen kagarak.", 
-    "Kwee anggok nogo nen: Nagaluk, Inetenggen paga nabeka yi wagarinorak endak?", 
- nama + ": Endak aret.", 
-    nama + ": Inetenggen paga nabeka yi kat kowogogelo nen pagagerak. Yiru nduk'waak!", //15 
-    "Yee, aeee waaaa!", //16 
-    "Agalo nen: Nagaluk, kat kame abok wagandak. Aeee top inenggi koka keero ambi kuninak, ndaa?", 
-        nama + ": Ngeme ngwe, Nagalo?", 
-    "Agalo nen: Larak ogobegak nogomengganok kwe Ani paga time.", 
-    "Yani: Noweluk, kat nano kwari wagandak?", //20
-      nama  + ": Top inenggi koka kuniwagarak.", //21
-    "Yani: Hoo, Nonok akonggwe aret unggwimok.", 
-    "Ani: Aee waaa, nano kuniwagandak?", 
-        nama + ": Top inenggi koka ambi agarik?", 
-    "Ani: Hoo, onage aret. Noweluk, Yi aret kagan!", //25
-    "Top inenggi koka nogo abok korakirak!", //26
-    "Agalo nen: Aeee waaa, Nagaluk. Omme unggwi wagalek logonet kenggi top paga koriyak kami arugun, ooo!", 
-    "Nenggi abok kokirak!", 
-    "Aeee waaa Yine iyalok kuniyak nogo abok aret yogo!", 
-        nama + ": Nagalo, top enogo ebe yi.", //30
 
-]
-var txt2Lani = [
-    "Kwee nen: Nagalogwe kit kwee anggok amendek lingge mbi waganombanok norak endak?", //0
-nama + ": Nagalo, Opp aret oo.", //1
-"Ndi togopp keenok,tubaga abu lirogon aret nanu!",
-"Noreluk nen: Ulaga, " + nama + " Karuk konenu, Kwee Joko apiri nogo kugi nadi Covid obba agarak.", 
-"Elege mbuluk ambi nen: Hosh...hosh...An name abu mondok norak aret.", 
-"Elege mbuluk nen: Hatsi...hatsi...", //5
-nama + ": Elege ti nonggop ekerak, Nagalo?", //6
-"Kumi nen: Ebe kondok ekerak,amunggur ale inom tinuk togi lele ekerak. Togop kenok nit elege inamiya wagambunuk lipurak paga wogorak.", 
-nama + ": Eyeee. Nagalo, Kungi andi Covid nogo leek aruak ooo.", 
-"Elege iangalomini nen: Nagaluk, Aeee waaaa.",
-"Kumi inagok : UHUK UHUK", //10
-nama + ": (Eyaaa, togop keenok an nebe abu tayo ikit ooo)", //11
-nama + ": (Aeee, an mondok kwee anggok ambi mbet-mbet waganombanok nakir)",
-"Akummi andi inirum wenaga: Ndi kaat andibaga norak keenok, iringga lirru mbanak wonok norak ebbe yii.",
-nama + ": Aeee an maluk ekirak ooo, an andibaga nolik ekirak. Waaa kaonak.",
-"Kumi nen: Nagaluk, Aeee mondok kebe tayorogon arinu oo.", //15
-"Eyonggen kungga nen: Noweluk, Nano kwaarit nege?",
-nama + ": Leek oo nogoba. Waa kaonak.",
-nama + ": (App yi nogo inetenggen nabeka naberulik. An eyonggen mbanak yime kuniwage leek.)",
-"Kumi nen: Roti ekemenggerak ngeme nagarak?", 
-"Eyonggen mbanak kuniyak pega nen: Noweluk. Kunggolamok nda, eyonggen mbanak ebe aoo wagarak.", //20
-nama + ": Aeee waaa, Nagalo. Yogondak ambi kuniyak leek ooo. ", 
-"Eringga kalengga kuniyak pega nen: Noweluk, Kat nano korarit nege?", 
-nama + ": Aee, Nagal. An ambi korarit nege leek ooo.",  
-nama + ": Aee norewi, tuu oo ngorek wurik me time norak ngebaga?", 
-"App tawe nen: eyee, kit abbu mondok tuu iyalok paga wogotak panggwe aret norak ooo.", //26
-"Waaa, Nenggi abok yii konagarak!", //26
-"Narombo nen: kolaga yi wae, " +nama+ " An karombo nenu tii, kaat Kagalo nen. Karombo namendek katt paga napiwagarak.", 
-nama + ": Obet aret, nowogogwelo!",
-nama + ": An nagalo nen kamedek pagagerak nogo yio.",
-"Narombo nen: Hoo, Aeee waaa.", //30
-"Narombo nen: Aeee, Kowogogwelo amendek top yiwak ana torak kero ambi inom tomato ambi inom kundiriyak endak aa?", //31
-nama + ": Endak aret, Narombo.",
-"Narombo nen: Aeee waa. Manni ebbe yio.",
-"Narombo nen: Kaminggor mondok arugun kebe tayorogon mban ariyak, oo!",
-"Eyonggen mbanak kuniyak pega nen: Noweluk. Omok ndaa, Eyonggen mbanak ambi lenggola'omok. Eyonggen ebee awo mbanak aret.", //35
-nama + ": Nagalo, Tomatto ambi agarik?", //36
-"Eyonggen mbanak kuniyak pega nen: Wonage ooo, Noweluk. Ambbi Yikwak awoo wagarak.",
-nama + ": Opp aret, Nagalo. Lingginik yogopp keenok onggo mande?",
-"Eyonggen mbanak kuniyak pega nen: Ebbe onggo tii nenggi mbere linggik aret (10.000).",
-nama + ": Opp aret, Mani abbe yi nde, Nagalo.", //40
-"Enyonggen mbanak kuniyak pega:Aee waa, Noweluk.", //41
-"Eringga kalengga kuniyak pega nen: Noweluk, Nano kwarit wagandak?",
-nama + ": Top amburu yenggenak wonage, Nagalo?",
-"Eringga kalengga kuniyak pega nen: Wenage. Onggo ebbe nenggi mbere lingik (Rp10.000).",
-nama + ": Opp aret, manni ebbe yii.", //45
-"Top amburu yenggenak abok kunggarak", //46
-"Eringga kalengga kungga nen: Aeee waaa.", 
-"Tini Ambime menggarak nen: Eyee, kat nogo aret tawe agandak, eyaa. " + nama,
-"Ninowogogwelo nen: kolaga, " + nama +". Nonggop kat karombo ambi panegerak kagan?",
-nama + ": An Narombo wonageme ndukak naa, Nowogogwelo.", //50
-"waaa, nenggi abok kokirak!", //51
-nama + ": Top inom tomatto inom pegerak yio Narombo.", //52
-"Nowogogwelo nen: Aee waaa. " +nama + ". Aeee yii ndukak kondiru nda.",
-"Tomatto ebbe abbok yii korak",
-nama + ": An abbok yii kokirak, nowogogwelo.", //55
-"Nowogogwelo nen: Aee waaa. Omok, unggwimok nda. Niyo aganggen erak ambi norak.",
-nama + ": Nowogogwelo, Opp aret.",
-"Tomato abbok kunogo pegarak",
-"Waa, Wone mbere paga yurak mbanak nogo abok aret.",
-nama + ": (An amburu inenggi mbelengga ambi ndukak erikit).",
-
-
-]
-var txt3Lani = [
-    "Tati ngokalo wonok nega nen: Aeee waaa ninamendek paga lagiwogotak nogo. Aeee oo'o tini ngokme unggagalek logonet kinoba aganggen ndukak agi time peka norak.",  
-"App tawe: Ndi kiit kinoba aganggen tiyanak 37,5 keenok tii oo'o tini ngokme time unggurak leek.", //1 
-"Komologwe tawe nen: Eyuu, abbu mondok elambirikz aret taa.", 
-"App tawe nen: An noba aganggen mande, kolaga yii?", 
-"Inoba aganggen pekaga nen: Kaat kobba aganggen 36,8 toberogon. Waaa unggwimok.",
-"Inoba aganggen pekaga nen: Noweluk, an kobba aganggen yogondak aret pekakit.", //5
-"Inoba aganggen pekaga nen: 36,2 Tibaga agarak. Kiit kinendage liru kinoba kinagapp ndarak mbanak nogo agi time titi'girananipp", //6
-"Inoba aganggen pekaga nen: Noweluk, Koba aganggen ndukkwak yime wakamok!", 
-"Inoba inagapp ndarak pekaga nen: Noweluk, Kendage inagapp ndarak liru mbanak nogo nenegen pekorak endak?",
-nama + ": Abe yii, Nogoba.",
-"Inoba inagapp ndarak pekaga nen: Oberogon, kamiya waganggarak nogo ebe opp agarak. Oo'o tini ngokme unggurak endak aret.", //10
- "Inoba Inagapp ndarak Pekaga nen (KKK): Noweluk, kendage liru mbanak inagapp ndarak nogo yime titik nirimok", //11
-"Kuniwaga nen: Nagalo, Togopp mee parruk inom tomatto inom tii abok keenok mande?",
-"Mbingga kuniyak pega nen: Yii abok aret keenok Rp25.000, Nagalo.",
-"Mbingga kuniyak pega nen: Noweluk, Nano kwarit nege?",
-nama + ": (Eyee, Kwe yii inetenggen paga nabeka yirulik ekerak. An aat nimbirak kuninorak nebi ooh).", //15
-nama + ": leek, Nagalo.", //16
-"Kummi nen: Hmmm, mbingga kuniyak yime pega nogo ngeme nagarak, yaa?",
-"App nen: Eyee, Tugwi eringga kalengga pogomengganam nggeme pigirak, yaa?",
-"Tunggapaga Yabbu ekomengganom kundak wenaga nen: Kungwi anditii wage kagak an yabu mondok ekee aret logogin.",
-"Kummi nen: Aiii,waninabi wagarak ebbe ngge nda, yaa?", //20
-"Momin ko'wake mindak wenaga nen: Eyee, Mobin kolegalo yii ko'warogo pegerak ebbe nggeme nagarak, yaa? Enna konalek erogo pegerak.", //21
-nama + ":Yime nonggopp ekomengganom? Tinuk nonggopp nduk irum wenage, yinuk kiin abbu wanaburak?",
-"Akumi andi inirum wenaga nen: Hoo, Yime akumi kugwi andi Covid-19 keero piyorak inawi kambonak.",
-"Akumi andi inarum wenaga nen: Noweluk, kobba andi ekake kerro lipaturak. Yimme ambinom mban unggwi worokwak mee.", 
-"Doter akumi andi leek eginaka nen: Akumi kugwi andi Covid-19 inoba agarak abugwa nen, oo'o andibaga abbok yagabit ariyak aret agarak.", //25 
-"Doter akumi andi leek aginaka nen: Kiit ambbi kinoba aganggen ekinake, kondok yungwi, atta ambi kinamunggur alle ambi ekinake keenok, andibbaga mbet-mbet aret weranu, oo.", //26 
-"Pengusaha: Di masa pandemi ini, banyak pengusaha yang bisnisnya terdampak.",
-"Kummi tawe nen: Kungwi andi yinogo wenage kagak, kinebe ambime akumi kinom kuwak ekkwi nogo tayoyurak.", 
-"Akum'mi kungwi andi Covid erak koraginaka nen: Akum'mi omme yime abbok aret kungi andi Covid-19 nen undiwororak leek yinuk kele wakolagarak.", 
-"Ineyabu mirik nen: Kugwi andi yii wagarak nen yabbu ekomogorak abbu modok aret leek agarak.", //30
-"Elege abologwe nen: An mondok kuluk-kaluk yabu mban ekke logorak.", //31
-"Kummi inanggok nen: Nagaluk, An nore ambi kenegen kagandak aaa?", 
-"App inaggok nen: Napuluk, an nakkuwi ambbi kagandak?", 
-"Kummi inaggok nen: Tubaga undagalogonet keenok, mondok lirogon, oo.", 
-"Akummi wene yugu liru mbangga nen: Kaat korewi kungwi andi Korona (covid) nogo inobba agge keero inakke nen wene nonggopp yorammunggun?", //35
-"App tinni ngwook mee pirogo wenaga nen: Kinagapp ndarogo tayorogon mban logorak, inetenggen paga nabeka yugu mban logorak, tinuk kuwak agome logorak leek.", //36
-"Akummi wene yugu lirru mbangga nen: Nogobba, Akummi wene inagapp ndarogo eriyak yugu nogo ekwi leek keenok onggo mande purak?", 
-"App tinni ngwook mee pirogo wenaga nen: Niit niname yime onggo 250.000 pogo logorak yogorak.", 
-"Akum'mi andi korona (Covid) erak koraginaka nen: Eyaaa, Kolu-kimme akumi inoba andi laginagak mban enage agarik oooo.",
-"Akum'mi andi korona (Covid) erak koraginaka nen: Noweluk, kaat ngemendek ambi eriyak? Ambi koraginabi wagandak, yaa?", //40 
-nama + ": Nogobba, An tuu kobbak agarak.", //41 
-"Akum'mi andi korona (Covid) erak koraginaka nen: Yime akummi korona (Covid-19) paga kanggarak nggwen mbanak.",
-"Kunggomengganom iruum wenaga nen: Eyahh, Iringga ebbe abbu mbet-mbet aret ariwagalek.",
-"Noreluk: Kaonak! " + nama + " Maantogon abbu lambunggalek wonogorak!",
-nama + ": Yaa, Maantogon abbu lambunggalek wonogorak. Eyaa kiit endekem yime mondok inetenggen paga nabeka naberalek aret nugwi?", //45
-"Ulaga noreluk: Aee, ulaga nore wee omme yaii mban aret! Yee togopp keenok, an nauluk maan kaat tokake.", //46 
-"Ulaga noreluk: Kaat maan ariwagandak! Nonggopp nduk elambirik abbu wenagandak? An kambbi aoo'yiaret kunggiriak nduk ekembakki.", 
-nama + ": Eyaa nore, mobin kolegalo ko'wakemeggenom aoo'nagalek logonet kamiya ndukak pekorak. Mobin kolegalo paga norak elambirik agarak paga neen yagi ooo.",  
-"Ulaga noreluk: Kamiya nonggopp nduk pekorak yagan? An kunduk ngeme-ngeme nagalogonet inetenggen paga nabeka timendek ambitak nabekelik aret.", 
-nama + ": Wee yuggwi mbakak erugun oo! Kungwi andi nogo ambi obba agak kollu-kimme abugwa agge kenu!", //50
-nama + ": Ndi kaat inetenggen paga nabeka naberiyak kebbi keenok, opp aret an mban mbi aret kunikit. Tinuk an melanuk weragin.", //51 
-nama + ": (Hmmm, An nen inetenggen paga nabeka kundirakit).",
-"Ulaga noreluk: Aeee, waa kaonak. Roti werarak kunggomengganom aoo erak'mee ambi keero kunggak naak nda.", 
-"Kuniyak penga nen: Aeee, Noweluk. Kiniki neen koraru nda.",
-nama + ": (Hmmm, an kuniyak mbakirak ebbe yime leek ooo.", //55
-"Kummi nagalomini nen: Hmmm, Nano kuniyak, yaa?", //56
-"Kuniyak pegga nen: Noweluk, Inetenggen paga nabeka korake yaa? Penonggwe kunggomengganom induk erak me time an noreluk ambbi inetenggen paga nabeka kuniyak pege.",
-"Kuniyak nen: Nagalo, Kuniyak pegendak Mbingga, Waam, tinuk yikwe tii abbok mande yegendak?", 
-"Kuniyak pegga nen: Onggo ebbe Rp45.000, Nagalo.",
-"Yikkwe, mbingga inom kuniyak pegga nen: Noweluk yikkwe, mbingga ebbe, kiniki nen peker nda.", //60
-"Yikkwe, mbingga inom kuniyakpegga nen: Noweluk yikkwe, mbingga ebbe, kiniki nen peker nda.", //61
-nama + ": Nagalo, Yikkwe aninggin ambitak keenok mande?", 
-"Yikkwe kuniyak pegga nen: Aninggin ambitak keenok onggo Rp35.000 aret.",
-nama + ": Opp aret, aniggin ambiret keero wakit, Nagalo. Ndee manni ebbe.",
-"Yikkwe kuniyak pegga nen: Aee waaa. Kunggendak ebbe yi'oo.", //65
-"Kummi nagalomini nen: Roti ora'rak kunggemenggerak yime nogo ngeme nagarak, yaa?", //66
-"Wam kuniyak pegga nen: Noweluk, nano korarit nege?",
-nama + ": (Eyaa, App tii inetenggen paga nabeka naberarulik. An app tii nimbirak kuninorak nebi).", 
-nama + ": Leek, Nogoba.", 
-"Kuniyak nen: Nogoba, Eyonggen mbanak tii abbok keenok mande?", //70
-"Eyonggen banak kuniyak pegga nen: Ndi abbok lambbuk togon keenok tii Rp50.000, aret oo nagalo.", //71
-"Eyonggen mbanak kuniyak pegga nen: Yime kunggola omok, Noweluk. Eyonggen ebbe awoo mbanak aret.",
-"Kummi nagalomini nen: Noweluk. Roti pegga nogo inuduk kunggonaganom ene'time pinagarak.", 
-"Yik'kwe abbok kunogo pegarak!",
-"Akummi tuu amber paga kuniyak pegga nen: Kunggomengganom ngeme? Hoo, Noweluk, tu mondok yipaga mban yime nen aret norak.", //75
-"Kuniyak pegga nen: Inetenggen paga nabeka ngge? Hoo, Noweluk, Kunggomengganom awi wurikmen penonggwe time kuniyak endak!", //76
-"Akumi kunggomengganom irum wonaga nen: An nen app inetenggen pagga nabeka yirelek keenok ti yoringgin.",
-"Kummi nen: Nagalo, Karuk man konenggendak? Akummi nen yoggwe logonet, akumi ambi apirilogwe inom oo'o tini'nggok me time iname tu kele wakolanuk wonogwe yugwi tiraa!", 
-"Kummi nen: Eyaaa, Nagalo. Akumi Kungwi andi korona (Covid-19) noggo abungwa ndag wanarik laganggegarik.", 
-"Kuniyak nen: Nagalo, Inetenggen pagga nabeka mberendak keenok mande?", //80 
-"Yiminggok kuniyak pegga nen:Nagalo, Onggo ebbe Rp20.000.", //81
-"Rotti werarak kuniyak pegga nen: Noweluk, yime kunggolamok ndaSilakan dibeli rotinya.",
-"Rotti werarak kuniyak pegga nen: Noweluk, yime kunggolamok nda. Mbi rotti werarak ebbe aganggendik aret agarik.",
-nama + ": Nogoba, Rotti werarak kenagandak lingginik kenok onggo mande?",
-"Rotti werarak kuniyak pegga nen: Noweluk ebbe onggo , Rp30.000.", //85
-nama + ": Opp aret, manni ebbe yii, Nogoba.", //86
-"Rotti werarak kuniyak pegga nen: Aeee waaa. Rotti ebbe yii.", 
-"Rotti ebbe abok kunik!",
-"Yiminggok kuniyak pegga nen: Noweluk, nano korake?",
-"Yiminggok kuniyak pegga nen: Noweluk, nano korake? Inetenggen pagga nabeka yime oberonggon mban wenage.", //90
-nama + ": Nagalo, inetenggen pagga nabeka mbere linggik-mbere linggik keenok onggo mande?", //91
-"Yiminggok kuniyak pegga nen: Nowleuk, onggo ebbe Rp40.000.", 
-nama + ": Opp aret, an inetenggen pagga nabeka mbere linggik-mbere linggik kerro kuniyak, Nagalo. Manni ebbe yii.", 
-"Yiminggok kuniyak pegga nen: Aeee waaa. Inentenggen pagga nabeka ebbe yii.", 
-"Inetenggen pagga nabeka abbok kunik!", //95
-nama + ": Nano wonage yii?", //96
-"Akum'mi kungwi andi Covid erak koraginaka nen: Kat koreluk yii amiya waganggarak nogo kungwi andi obba agarak mbaki om'me kele warak logorrak paga wonok wagarak.", 
-nama + ": Eyahh, An nimbirak awoo aret lambunggirak bee.", 
-"Akum'mi kungwi andi korona (Covid) erak koraginaka nen: Ndi togopp keenok kat kunduk kamiya pekorak mban. Inamiya pekaga ebbe an noreluk pagga wenage.", 
-"Kamiya woggo nogo ebbe: Kungwi andi kobba leek!", //100
-"Akum'mi kungwi andi Covid erak koraginaka nen:Kaat abbu nee tamban mbere negen mondok kame tunarak logorak. Aeee waaa lambuniyak kulli !",  
-"Yine irik paga agarak. Aeee waaa yine yime nogo abbok aret kunggotak.",  
-"kwarenggwan panggwe tii oo tini nggok mee:" + "<br>" + "<ul>" +"<li> Kunggomengganom awoo ogobak kirik mee </li>" +"<li> Andi paga awii wurik mee </li>" + "<li> Oo'o onggo punuk mengganom </li>"+ "</ul>", //103    
-"Obenggwan panggwe tii oo tini nggok mee:" + "<br>" + "<ul>" +"<li> Akummi kambak pigomengganom </li>" +"<li> Oo'o tini nggok awii kambonak </li>" + "<li> kunggomengganom induk errak mee </li>"+ "</ul>", //104
-"Yine kuniyak abok aret ekorak. Kat mobin nen ambiranggakerak.",
-
-]
 
 // indonesia
 var indexTextIndo = [
