@@ -8848,21 +8848,490 @@ nama + ": Ole, bao di cumang hia aku.",
 
 // Ende
 var indexTextEnde = [
-    
+    "Baru mulai",
+"Bego lanjut",
+"Profil",
+"Kredit",
+"Gender",
+"Pili ",
+"Ata kaki",
+"Ata fai",
+"Roba bahasa",
+"Naja",
+"Roba naja kau",
+"Kembali walo menu utama",
 ]
 
 var onloadTextEnde =[
+    // level1
+    "Selamat datang lekaola bego Pandemic Survival. Leka onebego ina kau akan 19." + "<br>" + "Nebu jojobhoro kau dheko protokol kesehatan, ngere mera so beu, rasi lima no sabu, pake ae tau bersi lima, pake masker, mae bou mondo.", //0
+    "Lepa nggana wawo layar, latu garis kesehatan yang menunjukkan tingkat kesehatanmu. Demi garis ke sawe, olabego sawe harus mulai bego eo level mulu.", //1
+    "Ola jojo bhoro kau di level 1 sawe, demi kau selamat walo daghea one ghea ngebo." + "<br>" + "Nebu kae jojobhoro moloke kau meanosino im bheri kau." + "<br>"+ "Selamat mbana jojo bhoro!", //2
+    // level 2
+    "Selamat datang walo. Leka ola jojobhoro aku ina. Ola jojobhoro mulai no olagare no ine kau.", //3
+    "Ma'e narabebo dheko protokol kesehatan ngai kita nebu masa pandemi covid 19.",//4
+    // level 3
+    "Selamat, kau deki sawe leka ola mbana terakir. Leka ina kau baru deki gha kota tau rapatei no kunu." + "<br>" + "Hati-hati langga ghea jala. Tetap ndu atura kesehatan, terutama jaga jarak eo aman, pakai liba masker, no beu ata bhondo.", //5
+    "Nebu la'e maso kota, kau harus uku suhu no pera Kartu Kewaspadaan Kesehatan kau. Selamat olam mbana!", //6
+    "Daftar barang eo harus geti:" + "<br>" + "<ul>" +"<li> Ika </li>" +"<li> Roti tawar </li>" + "<li> Masker </li>"+ "</ul>", //7
+    // game
+    "Ola bego sawe do. Oto tabrak kau.",
+    "Ola bego sawe do. Kesehatan kau sawe.",
+
 ]
 
 var txt1Ende = [
-
+    "Imu: Hai, kau mo da emba? Mai dagha ro!", //0
+    "Imu: Hai,ma'e nara bebo rasi lima, e!", //1
+    "Imu: No rasi lima, pasti  lima kau bersi leka virus",
+    "Imu: Kau ngala rasi lima ghea nia one aku.",
+    "Molo, lima kau rasi sawe!",
+    "Anamuda: *Uhuk* Maaf ya, fao aku peu leka jala kau. Tapi, kau ngala dheko mena.", //5
+    "Penjaga  Gerbang: Anamuda, gena apa kau iwa pake masker? Ina masker pati kau.", //6
+    "Masker dapat do",
+    "Penjaga Gerbang: Bagus, kau pake do masker! Langga se.",
+    nama + ": Terima kasih!" ,
+    "Lele selalu mera so beu, e!", //10
+    "*Uhuk* Apa kau tei anamamo aku? Kai mbana iwa pake masker.", //11
+    nama + ": Oh, aku tei kai leka ngebo.", 
+    "Mamo: Ngala tolong pati masker ina leka kai, ana?", 
+    nama + ": Molo.", 
+    nama + ": Ina masker mamo kau. Pake ro!", //15
+    "Oke, terima kasih!", // 16
+    "Ine: Sayang, kau walo do?. Tolong geti sabu rasi lima, e?", 
+    nama + ": Lekaemba, Ine?", 
+    "Ine: Leka warung Bu Ani.", 
+    "Yani: Gae apa, Ka'e?", //20
+    nama + ": Mo geti sabu rasi lima.", //21
+    "Yani: Oh, langsung daghea one.", 
+    "Ani: Selamat datang, mo geti apa?", 
+    nama + ": Latu sabu rasi lima?", 
+    "Ani: Oh, molo. Ina, Ka'e!", //25
+    "Dapa sabu rasi lima!", //26
+    nama + ": Ina sabunke, Ine.", //30
+    "Ine: Terima kasih, Sayang. Ma'e nara bebo rasi lima demi mo maso one, ya!",
+    "Lima eo rasi!",
+    "Hore, level 1 sawe do!",
 ]
 
 var txt2Ende = [
+    "Ine: Kau ngala tu ka siang pati Babo?", //0
+
+nama + ": Molo, Ine.", //1
+"Hati-hati leka  jala, e!",
+"Tetangga: Hai, " + nama + " Lele Ine Joko gena covid.",
+"Ana lo'o: Hosh...hosh…ra'o 10 menit aku walo.",
+"Ana lo'o: Fena..fena...", //5
+nama + ": Ine, ana kau gena apa?", //6
+"Ine-ine: Kai bore no laraketa, kami mo mbana rapid tes.", 
+nama + ": Oh. Semoga iwa Covid ya, ine.", 
+"Ine-ine: Terima kasih, Ana.",
+"Babo-babo: UHUK UHUK", //10
+nama + ": (Aduh, aku harus mera beu na)", //11
+nama + ": (Wah, aku harus mbana lama tu baku pati babo)", 
+"Perawat: Demi kau mo beroba ina nomor antri.",
+nama + ": Maaf, aku iwa berobat. Terima kasih.",
+"Ine-ine: Tolong mera so beu, Ana.", //15
+"Atateka buah: Gae apa, Ka'e?",
+nama + ": Iwa, Ema. Terima kasih.",
+nama + ": (Bapak ina iwa pake masker. Aku iwa geti buah leka ina.)",
+"Ine-ine: Tukang roti daemba, e?",
+"Atateka buah: Silakan geti, Ka'e. Buah ke baru geti.", //20
+nama + ": Maaf, iwa, Ine.",
+"Atateka sembako: Gae apa, Ka'e?",
+nama + ": Oh, iwa gae apa-apa, Ine.",
+nama + ": Permisi, mbana menara dheko emba, e?",
+"Anamuda: Oh, kau harus putar walo jadwal.", //25
+"Hore,lima rasi sawe!", //26
+"Babo: Halo, " +nama+ " Eo babo ingat, Ine kau ngatu baku leka babo.",
+nama + ": Iya, Babo!",
+nama + ": Ina baku leka ine pati Babo.",
+"Babo: Oh, terima kasih.", //30
+"Babo: Ngala geti  sabu ae seboti no degelai pati Ine?", //31
+nama + ": Ngala, Babo.",
+"Babo: Terima kasih. Ina doi.",
+"Babo: Ingat mera so beu, ya!",
+nama + ": Molo, babo.",
+"Atateka buah: Mai, Ka'e. Silakan pili buah se. Buah eo segar.", //35
+nama + ":Latu degelai, Ine?", //36
+"Atateka buah: Latu, Ka'e. Eo ina baru mai.",
+nama + ": Molo, ine. Ina sebuku seapa?",
+"Atateka buah: Menga Rp10.000 .",
+nama + ": Molo, ina doi, Ine.", //40
+"Atateka buah: Terima kasih, Ka'e.", //41
+"Degelai geti sawe",
+"Atateka sembako: Mo gae apa, Ka'e?",
+nama + ": Sabu ae latu, Ine?",
+"Atateka sembako: Latu. Rp10.000 hargake.",
+nama + ": Oke, ina doi.", //45
+"Sabu ae geti sawe", //46
+"Atateka sembako: Terima kasih.", 
+nama + ": (Aku pake ae tau masa ro).",
+"Tetangga: Oh, kau du'a ria do, e. " + nama,
+"Mamo: Halo, " + nama +". Latu eo ka'e kau ngatu?",
+nama + ": Aku mbana ghea tempat babo ro, Nene.", //50
+"Molo,lima rasi sawe!", //51
+nama + ": Ina sabu no degelai eo babo ngatu leka rega.", //5
+"Mamo: Terima kasih. " +nama + ". Tolong  rasi ro, e.",
+"Degelai rasi do",
+nama + ": Aku rasi do, Nene.", //55
+"Mamo: Terima kasih. Mai, maso ro. Kita minu te ghea one.",
+"Molo, level 2 sawe.",
 
 ]
 
 var txt3Ende = [
+    "Supir: Terima kasih pake sawe jasa kami. Liba se uku suhu tubuh ghea nebu la'e maso kota.",
+"Anamuda: Demi suhu kau ghetawawo 37,5 derajat Celsius, kau iwa ngala maso kota.", //1
+"Anamuda: Duh, nala re'e do.",
+"Anamuda: Seapa suhu aku, weta?",
+"Pemeriksa suhu: 36,8 derajat Celsius. Maso se.",
+"Pemeriksa suhu: Ka'e, uku suhu ro leka ina!",
+"Pemeriksa suhu: Aku uku suhu slama e, Ka'e.", //5
+"Pemeriksa suhu: 36,2 derajat. Silakan pera Kartu Kewaspadaan Kesehatan di sana", //6
+ "Pemeriksa KKK: Ka'e, pera Kartu Kewaspadaan Kesehatan ro leka ina!", //11
+"Pemeriksa KKK: Ngala tei Kartu Kewaspadaan Kesehatannya, Ka'e?",
+nama + ": Ina, Ema.",
+"Pemeriksa KKK: Molo, hasil tes non-reaktif. Silakan maso kota.", //10
+"Ata eo geti: Ine, jadi seapa leimbeja jawa no dagalai?",
+"Atateka iya: Leimbeja Rp25.000, Ine.",
+"Atateka iya: Gae apa, Ka'e?",
+nama + ": (Wah, ine imna iwa pake masker. Aku ngange geti leka kai).", //15
+ nama + ": Iwa, Ine.", //16
+"Ine-ine: Hmmm,ata teka uta eo biasa leka ina, lekaemba?",
+"Ema-ema: Wah, kusi guda aku welu lekaemba, e?",
+"Ata jaga parkir: Aku kema so negi eleke pandemi.",
+"Ine-ine: Duh, emba ata dato, e?", //20
+"Ata jaga parkir: Wah, ata parkir oto lekaemba, e? Parkir rewo.", //21
+nama + ": Mo ale, ina tempa apa? Gena apa eo jaga?",
+"Perawat: Oh, ina sa'o pasien Covid-19.",
+"Perawat: Jaga kesehatan e, Ka'e. Ma'e raka maso leka ina.",
+"Dokter: Karena pasien Covid-19 eo semakin bhondo, ola uku ruma sakit no batas.", //25
+"Dokter: Demi kau rango, meke tu'u, atau bore, lama periksa ghea rumah sakie, e.", //26
+"Ataria: Nebu pandemi ina, bhondo ata ria yang bisnis ke eo gena.",
+"Anamuda: Nebu pandemi, so beu no ata riwu.",
+"Satgas Covid: Leka ina satu kluarga eo isolasi mesa gena Covid-19.",
+"Pegawai: Nebu pandemi ngere ina bhondo ata eo lewa ola kema.", //30
+"Ana lo'o: Aku harus raji olaraga.", //31
+"Mamo-mamo: ana, akau tei kaki aku?",
+"Babo-babo: Ana, kau tei fai aku?",
+"Mamo-mamo: Nebu langga ghea jala, kau harus hati-hati, e.",
+"Wartawan: Apa eo ema mo nosi we ma'e gena Covid?", //35
+"Walikota: Mera so beru, selalu pake masker, no ma'e rapabou.", //36
+"Wartawan: Seapa denda ebe eo langgar protokol Covid-19, Pak?", 
+"Walikota: Gha wilaya kita Rp250.000.", 
+"Petugas Covid: Adu, jumlah korban tambah terus no leja-leja.",
+"Petugas Covid: Latu urusan apa, Ka'e? Mau nyekar, ya?", //40
+nama + ": Aku lewa, ema.", //41
+"Petugas Covid: Ina rate ebe eo gena Covid-19.",
+"Ata jaga toko: Aduh, barang nala deki ke.",
+"Nara: Hai! " + nama + " Nala iwa rapatei!",
+nama + ": Ya, nala iwa rapatei. Kok miu ghea luar iwa pake masker?", //45
+"Nara: Tenanglah,menga ghea niaone! Oh ya, aji aku napa do kau.", //46
+"Nara: Hey, miu deki sawe! Gena apa nala? Aku baru mau geti ka.",
+nama + ": Iya, sebelum ke terminal bis aku rapid ro. Jadi segenea bisa mbana mulu do",
+"Nara:Tau apa rapid? Aku biasa iwa pake masker demi mbana-mbana.",
+nama + ": Jangan anggap remeh! No leja-leja tamba bhondo eo gena, mbe'o!", //50
+nama + ": Demi ngange pake masker, molo aku geti ola ka. Sawe ina aku mai walo.", //51
+nama + ": (Hmmm, napa aku geti masker pati ebe).",
+"Nara: Oh, terima kasih. Tolong geti liba roti ghea pasar baru.",
+"Atateka barang: Ya, pilih liba, Ka'e.",
+nama + ": (Hmmm, barang eo aku mo geti iwa latu leka ina).", //55
+"Ine-ine: Hmmm, geti apa, ya?", //56
+"Atateka: Gae masker ya, Ka'e? Toko-toko lepa ghea pasar nala",
+"Ata eo geti: Ine, jadi seapa harga uja leimbeja, nake, no ika?",
+"Atateka: Rp45.000, Bu.",
+"Atateka Ika dan iya: Pili liba, Ka'e ika no uta.", //60
+"Atateka Ika dan iya: Pili liba, Ka'e uta no ika.", //61
+nama + ": Seapa harga ika ina sekilo, ine?",
+"Atateka Ika: Rp35.000.",
+nama + ": Molo, geti sekilo e, ine. Ina doi ke",
+"Atateka Ika: Terima kasih. Ina belanjaan ke.", //65
+"Ine-ine: Ata teka roti biasa leka ghea leka emba, e?", //66
+"Ika geti sawe!",
+"Atateka make: Gae apa, Ka'e?",
+nama + ": (Wah, Ema ghea iwa pake masker. Aku iwa geti leka kai).", 
+nama + ": Iwa, ema.", 
+"Ata eo geti: Pak, seapa harga buah ke leisawe?", //70
+"Atateka buah: Leisawe Rp50.000, Ine.", //71
+"Atateka buah: Geti se, Ka'e. Buah ke segar letu.",
+"Ine-ine: Ata teka roti mena, pindah sawe ke pasar nala, Ka'e.",
+"Ata teka leka jala: Pasar? Oh, mbana liba to'o gha, Ka'e.", //75
+"Atateka: Masker? Oh, ngala geti ghea toko, Ka'e!", //76
+"Petugas: Aku raka mega ema tau pake masker.",
+"Ine-ine: Ine, lele do? Nosi keluarga ria isolasi ghea one!",
+"Ine-ine: Iya, ine. Leisawe eo gena covid 19 nai.",
+"Ata eo geti: Berapa harga masker esa rua ina, ine?", //80
+"Atateka baju: Rp20.000, Bu.", //81
+"Atateka roti: Geti se roti, Ka'e.",
+"Atateka roti: Geti se, Ka'e. Rotinya petu letu.",
+nama + ": Roti buku telu sa-apa, Ema?",
+"Atateka Roti: Rp30.000, Ka'e.", //85
+nama + ": Molo, ini doi ke, Ema.", //86
+"Atateka Roti: Terima kasih. Ina roti ke.", 
+"Roti geti sawe!",
+"Atateka baju: Gae apa, Ka'e?",
+"Atateka baju: Gae apa, Ka'e? Masker ke gaga-gaga.", //90
+nama + ": Berapa harga masker esa sutu,Ine?", //91
+"Atateka baju: Rp40.000, Ka'e.", 
+nama + ": Molo, aku geti masker esa sutu, Ine. Ina doi ke.", 
+"Atateka baju: Terima kasih. Ina masker.", 
+"Masker geti sawe!", //95
+nama + ": Latu apa ina?", //96
+"Petugas Covid: Imu kau ina aku tu tau isolasi ngai kai positif covid.",
+nama + ": Ha, aku baru rapatei no kai segenea.",
+"Petugas Covid: Demi ngere gharu miu haris tes ngeni. Alat tes ke latu leka imu aku.",
+"Hasil tes: Non-reaktif!", //100
+"Petugas Covid: Miu harus isolasi mandiri raka 14 hari. Napa rapatei walo!",
+"Olabego sawe do. Terima kasih fonga do bego ola bego ina.",  
+"Nggeu kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> one ria bewa </li>"+ "</ul>", //103    
+"Nggana kota:" + "<br>" + "<ul>" +"<li> ola rate </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar nala </li>"+ "</ul>", //104
+]
+
+
+// adonara
+var indexTextAdonara = [
+    "Mulai wu'u",
+    "Gelaha mu",
+    "Profil",
+    "Kredit",
+    "Gender",
+    "Pile gender moem",
+    "Amalake",
+    "Inawae",
+    "Ubah bahasa",
+    "Nara",
+    "Neka naranem",
+    "Baliko si menu utama."
+]
+
+var onloadTextAdonara = [
+    // level 1
+    "Selamat datang dalam gelaha Pandemic Survival. Si permainan ni mo akan dori rara tenaga'ne si situasi pandemi Covid-19." + "<br>" + "Selama dori rara tenaga'ne ni mo harus dore protokol kesehatan, helu raga jarak aman, pu'u limam ma'a kesabo, ma'a cairan pembersih limam, ma'a masker, no'o geleko ra murha.", //0
+    "Si sisi neki layar blolo ne, no'o garis kesehatan yang nuru tingkat kesehatan moem. Jika garis ne gohu, maka gelahat ni akan lepata no'o mo harus ulang dari awal untuk level ne.", //1
+    "Dori rara tenaga'ne moem si level 1 lepata kalau mo bisa selamat balik ke langum si ruka heri." + "<br>" + "Sebelum dore rere tenaga'ne, be mela nae mo tena temanem dahe ki." + "<br>"+ "Selamat dori rara tenaga'ne!", //2
+    // level 2
+    "Selamat datang kembali. Si level ni mo akan lanjut dori rara tenaga'ne moem. Dori rara tenaga'ne moe dimulai dengan temutu no'o mamam.", //3
+    "Ake gelupako untuk tetap dore protokol kesehatan karena tite masih dalam masa pandemi Covid-19. Selamat dori rara tenaga'ne si level 2 (ruha) ni.",//4
+    // level 3
+    "Selamat, mo sampe si level terakhir petualangan moem kae. si level ni mo baru mewe si kota untuk toi kaka arinem." + "<br>" + "Hati-hati pas gawe rara. Tetap dore protokol kesehatan, terutama menjaga jarak aman, selalu ma'a masker, dan ake pupu wekike.", //5
+    "Sebelum mo maso  kota, mo harus cek suhu no'o nuru  Kartu Kewaspadaan Kesehatan moem. Selamat dori rara tenaga'ne!", //6
+    "Daftar bara yang harus di hope:" + "<br>" + "<ul>" +"<li> Ika </li>" +"<li> Roti tawar </li>" + "<li> Masker </li>"+ "</ul>", //7
+    // system
+    "Gelaha lepata. Oto dekuno.",
+    "Gelaha lepata. Kesehatan belota moem gohu.",
+
+]
+
+var txt1Adonara = [
+    "Temanek: Hai, mo mau maiko taku? Pai ki!", //0
+    "Temanek: Hai, ake gelupako pu'u limam no'o kesabo, ew!", //1
+    "Temanek: mo pu'u limam ne, mo memastikan limam lae no'o aman dari virus.",
+    "Temanek: Mo bisa pu'u limam si go languk ae.",
+    "Hore, limam pu'uro kae!",
+    "Keropo: *Uhuk* Maaf ew, tendak aga raranem. Naku, mo bisa mala peline.", //5
+    "Penjaga  Gerbang: Murine, Negaku mo ma'a masker hala? Ni masker ka'a neino.", //6
+    "Masker dapatro",
+    "Penjaga Gerbang: Bagus, mo ma'a masker kae! Silakan lewat.",
+    nama + ": Terima kasih!" ,
+    "Pete untuk selalu jaga jarak aman, ew!", //10
+    "*Uhuk* Mo moi cucuk ali? Na nai ne na na'a masker hala.", //11
+    nama + ": Oh, go koiro si ruka.", 
+    "Wae belek: Bisa tolong nei masker ni ke na, Nak?", 
+    nama + ": Ehe, nape.", 
+    nama + ": ni masker dari nenem. Ma'a ki!", //15
+    "Oke, terima kasih!", // 16
+    "Ina: Sayang, baliko kae ne. Tolong hope sabun cuci tangan ki, ew?", 
+    nama + ": Si taku, Ina?", 
+    "Ina: Si warung Ina Ani.", 
+    "Yani: Seba aku, Kak?", //20
+    nama + ": Mau hope sabun cuci tangan.", //21
+    "Yani: Oh, langsung si one saja.", 
+    "Ani: Selamat datang, mau hope aku?", 
+    nama + ": sabun cuci tangan no'one?", 
+    "Ani: Oh, ehe. ni, Kak!", //25
+    "Sabun cuci tangan daparo kae!", //26
+    nama + ": Kesabo ni, Ina.", //30
+    "Ina: Terima kasih, Sayang. Ake gelupako pu'u limam sebelum maso lango, ew!",
+    "Limat pu'uro kae!",
+    "Hore, level 1 lepata!",
+
+]
+
+var txt2Adonara = [
+    "Ina: Mo bisa antar makan siang untuk kakem kah?", //0
+nama + ": Ehe, Ina.", //1
+"Hati-hati si rara, ew!",
+"Tetangga: Hai, " + nama + " Denge mari Bu joko kena Covid na.",
+"Kereak buse: Hosh...hosh…sepuluh menit mu go harus balikek.",
+"Kereak buse: Hatsi...hatsi...", //5
+nama + ": Ina, anam negakuna?", //6
+"Ina- Ina: na keduhuna, pilek, no'o weki ain pelate. Jadi kame mau rapid test.", 
+nama + ": Oh. Semoga Covid hala ew, ina.", 
+"Ina- ina: Terima kasih, Nak.",
+"Lake belek: UHUK UHUK", //10
+nama + ": (Ege, go harus jaga jarak nih)", //11
+nama + ": (Wah, go harus antar kakek makanan nae de bera ni)",
+"Perawat: Kalau mau berobat, ni nomor antrian nae.",
+nama + ": Maaf, saya berobat hala. Terima kasih.",
+"Ina- ina: Tolong jaga jarak, Nak.", //15
+"Pedu'u buah: Seba aku, Kak?",
+nama + ": Take Ama. Terima kasih.",
+nama + ": (Amak ni na'a masker hala. Go hope buah si ni hala di.)",
+"Ina-ina: Tukang roti nae taku, ew?",
+"Pedu'u buah: Silakan hope, Kak. Buah nae main beto.", //20
+nama + ": Maaf, mua ikene, ina.",
+"Pedu'u sembako: seba aku, Kak?",
+nama + ": Oh, seba ahe hala, Ina.",
+nama + ": Permisi, Rara tait menarane tala taku, ew?",
+"Keropo: Oh, mo harus putar rara dari awal.", //25
+"Hore, limat pu'uro!", //26
+"Lake belek: Halo, " +nama+ " kakek pete, mamam genato bekal untuk Kakek.",
+nama + ": Eha, Kek!",
+nama + ": Ni bekal dari Ina untuk Kakek.",
+"Lake belek: Oh, terima kasih.", //30
+"Lake Belek: Bisa tolong hope botol sabun cair tou no'o tomat untuk Nenek?", //31
+nama + ": Ehe, Kek.",
+"Lake belek: Terima kasih. Doi ni.",
+"Lake belek: Pete selalu jaga jarak, ew!",
+nama + ": Ehe, Kek.",
+"Pedu'u buah: Dai, Kak. Silakan pilih buah nae. Buah nae segar ulika.", //35
+nama + ": tomat no'one, Ina?", //36
+"Pedu'u buah: No'one, Kak. Pi ni main beto.",
+nama + ": Ehe, Ina. Bungkus tou ni ti pira?",
+"Pedu'u buah: Rp10.000 saja.",
+nama + ": Ehe, doi ni, Ina.", //40
+"Pedu'u buah: Terima kasih, Kak.", //41
+"Tomat hopiro kae",
+"Pedu'u sembako: Mau seba aku, Kak?",
+nama + ": Sabun cair no'one, Ina?",
+"Pedu'u sembako: No'one. Harga nae Rp10.000.",
+nama + ": Oke, doi ni.", //45
+"Sabun cair hopiro kae", //46
+"Pedu'usembako: Terima kasih.", 
+nama + ": (Go ka'a cairan pembersih ki).",
+"Tetangga: Oh, mo beleko kae, ew. " + nama,
+"Wae belek: Halo, " + nama +". Kakem genato ahe ali?",
+nama + ": Go kaik si Kakek ki, Nek.", //50
+"Hore, limat pu'uro kae!", //51
+nama + ": ni sabun no'o tomat dari pasar Kakek gena naku ne.", //52
+"Wae belek: Terima kasih. " +nama + ". Tolong pu'uro esi, ew.",
+"Tomat pu'uro kae",
+nama + ": Go pu'uro kae, Nek.", //55
+"Wae belek: Terima kasih. Bera, Gere ki. Tite tenu the si one.",
+"Hore, level 2 lepata.",
+
+
+]
+
+var txt3Adonara = [
+    "Supir bus: Terima kasih ma'a kame jasa kamen kae. Silakan cek suhu tubuh prae ne sebelum maso kota.",
+"Inawae: Kalau mo suhu moe di atas 37,5 derajat Celsius, mo maso kota boleh hala ew.", //1
+
+"Inawae: ege, lela tua ew.",
+"Ama lake: Go suhu gae pira, Ina?",
+"Pemeriksa suhu: 36,8 derajat Celsius. Silakan gere.",
+"Pemeriksa suhu: Kak, cek suhu si ni ki!",
+"Pemeriksa suhu: Go cek suhu kenehi ew, Kak.", //5
+"Pemeriksa suhu: 36,2 derajat. Silakan nuru Kartu Kewaspadaan Kesehatan prae ne", //6
+ "Pemeriksa KKK: Kak, nuru Kartu Kewaspadaan Kesehatan si ni ki!", //11
+"Pemeriksa KKK: Ata nuru Kartu Kewaspadaan Kesehatan na, Kak?",
+nama + ": ni, Pak.",
+"Pemeriksa KKK: Baik, hasil tes non-reaktif. Silakan maso kota.", //10
+"Pembeli: Ina, wata no'o tomat niti pira?",
+"Pedu'u sayur: wahangka ti Rp25.000, ina.",
+"Pedu'u sayur: seba aku, Kak?",
+nama + ": (Ege, ina mo ma'a masker hala. Go hope a si na hala di).", //15
+ nama + ": take, Ina.", //16
+"Ina-ina: Hmmm, pedu'u wulu yang biasa si ni ne taku, ew?",
+"Ama-ama: Wah, kunci gudang go tau taku ew?",
+"Penjaga pabrik: Go harus tetap kerja keras meskipun pandemi ulika.",
+"Ina- ina: Ege, ata hodek ne taku ew?", //20
+"Tukang parkir: Wah, ni yang parkir bus taku , ali? nape parkir sembarane.", //21
+nama + ": Go daha esi, ni tempat aku? Negaku ra raga?",
+"Perawat: Oh, ni karantina pasien Covid-19 languka.",
+"Perawat: Jaga kesehatan ew, Kak. Ake sampe mo maso si ni.",
+"Dokter: Karena pasien Covid-19 mete nete ara, kapasitas si rumah sakit di mete esi.", //25
+"Dokter: Kalau mo demam, keduhu mar'a, atau pilek, perikasa si rumah sakit de bera, ew.", //26
+"Pengusaha: Si masa pandemi ni, pengusaha ara yang bisnis rae teka'ro.",
+"Ina wae: Saat pandemi, ake mupu wekike ki.",
+"Satgas Covid: Si ni no'o sekeluarga yang sedang isolasi mandiri karena Covid-19.",
+"Pegawai: Saat pandemi maini ni ata ara yang kerhana gewete.", //30
+"Kreak: Go harus rajin olahraga di.", //31
+"Wae belek: Nak, mo moi go hak ali?",
+"Lake belek: Nak, mo moi go hak ali?",
+"Wae belek: Saat mo gawe rara ne, mo harus berhati-hati, ew.",
+"Wartawan: aku yang bapa mau mari si masyarakat ti ra ake tertular covid?", //35
+"Walikota: Tetap jaga jarak aman, selalu ma'a masker, no'o ake pupu wekike.", //36
+"Wartawan: Denda pira bagi ata yang langgar protokol Covid-19, Pak?", 
+"Walikota: Si wilayah tite ne Rp250.000.", 
+"Petugas Covid: Waduh, jumlah korban di tamba terus ro wahangka.",
+"Petugas Covid: No'o urusan aku, Kak? Mau to'in, kah?", //40
+nama + ": Go sukunek, Pak.", //41
+"Petugas Covid: Ni kuburan korban Covid-19.",
+"Raga toko: Ege, barang nae newe lela tua.",
+"Kaka arin: Hai! " + nama + " koi no hala lela tua!",
+nama + ": Ehe, koino di hala lela tua di. Nape mo si belene di ma'a masker  hala?", //45
+"Kaka arin: Penaha, hanya si lango ae meha ne di! Oh ehe, arik niano kae.", //46
+"Kaka arin: Hey, mo si ko kae ni! Negaku ke lela tua? Go baru mau hope neino makanan pe.",
+nama + ": Ehe, sebelum kaik terminal bis go rapid ki. Jadi naku ne bus pertama pekenek.",
+"Kaka arin: Rapid ma'a aku? Go juga biasa ka'a masker hala kalo kolenek ne.",
+nama + ": Ake anggap remeh! Semakin hari semakin ara yang tertular moi!", //50
+nama + ": Kalau mo gehiko ma'a masker hala, biar go saja yang hope makanan. Mia go balikek mu.", //51
+nama + ": (Hmmm, mia go hope masker neiwe).",
+"Kaka arin: Oh, terima kasih. Tolong sekalian hope roti si Pasar Baru ew.",
+"Pedu'u bara: Ya, silakan pile barangnya, Kak.",
+nama + ": (Hmmm, barang yang go mau hope ne si take).", //55
+"Ina- ina: Hmmm, hope aku, pe?", //56
+"Pedu'u: Seba masker ali, Kak? Toko si kaka arik toko papa si Pasar Lama ne du'u masker.",
+"Pembeli: Ina, jadi wulu, daging, no'o ikan ni ti wahangka pira?",
+"Pedu'u: Rp45.000, Ina.",
+"Pedu'u ika no'o wulu: Silakan pile, Kak ikan no'o wulu'nya.", //60
+"Pedu'u ika no'o wulu: Silakan pile, Kak wulu no'o ikan'nya.", //61
+nama + ": Ikan kilo tou ti pira, Ina?",
+"Pedu'u Ika: Rp35.000.",
+nama + ": Ehe, hope kilo tou ew, Ina. Doi ni.",
+"Pedu'u Ika: Terima kasih. ni belanjaannya.", //65
+"Ina- ina: Yang biasa du'u roti prae ne taku, ew?", //66
+"Ika hopiro!",
+"Penjual ewa: Seba aku, Kak?",
+nama + ": (Wah, amak ne na'a masker hala. Go hopi a si na hala di).", 
+nama + ": Take, Pak.", 
+"Pembeli: Pak, buah wahangka nie ti pira?", //70
+"Pedu'u buah: Jadi total Rp50.000, Ina.", //71
+"Pedu'u buah: Silakan hope, Kak. Buahnya segar ni.",
+"Ina-ina: Tukang roti pra ne, pinda'na ke Pasar Lama, Kak.",
+"Pedu'u si rara heri: Pasar? Oh, mede pana lurus dari si ni saja, Kak.", //75
+"Pedu'u: Masker? Oh, bisa hope si toko papa ne, Kak!", //76
+"Petugas: Go akan eta amak yang na'a maskr hala ne.",
+"Ina-ina: Ina, mo denge kae? Ra mari main keluarga bele tou si pusat kota ne ra isolasi we si lango na!",
+"Ina-ina: Ehe, ina. Jumlah ata yang terpapar Covid-19 mete ara.",
+"Pembeli: Masker rua niti pira, ina?", //80
+"Pedu'u labu: Rp20.000, Ina.", //81
+"Pedu'u roti: Silakan hope rotinya, Kak.",
+"Pedu'u roti: Silakan hope, Kak. Rotinya hangat ulika.",
+nama + ": Roti bungkus telo ti pira, Pak?",
+"Pedu'u Roti: Rp30.000, Kak.", //85
+nama + ": Ehe, doi nie, Pak.", //86
+"Pedu'u Roti: Terima kasih. Ni rotinya.", 
+"Roti hopiro kae!",
+"Pedu'u labu: Seba aku, Kak?",
+"Pedu'u labu: seba aku, Kak? Maskernya mela amu loh.", //90
+nama + ": Masker pat ti pira, Ina?", //91
+"Pedu'u labu: Rp40.000, Kak.", 
+nama + ": Ehe, nake go hope pat, Ina. Doi nie.", 
+"Pedu'u labu: Terima kasih. ni maskernya.", 
+"Masker terbeli!", //95
+nama + ": Negaku ni?", //96
+"Petugas Covid: Temanem ni go ko'oro mai  isolasi karena hasil tes nae positif Covid.",
+nama + ": Ega, go main heruro pedela.",
+"Petugas Covid: Nake mo di harus di tes. Alat tes ae si go temanek.",
+"Hasil tes: Non-reaktif!", //100
+"Petugas Covid: Mo harus isolasi mandiri selama 14 hari. Mia ge heru mu!",
+"Gelaha lepata. Terima kasih gelahano ma'a permainan kae ni.",  
+"Kota neki:" + "<br>" + "<ul>" +"<li> Wule Wu'u </li>" +"<li> Rumah sakit </li>" + "<li> lango apartemen </li>"+ "</ul>", //103    
+"Kota Wana:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Wule nolho </li>"+ "</ul>", //104
+
 
 ]
 
@@ -9106,6 +9575,7 @@ nama + ": Aduh, sa baru ketemu dia tadi.",
 "Permainan berakir. Ko dapa tabrak Mobil.",
 
 ]
+
 
 // biak
 var indexTextBiak = [

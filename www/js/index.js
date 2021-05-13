@@ -233,6 +233,8 @@ document.getElementById("sabu").onclick= function(){ changeLang('sabu')};
 document.getElementById("lamaholot").onclick= function(){ changeLang('lamaholot')};
 document.getElementById("mangBar").onclick= function(){ changeLang('mangBar')};
 document.getElementById("mangTeng").onclick= function(){ changeLang('mangTeng')};
+document.getElementById("ende").onclick= function(){ changeLang('ende')};
+document.getElementById("adonara").onclick= function(){ changeLang('adonara')};
 
 // ambon & papualang
 var amPaLang = document.getElementById("amPaLang");

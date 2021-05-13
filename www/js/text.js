@@ -6770,6 +6770,52 @@ function changeLang(lang) {
         closeNTNav();
         closeLangNav();
       break;
+      case 'ende':
+        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextEnde[i];}
+        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextEnde[i];}
+        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Ende[i];}
+        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Ende[i];}
+        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Ende[i];}
+        newGameBtn.innerHTML = indexTextList[0];
+        contBtn.innerHTML = indexTextList[1];
+        langBtn.innerHTML = indexTextList[8];
+        chooseLang.innerHTML = indexTextList[8];
+        profBtn.innerHTML = indexTextList[2];
+        enterName.innerHTML = indexTextList[10];
+        chooseGender.innerHTML = indexTextList[5];
+        maleBtn.innerHTML = indexTextList[6];
+        femaleBtn.innerHTML = indexTextList[7];
+        creditBtn.innerHTML = indexTextList[3];
+        sideNavNewGame.innerHTML = indexTextList[0];
+        sideNavBack.innerHTML= indexTextList[11];
+        whatLang(lang);
+        changeName();
+        closeNTNav();
+        closeLangNav();
+      break;
+      case 'adonara':
+        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextAdonara[i];}
+        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextAdonara[i];}
+        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Adonara[i];}
+        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Adonara[i];}
+        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Adonara[i];}
+        newGameBtn.innerHTML = indexTextList[0];
+        contBtn.innerHTML = indexTextList[1];
+        langBtn.innerHTML = indexTextList[8];
+        chooseLang.innerHTML = indexTextList[8];
+        profBtn.innerHTML = indexTextList[2];
+        enterName.innerHTML = indexTextList[10];
+        chooseGender.innerHTML = indexTextList[5];
+        maleBtn.innerHTML = indexTextList[6];
+        femaleBtn.innerHTML = indexTextList[7];
+        creditBtn.innerHTML = indexTextList[3];
+        sideNavNewGame.innerHTML = indexTextList[0];
+        sideNavBack.innerHTML= indexTextList[11];
+        whatLang(lang);
+        changeName();
+        closeNTNav();
+        closeLangNav();
+      break;
       // amPa
       case 'papua':
         for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextPapua[i];}
