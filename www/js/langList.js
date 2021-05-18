@@ -9335,6 +9335,256 @@ nama + ": Ega, go main heruro pedela.",
 
 ]
 
+
+// Kedang
+var indexTextKedang =[
+    "Mulai werun",
+    "Lanjutkan permainan",
+    "Profil",
+    "Kredit",
+    "Gender",
+    "Pilih moq gender",
+    "Anaqabe",
+    "Arian",
+    "Ubah bahasa",
+    "Naya",
+    "Masukan moq naya",
+    "Bale ke menu utama"
+]
+
+var onloadTextKedang = [
+    // level 1
+    "Selamat datang beq permainan Pandemic Survival. Beq permainan noq o akan  berpetualang beq situasi pandemi Covid-19." + "<br>" + "Selama berpetualang o harus dei protokol kesehatan, namone menjaga jarak aman, hidang ling pake sabong, pake cairan pembersih ling, pake masker, nore menghindari kerumunan.", //0
+    "Di sisi wana ote layar loloq, nore garis kesehatan yang menunjukkan moq tingkat kesehatan. Kalau garis me bahe, maka permainan akan mai dan o harus ulang dari awal untuk level noq.", //1
+    "Moq petualangan  beq level 1 bahe kalau o selamat bale beq moq wetaq oli ujung hutan." + "<br>" + "Sebelum bertualang, sebaiknya o ameq nore moq nerung." + "<br>"+ "Selamat berpetualang!", //2
+    // level 2
+    "Selamat datang kembali. Di level ini kamu akan melanjutkan petualanganmu. Petualanganmu dimulai dengan percakapan dengan ibumu.", //3
+    "Kara upe untuk tetap dei protokol kesehatan karena te beq masa pandemi Covid-19. Selamat menempuh petualangan di level 2 ini.",//4
+// level 3
+"Selamat, O adan deq beq level dei ahin moq petualangan. Beq level noq o napo adan beq kota ma Bongan moq kangaring." + "<br>" + "manga-manga hakal lala. Tetap dei protokol kesehatan, terutama jaga jarak aman, selalu pake masker, nore kara  mau weq.", //5
+"Sebelum me uduq beq kota, me harus cek suhu nore tuben meq Kartu Kewaspadaan Kesehatan. Selamat bertualang!", //6
+"Daftar barang yang harus ier:" + "<br>" + "<ul>" +"<li> i'a </li>" +"<li> Roti tawar </li>" + "<li> Masker </li>"+ "</ul>", //7
+
+    // system
+    "Permainan bahe deq ne. O tertabrak mobil.", 
+    "Permainan bahe dew ne. Tingkat kesehatan o bahe deq ne.",
+
+]
+
+var txt1Kedang = [
+    "Teman: Hai, O mau pan dita o? Pan ma nulo!", //0
+    "Teman: Hai, kara upe hidang ling pake sabong!", //1
+    "Teman: Pas hidang ling, o harus nuan moq ling engar dan aman dari virus.",
+    "Teman: O bisa hidang ling beq koq wetaq ma'ur.",
+    "Hore, moq ling engar deq!",
+    "Pemuda: *Uhuk* Maaf ya, koq tenda halangi moq lala. Tapi, o bisa lewaq di oyo.", //5
+    "Penjaga  Gerbang: Anaq, kua ma o ohaq pake masker? Masker noq sorong o.", //6
+    "Dapaq masker",
+    "Penjaga Gerbang: Alu, O pake masker deq! Lewaq deq nu.",
+    nama + ": Terima kasih!" ,
+    "Kelen untuk selalu jaga jarak aman, ya!", //10
+    "*Uhuk* O mui koq cucu? Nuo ohaq pake masker ketika nuo pan.", //11
+    nama + ": Oh, Ei ui nuo beq e'a mangan.", 
+    "Nenek: Tolong o sorong masker noq beq nuo, Nak?", 
+    nama + ": Tentu saja.", 
+    nama + ": Noq masker dari moq neneq. O pake nulo!", //15
+    "Oke, terima kasih!", // 16
+    "Ibu: Sayang, o bale deq. Tolong ier sabong hidang ling nulo e?", 
+    nama + ": Deq ita, ino?", 
+    "Ibu: Beq warung Bu Ani.", 
+    "Yani: Haba ape, Kak?", //20
+    nama + ": Mau ier sabong hidang ling.", //21
+    "Yani: Oh, langsung uduq ma kohaq.", 
+    "Ani: Selamat datang, mau ier ape?", 
+    nama + ": Sabong hidang ling nore ne?", 
+    "Ani: Oh, nore ne. Noq, Kak!", //25
+    "Dapaq sabong hidang ling!", //26
+    nama + ": Sabong no'o, ino.", //30
+    "Ibu: Terima kasih, Sayang. Kara upe hidang ling sebelum masoq wetaq laleng!",
+    "Ling hidang deq!",
+    "Hore, level 1 bahe deq!",
+
+]
+
+var txt2Kedang = [
+    "Ibu: O bisa antar olon luoq sorong Kakek?", //0
+nama + ": Baik, Bu.", //1
+"Hati-hati beq lala, ya!",
+"Tetangga: Hai, " + nama + " Denger-denger Bu Joko te'e Covid.",
+"Anak kecil: Hosh...hosh… Menit pulu watiq me ei harus bale.",
+"Anak kecil: Hatsi...hatsi...", //5
+nama + ": Ino, moq anaq kua ne?", //6
+"Ibu-ibu: Nuo bo'or, pilek, nore ruku. Jadi ke mau rapid test.", 
+nama + ": Oh. Semoga ohaq Covid e, Ino.", 
+"Ibu-ibu: Terima kasih, Nak.",
+"Kakek-kakek: UHUK UHUK", //10
+nama + ": (Waduh, ei harus jaga jarak ne)", //11
+nama + ": (Wah, ei harus ewar - ewar antar kakek neq olon luoq)",
+"Perawat: Kalau mau berobat, nomor antri noq.",
+nama + ": Maaf, ei ohaq berobat. Terima kasih.",
+"Ibu-ibu: Tolong jaga jarak, Nak.", //15
+"Penjual buah: Haba ape, Kak?",
+nama + ": Tokong ne Pak. Terima kasih.",
+nama + ": (Amo noq ohaq pake masker. Ei ohaq ier uan diq noq.)",
+"Ibu-ibu: Tukang roti deq ita ne, e?",
+"Penjual buah: Silakan ier, Kak. Uan taq noq napo adan.", //20
+nama + ": Maaf, nau nulo, Ino.",
+"Penjual sembako: Haba ape, Kak?",
+nama + ": Oh, ohaq haba ape - ape, Ino.",
+nama + ": Permisi, lala pan menara dei ita ne?",
+"Pemuda: Oh, o harus memutar jalan dari awal.", //25
+"Hore, ling hidang deq!", //26
+"Kakek: Halo, " +nama+ " Yang ei kelen, moq ine panang kanikiq untuk Kakek.",
+nama + ": uhuq ko, Kek!",
+nama + ":Noq kanikiq dari Ino untuk Kakek.",
+"Kakek: Oh, terima kasih.", //30
+"Kakek: Bisa tolong ier sabong cair botel udeq nore silibutu untuk Nenek?", //31
+nama + ": Bisa ne, Kek.",
+"Kakek: Terima kasih. Doiq noq.",
+"Kakek: Kelen selalu jaga jarak, ya!",
+nama + ": Baik, Kek.",
+"Penjual buah: Mari, Kak. Silakan pil uan taq noq. Uan segar ramaq ne.", //35
+nama + ": Silibutu nore ne, Ino?", //36
+"Penjual buah: Nore ne, Kak. Noq napo adan ne.",
+nama + ": Baik, Ino. Bungkus udeq pie ne?",
+"Penjual buah: Rp10.000 ehaq.",
+nama + ": Baik, doiq noq, Ino.", //40
+"Penjual buah: Terima kasih, Kak.", //41
+"Silibutu ier deq",
+"Penjual sembako: Haba ape o, Kak?",
+nama + ": Sabong cair nore ne, Ino?",
+"Penjual sembako: Nore ne. Rp10.000 harganya.",
+nama + ": Oke, doiq noq.", //45
+"sabong cair ier deq", //46
+"Penjual sembako: Terima kasih.", 
+nama + ": (Ei pake cairan pembersih nilo).",
+"Tetangga: Oh, o ria deq ko, e. " + nama,
+"Nenek: Halo, " + nama +". Amo panang o ape udeq ne?",
+nama + ": Ei pan beq Kakek nulo, Nek.", //50
+"Hore, ling hidang deq!", //51
+nama + ": Sabong nore silibutu noq Kakek neq panang.", //52
+"Nenek: Terima kasih. " +nama + ". Tolong hidang nulo, ya.",
+"Silibutu hidang deq",
+nama + ": Ei hidang deq ne, Nek.", //55
+"Nenek: Terima kasih. Pan ma, Uduq nulo. Te min teh beq laleng.",
+"Hore, level 2 bahe deq.",
+
+
+]
+
+var txt3Kedang = [
+    "Sopir bus: Terima kasih sudah pake keq jasa. Silakan cek suhu tubuh di oyo sebelum uduq beq kota.",
+
+"areq weriq: Kalau meq suhu  37,5 derajat Celsius nui keu, me ohaq boleh uduq beq kota ne.", //1
+
+"areq weriq: Duh, lela doaq ne.",
+"ebe muda: Koq suhu pie ne, Inaq?",
+"Pemeriksa suhu: 36,8 derajat Celsius. Uduq deq nu.",
+"Pemeriksa suhu: Kak, cek suhu nulo diq noq!",
+"Pemeriksa suhu: Ei cek moq suhu naiq e, Kak.", //5
+"Pemeriksa suhu: 36,2 derajat. Silakan tuben Kartu Kewaspadaan Kesehatan diq meyoq", //6
+ "Pemeriksa KKK: Kak, tuben Kartu Kewaspadaan Kesehatan nulo diq noq!", //11
+"Pemeriksa KKK: Boleh boraq moq  Kartu Kewaspadaan Kesehatan, Kak?",
+nama + ": Noq, Pak.",
+"Pemeriksa KKK: Baik, hasil tes non-reaktif. Silakan uduq kota.", //10
+"tukang ier: inaq, jadi watar nore silibutu me reiq bahe pie ne?",
+"durung ai lolo wala: Reiq bahe Rp25.000, Ino.",
+"tukang durung ai lolo: Haba ape, kak?",
+nama + ": (Wah, ino ohaq pake masker. Ei ohaq ier beq nuo u).", //15
+ nama + ": Tokong ne, Ino.", //16
+"Ibu-ibu: Hmmm, tukang durung ailolo biasa diq noq me deq ita ne, e?",
+"Bapak-bapak: Wah, kunci gudang ei puli deq ita u, e?",
+"Penjaga pabrik: O harus tetap kareyang  meskipun pandemi ramaq.",
+"Ibu-ibu: Duh, yang horaq ita i?", //20
+"Tukang parkir: Wah, yang parkir bus deq ita ne, e? Kua ma parkir sembarang.", //21
+nama + ": Ei mau dahang, noq tempaq ape ne? Kua ma jaga heneq?",
+"Perawat: Oh, noq wetaq  karantina pasien Covid-19.",
+"Perawat: Jaga kesehatan e, Kak. Kara sampe uduq diq noq.",
+"Dokter: Bale pasien Covid-19 mete rai ne, kapasitas beq rumah sakit di mete urang ne.", //25
+"Dokter: Kalau o ruku, bo'or mayaq, atau pilek, laeq paresaq beq rumah sakit, e.", //26
+"Pengusaha: Di masa pandemi noq, pengusaha raiq yang te'e dampak ne.",
+"Pemudi: Pas pandemi, kara mawu weq nore adien.",
+"Satgas Covid: Diq noq  keluarga udeq me wai mete isolasi mandiri ele Covid-19.",
+"Pegawai: Pas pandemi namo noq adien rai yang seq pekerjaan me toiq ne.", //30
+"Anak-anak: Ei harus rayin olahraga.", //31
+"Nenek-nenek: Anaq, o mui koq aterian?",
+"Kakek-kakek: Anaq, o mui koq weqrian?",
+"Nenek-nenek: hakal lala dien-dien",
+"Wartawan: Ape yang ingin Amo loeng beq masyarakat supaya te ohaq te'e Covid?", //35
+"Walikota: Tetaplah menjaga jarak aman, selalu pake masker, dan ohaq mawu weq.", //36
+"Wartawan: Yang langgar  protokol Covid-19 denda pie ne, Pak?", 
+"Walikota: Beq teq wilayah Rp250.000.", 
+"Petugas Covid: Waduh, jumlah korban wakaq rai teru setiap loyo.",
+"Petugas Covid: Nore urusan ape ne, Kak? Mau nyekar, ya?", //40
+nama + ": Ei kesasar u, Amo.", //41
+"Petugas Covid: Noq kuburan korban Covid-19.",
+"Penjaga toko: Aduh, barang adan lela doaq.",
+"Saudara: Hai! " + nama + " lela ohaq haraq weq!",
+nama + ": Uhuq ko, lela ohaq haraq weq. Kua ma o ohaq pake masker?", //45
+"Saudara: Ohaq kua-kua ne, hanya beq beq wetaq muka ohaq ne! Oh ya, Koq ariq toang o ne.", //46
+"Saudara: Hey, O adan deq! Kua ma lela doaq? Ei mau ier olon luoq.",
+nama + ": Iya, sebelum pan beq terminal bis ei rapid nulo. Jadi nangan ketinggalan bus pertama.",
+"Saudara: Kua ma rapid? Ei juga sering ohaq pake masker kalau pan lala.",
+nama + ": Kara anggap enteng! Mete loyo mete rai yang tertular ne!", //50
+nama + ": Kalau o daeq pake masker me, ei ohaq yang pan ier olon luoq. Mahara ei ma watiq.", //51
+nama + ": (Hmmm, mahara ei ier masker sorong suo).",
+"Saudara: Oh, terima kasih. Tolong o ier roti beq Pasar Baru.",
+"Penjual barang: Ya, silakan pil barang taq noq, Kak.",
+nama + ": (Hmmm, barang yang ei mau ier me diq noq tokong ne).", //55
+"Ibu-ibu: Hmmm, ier ape, ne?", //56
+"Penjual: Haba masker o, Kak? Toko di oyo me koq nare neq toko ne beq Pasar Lama durung masker.",
+"Pembeli: Ino, jadi harga reiq bahe pie ne ailolo, daging, nore i'a?",
+"Penjual: Rp45.000, Ino.",
+"Penjual Ikan dan sayur: Silakan o pil, Kak i'a nore ailolo.", //60
+"Penjual Ikan dan sayur: Silakan o pil, Kak ailolo nore i'a.", //61
+nama + ": I'a kilo udeq pie ne, Ino?",
+"Penjual Ikan: Rp35.000.",
+nama + ": Baik, ei i'er kilo udeq , Ino. Doiq noq.",
+"Penjual Ikan: Terima kasih. Moq belanjaan noq.", //65
+"Ibu-ibu:Tukang durung roti yang biasa diq meyoq me deq ita ne?", //66
+"I'a ier deq!",
+"Penjual daging: Haba ape, Kak?",
+nama + ": (Wah, Amo oyo ohaq pake masker. Ei daeq belanja beq nuo).", 
+nama + ": Tokong ne, Amo.", 
+"Pembeli: Amo, uan taq noq rei bahe welin pie ne?", //70
+"Penjual buah: Reiq bahe Rp50.000, Ino.", //71
+"Penjual buah: Ier deq nu, Kak. Uan taq noq segar ne.",
+"Ibu-ibu: Tukang roti diq oyo, pindah beq Pasar Lama, Kak.",
+"Pedagang kaki-lima: Wul? Oh, o pan lurus kohaq, Kak.", //75
+"Penjual: Masker? Oh, bisa ier beq toko meyoq, Kak!", //76
+"Petugas: Ei akan tegur Amo yang ohaq pake masker oyo.",
+"Ibu-ibu: Ino, denger deq? Tele keluarga rian udeq beq  pusat kota me diisolasi beq wetaq ne!",
+"Ibu-ibu: Uhuq ko, Ino. Potal adien yang te'e Covid-19 mete rai ne.",
+"Pembeli: Masker rehaq sue noq me welin pie ne, Ino?", //80
+"Penjual baju: Rp20.000, Ino.", //81
+"Penjual roti: Silakan ier roti noq, Kak.",
+"Penjual roti: Silakan ier, Kak. Roti panan ramaq ne.",
+nama + ": Rori bungkus telu noq me welin pie ne, Amo?",
+"Penjual Roti: Rp30.000, Kak.", //85
+nama + ": Baik, doiq noq, Amo.", //86
+"Penjual Roti: Terima kasih. Roti noq.", 
+"Roti ier deq!",
+"Penjual baju: Haba ape, Kak?",
+"Penjual baju: Haba ape, Kak? Masker taq noq alu-alu ne.", //90
+nama + ": Masker rehaq apaq welin pie ne, Ino?", //91
+"Penjual baju: Rp40.000, Kak.", 
+nama + ": Baik, ei ier masker rehaq apaq, Ino. Doiq noq.", 
+"Penjual baju: Terima kasih. Masker noq.", 
+"Masker ier deq!", //95
+nama + ": Ape ne?", //96
+"Petugas Covid: Moq nerung noq ei eq pan untuk isolasi ele  neq hasil tes positif Covid.",
+nama + ": Wah, ei napo haraq nuo nangan.",
+"Petugas Covid: Kalau naq me o juga harus di tes. Alat tesnya beq koq nerung.",
+"Hasil tes: Non-reaktif!", //100
+"Petugas Covid: O harus isolasi mandiri selama 14 hari. Sampai jumpa!",
+"Permainan bahe deq. Terima kasih me huang permainan noq.",  
+"Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103    
+"Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor Walikota </li>" + "<li> Pasar Lama </li>"+ "</ul>", //104
+
+
+]
+
+
 // papua
 var indexTextPapua = [
     "Mulai baru",
@@ -10815,19 +11065,19 @@ var txt1Japan = [
         "門番: そこの君, なんでマスクをしていないんだい? このマスクを使いなさい.", //6
         "マスクを手に入れた",
         "門番: よし, もうマスクをつけたな. 通っていいぞ.",
-        名前 + ": ありがとうございます！" ,
+        nama + ": ありがとうございます！" ,
         "人との距離を保つのを忘れないようにするんだぞ", //10
         "*ゴホゴホ* 私の孫をみませんでしたか? 家を出るときにマスクをつけていかなかったのよ.", //11
-        名前 + ": その子なら, 森で見ましたよ.", 
+        nama + ": その子なら, 森で見ましたよ.", 
         "おばあさん: あの子にマスクを届けてくれませんか?", 
-        名前 + ": もちろん.", 
-        名前 + ": これはあなたのおばあちゃんからのマスクです. どうぞ!", //15
+        nama + ": もちろん.", 
+        nama + ": これはあなたのおばあちゃんからのマスクです. どうぞ!", //15
         "ありがとう!", // 16
         "お母さん: おかえりなさい. ハンドソープを買ってきてくれない?", 
-        名前 + ": どこで買えばいい?", 
+        nama + ": どこで買えばいい?", 
         "お母さん: Aniさんのお店にあると思うわ", 
         "Yani: なにをお探しですか?", //20
-        名前 + ": ハンドソープを買いに来ました.", //21
+        nama + ": ハンドソープを買いに来ました.", //21
         "Yani: そうですか, どうぞみていってください", 
         "Ani: いらっしゃいませ. 何をお探しですか?", 
         nama + ": ハンドソープはありますか?", 
@@ -10836,7 +11086,7 @@ var txt1Japan = [
         "お母さん: ありがとう. 家に入る前に手を洗うのを忘れないでね!",
         "手を洗った!",
         "レベル1クリア!",
-        名前 + ": ハンドソープ買ってきたよ", //30
+        nama + ": ハンドソープ買ってきたよ", //30
 ]
 var txt2Japan = [
     "お母さん: おじいちゃんにお昼ご飯をとどけてくれない?", //0

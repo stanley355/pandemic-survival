@@ -1,22 +1,5 @@
-window.screen.orientation.lock('landscape');
-window.addEventListener("orientationchange", function(){
-    console.log(screen.orientation.type); // e.g. portrait
-});
-
 // loadGame on first time
-var loadGame;
-
-function loadGameFunction() {
-  loadGame = setTimeout(showScreen, 4500);
-}
-
-function showScreen() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("loaderText").style.display = "none";
-  document.getElementById("menuScreen").style.display = "block";
-}
-
-document.body.onload = function(){ loadGameFunction(); changeLang('indonesia');}
+document.body.onload = function(){ changeLang('indonesia');}
 
 // main menu
 var menuScreen = document.getElementById("menuScreen");
@@ -235,6 +218,7 @@ document.getElementById("mangBar").onclick= function(){ changeLang('mangBar')};
 document.getElementById("mangTeng").onclick= function(){ changeLang('mangTeng')};
 document.getElementById("ende").onclick= function(){ changeLang('ende')};
 document.getElementById("adonara").onclick= function(){ changeLang('adonara')};
+document.getElementById("kedang").onclick= function(){ changeLang('kedang')};
 
 // ambon & papualang
 var amPaLang = document.getElementById("amPaLang");

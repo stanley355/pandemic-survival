@@ -6788,7 +6788,6 @@ function changeLang(lang) {
         creditBtn.innerHTML = indexTextList[3];
         sideNavNewGame.innerHTML = indexTextList[0];
         sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
         changeName();
         closeNTNav();
         closeLangNav();
@@ -6811,7 +6810,28 @@ function changeLang(lang) {
         creditBtn.innerHTML = indexTextList[3];
         sideNavNewGame.innerHTML = indexTextList[0];
         sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
+        changeName();
+        closeNTNav();
+        closeLangNav();
+      break;
+        case 'kedang':
+        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextKedang[i];}
+        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextKedang[i];}
+        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Kedang[i];}
+        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Kedang[i];}
+        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Kedang[i];}
+        newGameBtn.innerHTML = indexTextList[0];
+        contBtn.innerHTML = indexTextList[1];
+        langBtn.innerHTML = indexTextList[8];
+        chooseLang.innerHTML = indexTextList[8];
+        profBtn.innerHTML = indexTextList[2];
+        enterName.innerHTML = indexTextList[10];
+        chooseGender.innerHTML = indexTextList[5];
+        maleBtn.innerHTML = indexTextList[6];
+        femaleBtn.innerHTML = indexTextList[7];
+        creditBtn.innerHTML = indexTextList[3];
+        sideNavNewGame.innerHTML = indexTextList[0];
+        sideNavBack.innerHTML= indexTextList[11];
         changeName();
         closeNTNav();
         closeLangNav();

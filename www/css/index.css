@@ -18,7 +18,7 @@ body {
 }
 
 /* Center the loader */
-#loaderText {
+/* #loaderText {
     position: absolute;
     left: 5%;
     top: 15%;
@@ -45,10 +45,10 @@ body {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-}
+} */
 
 /* main menu buttons */
-#menuScreen { display: none; }
+#menuScreen { display: block; }
 #menuList {
     position: relative;
     left:15%;
