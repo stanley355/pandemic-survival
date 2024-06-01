@@ -6699,7 +6699,7 @@ var indexTextKupang = [
     "Pilih lu pung jenis kelamin",
     "Laki-laki",
     "Perempuan",
-    "Rubah bahasa",
+    "Ubah bahasa",
     "Nama",
     "Kasi masuk lu pung nama",
     "Kembali pi Menu Utama",
