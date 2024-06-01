@@ -20,8 +20,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <preference name="SplashScreen" value="screen"/>
-    <preference name="SplashScreenDelay" value="2000" />
     <preference name="android-targetSdkVersion" value="34" />
     <platform name="android">
         <!-- icon -->
@@ -31,8 +29,6 @@
         <icon src="www/assets/xdpi.png" density="xhdpi" />
         <icon src="www/assets/xxdpi.png" density="xxhdpi" />
 
-        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/assets/xxdpi.png" />
-        <preference name="AndroidWindowSplashScreenBackground" value="#FFFFFF" />
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
