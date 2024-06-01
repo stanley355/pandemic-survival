@@ -295,21 +295,13 @@ function changeGender(gender) {
 }
 //..................................................................
 
+const creditBtn = document.getElementById("creditBtn");
+const openCreditNav = () => creditNav.style.display = 'block';
+creditBtn.onclick = openCreditNav;
 
-// Credit Button
-var creditBtn = document.getElementById("creditBtn");
-var closeCreditNavBtn = document.getElementById("closeCreditNavBtn");
-function openCreditNav() {
-  creditNav.style.display = 'block';
-  creditNav.style.width = "80%";
-}
-function closeCreditNav() {
-  creditNav.style.display = 'none';
-  creditNav.style.width = "0";
-}
-creditBtn.onclick = function () { openCreditNav() }
-closeCreditNavBtn.onclick = function () { closeCreditNav() }
-//..................................................................
+const closeCreditNavBtn = document.getElementById("closeCreditNavBtn");
+const closeCreditNav = () => creditNav.style.display = 'none';
+closeCreditNavBtn.onclick = closeCreditNav;
 
 // sideNav
 var sideNavBtn = document.getElementById('sideNavBtn'); //sideNavBtn on top left of the screen

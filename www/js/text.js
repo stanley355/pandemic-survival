@@ -1,5 +1,5 @@
 //textBox & pause
-var tBox =  document.getElementById('textBox');
+var tBox = document.getElementById('textBox');
 var t = document.getElementById("text");
 var pause = false; //if pause = true, the player can't walk
 
@@ -78,21 +78,21 @@ var enterName = document.getElementById("enterName"); //string telling the user 
 var nameBox = document.getElementById('nameBox').value; //the name input box
 var getNameBtn = document.getElementById("getName"); //the button showing to get the value of the name
 var namaBaru;
-getNameBtn.onclick = function() {changeName();}
-function changeName(){
-  	namaBaru =  nama.replace(nama, document.getElementById('nameBox').value);
-  	nama = namaBaru;
-	// indo
-	if (indoLang === true){
+getNameBtn.onclick = function () { changeName(); }
+function changeName() {
+    namaBaru = nama.replace(nama, document.getElementById('nameBox').value);
+    nama = namaBaru;
+    // indo
+    if (indoLang === true) {
         // text1
-		txt1[9] = nama + ": Terima kasih!" ;
-		txt1[12] = nama + ": Oh, saya lihat dia di hutan.";
-		txt1[14] = nama + ": Tentu saja, Nek.";
-		txt1[15] = nama + ": Ini masker dari nenekmu. Dipakai dulu!";
-		txt1[18] = nama + ": Di mana, Bu?";
-		txt1[21] = nama + ": Mau beli sabun cuci tangan.";
-		txt1[24] = nama + ": Ada sabun cuci tangan?";
-		txt1[30] = nama + ": Ini sabunnya, Bu.";
+        txt1[9] = nama + ": Terima kasih!";
+        txt1[12] = nama + ": Oh, saya lihat dia di hutan.";
+        txt1[14] = nama + ": Tentu saja, Nek.";
+        txt1[15] = nama + ": Ini masker dari nenekmu. Dipakai dulu!";
+        txt1[18] = nama + ": Di mana, Bu?";
+        txt1[21] = nama + ": Mau beli sabun cuci tangan.";
+        txt1[24] = nama + ": Ada sabun cuci tangan?";
+        txt1[30] = nama + ": Ini sabunnya, Bu.";
         // txt2
         txt2[1] = nama + ": Baik, Bu.";
         txt2[6] = nama + ": Bu, anaknya kenapa?";
@@ -105,7 +105,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, tidak dulu, Bu.";
         txt2[23] = nama + ": Oh, tidak cari apa-apa, Bu.";
         txt2[24] = nama + ": Permisi, jalan ke menara lewat mana, ya?";
-        txt2[27] = "Kakek: Halo, " +nama+ " Seingat Kakek, ibu menitipmu bekal untuk Kakek.";
+        txt2[27] = "Kakek: Halo, " + nama + " Seingat Kakek, ibu menitipmu bekal untuk Kakek.";
         txt2[28] = nama + ": Oh, iya!";
         txt2[29] = nama + ": Ini bekal dari Ibu untuk Kakek.";
         txt2[32] = nama + ": Tentu saja, Kek.";
@@ -114,7 +114,7 @@ function changeName(){
         txt2[40] = nama + ": Baik, ini uangnya, Bu.";
         txt2[43] = nama + ": Sabun cair ada, Bu?";
         txt2[45] = nama + ": Oke, ini uangnya.";
-        txt2[49] = "Nenek: Halo, " + nama +". Apa ada titipan dari kakekmu?";
+        txt2[49] = "Nenek: Halo, " + nama + ". Apa ada titipan dari kakekmu?";
         txt2[50] = nama + ": Saya ke tempat Kakek dulu, Nek.";
         txt2[52] = nama + ": Ini sabun dan tomat dari pasar titipan Kakek.";
         txt2[55] = nama + ": Sudah saya cuci, Nek.";
@@ -142,20 +142,20 @@ function changeName(){
         txt3[93] = nama + ": Baik, saya beli empat masker, Bu. Ini uangnya.";
         txt3[96] = nama + ": Ada apa ini!?";
         txt3[98] = nama + ": Wah, saya baru ketemu dia tadi.";
-	} 
+    }
     // sumat lang
-    else if (aneuk === true){
+    else if (aneuk === true) {
         // text1
-		txt1[9] = nama + ": Terimo kasih!";
-		txt1[12] = nama + ": Oh, ambo ado mancaliaknyo di hutan.";
-		txt1[14] = nama + ": Tantu sajo.";
-		txt1[15] = nama + ": Iko masker dari Uci. pakailah daulu!";
-		txt1[18] = nama + ": Di mano, Umak?";
-		txt1[21] = nama + ": Ambo Mau mambali sabun cuci tangan.";
-		txt1[24] = nama + ": Ado sabun cuci tangan?";
-		txt1[30] = nama + ": Iko sabunnyo, Mak.";
+        txt1[9] = nama + ": Terimo kasih!";
+        txt1[12] = nama + ": Oh, ambo ado mancaliaknyo di hutan.";
+        txt1[14] = nama + ": Tantu sajo.";
+        txt1[15] = nama + ": Iko masker dari Uci. pakailah daulu!";
+        txt1[18] = nama + ": Di mano, Umak?";
+        txt1[21] = nama + ": Ambo Mau mambali sabun cuci tangan.";
+        txt1[24] = nama + ": Ado sabun cuci tangan?";
+        txt1[30] = nama + ": Iko sabunnyo, Mak.";
         // txt2
-        txt2[1] =nama + ": Iyo, Umak.";
+        txt2[1] = nama + ": Iyo, Umak.";
         txt2[6] = nama + ": Ibu, mangapo anak Ibu?";
         txt2[8] = nama + ": Oh. Mudah-mudahan bukan Covid yo, Buk.";
         txt2[11] = nama + ": (Aduh, ambo harui jago jarak ko)";
@@ -166,7 +166,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, indak dulu yo, Buk.";
         txt2[23] = nama + ": Oh, indak mancari apo-apo, Bu.";
         txt2[24] = nama + ": Assalamualaikum, ijin batanyo, jalan ka menara lewat mano, yo?";
-        txt2[27] = "Angku: Halo, " +nama+ " Saingek ambo, umak ado manitipkan makanan untuk ambo.";
+        txt2[27] = "Angku: Halo, " + nama + " Saingek ambo, umak ado manitipkan makanan untuk ambo.";
         txt2[28] = nama + ": Iyo, Angku!";
         txt2[29] = nama + ": Iko makanan dari Umak untuk Angku.";
         txt2[32] = nama + ": Buliah, Ngku.";
@@ -175,7 +175,7 @@ function changeName(){
         txt2[40] = nama + ": iyo, iko kepengnyo, Buk.";
         txt2[43] = nama + ": Sabun cair ado, Buk?";
         txt2[45] = nama + ": Oke, iko kepengnyo.";
-        txt2[49] = "Uci: Halo, " + nama +". Apo ado titipan dari Angku?";
+        txt2[49] = "Uci: Halo, " + nama + ". Apo ado titipan dari Angku?";
         txt2[50] = nama + ": Ambo ka tampek Angku  dulu, Ci.";
         txt2[52] = nama + ": Iko sabun dan tomat dari pasar titipan Angku.";
         txt2[55] = nama + ": Alah ambo cuci,Ci.";
@@ -203,18 +203,18 @@ function changeName(){
         txt3[93] = nama + ": Iyolah, Ambo bali ampek masker, Buk. Iko kepengnyo.";
         txt3[96] = nama + ": Ado apo iko?";
         txt3[98] = nama + ": Ai mak, kami baru basuo tadi.";
-	}
-    else if (nias === true){
+    }
+    else if (nias === true) {
         // text1
-		txt1[12] = nama + ": Ma u ila ya ba gatua.";
-		txt1[14] = nama + ": Tola gawe.";
-		txt1[15] = nama + ": Yai mbalu-mbalu mbawa wu moroi khö gawe u, fake wae";
-		txt1[18] = nama + ": Haega ina?";
-		txt1[21] = nama + ": gu möli sabu fanasa tana.";
-		txt1[24] = nama + ": So sabu fanasa tana?";
-		txt1[30] = nama + ": Yai sabu nia, ina.";
+        txt1[12] = nama + ": Ma u ila ya ba gatua.";
+        txt1[14] = nama + ": Tola gawe.";
+        txt1[15] = nama + ": Yai mbalu-mbalu mbawa wu moroi khö gawe u, fake wae";
+        txt1[18] = nama + ": Haega ina?";
+        txt1[21] = nama + ": gu möli sabu fanasa tana.";
+        txt1[24] = nama + ": So sabu fanasa tana?";
+        txt1[30] = nama + ": Yai sabu nia, ina.";
         // txt2
-        txt2[1] =nama + ": Lau, Ina.";
+        txt2[1] = nama + ": Lau, Ina.";
         txt2[6] = nama + ": Ina, hana khõ nono u adra?";
         txt2[8] = nama + ": Oh. Alakha mea tena Covid e, Ina.";
         txt2[11] = nama + ": (He, gujumago gotaluada ha)";
@@ -225,7 +225,7 @@ function changeName(){
         txt2[21] = nama + ": Bologõdõdõu, lõnana mana, Ina.";
         txt2[23] = nama + ": Oh, lona ni'aluigu hayaya, Ina.";
         txt2[24] = nama + ": Sabata wae, Haega so lala simõi ba menara ba haega latõrõ?";
-        txt2[27] = "Duada: Ya'ahowy, " +nama+ " Na'lõna fasala drao, so nifabe'egõ Inau gõgu laluo adra.";
+        txt2[27] = "Duada: Ya'ahowy, " + nama + " Na'lõna fasala drao, so nifabe'egõ Inau gõgu laluo adra.";
         txt2[28] = nama + ": E wa, Dua!";
         txt2[29] = nama + ": Yae gõu noma'e nifabe'egõ  Ninagu, Dua.";
         txt2[32] = nama + ": Tola manõ, Dua.";
@@ -234,7 +234,7 @@ function changeName(){
         txt2[40] = nama + ": Lau, Ya'e gefe, Ina.";
         txt2[43] = nama + ": So khõda sabu sanulu dre wa, Ina?";
         txt2[45] = nama + ": Lau, yae gefe.";
-        txt2[49] = "Gawe: Ya'ahowu, " + nama +". So nifabe'egõ Duau khõu wa?";
+        txt2[49] = "Gawe: Ya'ahowu, " + nama + ". So nifabe'egõ Duau khõu wa?";
         txt2[50] = nama + ": Gumõi na gane khõ Duagu, awe.";
         txt2[52] = nama + ": yae jabu ba toma moroi ba fasa nifabe'egõ Duagu.";
         txt2[55] = nama + ": Moa ma'usasai, Awe.";
@@ -262,17 +262,17 @@ function changeName(){
         txt3[93] = nama + ": Gu möli efa mbalu-mbalu mbawa, Ina. Yai gefe nia.";
         txt3[96] = nama + ": Haya ha'a ?";
         txt3[98] = nama + ": He, avena falakhi ndrao khönia.";
-	}  
-    else if (minang === true){
+    }
+    else if (minang === true) {
         // text1
         txt1[9] = nama + ": Mokasii!";
-		txt1[12] = nama + ": Oitu, ambo mancaliak nyo di rimbo.";
-		txt1[14] = nama + ": Jadih nek.";
-		txt1[15] = nama + ": Ko  masker dari nenek angku. pakailah dulu!";
-		txt1[18] = nama + ": Dima mak?";
-		txt1[21] = nama + ": Ka mambali sabun cuci tangan.";
-		txt1[24] = nama + ": Ado sabun cuci tangan?";
-		txt1[30] = nama + ": Ko sabunnyo, Mak.";
+        txt1[12] = nama + ": Oitu, ambo mancaliak nyo di rimbo.";
+        txt1[14] = nama + ": Jadih nek.";
+        txt1[15] = nama + ": Ko  masker dari nenek angku. pakailah dulu!";
+        txt1[18] = nama + ": Dima mak?";
+        txt1[21] = nama + ": Ka mambali sabun cuci tangan.";
+        txt1[24] = nama + ": Ado sabun cuci tangan?";
+        txt1[30] = nama + ": Ko sabunnyo, Mak.";
         // txt2
         txt2[1] = nama + ": Jadih, Mak.";
         txt2[6] = nama + ": Mak, anaknyo baa?";
@@ -285,7 +285,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, indak dulu, Mak.";
         txt2[23] = nama + ": Oh, indak mancari apo-apo, Mak.";
         txt2[24] = nama + ": Numpang batanyo, jalan ka menara lewaik ma, yo?";
-        txt2[27] = "Pak gaek: Oii, " +nama+ " Saingek Pak gaek, amak wak  manitipan bekal untuak Kakek.";
+        txt2[27] = "Pak gaek: Oii, " + nama + " Saingek Pak gaek, amak wak  manitipan bekal untuak Kakek.";
         txt2[28] = nama + ": Iyo, Gaek!";
         txt2[29] = nama + ": Ko bekal dari Amak untuak gaek.";
         txt2[32] = nama + ": Iyo lah, gaek.";
@@ -294,7 +294,7 @@ function changeName(){
         txt2[40] = nama + ": Jadih, ko pitih nyo, Mak.";
         txt2[43] = nama + ": Sabun caia ado, Mak?";
         txt2[45] = nama + ": Jadih, ko pitihnyo.";
-        txt2[49] = "Enek : Oii, " + nama +". Apo ado titipan dari Pak gaek wak?";
+        txt2[49] = "Enek : Oii, " + nama + ". Apo ado titipan dari Pak gaek wak?";
         txt2[50] = nama + ": Ambo  ka tampaik  Pak gaek dulu, Nek.";
         txt2[52] = nama + ": Ko sabun jo tomaik dari pasa titipan Pak gaek.";
         txt2[55] = nama + ": Alahambo basuah, Nek.";
@@ -322,17 +322,17 @@ function changeName(){
         txt3[93] = nama + ": Jadih, ambo bali ampek masker, Bu. Ko pitihnyo.";
         txt3[96] = nama + ": Ado apo ko?";
         txt3[98] = nama + ": Ondeh, ambo baru basobok jo inyo tadi.";
-	}  
-    else if (jambi === true){
+    }
+    else if (jambi === true) {
         // text1
-        txt1[9] = nama + ": Mokasih!"; 
-		txt1[12] = nama + ": Oh, sayo nengok dio di utan.";
-		txt1[14] = nama + ": Bisolah, Nyai.";
-		txt1[15] = nama + ": Masker ni dari nyai kau. Pakelah dulu!";
-		txt1[18] = nama + ": Di mano, Mak?";
-		txt1[21] = nama + ": Aku nak beli sabun cuci tangan.";
-		txt1[24] = nama + ": Ado sabun cuci tangan, dak?";
-		txt1[30] = nama + ": Ni sabunnyo, Mak.";
+        txt1[9] = nama + ": Mokasih!";
+        txt1[12] = nama + ": Oh, sayo nengok dio di utan.";
+        txt1[14] = nama + ": Bisolah, Nyai.";
+        txt1[15] = nama + ": Masker ni dari nyai kau. Pakelah dulu!";
+        txt1[18] = nama + ": Di mano, Mak?";
+        txt1[21] = nama + ": Aku nak beli sabun cuci tangan.";
+        txt1[24] = nama + ": Ado sabun cuci tangan, dak?";
+        txt1[30] = nama + ": Ni sabunnyo, Mak.";
         // txt2 
         txt2[1] = nama + ": Iyo, Mak.";
         txt2[6] = nama + ": Knapo anaknyo, Yuk?";
@@ -345,7 +345,7 @@ function changeName(){
         txt2[21] = nama + ": Idak dulu, Nyai.";
         txt2[23] = nama + ": Oh, idak, Nyai.";
         txt2[24] = nama + ": Permisi, jalan ke menaro tu lewat mano,  yo?";
-        txt2[27] = "Datuk: Halo, " +nama+ " Seingat Datuk, mamak kau nitip makanan untuk Datuk.";
+        txt2[27] = "Datuk: Halo, " + nama + " Seingat Datuk, mamak kau nitip makanan untuk Datuk.";
         txt2[28] = nama + ": Iyo, Tuk!";
         txt2[29] = nama + ": Ni makanan dari Mamak untuk Datuk.";
         txt2[32] = nama + ": Bisolah, Tuk.";
@@ -354,7 +354,7 @@ function changeName(){
         txt2[40] = nama + ": Iyolah, ini duitnyo, Nyai.";
         txt2[43] = nama + ": Sabun cair ado, Nyai?";
         txt2[45] = nama + ": Yo, ni duitnyo.";
-        txt2[49] = "Nyai: Halo, " + nama +". Apo ado titipan dari datuk kau?";
+        txt2[49] = "Nyai: Halo, " + nama + ". Apo ado titipan dari datuk kau?";
         txt2[50] = nama + ": Sayo ke tempat Datuk dulu, Nyai.";
         txt2[52] = nama + ": Ni sabun samo tomat dari pasar titipan Datuk.";
         txt2[55] = nama + ": La sudah sayo cuci, Nyai.";
@@ -382,17 +382,17 @@ function changeName(){
         txt3[93] = nama + ": Yo, sayo beli, Nyai. Ni duitnyo.";
         txt3[96] = nama + ": Ado apo ni?";
         txt3[98] = nama + ": Wah, tadi sayo baru ketemu dio.";
-	}
-    else if (kerinci === true){
+    }
+    else if (kerinci === true) {
         // text1
-        txt1[9] = nama + ": Tarimo kasih!"; 
-		txt1[12] = nama + ": Oh, akau ngimok nyo kek imbao.";
-		txt1[14] = nama + ": Iyea lah.";
-		txt1[15] = nama + ": Ineh masker dari tino ikao. Pakae lah!";
-		txt1[18] = nama + ": Kek manao, Mak?";
-		txt1[21] = nama + ": Ndok melei sabun untuk masouh jahoi.";
-		txt1[24] = nama + ": Adea sabun untuk masoih jahoi?";
-		txt1[30] = nama + ": Ineh sabun, Mak.";
+        txt1[9] = nama + ": Tarimo kasih!";
+        txt1[12] = nama + ": Oh, akau ngimok nyo kek imbao.";
+        txt1[14] = nama + ": Iyea lah.";
+        txt1[15] = nama + ": Ineh masker dari tino ikao. Pakae lah!";
+        txt1[18] = nama + ": Kek manao, Mak?";
+        txt1[21] = nama + ": Ndok melei sabun untuk masouh jahoi.";
+        txt1[24] = nama + ": Adea sabun untuk masoih jahoi?";
+        txt1[30] = nama + ": Ineh sabun, Mak.";
         // txt2 
         txt2[1] = nama + ": Iyea, Mak.";
         txt2[6] = nama + ": Itek, piyao anok, Tek?";
@@ -405,7 +405,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, iduak, Tek.";
         txt2[23] = nama + ": Oh, ijia, Tek.";
         txt2[24] = nama + ": Permisi, jalon ke menara manao, yea?";
-        txt2[27] = "Nantan: Halo, " +nama+ " Saingak nantan, Mak niteik gule ndok nantan.";
+        txt2[27] = "Nantan: Halo, " + nama + " Saingak nantan, Mak niteik gule ndok nantan.";
         txt2[28] = nama + ": Iyea, Ntan!";
         txt2[29] = nama + ": Ineh gule dari Mak untuk Nantan.";
         txt2[32] = nama + ": Iyea, Ntan.";
@@ -414,7 +414,7 @@ function changeName(){
         txt2[40] = nama + ": Ineh kipe, Tek.";
         txt2[43] = nama + ": Sabun cair adea, Tek?";
         txt2[45] = nama + ": Iyea lah, ineh kipe.";
-        txt2[49] = "Tino: " + nama +", Adea titipan dari nantan?";
+        txt2[49] = "Tino: " + nama + ", Adea titipan dari nantan?";
         txt2[50] = nama + ": Akau ka tempek Nantan, Tino.";
         txt2[52] = nama + ": Ineh saben nge tomat dari pasa titipan Nantan.";
         txt2[55] = nama + ": Suduah akau masuh, Tino.";
@@ -442,17 +442,17 @@ function changeName(){
         txt3[93] = nama + ": Iyealah, akau melei empak masker, Tek. Ineh kipe.";
         txt3[96] = nama + ": Adea apo neh?";
         txt3[98] = nama + ": Alah, akeu bahu subeak nyo tadeh.";
-	}    
-    else if (palembang === true){
+    }
+    else if (palembang === true) {
         // text1
-        txt1[9] = nama + ": Mokasih!"; 
-		txt1[12] = nama + ": Oh, Aku nyingok dio di utan.";
-		txt1[14] = nama + ": Pacak bae.";
-		txt1[15] = nama + ": Ini punutup cungur samo mulut  dari nyai awak. Pakelah dulu!";
-		txt1[18] = nama + ": Di mano, Buk?";
-		txt1[21] = nama + ": Nak meli sabun basu tangan.";
-		txt1[24] = nama + ": Ado sabun masu tangan?";
-		txt1[30] = nama + ": Ini sabunnyo, Buk.";
+        txt1[9] = nama + ": Mokasih!";
+        txt1[12] = nama + ": Oh, Aku nyingok dio di utan.";
+        txt1[14] = nama + ": Pacak bae.";
+        txt1[15] = nama + ": Ini punutup cungur samo mulut  dari nyai awak. Pakelah dulu!";
+        txt1[18] = nama + ": Di mano, Buk?";
+        txt1[21] = nama + ": Nak meli sabun basu tangan.";
+        txt1[24] = nama + ": Ado sabun masu tangan?";
+        txt1[30] = nama + ": Ini sabunnyo, Buk.";
         // txt2 
         txt2[1] = nama + ": Iyo, Buk.";
         txt2[6] = nama + ": Buk, anaknyo ngapo?";
@@ -465,7 +465,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, idak dulu, Bik.";
         txt2[23] = nama + ": Oh, tidak cari apa-apa, Bik.";
         txt2[24] = nama + ": Numpang nanyo, jalan ke menara liwat mano, ya?";
-        txt2[27] = "Yai: Halo, " +nama+ " Seenget Yai, ibuk kamok ni nitipke  bekal untuk Yai.";
+        txt2[27] = "Yai: Halo, " + nama + " Seenget Yai, ibuk kamok ni nitipke  bekal untuk Yai.";
         txt2[28] = nama + ": Iya, Yai!";
         txt2[29] = nama + ": Ini bekal dari Ibuk untuk Yai.";
         txt2[32] = nama + ": Pacak bae, Yai.";
@@ -474,7 +474,7 @@ function changeName(){
         txt2[40] = nama + ": Baik, ini uangnya, Bik.";
         txt2[43] = nama + ": Sabun cair ado, Bik?";
         txt2[45] = nama + ": Oke, ini duitnyo.";
-        txt2[49] = "Nyai: Halo, " + nama +". Apo ado titipan dari Yai kamok ni?";
+        txt2[49] = "Nyai: Halo, " + nama + ". Apo ado titipan dari Yai kamok ni?";
         txt2[50] = nama + ": Aku nak ke tempat Yai dulu, Nyai.";
         txt2[52] = nama + ": Ini sabun dengen tomat dari pasar titipan Yai.";
         txt2[55] = nama + ": Sudah saya basu, Nyai.";
@@ -502,17 +502,17 @@ function changeName(){
         txt3[93] = nama + ": Payo, Aku beli penutup cungur samo idung ni empat ikok, Bik. Ini duitnyo.";
         txt3[96] = nama + ": Ado apo ini?";
         txt3[98] = nama + ": Nah, aku baru bae betemu dio tadi.";
-	}
-    else if (besemah === true){
+    }
+    else if (besemah === true) {
         // text1
-        txt1[9] = nama + ": Mekaseh au!"; 
-		txt1[12] = nama + ": O, aku tadi nginak die pangke di ghimbe.";
-		txt1[14] = nama + ": Oi au, sini neng, engkala aku ngantatkanye.";
-		txt1[15] = nama + ": Ce', ini masker san nineng kaba, pakaila kudai!";
-		txt1[18] = nama + ": Di mane, Mak?";
-		txt1[21] = nama + ": Mbeli sabu batan mbasoh tangan.";
-		txt1[24] = nama + ": Ade sabun kandek mbasoh tangan?";
-		txt1[30] = nama + ": Ini sabune, Mak.";
+        txt1[9] = nama + ": Mekaseh au!";
+        txt1[12] = nama + ": O, aku tadi nginak die pangke di ghimbe.";
+        txt1[14] = nama + ": Oi au, sini neng, engkala aku ngantatkanye.";
+        txt1[15] = nama + ": Ce', ini masker san nineng kaba, pakaila kudai!";
+        txt1[18] = nama + ": Di mane, Mak?";
+        txt1[21] = nama + ": Mbeli sabu batan mbasoh tangan.";
+        txt1[24] = nama + ": Ade sabun kandek mbasoh tangan?";
+        txt1[30] = nama + ": Ini sabune, Mak.";
         // txt2 
         txt2[1] = nama + ": Au, Mak.";
         txt2[6] = nama + ": Ibungan, ngape anak kamu?";
@@ -525,7 +525,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, lom kudai, Bek.";
         txt2[23] = nama + ": Oo, dide ncakagh tuape-tuape, Bek.";
         txt2[24] = nama + ": Numpang betanye diket, ame nak ke menara liwat mane, e?";
-        txt2[27] = "Nineng lanang: Oi cong, " +nama+ " Ame nineng dek salah, umak kaba nitipka ibatan kandek nineng, au.";
+        txt2[27] = "Nineng lanang: Oi cong, " + nama + " Ame nineng dek salah, umak kaba nitipka ibatan kandek nineng, au.";
         txt2[28] = nama + ": Au, Neng!";
         txt2[29] = nama + ": Ini die ibatan san di umak kandek kamu, Neng.";
         txt2[32] = nama + ": Oi au, Neng.";
@@ -534,7 +534,7 @@ function changeName(){
         txt2[40] = nama + ": Ude ame lok itu, ini duete, Bek.";
         txt2[43] = nama + ": Sabon cair ade dide, Bek?";
         txt2[45] = nama + ": Oi au, ini duete.";
-        txt2[49] = "Nineng betine: Cong, " + nama +". Ade dide titipan san di nineng lanang kaba?";
+        txt2[49] = "Nineng betine: Cong, " + nama + ". Ade dide titipan san di nineng lanang kaba?";
         txt2[50] = nama + ": Aku ke bada nineng lanang kudai, Neng.";
         txt2[52] = nama + ": Ini sabun nga cung kedire san pasar titipan nineng lanang.";
         txt2[55] = nama + ": La kubasuh, Ning.";
@@ -562,17 +562,17 @@ function changeName(){
         txt3[93] = nama + ": Oi au, aku mbeli empat masker, Bek. Ini duite.";
         txt3[96] = nama + ": Ade tuape tini?";
         txt3[98] = nama + ": ayay, aku empai betemu nga die tadi.";
-	} 
-    else if (bangka === true){
+    }
+    else if (bangka === true) {
         // text1
-        txt1[9] = nama + ": Sinmung!"; 
-		txt1[12] = nama + ": Oh, ku ninggok je di utan.";
-		txt1[14] = nama + ": Pacak, Nek.";
-		txt1[15] = nama + ": Ni masker dari nenek ka. Pakai dulu!";
-		txt1[18] = nama + ": Di mane, Bu?";
-		txt1[21] = nama + ": Nek meli sabun cuci tangan.";
-		txt1[24] = nama + ": Ade sabun cuci tangan dak?";
-		txt1[30] = nama + ": Ni sabun a, Bu.";
+        txt1[9] = nama + ": Sinmung!";
+        txt1[12] = nama + ": Oh, ku ninggok je di utan.";
+        txt1[14] = nama + ": Pacak, Nek.";
+        txt1[15] = nama + ": Ni masker dari nenek ka. Pakai dulu!";
+        txt1[18] = nama + ": Di mane, Bu?";
+        txt1[21] = nama + ": Nek meli sabun cuci tangan.";
+        txt1[24] = nama + ": Ade sabun cuci tangan dak?";
+        txt1[30] = nama + ": Ni sabun a, Bu.";
         // txt2 
         txt2[1] = nama + ": Oke, Bu.";
         txt2[6] = nama + ": Bu, ngape anak a?";
@@ -585,7 +585,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, dak dulu, Bu.";
         txt2[23] = nama + ": Oh, dak cari ape-ape, Bu.";
         txt2[24] = nama + ": Permisi, jalan ke menara lewat mane, ok?";
-        txt2[27] = "Kakek: Halo, " +nama+ " Seinget Kakek, Ibu ka nitip bekel untuk kakek.";
+        txt2[27] = "Kakek: Halo, " + nama + " Seinget Kakek, Ibu ka nitip bekel untuk kakek.";
         txt2[28] = nama + ": Aok, Kek!";
         txt2[29] = nama + ": Ni bekel dari Ibu buet Kakek.";
         txt2[32] = nama + ": Pacak, Kek.";
@@ -594,7 +594,7 @@ function changeName(){
         txt2[40] = nama + ": Ok, Ni duit a, Bu.";
         txt2[43] = nama + ": Sabun cair ade, Bu?";
         txt2[45] = nama + ": Oke, ni duit a.";
-        txt2[49] = "Nenek: Halo, " + nama +". Ade titipan dari kakek ka?";
+        txt2[49] = "Nenek: Halo, " + nama + ". Ade titipan dari kakek ka?";
         txt2[50] = nama + ": Ku gi mere tempet kakek dulu, nek.";
         txt2[52] = nama + ": Ni sabun kik tomat dari pasar titipan kakek.";
         txt2[55] = nama + ": La ku cuci, Nek.";
@@ -622,17 +622,17 @@ function changeName(){
         txt3[93] = nama + ": Oke, Ku beli empat masker, Bu. Ni duit a.";
         txt3[96] = nama + ": Ade ape ni?";
         txt3[98] = nama + ": Waduh, ku baru lah sude ketemu je tadik.";
-	}   
-    else if (nasal === true){ 
+    }
+    else if (nasal === true) {
         // text1
-        txt1[9] = nama + ": Tekhimo kasih!" ; 
-		txt1[12] = nama + ": O, kuliyak yo di khimbo jenu.";
-		txt1[14] = nama + ": Na, Pandai.";
-		txt1[15] = nama + ": ajo Masker njak sawomu. Pakaido pai!";
-		txt1[18] = nama + ": Di dipo, Mak?";
-		txt1[21] = nama + ": Hago mbeli sabun basuh culuk.";
-		txt1[24] = nama + ": wat sabun basuh culuk?";
-		txt1[30] = nama + ": Ajo sabunnyo, Mak.";
+        txt1[9] = nama + ": Tekhimo kasih!";
+        txt1[12] = nama + ": O, kuliyak yo di khimbo jenu.";
+        txt1[14] = nama + ": Na, Pandai.";
+        txt1[15] = nama + ": ajo Masker njak sawomu. Pakaido pai!";
+        txt1[18] = nama + ": Di dipo, Mak?";
+        txt1[21] = nama + ": Hago mbeli sabun basuh culuk.";
+        txt1[24] = nama + ": wat sabun basuh culuk?";
+        txt1[30] = nama + ": Ajo sabunnyo, Mak.";
         // txt2 
         txt2[1] = nama + ": yu, Mak.";
         txt2[3] = "Tetanggo: wui, " + nama + " kute-tengis sawo Joko keno Covid.";
@@ -646,7 +646,7 @@ function changeName(){
         txt2[21] = nama + ": Mehaf, meuwat kung, Ncu.";
         txt2[23] = nama + ": O, Meuwat ngilum api-api, Ncu.";
         txt2[24] = nama + ": Pekhmisi, tengekhan hago ilung menara ni di dipo kio, wui?";
-        txt2[27] = "Tamung: wui, " +nama+ " Pekhasoan Tamung, makmu jenu nitipkun tanci untuk Tamung.";
+        txt2[27] = "Tamung: wui, " + nama + " Pekhasoan Tamung, makmu jenu nitipkun tanci untuk Tamung.";
         txt2[28] = nama + ": Yedo nihan, Mung!";
         txt2[29] = nama + ": Ajo tanci njak mak untuk Tamung.";
         txt2[32] = nama + ": Payu, Mung.";
@@ -656,10 +656,10 @@ function changeName(){
         txt2[43] = nama + ": Wat sabun cayikh, Ncu?";
         txt2[45] = nama + ": Yu, Ajo tancinyo.";
         txt2[48] = "Tetanggo: Ai, kak balak kidah kau sijo, wui. " + nama;
-        txt2[49] = "Sawo: Wui, " + nama +". Wat titipan njak tamungmu jenu?";
+        txt2[49] = "Sawo: Wui, " + nama + ". Wat titipan njak tamungmu jenu?";
         txt2[50] = nama + ": nyak mit bahun tamung pai, sawo.";
         txt2[52] = nama + ": ajo sabun khan telung mendikho njak pekan jenu titipan tamung.";
-        txt2[53] = "Sawo: Tekhimo kasih. " +nama + ". Tulung basuhi pai, yu.";
+        txt2[53] = "Sawo: Tekhimo kasih. " + nama + ". Tulung basuhi pai, yu.";
         txt2[55] = nama + ": Kak khadu kubasuhi, sawo.";
         txt2[57] = nama + ": Payu, Mung.";
         txt2[60] = nama + ": (Nyak hago makai cayikhan pembekhesih pai).";
@@ -686,17 +686,17 @@ function changeName(){
         txt3[93] = nama + ": Jadi, Nyak mbeli pak mbigi masker, Ncu. Ajo tancinyo.";
         txt3[96] = nama + ": Ngapi ajo?";
         txt3[98] = nama + ": Ai, Nyak mpai khadu betunggo lawan yo jenu.";
-	}
-    else if (rejang === true){ 
+    }
+    else if (rejang === true) {
         // text1
-        txt1[9] = nama + ": Mokasiak!" ; 
-		txt1[12] = nama + ": Awu, uku kemliak si nak imbo.";
-		txt1[14] = nama + ": Awu pacok.";
-		txt1[15] = nama + ": Dio masker kunei sebei nu. Kakei kileak!";
-		txt1[18] = nama + ": Neak ipe, Mak?";
-		txt1[21] = nama + ": Lok tenukua sabun utuk puk tangen.";
-		txt1[24] = nama + ": Ade sabun puk tangen?";
-		txt1[30] = nama + ": Die sabun ne, Mak.";
+        txt1[9] = nama + ": Mokasiak!";
+        txt1[12] = nama + ": Awu, uku kemliak si nak imbo.";
+        txt1[14] = nama + ": Awu pacok.";
+        txt1[15] = nama + ": Dio masker kunei sebei nu. Kakei kileak!";
+        txt1[18] = nama + ": Neak ipe, Mak?";
+        txt1[21] = nama + ": Lok tenukua sabun utuk puk tangen.";
+        txt1[24] = nama + ": Ade sabun puk tangen?";
+        txt1[30] = nama + ": Die sabun ne, Mak.";
         // txt2 
         txt2[1] = nama + ": Awu, Mak.";
         txt2[3] = "Tetanggo: Hoi, " + nama + " te teniuk ngenyan Joko keno Covid.";
@@ -710,7 +710,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, coa kileak, Bik.";
         txt2[23] = nama + ": Coa mesoa jejano, Bik.";
         txt2[24] = nama + ": Nupang liwet, dalen moi menara liwet ipe, gi?";
-        txt2[27] = "Datuk: Hoi, " +nama+ " Kinget Datuk, Mak nu tmitip kembuk utuk Datuk.";
+        txt2[27] = "Datuk: Hoi, " + nama + " Kinget Datuk, Mak nu tmitip kembuk utuk Datuk.";
         txt2[28] = nama + ": Awu, Tuk!";
         txt2[29] = nama + ": Die kembuk kunei Mak utuk Datuk.";
         txt2[32] = nama + ": Awu, Tuk.";
@@ -720,10 +720,10 @@ function changeName(){
         txt2[43] = nama + ": Sabun cair ade, Bik?";
         txt2[45] = nama + ": Awu, die caci ne.";
         txt2[48] = "Tetanggo: Oh, ko bi lai gi. " + nama;
-        txt2[49] = "Sebei: Oii, " + nama +". Jano ade nelei Datuknu?";
+        txt2[49] = "Sebei: Oii, " + nama + ". Jano ade nelei Datuknu?";
         txt2[50] = nama + ": Uku alau moi kakea Datuk kileak, Sebei.";
         txt2[52] = nama + ": Dio sabun ngen telung dira kunei pasar tnitip Datuk.";
-        txt2[53] = "Sebei: Mokasiak. " +nama + ". Tulung nepuk kileak, awu.";
+        txt2[53] = "Sebei: Mokasiak. " + nama + ". Tulung nepuk kileak, awu.";
         txt2[55] = nama + ": Sudo ku mpuk, Sebei.";
         txt2[57] = nama + ": Awu, Tuk.";
         txt2[60] = nama + ": (Uku makei bioa pembersih kileak).";
@@ -750,17 +750,17 @@ function changeName(){
         txt3[93] = nama + ": Awu, uku tenukua pat masker, Bik. Dio caci ne.";
         txt3[96] = nama + ": Gene dio?";
         txt3[98] = nama + ": Woi, uku bi sudo temau si ano.";
-	}
-    else if (lampung === true){ 
+    }
+    else if (lampung === true) {
         // text1
-        txt1[9] = nama + ": Tekhima kasih!" ; 
-		txt1[12] = nama + ": Oh, nyak ngeliyak ya di pullan.";
-		txt1[14] = nama + ": Tettu khia.";
-		txt1[15] = nama + ": Inji masker jak ajjongmu. Dipakai pai!";
-		txt1[18] = nama + ": Dipa, Mak?";
-		txt1[21] = nama + ": Haga mbeli sabun basuh culuk.";
-		txt1[24] = nama + ": Wat sabun basuh culuk?";
-		txt1[30] = nama + ": Inji sabunni, Mak.";
+        txt1[9] = nama + ": Tekhima kasih!";
+        txt1[12] = nama + ": Oh, nyak ngeliyak ya di pullan.";
+        txt1[14] = nama + ": Tettu khia.";
+        txt1[15] = nama + ": Inji masker jak ajjongmu. Dipakai pai!";
+        txt1[18] = nama + ": Dipa, Mak?";
+        txt1[21] = nama + ": Haga mbeli sabun basuh culuk.";
+        txt1[24] = nama + ": Wat sabun basuh culuk?";
+        txt1[30] = nama + ": Inji sabunni, Mak.";
         // txt2 
         txt2[1] = nama + ": Yu, Mak.";
         txt2[3] = "Tetangga: Hai, " + nama + " Tenengisku kik Bu Joko kena Covid.";
@@ -774,7 +774,7 @@ function changeName(){
         txt2[21] = nama + ": Mahap, mawat pai, Mak.";
         txt2[23] = nama + ": Oh, mawat nyepok api-api, Mak.";
         txt2[24] = nama + ": Pekhmisi, khelaya mit menara liwat dipa, yu?";
-        txt2[27] = "Among/Ajjong : Halo, " +nama+ " Ade titipan dari kakek ka, dak?";
+        txt2[27] = "Among/Ajjong : Halo, " + nama + " Ade titipan dari kakek ka, dak?";
         txt2[28] = nama + ": Iyu!";
         txt2[29] = nama + ": Inji bekal jak Emak pakai Among/Ajjong.";
         txt2[32] = nama + ": Tattu khia.";
@@ -784,10 +784,10 @@ function changeName(){
         txt2[43] = nama + ": Sabun cair uwat, Mak?";
         txt2[45] = nama + ": Oke, inji duitni.";
         txt2[48] = "Tetangga: Oh, niku khadu balak, yu. " + nama;
-        txt2[49] = "Among/Ajjong: Halo, " + nama +". Api uwat titipan makai nyak?";
+        txt2[49] = "Among/Ajjong: Halo, " + nama + ". Api uwat titipan makai nyak?";
         txt2[50] = nama + ": Nyak mit apini Among/Ajjong pai.";
         txt2[52] = nama + ": Dio sabun ngen telung dira kunei pasar tnitip Datuk.";
-        txt2[53] = "Among/Ajjong: Tekhima kasih. " +nama + ". Tulung dibasuh pai, yu.";
+        txt2[53] = "Among/Ajjong: Tekhima kasih. " + nama + ". Tulung dibasuh pai, yu.";
         txt2[55] = nama + ": Khadu ku basuh.";
         txt2[57] = nama + ": Iyu.";
         txt2[60] = nama + ": (Nyak makai caikhan pembekhsih pai).";
@@ -814,18 +814,18 @@ function changeName(){
         txt3[93] = nama + ": Tabik, nyak mbeli pak masker, Mak. Inji duitni.";
         txt3[96] = nama + ": Wat api inji?";
         txt3[98] = nama + ": Wah, nyak ampai ketemu ya kakhu.";
-	}
+    }
     // jawa
-    else if (betawi === true){ 
+    else if (betawi === true) {
         // text1
-        txt1[9] = nama + ": Makasih!"; 
-		txt1[12] = nama + ": Oh, aye liat die di utan.";
-		txt1[14] = nama + ": Iye.";
-		txt1[15] = nama + ": Ini masker dari nyailu. Dipake dulu!";
-		txt1[18] = nama + ": Di mane, Nyak?";
-		txt1[21] = nama + ": Mo beli sabun cuci tangan.";
-		txt1[24] = nama + ": Ada sabun cuci tangan?";
-		txt1[30] = nama + ": Ini sabunnye, Nyak.";
+        txt1[9] = nama + ": Makasih!";
+        txt1[12] = nama + ": Oh, aye liat die di utan.";
+        txt1[14] = nama + ": Iye.";
+        txt1[15] = nama + ": Ini masker dari nyailu. Dipake dulu!";
+        txt1[18] = nama + ": Di mane, Nyak?";
+        txt1[21] = nama + ": Mo beli sabun cuci tangan.";
+        txt1[24] = nama + ": Ada sabun cuci tangan?";
+        txt1[30] = nama + ": Ini sabunnye, Nyak.";
         // txt2 
         txt2[1] = nama + ": Iye, Nyak.";
         txt2[3] = "Tetangga: Hey, " + nama + " Dengar-dengar Bu Joko kena Covid.";
@@ -839,7 +839,7 @@ function changeName(){
         txt2[21] = nama + ": Maap, kagak dulu, Bu.";
         txt2[23] = nama + ": Oh, kagak cari ape-ape, Bu.";
         txt2[24] = nama + ": Permisi, jalan ke menara lewat mane, ya?";
-        txt2[27] = "Engkong: Woy, " +nama+ " Seinget Engkong, enyaklu nitipin bekel bakal Engkong.";
+        txt2[27] = "Engkong: Woy, " + nama + " Seinget Engkong, enyaklu nitipin bekel bakal Engkong.";
         txt2[28] = nama + ": Iye, Kong!";
         txt2[29] = nama + ": Ini bekel dari Enyak bakal Engkong.";
         txt2[32] = nama + ": Iye, Kong.";
@@ -849,10 +849,10 @@ function changeName(){
         txt2[43] = nama + ": Sabun caer ade, Bu?";
         txt2[45] = nama + ": Iye, ini uangnye.";
         txt2[48] = "Tetangga: Oh, lu udah gede, ye. " + nama;
-        txt2[49] = "Nyai: Woy, " + nama +". Apa ada titipan dari engkonglu?";
+        txt2[49] = "Nyai: Woy, " + nama + ". Apa ada titipan dari engkonglu?";
         txt2[50] = nama + ": Gue ke tempat Engkong dulu, Nyi.";
         txt2[52] = nama + ": Ini sabun ame tomat dari pasar titipan Engkong.";
-        txt2[53] = "Nyai: Makasih. " +nama + ". Tolong dicuci dulu, ye.";
+        txt2[53] = "Nyai: Makasih. " + nama + ". Tolong dicuci dulu, ye.";
         txt2[55] = nama + ": Udah gue cuci, Nyi.";
         txt2[57] = nama + ": Iye, Kong.";
         txt2[60] = nama + ": (Gue pake caeran pembersih dulu).";
@@ -879,17 +879,17 @@ function changeName(){
         txt3[93] = nama + ": Iye, gue beli empat masker, Bu. Ini uangnye.";
         txt3[96] = nama + ": Ade ape ini?";
         txt3[98] = nama + ": Wah, gue baru ketemu dia tadi.";
-	}
-    else if (sunda === true){ 
+    }
+    else if (sunda === true) {
         // text1
-        txt1[9] = nama + ": Nuhun!"; 
-		txt1[12] = nama + ": Oh, kuring ningali manéhna di leuweung.";
-		txt1[14] = nama + ": Mangga, Ni.";
-		txt1[15] = nama + ": Ieu masker ti nini anjeun. Sok paké heula!";
-		txt1[18] = nama + ": Di mana, Ma?";
-		txt1[21] = nama + ": Badé mésér sabun kanggo ngawasuh panangan.";
-		txt1[24] = nama + ": Aya sabun kanggo ngumbah panangan?";
-		txt1[30] = nama + ": Ieu sabunna, Ma.";
+        txt1[9] = nama + ": Nuhun!";
+        txt1[12] = nama + ": Oh, kuring ningali manéhna di leuweung.";
+        txt1[14] = nama + ": Mangga, Ni.";
+        txt1[15] = nama + ": Ieu masker ti nini anjeun. Sok paké heula!";
+        txt1[18] = nama + ": Di mana, Ma?";
+        txt1[21] = nama + ": Badé mésér sabun kanggo ngawasuh panangan.";
+        txt1[24] = nama + ": Aya sabun kanggo ngumbah panangan?";
+        txt1[30] = nama + ": Ieu sabunna, Ma.";
         // txt2 
         txt2[1] = nama + ": Enya, Ma.";
         txt2[3] = "Tatangga: Hei, " + nama + " Cenah mah Bu Joko keuna ku Covid.";
@@ -903,7 +903,7 @@ function changeName(){
         txt2[21] = nama + ": Punten, moal meser, Bu.";
         txt2[23] = nama + ": Oh, henteu, Bu.";
         txt2[24] = nama + ": Punten, jalan ka manara ka palih mana, nya?";
-        txt2[27] = "Aki: Halo, " +nama+ " Sakainget Aki, indung manéh nitipkeun bekel keur Aki .";
+        txt2[27] = "Aki: Halo, " + nama + " Sakainget Aki, indung manéh nitipkeun bekel keur Aki .";
         txt2[28] = nama + ": Enya, Ki!";
         txt2[29] = nama + ": Ieu bekel ti Ema kanggo Aki.";
         txt2[32] = nama + ": Tiasa, Ki.";
@@ -913,10 +913,10 @@ function changeName(){
         txt2[43] = nama + ": Sabun cair aya, Bu?";
         txt2[45] = nama + ": Enya, ini artosna.";
         txt2[48] = "Tetangga: Oh, anjeun geus gede, nya. " + nama;
-        txt2[49] = "Nini: Hei, " + nama +". Sugan aya titipan ti Aki manéh?";
+        txt2[49] = "Nini: Hei, " + nama + ". Sugan aya titipan ti Aki manéh?";
         txt2[50] = nama + ": Abdi ka tempat Aki heula nya, Ni.";
         txt2[52] = nama + ": Leu sabun sareng tomat titipan ti Aki.";
-        txt2[53] = "Nini: Nuhun. " +nama + ". Pang ngumbahkeun heula, nya.";
+        txt2[53] = "Nini: Nuhun. " + nama + ". Pang ngumbahkeun heula, nya.";
         txt2[55] = nama + ": Tos diwasuh, Ni.";
         txt2[57] = nama + ": Muhun, Ki.";
         txt2[60] = nama + ": (Kuring maké cairan beberesih heula).";
@@ -943,17 +943,17 @@ function changeName(){
         txt3[93] = nama + ": Muhun, abdi mésér opat masker, Bu. Ieu artosna.";
         txt3[96] = nama + ": Aya naon ieu?";
         txt3[98] = nama + ": Wah, tadi abdi nembé tepang.";
-	}
-    else if (cirebon === true){ 
+    }
+    else if (cirebon === true) {
         // text1
-        txt1[9] = nama + ": Kesuwun!" ; 
-		txt1[12] = nama + ": Oh, isun deleng ning alas.";
-		txt1[14] = nama + ": Bisa, Mbok.";
-		txt1[15] = nama + ": Iki masker sing mbok tuae ira. Dienggo dikit!";
-		txt1[18] = nama + ": Ning endi, Mi?";
-		txt1[21] = nama + ": Tuku sabun cuci tangan.";
-		txt1[24] = nama + ": Ana sabun cuci tangan bli, Bi?";
-		txt1[30] = nama + ": Iki sabune, Mi.";
+        txt1[9] = nama + ": Kesuwun!";
+        txt1[12] = nama + ": Oh, isun deleng ning alas.";
+        txt1[14] = nama + ": Bisa, Mbok.";
+        txt1[15] = nama + ": Iki masker sing mbok tuae ira. Dienggo dikit!";
+        txt1[18] = nama + ": Ning endi, Mi?";
+        txt1[21] = nama + ": Tuku sabun cuci tangan.";
+        txt1[24] = nama + ": Ana sabun cuci tangan bli, Bi?";
+        txt1[30] = nama + ": Iki sabune, Mi.";
         // txt2 
         txt2[1] = nama + ": Nggih, Mi.";
         txt2[3] = "Tangga: He, " + nama + " Jare e Bu Joko kena Covid, bener bli cah?.";
@@ -967,7 +967,7 @@ function changeName(){
         txt2[21] = nama + ": Punten, lain kali bae, Bi.";
         txt2[23] = nama + ": Oh, bli luru apa-apa, Bi.";
         txt2[24] = nama + ": Punten, dalan marani menara lewat mendi, ya?";
-        txt2[27] = "Kakek: He, " +nama+ " Jare e mimi nitip bekel kanggo bapo.";
+        txt2[27] = "Kakek: He, " + nama + " Jare e mimi nitip bekel kanggo bapo.";
         txt2[28] = nama + ": Oh iya!";
         txt2[29] = nama + ": Iki bekel kanggo Bapo.";
         txt2[32] = nama + ": Bisa.";
@@ -977,10 +977,10 @@ function changeName(){
         txt2[43] = nama + ": Sabun cair ana bli, Bi?";
         txt2[45] = nama + ": Oke, iki duite, Bi.";
         txt2[48] = "Tangga: Wah, ira wis gede ya. " + nama;
-        txt2[49] = "Mbok: He, " + nama +". Ana titipan sing bapo bli?";
+        txt2[49] = "Mbok: He, " + nama + ". Ana titipan sing bapo bli?";
         txt2[50] = nama + ": Isun ning Bapo dikit ya, Mbok.";
         txt2[52] = nama + ": Iki sabun karo tomat sing pasar titipane Bapo.";
-        txt2[53] = "Mbok: Kesuwun " +nama + ". Tulung dibasu dikit, ya.";
+        txt2[53] = "Mbok: Kesuwun " + nama + ". Tulung dibasu dikit, ya.";
         txt2[55] = nama + ": Wis dibasu, Mbok.";
         txt2[57] = nama + ": Iya, Bapo.";
         txt2[60] = nama + ": (Isun ngenggo cairan pembersih dikit).";
@@ -1007,17 +1007,17 @@ function changeName(){
         txt3[93] = nama + ": Tuku maskere, Bi. Kih duite.";
         txt3[96] = nama + ": Ana apa iki?";
         txt3[98] = nama + ": Wah, isun nembe ketemu mau.";
-	}
-    else if (jawa === true){ 
+    }
+    else if (jawa === true) {
         // text1
-        txt1[9] = nama + ": Nuwun!"; 
-		txt1[12] = nama + ": Oh, aku weruh dheweke mau neng alas.";
-		txt1[14] = nama + ": Inggih mbah.";
-		txt1[15] = nama + ": Iki masker seka mbahmu. Dinggo sik yo!";
-		txt1[18] = nama + ": Nangdi, Bu?";
-		txt1[21] = nama + ": Arep tuku sabun nggo wisuh.";
-		txt1[24] = nama + ": Ono sabun wisuh?";
-		txt1[30] = nama + ": Iki sabunne, Bu.";
+        txt1[9] = nama + ": Nuwun!";
+        txt1[12] = nama + ": Oh, aku weruh dheweke mau neng alas.";
+        txt1[14] = nama + ": Inggih mbah.";
+        txt1[15] = nama + ": Iki masker seka mbahmu. Dinggo sik yo!";
+        txt1[18] = nama + ": Nangdi, Bu?";
+        txt1[21] = nama + ": Arep tuku sabun nggo wisuh.";
+        txt1[24] = nama + ": Ono sabun wisuh?";
+        txt1[30] = nama + ": Iki sabunne, Bu.";
         // txt2 
         txt2[1] = nama + ": Inggih, Bu.";
         txt2[3] = "Tangga: He, " + nama + " aku krungu nek bu Joko kena Covid.";
@@ -1031,7 +1031,7 @@ function changeName(){
         txt2[21] = nama + ": Sepurane, ora sik bu.";
         txt2[23] = nama + ": Ora golek opo-opo bu.";
         txt2[24] = nama + ": Nuwun sewu, dalan neng menara lewat ngendi yo?";
-        txt2[27] = "Simbah kakung: " +nama+ " Sak elinge simbah, ibumu nitip panganan nggo simbah.";
+        txt2[27] = "Simbah kakung: " + nama + " Sak elinge simbah, ibumu nitip panganan nggo simbah.";
         txt2[28] = nama + ": Inggih, Mbah!";
         txt2[29] = nama + ": Iki panganan seka ibu nggo simbah.";
         txt2[32] = nama + ": Inggih, Mbah.";
@@ -1041,10 +1041,10 @@ function changeName(){
         txt2[43] = nama + ": Sabun cair ono, Bu?";
         txt2[45] = nama + ": Yo, iki duite.";
         txt2[48] = "Tetangga: Wah, kowe wis gede, yo. " + nama;
-        txt2[49] = "Simbah putri: " + nama +". Opo ono titipan seka mbahmu?";
+        txt2[49] = "Simbah putri: " + nama + ". Opo ono titipan seka mbahmu?";
         txt2[50] = nama + ": Aku nenggone simbah kakung sik , Mbah.";
         txt2[52] = nama + ": Iki sabun lan tomat seka pasar titipan seka simbah kakung.";
-        txt2[53] = "Simbah: Nuwun. " +nama + ". Tulung dikumbah dhisik, yo.";
+        txt2[53] = "Simbah: Nuwun. " + nama + ". Tulung dikumbah dhisik, yo.";
         txt2[55] = nama + ": Wis tak kumbah, Mbah.";
         txt2[57] = nama + ": Inggih, Mbak.";
         txt2[60] = nama + ": (Aku nganggo cairan pembersih sik).";
@@ -1071,17 +1071,17 @@ function changeName(){
         txt3[93] = nama + ": Nggih, aku tuku masker papat, Bu. Iki duite.";
         txt3[96] = nama + ": Ono apa iki?";
         txt3[98] = nama + ": Wah, aku bar ketemu deweke mau.";
-	}
-    else if (pemalang === true){ 
+    }
+    else if (pemalang === true) {
         // text1
-        txt1[9] = nama + ": Matur suwun!" ; 
-		txt1[12] = nama + ": Oh, enyong ndeleng bocahe esih nang utan.";
-		txt1[14] = nama + ": Bise rah.";
-		txt1[15] = nama + ": Kiye masker sing mbah putri ne kowen. Dinggo ndisit!";
-		txt1[18] = nama + ": Nang endi, Bu?";
-		txt1[21] = nama + ": Apan tuku sabun ngo wisuh tangan.";
-		txt1[24] = nama + ": Ana sabun ngo wisuh tangan?";
-		txt1[30] = nama + ": Kiye sabunne, Bu.";
+        txt1[9] = nama + ": Matur suwun!";
+        txt1[12] = nama + ": Oh, enyong ndeleng bocahe esih nang utan.";
+        txt1[14] = nama + ": Bise rah.";
+        txt1[15] = nama + ": Kiye masker sing mbah putri ne kowen. Dinggo ndisit!";
+        txt1[18] = nama + ": Nang endi, Bu?";
+        txt1[21] = nama + ": Apan tuku sabun ngo wisuh tangan.";
+        txt1[24] = nama + ": Ana sabun ngo wisuh tangan?";
+        txt1[30] = nama + ": Kiye sabunne, Bu.";
         // txt2 
         txt2[1] = nama + ": Iye, Bu.";
         txt2[3] = "Tenggene: Hai, " + nama + " Krungu-krungu Bu Joko kena Covid.";
@@ -1095,7 +1095,7 @@ function changeName(){
         txt2[21] = nama + ": Ngapurane, ora ndisit, Bu.";
         txt2[23] = nama + ": Oh, ora luruh apa-apa, Bu.";
         txt2[24] = nama + ": Permisi, dalan maring menara lewate endi, ya?";
-        txt2[27] = "Mbah kakung: Halo, " +nama+ "Se emute Mbah kakung, ibune kowen nitipna sangune kanggo Mbah kakung.";
+        txt2[27] = "Mbah kakung: Halo, " + nama + "Se emute Mbah kakung, ibune kowen nitipna sangune kanggo Mbah kakung.";
         txt2[28] = nama + ": Iye, Mbah!";
         txt2[29] = nama + ": Kiye sangune sing ibu kanggo Mbah kakung.";
         txt2[32] = nama + ": Bise rah, Mbah.";
@@ -1105,10 +1105,10 @@ function changeName(){
         txt2[43] = nama + ": Sabun encere ana, Bu?";
         txt2[45] = nama + ": Oke, kiye duite.";
         txt2[48] = "Tetangga: Wah, kowe wis gede, yo. " + nama;
-        txt2[49] = "Mbah putri: Halo, " + nama +". Apa ana titipan sing Mbah kakung kowen?";
+        txt2[49] = "Mbah putri: Halo, " + nama + ". Apa ana titipan sing Mbah kakung kowen?";
         txt2[50] = nama + ": Enyong maring tempate Mbah kakung ndisit ya, Mbah putri.";
         txt2[52] = nama + ": Kiye sabun kambe tomate sing pasar titipane Mbah kakung.";
-        txt2[53] = "Mbah putri: Matur suwun. " +nama + ". Tulung dikumbah ndisit, ya.";
+        txt2[53] = "Mbah putri: Matur suwun. " + nama + ". Tulung dikumbah ndisit, ya.";
         txt2[55] = nama + ": Wis enyong kumbah ya, Mbah putri.";
         txt2[57] = nama + ": Iye, Mbah.";
         txt2[60] = nama + ": (Enyong nganggo cairan pembersih ndisit ya).";
@@ -1135,12 +1135,12 @@ function changeName(){
         txt3[93] = nama + ": Ye wis, enyong tuku papat maskere, Bu. Kiye duite.";
         txt3[96] = nama + ": Ana apa kiye?";
         txt3[98] = nama + ": Wah, enyong miki nembe ketemu kae.";
-	}
-    else if (osing === true){
+    }
+    else if (osing === true) {
         // (LEVEL 1) text1
         txt1[9] = nama + ": Kesuwun!";
         txt1[12] = nama + ": Oh, isun deleng riko neng alas.";
-        txt1[14] =  nama + ":  Mesti .";
+        txt1[14] = nama + ":  Mesti .";
         txt1[15] = nama + ": Iki masker teko adon isun. Enggonen sulung!";
         txt1[18] = nama + ": Nong endi, Mak?";
         txt1[21] = nama + ": Arep tuku sabun wesuh tangan.";
@@ -1159,7 +1159,7 @@ function changeName(){
         txt2[21] = nama + ": sepurone, mboten sulung, Mak.";
         txt2[23] = nama + ": Oh, Using goleet paran-parang, Mak.";
         txt2[24] = nama + ": Amit, dalan arep nang menoro liwat ning ndi, yo?";
-        txt2[27] = "Anang:  Halo, "+nama+ " Anang enget, emak riko titip sangu kanggo anang.";
+        txt2[27] = "Anang:  Halo, " + nama + " Anang enget, emak riko titip sangu kanggo anang.";
         txt2[28] = nama + ": Enggeh, Nang!";
         txt2[29] = nama + ": Iki sangune teko Emak enggo Anang.";
         txt2[32] = nama + ": Enggeh, Nang.";
@@ -1169,7 +1169,7 @@ function changeName(){
         txt2[43] = nama + ": Sabun encer enten, Mak?";
         txt2[45] = nama + ": Enggeh, niki picise.";
         txt2[48] = nama + ": Enggeh, niki picise.";
-        txt2[49] = "Adon: Hei, "+ nama +". Ono titipan teko anang riko ?";
+        txt2[49] = "Adon: Hei, " + nama + ". Ono titipan teko anang riko ?";
         txt2[50] = nama + ": Isun ning panggone anang sulung, Don.";
         txt2[52] = nama + ": Iki sabun lan tomat teko pasar  titipane Anang .";
         txt2[53] = nama + ": Iki sabun lan tomat teko pasar  titipane Anang .";
@@ -1200,16 +1200,16 @@ function changeName(){
         txt3[96] = nama + ": Ono paran iki?";
         txt3[98] = nama + ": Wah, isun buru ketemu lare iku mau.";
     }
-    else if (madura === true){ 
+    else if (madura === true) {
         // text1
-        txt1[9] = nama + ": Keso'on!" ; 
-		txt1[12] = nama + ": Bâh, engko' ngatèla' bâdâh neng alas.";
-		txt1[14] = nama + ": Èngghi.";
-		txt1[15] = nama + ": Rèya masker dâri nyainnah. Angghuy nghelluh!";
-		txt1[18] = nama + ": Neng dimmah, Ma'?";
-		txt1[21] = nama + ": Mellèyah sabon.";
-		txt1[24] = nama + ": Bâdâ sabon?";
-		txt1[30] = nama + ": Nèka sabonnah, Ma'.";
+        txt1[9] = nama + ": Keso'on!";
+        txt1[12] = nama + ": Bâh, engko' ngatèla' bâdâh neng alas.";
+        txt1[14] = nama + ": Èngghi.";
+        txt1[15] = nama + ": Rèya masker dâri nyainnah. Angghuy nghelluh!";
+        txt1[18] = nama + ": Neng dimmah, Ma'?";
+        txt1[21] = nama + ": Mellèyah sabon.";
+        txt1[24] = nama + ": Bâdâ sabon?";
+        txt1[30] = nama + ": Nèka sabonnah, Ma'.";
         // txt2 
         txt2[1] = nama + ": Èngghi , Ma'.";
         txt2[3] = "Tetangghâh: Hèh, " + nama + " Ding-ngiding Bè' Joko kennèng Covid.";
@@ -1223,7 +1223,7 @@ function changeName(){
         txt2[21] = nama + ": Saporanah, enten, Bè'.";
         txt2[23] = nama + ": Oh, ora luruh apa-apa, Bu.";
         txt2[24] = nama + ": Parmisi, jhâlân ka menara lèbât ka'emmah, ghi?";
-        txt2[27] = "Jai: Hèh, " +nama+ " Nga'-ènga'en, emma'en metoro' nasè' ka Jai.";
+        txt2[27] = "Jai: Hèh, " + nama + " Nga'-ènga'en, emma'en metoro' nasè' ka Jai.";
         txt2[28] = nama + ":Èngghi, Jai!";
         txt2[29] = nama + ":  Nèka nasè'en Jai dâri Emma' .";
         txt2[32] = nama + ": Èngghi, Jai.";
@@ -1233,10 +1233,10 @@ function changeName(){
         txt2[43] = nama + ": Bâdâ sabon caèr, Be'?";
         txt2[45] = nama + ": Èngghi, Nèka pèssènnah.";
         txt2[48] = "Tetanggheh: O, kakè la rajâ, yâh. " + nama;
-        txt2[49] = "Nyai: Hèh, " + nama +". Bâdâ tètèpan dâri jaimu?";
+        txt2[49] = "Nyai: Hèh, " + nama + ". Bâdâ tètèpan dâri jaimu?";
         txt2[50] = nama + ": Engko' entarrah ka kenengnah jai ghâllu, Nyi.";
         txt2[52] = nama + ": Nèka sabon bân tomat tètèpan Jainnah dâri pasar.";
-        txt2[53] = "Nyai: Keso'on. " +nama + ". Becco ghâllu, yâh";
+        txt2[53] = "Nyai: Keso'on. " + nama + ". Becco ghâllu, yâh";
         txt2[55] = nama + ": Marèh èbecco lah, Nyai.";
         txt2[57] = nama + ":Èngghi, Jai.";
         txt2[60] = nama + ": (engko' ngangghui caèran kangghuy mersè'èn tanang ghâllu).";
@@ -1263,12 +1263,12 @@ function changeName(){
         txt3[93] = nama + ": Èngghi, Engko' mellèyah empa', Bè'. Nèka pèssènnah.";
         txt3[96] = nama + ": Bâdâ napah rèya?";
         txt3[98] = nama + ": Bâ, engko' ghuruwen ketemon bi' jârèya.";
-	}
-    else if (bali === true){
+    }
+    else if (bali === true) {
         // (LEVEL 1) text1
         txt1[9] = nama + ": Matur suksma!";
         txt1[12] = nama + ": Oh, panggihin titiang ring alase.";
-        txt1[14] =  nama + ": Ngih Prasida.";
+        txt1[14] = nama + ": Ngih Prasida.";
         txt1[15] = nama + ": Niki masker saking nini awae. Anggen dumun!";
         txt1[18] = nama + ": Ring dija, Me?";
         txt1[21] = nama + ": Jagi numbas sabun cuci tangan.";
@@ -1287,7 +1287,7 @@ function changeName(){
         txt2[21] = nama + ": Sinampura, nenten, Bu.";
         txt2[23] = nama + ": Oh, nenten ngerereh napi, Bu.";
         txt2[24] = nama + ": Nawegan, margi ke menara kija nika, ngih?";
-        txt2[27] = " Pekak: Halo, "+nama+" Ingetan Pekak, memen ceninge mapetan bekel banga pekak.";
+        txt2[27] = " Pekak: Halo, " + nama + " Ingetan Pekak, memen ceninge mapetan bekel banga pekak.";
         txt2[28] = nama + ": Ngih, Kak!";
         txt2[29] = nama + ": Niki bekel uli meme banga Pekak.";
         txt2[32] = nama + ": Ngih, Pekak.";
@@ -1297,7 +1297,7 @@ function changeName(){
         txt2[43] = nama + ": Sabun cair wenten, Bu?";
         txt2[45] = nama + ": Ngih, niki jinahne.";
         txt2[48] = nama + ": Ngih, niki jinahne.";
-        txt2[49] = "Nini: Halo, "+nama+". Wenten titipan saking pekak?";
+        txt2[49] = "Nini: Halo, " + nama + ". Wenten titipan saking pekak?";
         txt2[50] = nama + ": Titiang ketongosne pekak dumun, Ni.";
         txt2[52] = nama + ": Niki sabun lan tomat saking pasar sane kapapetan Pekak.";
         txt2[53] = nama + ": Niki sabun lan tomat saking pasar sane kapapetan Pekak.";
@@ -1327,11 +1327,11 @@ function changeName(){
         txt3[93] = nama + ": Ngih, tiang numbas papat masker, Bu. Niki jinah nyane.";
         txt3[96] = nama + ": Wenten napi niki?";
         txt3[98] = nama + ": Wah, saya baru ketemu dia tadi.";
- 
+
 
     }
     // kalSul
-    else if (ngaju === true){
+    else if (ngaju === true) {
         // (LEVEL 1) text1
         txt1[9] = nama + ": Tarima kasih!";
         txt1[12] = nama + ": Oh, iyoh aku nampayah iye melai himba.";
@@ -1354,7 +1354,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, dia helu, Na.";
         txt2[23] = nama + ": Oh, jatun ih, mina.";
         txt2[24] = nama + ": Permisi, jalan akan guang menara nahalau kueh, lah?";
-        txt2[27] = "Bue: Halo, "+nama+" Seingat bue, indum mu menitipkan bahata akan Bue.";
+        txt2[27] = "Bue: Halo, " + nama + " Seingat bue, indum mu menitipkan bahata akan Bue.";
         txt2[28] = nama + ": Iyoh, Bue!";
         txt2[29] = nama + ": Tuh bahata akan bue bara umai.";
         txt2[32] = nama + ": Tau ih, Bue.";
@@ -1364,7 +1364,7 @@ function changeName(){
         txt2[43] = nama + ": Sabun cair tegelah, Na?";
         txt2[45] = nama + ": Oke, tuh duit ah.";
         txt2[48] = nama + ": Oke, tuh duit ah.";
-        txt2[49] = "Tambi: Halo, "+ nama +". Tege titipan kah bara buemmu?";
+        txt2[49] = "Tambi: Halo, " + nama + ". Tege titipan kah bara buemmu?";
         txt2[50] = nama + ": Aku guang eka Bue helu, Mbi.";
         txt2[52] = nama + ": Tuh sabun dengan tomat bara pasar titipan Bue.";
         txt2[53] = nama + ": Tuh sabun dengan tomat bara pasar titipan Bue.";
@@ -1396,7 +1396,7 @@ function changeName(){
         txt3[98] = nama + ": Wah, aku harun supa iye endau.";
 
     }
-    else if (kanayan === true){
+    else if (kanayan === true) {
         // (LEVEL 1) text1
         txt1[9] = nama + ": Tarima kasih!";
         txt1[12] = nama + ": Oh, aku nelenya ka abut-abut.";
@@ -1419,7 +1419,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, nanak dolok, Bu.";
         txt2[23] = nama + ": Oh, nanak ngago ahe-ahe, Bu.";
         txt2[24] = nama + ": Permisi, maraga ka menara lewat kamae, auk?";
-        txt2[27] = "KakekEne: Halo, " +nama+ " saingat enk, uweknyu nitipan bekal  untuk Ene.";
+        txt2[27] = "KakekEne: Halo, " + nama + " saingat enk, uweknyu nitipan bekal  untuk Ene.";
         txt2[28] = nama + ": Aok, Ne!";
         txt2[29] = nama + ": nian bekal dari Uwek untuk Ene.";
         txt2[32] = nama + ": Aok pasti, Ne.";
@@ -1429,7 +1429,7 @@ function changeName(){
         txt2[43] = nama + ": Sabon cair ada gek, Bu?";
         txt2[45] = nama + ": Oke, nian duitnya.";
         txt2[48] = nama + ": Oke, nian duitnya.";
-        txt2[49] = "Ene: Halo, " + nama +". Ada gek titipan dari enenyu?";
+        txt2[49] = "Ene: Halo, " + nama + ". Ada gek titipan dari enenyu?";
         txt2[50] = nama + ": Aku maok ka tampat Ene dolo, Nek.";
         txt2[52] = nama + ": Nian sabon man tomat dari pasar titipan Ene.";
         txt2[53] = nama + ": Nian sabon man tomat dari pasar titipan Ene.";
@@ -1461,7 +1461,7 @@ function changeName(){
         txt3[98] = nama + ": Ade ah, aku baru batamu ia tadi.";
 
     }
-    else if (maanyan === true){
+    else if (maanyan === true) {
         // (LEVEL 1) text1
         txt1[9] = nama + ": Terime Kasis!";
         txt1[12] = nama + ": Oh, naan aku kadinung hang wuang jumpun.";
@@ -1484,7 +1484,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, puang dulu, Bu.";
         txt2[23] = nama + ": Oh, puang ngantara inun inun, Bu.";
         txt2[24] = nama + ": Permisi, lalan ma menara mitah awe sah?";
-        txt2[27] = " Kakah: Halo, " +nama+ " itung kakah, inehmu nitip bekal makai Kakah.";
+        txt2[27] = " Kakah: Halo, " + nama + " itung kakah, inehmu nitip bekal makai Kakah.";
         txt2[28] = nama + ": Hyai, Kah!";
         txt2[29] = nama + ": Ina bekal tika Ineh makai Kakah.";
         txt2[32] = nama + ": Tau tu'u, Kah.";
@@ -1494,7 +1494,7 @@ function changeName(){
         txt2[43] = nama + ": Sabun cair naan, Bu?";
         txt2[45] = nama + ": Oke, ina duit ni.";
         txt2[48] = nama + ": Oke, ina duit ni.";
-        txt2[49] = " Itak: Halo, " + nama +". Naan titipan tika Kakahmu sah?";
+        txt2[49] = " Itak: Halo, " + nama + ". Naan titipan tika Kakahmu sah?";
         txt2[50] = nama + ": Aku ma uneng Kakah dulu, tak.";
         txt2[52] = nama + ": Ina sabun baya tomat tika pasar titipan Kakah.";
         txt2[53] = nama + ": Ina sabun baya tomat tika pasar titipan Kakah.";
@@ -1525,7 +1525,7 @@ function changeName(){
         txt3[96] = nama + ": Dainun ina?";
         txt3[98] = nama + ": Wah, aku wau panalu hanye nien.";
     }
-    else if (lebang === true){
+    else if (lebang === true) {
         // (LEVEL 1) text1
         txt1[9] = nama + ": Terimo kasieh!";
         txt1[12] = nama + ": Oh auk, aku ngilau hidok de utan.";
@@ -1548,7 +1548,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, no dulu, Bu.";
         txt2[23] = nama + ": Oh, nohik ngegok apai-apai, Bu.";
         txt2[24] = nama + ": Permisi, jalan ke menara lewat mene, ya?";
-        txt2[27] = "Akik: Halo, " +nama+ " Seingat Akik, Inai menitipkan bekal untuk Akik.";
+        txt2[27] = "Akik: Halo, " + nama + " Seingat Akik, Inai menitipkan bekal untuk Akik.";
         txt2[28] = nama + ": Aok, Kik!";
         txt2[29] = nama + ": Ituk bekal ari Inai untuk Akik.";
         txt2[32] = nama + ": Tentu saja, Kik.";
@@ -1558,7 +1558,7 @@ function changeName(){
         txt2[43] = nama + ": habun cair ada, Bu?";
         txt2[45] = nama + ": Oke, ituk uangnya.";
         txt2[48] = nama + ": Oke, ituk uangnya.";
-        txt2[49] = "Inik: Halo, " + nama +". Apai bihik titipan ari Akik?";
+        txt2[49] = "Inik: Halo, " + nama + ". Apai bihik titipan ari Akik?";
         txt2[50] = nama + ": Aku ke tempat Akik dulu, Nik.";
         txt2[52] = nama + ": Ini habon dan tomat dari pasar titipan Akik.";
         txt2[53] = nama + ": Ini habon dan tomat dari pasar titipan Akik.";
@@ -1590,9 +1590,9 @@ function changeName(){
         txt3[98] = nama + ": Wah, aku aruk ketemu Hidok tadi.";
 
     }
-    else if (bugis === true){
+    else if (bugis === true) {
         // (LEVEL 1) text1
-        txt1[9] = nama + ": Terima kasih!" ;
+        txt1[9] = nama + ": Terima kasih!";
         txt1[12] = nama + ": Oiyye witai engkai di ale'e.";
         txt1[14] = nama + ": Iyye bah.";
         txt1[15] = nama + ": Engkae masker pole rinenemu. Pake jolo!";
@@ -1613,7 +1613,7 @@ function changeName(){
         txt2[21] = nama + ": elliki Ndi', silalona tu engka ye, Bu";
         txt2[23] = nama + ": Iyye deto, Bu.";
         txt2[24] = nama + ": Tabe, lalenge lokka dimenarae yetega?";
-        txt2[27] = "Kakek: Halo, "+nama+ " Kodeusala parengerang, nasuruki sedding emmamu malakka anre.";
+        txt2[27] = "Kakek: Halo, " + nama + " Kodeusala parengerang, nasuruki sedding emmamu malakka anre.";
         txt2[28] = nama + ": Iya, Lato'!";
         txt2[29] = nama + ": Engkae nanre pole diemmakku.";
         txt2[32] = nama + ": Bah, Lato'.";
@@ -1623,7 +1623,7 @@ function changeName(){
         txt2[43] = nama + ": Sabung, Bu?";
         txt2[45] = nama + ": Oke, tabe kahe duita.";
         txt2[48] = nama + ": Oke, tabe kahe duita.";
-        txt2[49] = "Nene: Hei, " + nama +". Engka napalaloang pole latokmu?";
+        txt2[49] = "Nene: Hei, " + nama + ". Engka napalaloang pole latokmu?";
         txt2[50] = nama + ": Pole dionronnaka latokku dolo, Nek.";
         txt2[52] = nama + ": Engkahe sabung sibawa lambace pole dilatokku.";
         txt2[53] = nama + ": Engkahe sabung sibawa lambace pole dilatokku.";
@@ -1654,16 +1654,16 @@ function changeName(){
         txt3[96] = nama + ": Aga kajajiang?";
         txt3[98] = nama + ": Wah, silaloku siruntu.";
     }
-    else if (manado === true){ 
+    else if (manado === true) {
         // text1
-        txt1[9] = nama + ": Makaseh!" ; 
-		txt1[12] = nama + ": Oo, kita da lia pa dia di utang.";
-		txt1[14] = nama + ": Boleh.";
-		txt1[15] = nama + ": Napa masker dari nga pe oma. Pake jo dulu!";
-		txt1[18] = nama + ": Mo pi bli dimana, Ma'?";
-		txt1[21] = nama + ": Mo bli sabong cuci tangan.";
-		txt1[24] = nama + ": Ada sabong cuci tangan?";
-		txt1[30] = nama + ": Napa Ma' tu sabong.";
+        txt1[9] = nama + ": Makaseh!";
+        txt1[12] = nama + ": Oo, kita da lia pa dia di utang.";
+        txt1[14] = nama + ": Boleh.";
+        txt1[15] = nama + ": Napa masker dari nga pe oma. Pake jo dulu!";
+        txt1[18] = nama + ": Mo pi bli dimana, Ma'?";
+        txt1[21] = nama + ": Mo bli sabong cuci tangan.";
+        txt1[24] = nama + ": Ada sabong cuci tangan?";
+        txt1[30] = nama + ": Napa Ma' tu sabong.";
         // txt2 
         txt2[1] = nama + ": Iyo, Ma'.";
         txt2[3] = "Birman: Hei, " + nama + " Nga so tau, tu tanta Joko da kena Covid kata, kang.";
@@ -1677,7 +1677,7 @@ function changeName(){
         txt2[21] = nama + ": Sori neh, nda mo ba bli kita.";
         txt2[23] = nama + ": Nyanda cari apa-apa, Tanta.";
         txt2[24] = nama + ": Permisi, kalo mo pi menara mo lewat jalang mana, kang?";
-        txt2[27] = "Opa: Halo, " +nama+ "Opa inga, nga pe mama da titip makanan pa ngana for Opa.";
+        txt2[27] = "Opa: Halo, " + nama + "Opa inga, nga pe mama da titip makanan pa ngana for Opa.";
         txt2[28] = nama + ":Iyo, Opa!";
         txt2[29] = nama + ": Napa tu makanan dari mama for Opa.";
         txt2[32] = nama + ": Iyo, Opa.";
@@ -1687,10 +1687,10 @@ function changeName(){
         txt2[43] = nama + ": Ada sabong cair, Tanta?";
         txt2[45] = nama + ": Oke, napa depe doi.";
         txt2[48] = "Tetangga: Aduh, so besar ngana, kang. " + nama;
-        txt2[49] = "Oma: Halo, " + nama +". Opa da ba titip pa ngana?";
+        txt2[49] = "Oma: Halo, " + nama + ". Opa da ba titip pa ngana?";
         txt2[50] = nama + ": Oma, kita mo pi pa opa pe tampa dulu, neh.";
         txt2[52] = nama + ": Napa tu sabong deng tomat da bli di pasar, yang tu Opa da titip dang.";
-        txt2[53] = "Oma: makaseh banya, neh. " +nama + ". Ngana pi cuci akang dulu.";
+        txt2[53] = "Oma: makaseh banya, neh. " + nama + ". Ngana pi cuci akang dulu.";
         txt2[55] = nama + ": Oma, sudah kita so cuci.";
         txt2[57] = nama + ": Iyo, Opa.";
         txt2[60] = nama + ": (Ta mo pake cairan anti kuman for ja se bersih tangan dulu).";
@@ -1717,8 +1717,8 @@ function changeName(){
         txt3[93] = nama + ": Berarti kita bli ampa jo, Tanta. Napa depe doi.";
         txt3[96] = nama + ": Kyapa ini, dang?";
         txt3[98] = nama + ": Ya astaga, tadi torang dua baru bakudapa.";
-	}
-    else if (tolaki === true){
+    }
+    else if (tolaki === true) {
         // (LEVEL 1) text1
         txt1[9] = nama + ": Tarima kasih!";
         txt1[12] = nama + ": Oo kukii iandoolo.";
@@ -1741,7 +1741,7 @@ function changeName(){
         txt2[21] = nama + ": Mongoni ambo, oki leesu Ina.";
         txt2[23] = nama + ": Oh, oki kulaa meopolaha, Ina.";
         txt2[24] = nama + ": Taabe, sala nggo lako nemenara meruku nehawo?";
-        txt2[27] = "Pue langgai: Halo, " +nama+ "Pombehawanggu,inamu monanggona kinaanggu.";
+        txt2[27] = "Pue langgai: Halo, " + nama + "Pombehawanggu,inamu monanggona kinaanggu.";
         txt2[28] = nama + ": Iye, Pue!";
         txt2[29] = nama + ": Niino kinaamiu ari kei ina.";
         txt2[32] = nama + ": Iye kutulei, Pue.";
@@ -1751,7 +1751,7 @@ function changeName(){
         txt2[43] = nama + ": La osabu, Ina?";
         txt2[45] = nama + ": Weakuto, ino doino.";
         txt2[48] = nama + ": Weakuto, ino doino.";
-        txt2[49] = "Pue: Halo, " + nama +". Lai pera oliwino pue langgaimu?";
+        txt2[49] = "Pue: Halo, " + nama + ". Lai pera oliwino pue langgaimu?";
         txt2[50] = nama + ": Kulako leesu ke pue langgai, Pue.";
         txt2[52] = nama + ": Ino osabu ronga tamate ari idaoa.";
         txt2[53] = nama + ": Ino osabu ronga tamate ari idaoa.";
@@ -1782,7 +1782,7 @@ function changeName(){
         txt3[96] = nama + ": Mbakoe ino?";
         txt3[98] = nama + ": Wah, epoka ku teposuangge ingoni.";
     }
-    else if (ciacia === true){
+    else if (ciacia === true) {
         // (LEVEL 1) text1
         txt1[9] = nama + ": Ee tarimakasi ee!";
         txt1[12] = nama + ": Oh,indau oita iya i hamota.";
@@ -1805,7 +1805,7 @@ function changeName(){
         txt2[21] = nama + ": Maafusau, pohake, Ina.";
         txt2[23] = nama + ": Oh, cia amikamata paparaa, Ina.";
         txt2[24] = nama + ": Tabea, lalano i menara tolewati I kaumpaa, la?";
-        txt2[27] = "Ompu: Halo, " +nama+ " Opindandaiemo, inamiumu notitipu winalu ngose Ompu.";
+        txt2[27] = "Ompu: Halo, " + nama + " Opindandaiemo, inamiumu notitipu winalu ngose Ompu.";
         txt2[28] = nama + ": Ombe, Mpu!";
         txt2[29] = nama + ": Inee winalu minaaso i wa Ina ngaso Ompu.";
         txt2[32] = nama + ": Ombe, Mpu.";
@@ -1815,7 +1815,7 @@ function changeName(){
         txt2[43] = nama + ": Sabo cumairi anee, Ina?";
         txt2[45] = nama + ": Ombe, inee dhoeno.";
         txt2[48] = nama + ": Ombe, inee dhoeno.";
-        txt2[49] = "Nene: Halo, " + nama +". Anee kalambokono minaaso i Ompumiu?";
+        txt2[49] = "Nene: Halo, " + nama + ". Anee kalambokono minaaso i Ompumiu?";
         txt2[50] = nama + ": Indau amintepo i tampano Ompu, Ne.";
         txt2[52] = nama + ": Inee sabo dhori tamate mina i dhaoa kalambokono Ompu.";
         txt2[53] = nama + ": Inee sabo dhori tamate mina i dhaoa kalambokono Ompu.";
@@ -1847,8 +1847,8 @@ function changeName(){
         txt3[98] = nama + ": Wee, indau bithamo opotabu iya haleo.";
     }
     // NTT dan NTB
-    else if (sasak === true){
-                // LEVEL 1 text1
+    else if (sasak === true) {
+        // LEVEL 1 text1
         txt1[9] = nama + ": Terima kasi!";
         txt1[12] = nama + ": Oh, Muq gitaq e leq gawah.";
         txt1[14] = nama + ": Oh bau gati.";
@@ -1871,7 +1871,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, Ndeq, Naq.";
         txt2[23] = nama + ": Oh, Ndeq ko boyak ape ape, Naq.";
         txt2[24] = nama + ": Ee,  Mbe jalan te jok menare, ah?";
-        txt2[27] = "Papuq Mame: Ee, " +nama+ " Seinget Papuq mame, inaq o sempaitan sango umaq Papuq mame.";
+        txt2[27] = "Papuq Mame: Ee, " + nama + " Seinget Papuq mame, inaq o sempaitan sango umaq Papuq mame.";
         txt2[28] = nama + ": , Nggih, Puq!";
         txt2[29] = nama + ": Ni sango oleq inaq ko umaq Papuq.";
         txt2[32] = nama + ": Taoq ko noh , Puq.";
@@ -1881,10 +1881,10 @@ function changeName(){
         txt2[43] = nama + ": Sabun encer, Naq?";
         txt2[45] = nama + ": O nggih, ni  kepeng.";
         txt2[48] = nama + ": O nggih, ni  kepeng.";
-        txt2[49] = "Papuq Nine: Halo, " + nama +". Araq sempaitan oleq papuq mame o?";
+        txt2[49] = "Papuq Nine: Halo, " + nama + ". Araq sempaitan oleq papuq mame o?";
         txt2[50] = nama + ": Eaq ko jok papuq mame juluk , Puq.";
         txt2[52] = nama + ": Ni sabun kance terong aceh sempaitan Papuq Mame.";
-        txt2[53] = "Papuq Nine: oo aoq. " +nama + ". Tulung bisoq e juluq, aoq";
+        txt2[53] = "Papuq Nine: oo aoq. " + nama + ". Tulung bisoq e juluq, aoq";
         txt2[55] = nama + ": Uah ko bisoq, Puq.";
         txt2[57] = nama + ": Nggih, Puq.";
         txt2[60] = nama + ": (Eaq ko kadu sabun encer pembersih juluq)";
@@ -1892,7 +1892,7 @@ function changeName(){
         // LEVEL 3 text3
         txt3[9] = nama + ": Ni, Maq.";
         txt3[15] = nama + ": (Wah, inaq ne ndekng kadu masker. Ndek jak belanje leq nie aneh ).";
-        txt3[16] =  nama + ": Ndek, Naq.";
+        txt3[16] = nama + ": Ndek, Naq.";
         txt3[22] = nama + ": Maaf eaq beketuan, taoq ape ni? Angkaqng tejagaq?";
         txt3[41] = nama + ": Aku salaq lai.";
         txt3[44] = "Semeton: Hai! " + nama + " ngoneq ndek bedait!";
@@ -1913,8 +1913,8 @@ function changeName(){
         txt3[96] = nama + ": Araq ape ne?";
         txt3[98] = nama + ": Wah, baruq saq bedait kance e.";
     }
-    else if (kupang === true){
-                // LEVEL 1 text1
+    else if (kupang === true) {
+        // LEVEL 1 text1
         txt1[9] = nama + ": Makasih!";
         txt1[12] = nama + ": Iyo, tadi beta liat dia ada di hutan.";
         txt1[14] = nama + ": Bisa.";
@@ -1922,7 +1922,7 @@ function changeName(){
         txt1[18] = nama + ": Di mana?";
         txt1[21] = nama + ": Mau beli sabun cuci tangan.";
         txt1[24] = nama + ": Ada sabun cuci tangan?";
-        txt1[30] =     nama + ": Mama, Ini sabun ni.";
+        txt1[30] = nama + ": Mama, Ini sabun ni.";
 
         // LEVEL 2 text2
         txt2[1] = nama + ": Iyo, ma.";
@@ -1937,7 +1937,7 @@ function changeName(){
         txt2[21] = nama + ": Maaf, sonde dolo, mama.";
         txt2[23] = nama + ": Sonde cari apa-apa, Ibu.";
         txt2[24] = nama + ": Permisi, jalan pi menara lewat mana, ee?";
-        txt2[27] = "Ba'i: kaka, " +nama+ " kalo sonde salah, lu pung mama ada titip makanan kasi Ba'i ee.";
+        txt2[27] = "Ba'i: kaka, " + nama + " kalo sonde salah, lu pung mama ada titip makanan kasi Ba'i ee.";
         txt2[28] = nama + ": Iyo, Ba'i!";
         txt2[29] = nama + ": Ini makanan yang mama buat kasi Ba'i.";
         txt2[32] = nama + ": Bisa, Ba'i.";
@@ -1947,10 +1947,10 @@ function changeName(){
         txt2[43] = nama + ": Ada sabun cair ada ko, Ibu?";
         txt2[45] = nama + ": Oke, ini uang ni.";
         txt2[48] = nama + ": Oke, ini uang ni.";
-        txt2[49] = "Nene: Kaka, " + nama +". Ba'i ada titip sesuatu kah?";
+        txt2[49] = "Nene: Kaka, " + nama + ". Ba'i ada titip sesuatu kah?";
         txt2[50] = nama + ": Nene, beta pi Ba'i pung tempat dolo ee.";
         txt2[52] = nama + ": Ini sabun deng tomat dari pasar yang Ba'i titip tadi.";
-        txt2[53] = "Nenek: Terima kasih. " +nama + ". Tolong dicuci dulu, ya.";
+        txt2[53] = "Nenek: Terima kasih. " + nama + ". Tolong dicuci dulu, ya.";
         txt2[55] = nama + ": Neta su cuci habis, Nek.";
         txt2[57] = nama + ": Iyo, Ba'i.";
         txt2[60] = nama + ": (Beta pakai cairan pembersih dolo).";
@@ -1979,17 +1979,17 @@ function changeName(){
         txt3[96] = nama + ": Ada apa ini?";
         txt3[98] = nama + ": Aduh, beta baru katemu dia tadi.";
     }
-    else if (uab === true){ 
+    else if (uab === true) {
         // text1
-        txt1[9] = nama + ": Makasih!" ; 
-		txt1[12] = nama + ": Oh, au ite es mepat.";
-		txt1[14] = nama + ": Leko.";
-		txt1[15] = nama + ": Ian masker nako ho bi nasi'. Ampake fe'!";
-		txt1[18] = nama + ": Es me, Ain?";
+        txt1[9] = nama + ": Makasih!";
+        txt1[12] = nama + ": Oh, au ite es mepat.";
+        txt1[14] = nama + ": Leko.";
+        txt1[15] = nama + ": Ian masker nako ho bi nasi'. Ampake fe'!";
+        txt1[18] = nama + ": Es me, Ain?";
         txt2[19] = nama + ": Maem sa'?";
-		txt1[21] = nama + ": He' sos sabu nukuf.";
-		txt1[24] = nama + ": An mui sabu fanu' nukuf?";
-		txt1[30] = nama + ": Sabu es ian.";
+        txt1[21] = nama + ": He' sos sabu nukuf.";
+        txt1[24] = nama + ": An mui sabu fanu' nukuf?";
+        txt1[30] = nama + ": Sabu es ian.";
         // txt2 
         txt2[1] = nama + ": Leko.";
         txt2[3] = "Atoni ume bian: Hole, " + nama + " Au' nenat na' Joko ainaf napen Covid.";
@@ -2004,7 +2004,7 @@ function changeName(){
         txt2[21] = nama + ":Au toit maaf, au fe' ka ait fa fe', ain.";
         txt2[23] = nama + ": Eh, kah, auk amif sa' sa', ain.";
         txt2[24] = nama + ": Palmis, lalan het nao on menara tatuin mele, he?";
-        txt2[27] = "Baif: Hole, " +nama+ " Au umnau kal ho aina mbela au mnahat mbi ian .";
+        txt2[27] = "Baif: Hole, " + nama + " Au umnau kal ho aina mbela au mnahat mbi ian .";
         txt2[28] = nama + ": Leko, Am!";
         txt2[29] = nama + ": Iane mnahat nako aina' untuk ho.";
         txt2[32] = nama + ": leko, Am.";
@@ -2014,15 +2014,15 @@ function changeName(){
         txt2[43] = nama + ": Anmui Sabu, Ain?";
         txt2[45] = nama + ": Leko, loite es ain.";
         txt2[48] = "Atoni ume bian: Au, ho mu'naelen, o. " + nama;
-        txt2[49] = "Bi nasi: Hole, " + nama +". Ai ho baif anfe kau sa?";
+        txt2[49] = "Bi nasi: Hole, " + nama + ". Ai ho baif anfe kau sa?";
         txt2[50] = nama + ": Au nao fe on Baif, Ain .";
         txt2[52] = nama + ": Ian baif an fe sabu nok kaulili nako' masa' .";
-        txt2[53] = "Bi nasi: Makasih. " +nama + ". Amboe man-sin, he.";
+        txt2[53] = "Bi nasi: Makasih. " + nama + ". Amboe man-sin, he.";
         txt2[55] = nama + ": Nasi' au boe sin-en.";
         txt2[57] = nama + ": leko, Am.";
         txt2[60] = nama + ": (Au Paek an saub pemutih fe').";
         // txt3
-        txt3[9] = nama + ": Es ian, Tua.";
+        txt3[9] = nama + ": Es ian, Tua.";
         txt3[15] = nama + ": (Auu, bife ian kan pakef masker. Au ka' jalif a'sos ina' sos-in).";
         txt3[16] = nama + ": Kaha', Ain.";
         txt3[22] = nama + ": Au toet an, in bale' sa' he? Nansa him pao ge?";
@@ -2044,10 +2044,10 @@ function changeName(){
         txt3[93] = nama + ": Leko, Au ait masker ian ha, Ain. Loete es ian.";
         txt3[96] = nama + ": Nansa' es ian?";
         txt3[98] = nama + ": Wah, au fe' u-eko fe'a.";
-	}
-    else if (amarasi === true){
+    }
+    else if (amarasi === true) {
         // LEVEL 1 text1
-        txt1[9] = nama + ": Toit Terima kasih!" ;
+        txt1[9] = nama + ": Toit Terima kasih!";
         txt1[12] = nama + ": Oh, au kite et nasje.";
         txt1[14] = nama + ": Reko.";
         txt1[15] = nama + ": Ia masker noko ho Fem nasi. Ampaek je fe !";
@@ -2068,7 +2068,7 @@ function changeName(){
         txt2[21] = nama + ": Au toit maaf, Aina'  kaisa' fe', .";
         txt2[23] = nama + ": Oh, kaim sasaamae, Aina'.";
         txt2[24] = nama + ": Permisi, ranan nut nao en menara peo me, he?";
-        txt2[27] = "Naef: Halo, " +nama+ " Naef au kumnau nu mama an titip ko mnahat nu muah.";
+        txt2[27] = "Naef: Halo, " + nama + " Naef au kumnau nu mama an titip ko mnahat nu muah.";
         txt2[28] = nama + ": Tua, atonimnasi'!";
         txt2[29] = nama + ": Ai mnahat he aina' an titip nu Naef .";
         txt2[32] = nama + ": Onan, Ama.";
@@ -2078,10 +2078,10 @@ function changeName(){
         txt2[43] = nama + ": Ain an mui saub ma-oe , ?";
         txt2[45] = nama + ": Ia au  roitin esen he ia.";
         txt2[48] = nama + ": Ia au  roitin esen he ia.";
-        txt2[49] = "Fem nasi': Halo, " + nama +". Ai bai an feko sa?";
+        txt2[49] = "Fem nasi': Halo, " + nama + ". Ai bai an feko sa?";
         txt2[50] = nama + ": Au nao en bai nae , Fe .";
         txt2[52] = nama + ": Bai anfekit saaina nok kaurir in na .";
-        txt2[53] = "Fem nasi': Toit makasi. " +nama + ". Am saef mangkit sin .";
+        txt2[53] = "Fem nasi': Toit makasi. " + nama + ". Am saef mangkit sin .";
         txt2[55] = nama + ": Au boerarsin hen, Ina.";
         txt2[57] = nama + ": Reko, Naef.";
         txt2[60] = nama + ": (Au nu paek oe kninu' ek au nimki ni ).";
@@ -2110,16 +2110,16 @@ function changeName(){
         txt3[96] = nama + ": Nait nansa?";
         txt3[98] = nama + ": Au fe'en ne kutefe.";
     }
-    else if (helong === true){ 
+    else if (helong === true) {
         // text1
-        txt1[9] = nama + ": Noran mamo!" ; 
-		txt1[12] = nama + ": Eh, auk ngat net un ne alas sua.";
-		txt1[14] = nama + ": Ta.";
-		txt1[15] = nama + ": Masker ria de auk nene. Pake le!";
-		txt1[18] = nama + ": Se ola, Ina?";
-		txt1[21] = nama + ": Le sos sabun in boe ima le.";
-		txt1[24] = nama + ": Muik sabun in boe ima ke?";
-		txt1[30] = nama + ": Sabun nia, Ina.";
+        txt1[9] = nama + ": Noran mamo!";
+        txt1[12] = nama + ": Eh, auk ngat net un ne alas sua.";
+        txt1[14] = nama + ": Ta.";
+        txt1[15] = nama + ": Masker ria de auk nene. Pake le!";
+        txt1[18] = nama + ": Se ola, Ina?";
+        txt1[21] = nama + ": Le sos sabun in boe ima le.";
+        txt1[24] = nama + ": Muik sabun in boe ima ke?";
+        txt1[30] = nama + ": Sabun nia, Ina.";
         // txt2 
         txt2[1] = nama + ": Ia, Ina.";
         txt2[3] = "Um halin: Hoe, " + nama + " Ming le noan ina joko tom ngasing ota.";
@@ -2132,7 +2132,7 @@ function changeName(){
         txt2[18] = nama + ": (Balan bekoeb ia pake masker lo. Auk sos kai isin se ia lo.)";
         txt2[23] = nama + ": Eh, nuting sasa lo, Ina.";
         txt2[24] = nama + ": Diang le, lalan le laok menara lua lam de ola, ka? ";
-        txt2[27] = "Bai: Hoe, " +nama+ " Ku inam tani bai in kaa ngas ne ku talo.";
+        txt2[27] = "Bai: Hoe, " + nama + " Ku inam tani bai in kaa ngas ne ku talo.";
         txt2[28] = nama + ": Iya, Bai!";
         txt2[29] = nama + ": Ina tani bel bai in kaa ngas ian.";
         txt2[32] = nama + ": Maa, Bai.";
@@ -2142,10 +2142,10 @@ function changeName(){
         txt2[43] = nama + ": Sabun uin muki le, Ina?";
         txt2[45] = nama + ": Ian, duit tia ian.";
         txt2[48] = "Um halin: Eh, ku tene son nia, ai?. " + nama;
-        txt2[49] = "Nene: Hoe, " + nama +". Ku bai tani sasa bel nene tam?";
+        txt2[49] = "Nene: Hoe, " + nama + ". Ku bai tani sasa bel nene tam?";
         txt2[50] = nama + ": Auk laok bai kua le, Nene.";
         txt2[52] = nama + ": Bai un in tani kia sabun nia nol matin nia .";
-        txt2[53] = "Nene: Noran mamo. " +nama + ". Boe ku imam ma le, he.";
+        txt2[53] = "Nene: Noran mamo. " + nama + ". Boe ku imam ma le, he.";
         txt2[55] = nama + ": Auk boen son, Nene.";
         txt2[57] = nama + ": Ia, Bai.";
         txt2[60] = nama + ": (Auk boe nol saub uin nia le).";
@@ -2172,9 +2172,9 @@ function changeName(){
         txt3[93] = nama + ": Elam, auk sos masker at, ina. Duit tia.";
         txt3[96] = nama + ": Tasao ian na?";
         txt3[98] = nama + ": Amah lo, auk halas tutnalan apin.";
-	}
-    else if (fataluku === true){
-                // LEVEL 1 text1
+    }
+    else if (fataluku === true) {
+        // LEVEL 1 text1
         txt1[9] = nama + ": Obrigado!";
         txt1[12] = nama + ": Oh, ana aci tava irin nae.";
         txt1[14] = nama + ": Rau.";
@@ -2197,7 +2197,7 @@ function changeName(){
         txt2[21] = nama + ": Desculpa, akaono, Nalu.";
         txt2[23] = nama + ": Oh, aka nacun anahe, Nalu.";
         txt2[24] = nama + ": Lisensa, iyat la menara mara te nere, e?";
-        txt2[27] = "Vovo nami  Halo, " +nama+ " Avo eceremu, e nalu macen titipen em avo ina.";
+        txt2[27] = "Vovo nami  Halo, " + nama + " Avo eceremu, e nalu macen titipen em avo ina.";
         txt2[28] = nama + ": Ho, Avo!";
         txt2[29] = nama + ": En Nalu macen em Avo ina.";
         txt2[32] = nama + ": rau, Avo.";
@@ -2207,31 +2207,31 @@ function changeName(){
         txt2[43] = nama + ": Savan i ira ane, Nalu?";
         txt2[45] = nama + ": Oke, en i lavani.";
         txt2[48] = nama + ": Oke, en i lavani.";
-        txt2[49] = "Vovo tupur: Halo, " + nama +". E vovo nami ten nacun titipe ?";
+        txt2[49] = "Vovo tupur: Halo, " + nama + ". E vovo nami ten nacun titipe ?";
         txt2[50] = nama + ": Ana la Vovo nami i haliwana tini, Avo.";
         txt2[52] = nama + ": En savan ho tomate merkado naen mau Vovo nami it ten titipe.";
-        txt2[53] = "Vovo tupur: Obrigado. " +nama + ". Vahu tini, la.";
+        txt2[53] = "Vovo tupur: Obrigado. " + nama + ". Vahu tini, la.";
         txt2[55] = nama + ": Ana hai vahu, Avo.";
         txt2[57] = nama + ": Rau, Avo.",
-        txt2[60] = nama + ": (ana ira varesen uza tini).",
+            txt2[60] = nama + ": (ana ira varesen uza tini).",
 
-        // LEVEL 3 text3
-        txt3[9] = nama + ": Eni, Palu.";
+            // LEVEL 3 text3
+            txt3[9] = nama + ": Eni, Palu.";
         txt3[15] = nama + ": (Wah, nalu akam masker uza. Ana keluhen akam tawa hini tapule).";
         txt3[16] = nama + ": Umpe, Nalu.";
         txt3[22] = nama + ": Atane tini, en ina haliwana? Teant jaga fai?",
-        txt3[41] = nama + ": Ana aka iya naware, Palu.";
+            txt3[41] = nama + ": Ana aka iya naware, Palu.";
         txt3[44] = nama + ": Ana aka iya naware, Palu.";
         txt3[45] = nama + ": Ho, hai rata akam nita ci. Teant a malupela kam masker uza ?";
         txt3[48] = nama + ": Iya, antes la terminal bis mara ana rapid tini. Hinta akam bis emerana tali.";
         txt3[50] = nama + ": Tapa iwane! Muahara-muahara maar lavanen oco po!";
         txt3[51] = nama + ": Kalau a keluhen akam masker uza, hair anirit la macen tapule. Kois ana ali mau.";
         txt3[52] = nama + ": (Hmmm, kois ana masker talupen em tavar ina).",
-        txt3[55] = nama + ": (Hmmm, upatat ana eluhen tapule akam enae).";
+            txt3[55] = nama + ": (Hmmm, upatat ana eluhen tapule akam enae).";
         txt3[62] = nama + ": Api kilo ukanitarupaha, Nalu?";
         txt3[64] = nama + ": Rau, kilo ukani tapule olay, Nalu. En ilavani.",
-        txt3[68] = nama + ": (Wah, maar katuasi iwa akam masker uza. Ana akam tava hini tapule).";
-        txt3[69] = nama + ": Umpe, Palu."; 
+            txt3[68] = nama + ": (Wah, maar katuasi iwa akam masker uza. Ana akam tava hini tapule).";
+        txt3[69] = nama + ": Umpe, Palu.";
         txt3[84] = nama + ": Paun masa utue eb tarupaha, Palu?";
         txt3[86] = nama + ": Rau, en i lavani, Palu.";
         txt3[91] = nama + ": Masker fate tarupaha, Nalu?";
@@ -2239,8 +2239,8 @@ function changeName(){
         txt3[96] = nama + ": Inait enae ?";
         txt3[98] = nama + ": Wah, ana tenta tava aci.";
     }
-    else if (sabu === true){
-                // LEVEL 1 text1
+    else if (sabu === true) {
+        // LEVEL 1 text1
         txt1[9] = nama + ": Terima kasih!";
         txt1[12] = nama + ": Oh, saya lihat dia di hutan.";
         txt1[14] = nama + ": Owe ne.";
@@ -2252,7 +2252,7 @@ function changeName(){
 
         // LEVEL 2 text2
         txt2[1] = nama + ": Owe, Ina.";
-        txt2[3] = nama + ": Owe, Ina."; 
+        txt2[3] = nama + ": Owe, Ina.";
         txt2[6] = nama + ": Ina, ta ngaa naiki nanne?";
         txt2[8] = nama + ": Owe. Henao ri yaa ta ad'o Covid, ina ee.";
         txt2[11] = nama + ": (B'ote ke, ta pej'èu èni)";
@@ -2263,7 +2263,7 @@ function changeName(){
         txt2[21] = nama + ": B'ole b'ani, ad'o de, Ina.";
         txt2[23] = nama + ": Oh, kale ngaa d'o, ina.";
         txt2[24] = nama + ": La mii ne ruj'ara la menara ne?";
-        txt2[27] = "Èpu mone : Halo, " +nama+ " Henge ri yaa, ina ou ne do j'ani nga'a wie èpu mone.";
+        txt2[27] = "Èpu mone : Halo, " + nama + " Henge ri yaa, ina ou ne do j'ani nga'a wie èpu mone.";
         txt2[28] = nama + ": Owe, Èpu!";
         txt2[29] = nama + ": Nad'e ne nga'a ngati ina wie èpu mone.";
         txt2[32] = nama + ": Owe, èpu.";
@@ -2273,10 +2273,10 @@ function changeName(){
         txt2[43] = nama + ": Era hab'u ei ko Ina?";
         txt2[45] = nama + ": Owe, nad'e ne doi ne.";
         txt2[48] = nama + ": Owe, nad'e ne doi ne.";
-        txt2[49] = "Èpu bèni: Halo, " + nama +". Nee b'ara wie ri èpu mone ou?";
+        txt2[49] = "Èpu bèni: Halo, " + nama + ". Nee b'ara wie ri èpu mone ou?";
         txt2[50] = nama + ": ta la èmu èpu mone ko yaa, Èpu bèni.";
         txt2[52] = nama + ": Nad'e me hab'u nga womatab'ale do lii ta wèle ngati paha ne èpu.";
-        txt2[53] = "Èpu bèni: Terima kasih. " +nama + ". Lonye ko we ne womatab'ale d'e.";
+        txt2[53] = "Èpu bèni: Terima kasih. " + nama + ". Lonye ko we ne womatab'ale d'e.";
         txt2[55] = nama + ": Moko ke yaa ne lonye kae èpu ee.";
         txt2[57] = nama + ": Oo, èpu ee.";
         txt2[60] = nama + ": (Ta pake ei lonye kae ko yaa).";
@@ -2286,7 +2286,7 @@ function changeName(){
         txt3[15] = nama + ": (B'ote ke, ina nad'e ad'o do wutu ub'a hewènga. Wae d'o yaa ta wèli pa noo).";
         txt3[16] = nama + ": Ad'o, Ina.";
         txt3[22] = nama + ": Nee ta keb'ali ko yaa, era nad'e nengaa ne ngara? Tangaa hakku ta jage we?",
-        txt3[41] = nama + ": Ta huli yaa, Ama.";
+            txt3[41] = nama + ": Ta huli yaa, Ama.";
         txt3[44] = "A'a ari: Hai! " + nama + " Tui dii j'e do peabu!";
         txt3[45] = nama + ": Petuu, tui tèra dii ne do d'o peabu. Tangaa ou ta do d'o wutu ub'a hewènga do nee pa tele ma?";
         txt3[48] = nama + ": Owe, nga do d'o d'ai de ou la tirmenal, pereha uru ko ou. Ngine ne abo d'o ke ne oto ne.";
@@ -2305,8 +2305,8 @@ function changeName(){
         txt3[96] = nama + ": Era ngaa?";
         txt3[98] = nama + ": B'ote ke, ngine ne peabu ko yaa nga noo.";
     }
-    else if (lamaholot === true){
-                // LEVEL 1 text1
+    else if (lamaholot === true) {
+        // LEVEL 1 text1
         txt1[9] = nama + ": Terima kasih!";
         txt1[12] = nama + ": Oh, go tede na'e di peneone onẽ neku.";
         txt1[14] = nama + ": He'ẽ.";
@@ -2326,23 +2326,23 @@ function changeName(){
         txt2[14] = nama + ": Maaf, go gere hope oba la. Terima kasih.";
         txt2[17] = nama + ": Amu, Bapa. Terima kasih.";
         txt2[18] = nama + ": (Bapa pi gere na'ã masker la pi. Go  gere  hope kayo uã di pi la.)",
-        txt2[21] = nama + ": Maaf, go hope la kia, ema.";
+            txt2[21] = nama + ": Maaf, go hope la kia, ema.";
         txt2[23] = nama + ": Oh, go gere seba a a di la, ema.";
         txt2[24] = nama + ": Permisi, larã ta'it menara pe tele ga?",
-        txt2[27] = "Nene: Halo, " +nama+ " ema moẽ genato wata untuk nene to.";
+            txt2[27] = "Nene: Halo, " + nama + " ema moẽ genato wata untuk nene to.";
         txt2[28] = nama + ": He'ẽ, Nene!";
         txt2[29] = nama + ": Pi wata mama sorõ untuk nene.",
-        txt2[32] = nama + ": He'ẽ, Nene.";
+            txt2[32] = nama + ": He'ẽ, Nene.";
         txt2[36] = nama + ": Kemati no'õ ka, ema?";
         txt2[38] = nama + ": He'ẽ, ema. Bungkus to'u pira?";
         txt2[40] = nama + ": He'ẽ, pi doi pi, ema.";
         txt2[43] = nama + ": Sabõ wa'ĩ no'õ ka, ema?";
         txt2[45] = nama + ":  He'ẽ, pi doi pi.";
         txt2[48] = "Tetangga: Oh, mo bele kae i. " + nama,
-        txt2[49] = "Nene: Halo, " + nama +". Nene mo knato no'õ le take?";
+            txt2[49] = "Nene: Halo, " + nama + ". Nene mo knato no'õ le take?";
         txt2[50] = nama + ":Go ka'ik nene kia e.";
         txt2[52] = nama + ": Pi sabõ ne kemati nene genato.";
-        txt2[53] = "Nene: Terima kasih. " +nama + ". Mo pu'o kia e.";
+        txt2[53] = "Nene: Terima kasih. " + nama + ". Mo pu'o kia e.";
         txt2[55] = nama + ": Go pu'oro kae, Nene.";
         txt2[57] = nama + ": He'ẽ, Nene.";
         txt2[60] = nama + ": (Go pake sabõ wa'ĩ pi kia).";
@@ -2362,7 +2362,7 @@ function changeName(){
         txt3[55] = nama + ": (Hmmm, ekã yang go mo hope pe di pi amu).";
         txt3[62] = nama + ": Ikã kilo to'u pira ne, ema?";
         txt3[64] = nama + ": He'ẽ, go hope kilo to'u, ema. Pi doi pi.",
-        txt3[68] = nama + ": ( Be, bapa pe na'ã masker la ge. Go gere hope di na'e la).";
+            txt3[68] = nama + ": ( Be, bapa pe na'ã masker la ge. Go gere hope di na'e la).";
         txt3[69] = nama + ": Amu, Bapa.";
         txt3[84] = nama + ": Bolo bungkus telo pi ne pira pi, Bapa?";
         txt3[86] = nama + ": He'ẽ. Pi doi na'ẽ pi, Bapa.";
@@ -2371,16 +2371,16 @@ function changeName(){
         txt3[96] = nama + ": Ne a kae pi?";
         txt3[98] = nama + ": Be, go bene herũro neku pera pe.";
     }
-    else if (mangBar === true){ 
+    else if (mangBar === true) {
         // text1
-        txt1[9] = nama + ": Terimakasih ge!" ; 
-		txt1[12] = nama + ": Eng, ita sina puar hia laku bo.";
-		txt1[14] = nama + ": Eng ta ende.";
-		txt1[15] = nama + ": Ho masker one mau nene dehau bo. Pake ga!";
-		txt1[18] = nama + ": Nia wan, Ende?";
-		txt1[21] = nama + ": Kudut weli sabun cuci lime.";
-		txt1[24] = nama + ": Mangga sabun cuci lime?";
-		txt1[30] = nama + ": Ho sabun cuci lime, Ende.";
+        txt1[9] = nama + ": Terimakasih ge!";
+        txt1[12] = nama + ": Eng, ita sina puar hia laku bo.";
+        txt1[14] = nama + ": Eng ta ende.";
+        txt1[15] = nama + ": Ho masker one mau nene dehau bo. Pake ga!";
+        txt1[18] = nama + ": Nia wan, Ende?";
+        txt1[21] = nama + ": Kudut weli sabun cuci lime.";
+        txt1[24] = nama + ": Mangga sabun cuci lime?";
+        txt1[30] = nama + ": Ho sabun cuci lime, Ende.";
         // txt2 
         txt2[1] = nama + ": Iyo ende.";
         txt2[3] = "At supu mai: Oe, " + nama + " Denge-denge, hia ended joko hena covid.";
@@ -2394,7 +2394,7 @@ function changeName(){
         txt2[21] = nama + ": Neka rabo ende, toe di weli.";
         txt2[23] = nama + ": Oh, toe manga kawe apa ende.";
         txt2[24] = nama + ": Neka rabo, nia salang nger sina menara e?";
-        txt2[27] = "Ema lopo: Halo, " +nama+ " Ome neho nuk laku, ende de hau mangga teing bekal latangempo lopom.";
+        txt2[27] = "Ema lopo: Halo, " + nama + " Ome neho nuk laku, ende de hau mangga teing bekal latangempo lopom.";
         txt2[28] = nama + ": Eng, Empo!";
         txt2[29] = nama + ": Ho hang latang ite one mai hia ende.";
         txt2[32] = nama + ": Eng ta, Empo.";
@@ -2404,10 +2404,10 @@ function changeName(){
         txt2[43] = nama + ": Mangga sabung cair ko ende?";
         txt2[45] = nama + ": Iyo. Ho'o seng koen.";
         txt2[48] = "At supu mai: Oh, tua kaut hau ga. " + nama;
-        txt2[49] = "Ende lopo: Halo, " + nama +". Calam manga titipan one mai empo lopom bo?";
+        txt2[49] = "Ende lopo: Halo, " + nama + ". Calam manga titipan one mai empo lopom bo?";
         txt2[50] = nama + ": Kudut ngo sina mbaru diha empo di aku.";
         txt2[52] = nama + ": Ho'o sabun agu tomat sina mai pasar titipan diha empo lopo.";
-        txt2[53] = "Ende lopo: Terima kasih. " +nama + ". Samo koe lime di.";
+        txt2[53] = "Ende lopo: Terima kasih. " + nama + ". Samo koe lime di.";
         txt2[55] = nama + ": Poli laku wasad ge empo.";
         txt2[57] = nama + ": Eng, empo.";
         txt2[60] = nama + ": (Aku pake sabun cair di e).";
@@ -2434,9 +2434,9 @@ function changeName(){
         txt3[93] = nama + ": Ngitun, aku weli pat masker so, ho'os seng koen.";
         txt3[96] = nama + ": Ata so bo ga?";
         txt3[98] = nama + ": Ole, aku ho di sumang iha bao.";
-	}
-    else if (mangTeng === true){
-                // LEVEL 1 text1
+    }
+    else if (mangTeng === true) {
+        // LEVEL 1 text1
         txt1[9] = nama + ": Terima kasih!";
         txt1[12] = nama + ": Oh, ita sina puar laku.";
         txt1[14] = nama + ": Io nganceng.";
@@ -2459,7 +2459,7 @@ function changeName(){
         txt2[21] = nama + ": Neka rabo, toen di, Ende.";
         txt2[23] = nama + ": Oh, toe manga apa-apa, Ende.";
         txt2[24] = nama + ": Tabe, salang nger sina menara lewat nia, e?"
-        txt2[27] = "Ema Lopo: Halo, " +nama+ " Nuk de Ema , Endem ma titip bokong latang ema lopom.";
+        txt2[27] = "Ema Lopo: Halo, " + nama + " Nuk de Ema , Endem ma titip bokong latang ema lopom.";
         txt2[28] = nama + ": Iyo, Ema Lopo!";
         txt2[29] = nama + ": Ho'os bokong latang ite Ema Lopo.";
         txt2[32] = nama + ": Io nganceng, Ema.";
@@ -2469,10 +2469,10 @@ function changeName(){
         txt2[43] = nama + ": Mangan sabun cair, Ende?";
         txt2[45] = nama + ": Oke, ho'o sengn.";
         txt2[48] = nama + ": Oke, ho'o sengn.";
-        txt2[49] = "Ende Lopo: Halo, " + nama +". Cala manga titipan one mai Ema Lopom?";
+        txt2[49] = "Ende Lopo: Halo, " + nama + ". Cala manga titipan one mai Ema Lopom?";
         txt2[50] = nama + ": Aku ngo sina tempat de Ema Lopo di, Ende.";
         txt2[52] = nama + ": ho'os sabun agu tomat sina mai pasar titip de Ema Lopo.";
-        txt2[53] = "Ende Lopo: Terima kasih. " +nama + ". Tolong cucis di, e.";
+        txt2[53] = "Ende Lopo: Terima kasih. " + nama + ". Tolong cucis di, e.";
         txt2[55] = nama + ": Poli cucin laku, Ende.";
         txt2[57] = nama + ": Di'a ge, Ema.";
         txt2[60] = nama + ": (Aku pake cairan pembersih dulu).";
@@ -2502,9 +2502,9 @@ function changeName(){
         txt3[98] = nama + ": Ole, bao di cumang hia aku.";
     }
     // ambon & papua
-    else if (papua === true){
-                // (LEVEL 1) text1
-        txt1[9] = nama + ": Terima kasih!" ;
+    else if (papua === true) {
+        // (LEVEL 1) text1
+        txt1[9] = nama + ": Terima kasih!";
         txt1[12] = nama + ": Oh, sa liat de di hutan.";
         txt1[14] = nama + ": Yombex.";
         txt1[15] = nama + ": Ini masker dari ko pu nenek. Pake dulu!";
@@ -2525,7 +2525,7 @@ function changeName(){
         txt2[21] = nama + ": Minta maaf, tidak beli dulu, Mama.";
         txt2[23] = nama + ": Oh, tra cari apa-apa, Mama.";
         txt2[24] = nama + ": Permisi, jalan ke menara lewat mana e?";
-        txt2[27] = "Kakek: Halo, " +nama+ " Tete ingat, ko pu mama ada titipkan bekal untuk Tete.";
+        txt2[27] = "Kakek: Halo, " + nama + " Tete ingat, ko pu mama ada titipkan bekal untuk Tete.";
         txt2[28] = nama + ": Iyo, Tete!";
         txt2[29] = nama + ": Ini bekal dari Mama untuk Tete.";
         txt2[32] = nama + ": Yombex, Tete.";
@@ -2535,7 +2535,7 @@ function changeName(){
         txt2[43] = nama + ": Sabun cair ada kah, Mama?";
         txt2[45] = nama + ": Oke, ini uangnya.";
         txt2[48] = nama + ": Oke, ini uangnya.";
-        txt2[49] = "Nenek: Halo, " + nama +". Apa ada titipan dari kakekmu?";
+        txt2[49] = "Nenek: Halo, " + nama + ". Apa ada titipan dari kakekmu?";
         txt2[50] = nama + ": Sa pergi ke Tete pu tempat dulu, Nene.";
         txt2[52] = nama + ":  Ini tete pu titipan sabun dan tomat dari pasar.";
         txt2[53] = nama + ":  Ini tete pu titipan sabun dan tomat dari pasar.";
@@ -2566,8 +2566,8 @@ function changeName(){
         txt3[96] = nama + ": Ada apa kah?";
         txt3[98] = nama + ": Aduh, sa baru ketemu dia tadi.";
     }
-    else if (biak === true){
-                // (LEVEL 1) text1
+    else if (biak === true) {
+        // (LEVEL 1) text1
         txt1[9] = nama + ": Kasu masa!";
         txt1[12] = nama + ": Woh, ya manu i ro sup.";
         txt1[14] = nama + ": Imbo injado.";
@@ -2589,7 +2589,7 @@ function changeName(){
         txt2[21] = nama + ": Yormaf, aroba Bin syowi.";
         txt2[23] = nama + ": Mbo, ramoboba, Bin syowi.";
         txt2[24] = nama + ": Permisi, jamraso menara ya ra so?";
-        txt2[27] = "Apus: Be rarso, " +nama+ " yafawi, snanu bye robeyan yenafa aupyana.";
+        txt2[27] = "Apus: Be rarso, " + nama + " yafawi, snanu bye robeyan yenafa aupyana.";
         txt2[28] = nama + ": Imbo, Apus!";
         txt2[29] = nama + ": Au nasnane  Bin syowi byuk be Mansar au.";
         txt2[32] = nama + ": Imbo, injado Mansar.";
@@ -2599,7 +2599,7 @@ function changeName(){
         txt2[43] = nama + ": Sabun bebe war-war ro naysake, Bin syowi?";
         txt2[45] = nama + ": Ipyum kaku, samfur ine.";
         txt2[48] = nama + ": Ipyum kaku, samfur ine.";
-        txt2[49] = "Insar: Rarso, " + nama +". Faremno nraker Mansar?";
+        txt2[49] = "Insar: Rarso, " + nama + ". Faremno nraker Mansar?";
         txt2[50] = nama + ": Yarabe rum Apus rosari, insar.";
         txt2[52] = nama + ": Ini  Ine sabun ma tomat apus fyarem ro pasar mua.";
         txt2[53] = nama + ":  Ine sabun ma tomat apus fyarem ro pasar mua.";
@@ -2630,9 +2630,9 @@ function changeName(){
         txt3[96] = nama + ": Rosari syawer?";
         txt3[98] = nama + ": Boo, insanja yasrow baboi.";
     }
-    else if (lani === true){
-                // (LEVEL 1) text1
-        txt1[9] = nama + ": Keyage waaa yoriyak!";	
+    else if (lani === true) {
+        // (LEVEL 1) text1
+        txt1[9] = nama + ": Keyage waaa yoriyak!";
         txt1[12] = nama + ": Hoo, Ebe eyonggame time nenegen kagarak.";
         txt1[14] = nama + ": Endak aret.";
         txt1[15] = nama + ": Inetenggen paga nabeka yi kat kowogogelo nen pagagerak. Yiru nduk'waak!";
@@ -2653,7 +2653,7 @@ function changeName(){
         txt2[21] = nama + ": Aeee waaa, Nagalo. Yogondak ambi kuniyak leek ooo. ";
         txt2[23] = nama + ": Aee, Nagal. An ambi korarit nege leek ooo.";
         txt2[24] = nama + ": Aee norewi, tuu oo ngorek wurik me time  norak ngebaga?";
-        txt2[27] = "Narombo nen: kolaga yi wae, " +nama+ " An karombo nenu tii, kaat Kagalo nen. Karombo namendek katt paga napiwagarak.";
+        txt2[27] = "Narombo nen: kolaga yi wae, " + nama + " An karombo nenu tii, kaat Kagalo nen. Karombo namendek katt paga napiwagarak.";
         txt2[28] = nama + ": Obet aret, nowogogwelo!";
         txt2[29] = nama + ": An nagalo nen kamedek pagagerak nogo yio.";
         txt2[32] = nama + ": Endak aret, Narombo.";
@@ -2663,9 +2663,9 @@ function changeName(){
         txt2[43] = nama + ": Top amburu yenggenak  wonage, Nagalo?";
         txt2[45] = nama + ": Opp aret, manni ebbe yii.";
         txt2[48] = nama + ": Opp aret, manni ebbe yii.";
-        txt2[49] = "Ninowogogwelo  nen: kolaga, " + nama +". Nonggop kat karombo ambi panegerak kagan?";
+        txt2[49] = "Ninowogogwelo  nen: kolaga, " + nama + ". Nonggop kat karombo ambi panegerak kagan?";
         txt2[50] = nama + ": An Narombo wonageme ndukak naa, Nowogogwelo.",
-        txt2[52] = nama + ": Top inom tomatto inom pegerak yio Narombo.";
+            txt2[52] = nama + ": Top inom tomatto inom pegerak yio Narombo.";
         txt2[53] = nama + ": Top inom tomatto inom pegerak yio Narombo.";
         txt2[55] = nama + ": An abbok yii kokirak, nowogogwelo.";
         txt2[57] = nama + ": Nowogogwelo, Opp aret.";
@@ -2695,16 +2695,16 @@ function changeName(){
         txt3[98] = nama + ": Eyahh, An nimbirak awoo aret lambunggirak bee.";
     }
     // nasional dan asing
-    else if (english === true){
-                // LEVEL 1 text1
-        txt1[9] = nama + ": Thank you!"; 
-        txt1[12] = nama + ": Oh, I saw him in the forest."; 
+    else if (english === true) {
+        // LEVEL 1 text1
+        txt1[9] = nama + ": Thank you!";
+        txt1[12] = nama + ": Oh, I saw him in the forest.";
         txt1[14] = nama + ": Of course.";
-        txt1[15] = nama + ": This mask is from your grandmother. Wear it!"; 
-        txt1[18] = nama + ": Where should I buy it?"; 
-        txt1[21] = nama + ": I want to buy a bottle of handsoap."; 
-        txt1[24] = nama + ": Do you sell handsoap?"; 
-        txt1[30] = nama + ": Here is the soap, Mom."; 
+        txt1[15] = nama + ": This mask is from your grandmother. Wear it!";
+        txt1[18] = nama + ": Where should I buy it?";
+        txt1[21] = nama + ": I want to buy a bottle of handsoap.";
+        txt1[24] = nama + ": Do you sell handsoap?";
+        txt1[30] = nama + ": Here is the soap, Mom.";
 
         // LEVEL 2 text2
         txt2[1] = nama + ": Okay, Mom.";
@@ -2719,7 +2719,7 @@ function changeName(){
         txt2[21] = nama + ": I'm sorry, not buying, Ma'am.";
         txt2[23] = nama + ": Oh, nothing,  Ma'am.";
         txt2[24] = nama + ": Excuse me. How can I go to the tower?";
-        txt2[27] = "Grandfather: Hello, " +nama+ " if I'm not mistaken, your mom asked you to deliver a lunch box for me.";
+        txt2[27] = "Grandfather: Hello, " + nama + " if I'm not mistaken, your mom asked you to deliver a lunch box for me.";
         txt2[28] = nama + ": Yes, Grandpa!";
         txt2[29] = nama + ": This lunch box is from Mom, grandpa.";
         txt2[32] = nama + ": Of course, Grandpa.";
@@ -2729,18 +2729,18 @@ function changeName(){
         txt2[43] = nama + ": Do you sell liquid soap, Ma'am?";
         txt2[45] = nama + ": Okay, here is the money.";
         txt2[48] = nama + ": Okay, here is the money.";
-        txt2[49] = "Grandmother: Hello, " + nama +". Did your grandfather ask you to bring something for me?";
+        txt2[49] = "Grandmother: Hello, " + nama + ". Did your grandfather ask you to bring something for me?";
         txt2[50] = nama + ": I will go to Grandpa's place first.";
         txt2[52] = nama + ": Here are the soap and tomatoes from the market that Grandpa asked me to deliver it to you.";
-        txt2[53] = "Grandmother: Thank you, " +nama + "! Please wash them first!";
+        txt2[53] = "Grandmother: Thank you, " + nama + "! Please wash them first!";
         txt2[55] = nama + ": I have washed them, Grandma.";
         txt2[57] = nama + ": Okay, Grandpa.";
         txt2[60] = nama + ": (I'll use some hand sanitizer first).";
 
         // LEVEL 3 text3
-        txt3[9] =  nama + ": Here it is.";
-        txt3[15] = name+ ": (Ugh, this lady is not wearing a mask. I'm not buying anything from her).";
-        txt3[16] =  nama + ": No, thanks!";
+        txt3[9] = nama + ": Here it is.";
+        txt3[15] = name + ": (Ugh, this lady is not wearing a mask. I'm not buying anything from her).";
+        txt3[16] = nama + ": No, thanks!";
         txt3[22] = nama + ": Excuse me. What is this place? Why is it guarded??";
         txt3[41] = nama + ": I got lost, Sir.";
         txt3[44] = nama + ": I got lost, Sir.";
@@ -2761,11 +2761,11 @@ function changeName(){
         txt3[96] = nama + ": What is going on?";
         txt3[98] = nama + ": Oh, no! I have just met him.";
     }
-    else if (chinese === true){
-                // LEVEL 1 text1
+    else if (chinese === true) {
+        // LEVEL 1 text1
         txt1[9] = nama + ": 谢谢！";
         txt1[12] = nama + ":哦，我有看见他在森林里走走。";
-        txt1[14] = nama + "：当然啦。"; 
+        txt1[14] = nama + "：当然啦。";
         txt1[15] = nama + "：你婆婆叫你戴这块口罩呀。";
         txt1[18] = nama + "：在哪里买啊？";
         txt1[21] = nama + "：我要买一瓶洗水液。";
@@ -2777,58 +2777,58 @@ function changeName(){
         txt2[3] = nama + "：好啊。";
         txt2[6] = nama + ":阿姨，你孩儿生什么病啊？";
         txt2[8] = nama + "：哦，希望不是冠状病啊。";
-        txt2[11] = nama+ "：（唉，我应该保持身体距离）";
-        txt2[12] = nama+":（唉,我应该快快地把这盒饭送给公公。）";
-        txt2[14] = nama+":对不起，我没有去检查。谢谢！";
-        txt2[17] = nama+":没有啊，老伯伯。谢谢！";
-        txt2[18] = nama+"：（这老伯伯没有戴口罩。我不跟他买吧。）";
-        txt2[21] = nama+"：对不起，没有找水果啊，阿姨。";
-        txt2[23] = nama+ "：先看看啊，阿姨。";
-        txt2[24] = nama+ "：请问，塔楼在哪里呀？"
-        txt2[27] = "公公：你好，"+nama+ "妈妈有没有叫你带盒饭给我吗？";
+        txt2[11] = nama + "：（唉，我应该保持身体距离）";
+        txt2[12] = nama + ":（唉,我应该快快地把这盒饭送给公公。）";
+        txt2[14] = nama + ":对不起，我没有去检查。谢谢！";
+        txt2[17] = nama + ":没有啊，老伯伯。谢谢！";
+        txt2[18] = nama + "：（这老伯伯没有戴口罩。我不跟他买吧。）";
+        txt2[21] = nama + "：对不起，没有找水果啊，阿姨。";
+        txt2[23] = nama + "：先看看啊，阿姨。";
+        txt2[24] = nama + "：请问，塔楼在哪里呀？"
+        txt2[27] = "公公：你好，" + nama + "妈妈有没有叫你带盒饭给我吗？";
         txt2[28] = nama + "：有啊！";
-        txt2[29] = nama+ "：这盒饭是妈妈给你的。";
+        txt2[29] = nama + "：这盒饭是妈妈给你的。";
         txt2[32] = nama + "：好把。";
-        txt2[36] = nama+ "：阿姨，有番茄吗？";
-        txt2[38] = nama+ "：一斤番茄多少钱？";
-        txt2[40] = nama+ "：好，买一斤吧。";
-        txt2[43] = nama+ "：有卖肥皂吗？";
-        txt2[45] = nama+ "：好，买一瓶吧。";
-        txt2[48] = nama+ "：好，买一瓶吧。";
-        txt2[49] = "婆婆：你好，"+nama+ "。公公有叫你买东西吗？";
-        txt2[50] = nama+ "：我先去找公公把。";
-        txt2[52] = nama+ "：这个是公公叫我买给你的番茄和肥皂。";
-        txt2[53] = "婆婆：谢谢！"+nama+ "。嫌隙它好吗！";
+        txt2[36] = nama + "：阿姨，有番茄吗？";
+        txt2[38] = nama + "：一斤番茄多少钱？";
+        txt2[40] = nama + "：好，买一斤吧。";
+        txt2[43] = nama + "：有卖肥皂吗？";
+        txt2[45] = nama + "：好，买一瓶吧。";
+        txt2[48] = nama + "：好，买一瓶吧。";
+        txt2[49] = "婆婆：你好，" + nama + "。公公有叫你买东西吗？";
+        txt2[50] = nama + "：我先去找公公把。";
+        txt2[52] = nama + "：这个是公公叫我买给你的番茄和肥皂。";
+        txt2[53] = "婆婆：谢谢！" + nama + "。嫌隙它好吗！";
         txt2[55] = nama + "：洗好了呀。";
         txt2[57] = nama + "：好啊。";
-        txt2[60] = nama+ "：（我先用免洗洗手液洗手吧）。";
+        txt2[60] = nama + "：（我先用免洗洗手液洗手吧）。";
 
         // LEVEL 3 text3
-        txt3[9] = nama+ "：好。";
-        txt3[15] = nama+ "：（唉，这个阿姨没有戴口罩。不跟他买吧）。";
+        txt3[9] = nama + "：好。";
+        txt3[15] = nama + "：（唉，这个阿姨没有戴口罩。不跟他买吧）。";
         txt3[16] = nama + "：不买啊，多谢！";
-        txt3[22] = nama+ "：请问，这是什么地方？为什么不可以进去？";
-        txt3[41] = nama+ "：我失路呀，先生。";
-        txt3[44] = nama+ "：我失路呀，先生。";
-        txt3[45] = nama+ "：好久不见。你为什么出门没有戴口罩呢？";
+        txt3[22] = nama + "：请问，这是什么地方？为什么不可以进去？";
+        txt3[41] = nama + "：我失路呀，先生。";
+        txt3[44] = nama + "：我失路呀，先生。";
+        txt3[45] = nama + "：好久不见。你为什么出门没有戴口罩呢？";
         txt3[48] = nama + "：对不起，去巴士站之前，我先去医生检查。因而，我太迟坐巴士。";
-        txt3[50] = nama+ "：别看小这种病呀。由于这冠状病毒，每天去世的人越来越多！";
-        txt3[51] = nama+ "：要是你不要戴口罩，我来给你买食物吧。等下我会到回来。";
-        txt3[52] = nama+ "：（嗯，我应该给他们买口罩）。";
-        txt3[55] = nama+ "：（嗯，看起来他没有卖食物。）";
+        txt3[50] = nama + "：别看小这种病呀。由于这冠状病毒，每天去世的人越来越多！";
+        txt3[51] = nama + "：要是你不要戴口罩，我来给你买食物吧。等下我会到回来。";
+        txt3[52] = nama + "：（嗯，我应该给他们买口罩）。";
+        txt3[55] = nama + "：（嗯，看起来他没有卖食物。）";
         txt3[62] = nama + "：阿姨，这条鱼一斤多少钱呢？";
-        txt3[64] = nama+ "：好，我买一斤吧。";
-        txt3[68] = nama+ "：（他没有戴口罩，我不跟他买吧。）";
-        txt3[69] = nama+ "：没有啊，谢谢。";
-        txt3[84] = nama+ "：这一包面包多少钱？";
-        txt3[86] = nama+ "：好，买一包吧。";
-        txt3[91] = nama+ "：四块口罩多少钱？";
-        txt3[93] = nama+ "：好，买四块吧。"
-        txt3[96] = nama+ "：发生什么事呀？";
-        txt3[98] = nama+ "：哎呀！我才见到他们。";
+        txt3[64] = nama + "：好，我买一斤吧。";
+        txt3[68] = nama + "：（他没有戴口罩，我不跟他买吧。）";
+        txt3[69] = nama + "：没有啊，谢谢。";
+        txt3[84] = nama + "：这一包面包多少钱？";
+        txt3[86] = nama + "：好，买一包吧。";
+        txt3[91] = nama + "：四块口罩多少钱？";
+        txt3[93] = nama + "：好，买四块吧。"
+        txt3[96] = nama + "：发生什么事呀？";
+        txt3[98] = nama + "：哎呀！我才见到他们。";
     }
-    else if (italia === true){
-                // LEVEL 1 text1
+    else if (italian === true) {
+        // LEVEL 1 text1
         txt1[9] = nama + ": Grazie!";
         txt1[12] = nama + ": Ah si, l'ho visto nella foresta.";
         txt1[14] = nama + ": Certo."
@@ -2851,7 +2851,7 @@ function changeName(){
         txt2[21] = nama + ": No, grazie signora.";
         txt2[23] = nama + ": Non mi serve niente, Signora.";
         txt2[24] = nama + ": Scusi, qual è la strada per il faro?";
-        txt2[27] = "Nonno: Ciao, " +nama+ " Se ricordo bene, mamma ti ha dato qualcosa per me.";
+        txt2[27] = "Nonno: Ciao, " + nama + " Se ricordo bene, mamma ti ha dato qualcosa per me.";
         txt2[28] = nama + ": Si, Nonno!";
         txt2[29] = nama + ": Questo è il pacchetto da parte di mamma per te.";
         txt2[32] = nama + ": Certo, Nonno!";
@@ -2864,7 +2864,7 @@ function changeName(){
         txt2[49] = "Nonna: Mamma ti ha dato qualcosa per il Nonno?";
         txt2[50] = nama + ": Nonna, devo andare a casa del Nonno.";
         txt2[52] = nama + ": Questi sono il sapone liquido e i pomodori presi al mercato per il Nonno.";
-        txt2[53] = "Nonna: Grazie. " +nama + ". Lavali prima, va bene?."
+        txt2[53] = "Nonna: Grazie. " + nama + ". Lavali prima, va bene?."
         txt2[55] = nama + ": Li ho lavati, Nonna.";
         txt2[57] = nama + ": Va bene, Nonno.";
         txt2[60] = nama + ": (è meglio usare l'igenizzante per le mani prima di tutto).";
@@ -2893,9 +2893,9 @@ function changeName(){
         txt3[96] = nama + ": Che cos'è questo?";
         txt3[98] = nama + ": Oh no. L'ho appena incontrato poco fa.";
     }
-    else if (jepang === true){
-                // LEVEL 1 text1
-        txt1[9] = nama + ": ありがとうございます！" ;
+    else if (japan === true) {
+        // LEVEL 1 text1
+        txt1[9] = nama + ": ありがとうございます！";
         txt1[12] = nama + ": その子なら, 森で見ましたよ.";
         txt1[14] = nama + ": もちろん.";
         txt1[15] = nama + ": これはあなたのおばあちゃんからのマスクです. どうぞ!";
@@ -2917,7 +2917,7 @@ function changeName(){
         txt2[21] = nama + ": 今は大丈夫です.";
         txt2[23] = nama + ": なんでもありません.";
         txt2[24] = nama + ": すみません. あのタワーにはどうやっていけばいいですか?";
-        txt2[27] = "おじいちゃん: こんにちは, " +nama+ " お母さんがお昼ご飯を届けてくれるって聞いたよ";
+        txt2[27] = "おじいちゃん: こんにちは, " + nama + " お母さんがお昼ご飯を届けてくれるって聞いたよ";
         txt2[28] = nama + ": そうだよ!";
         txt2[29] = nama + ": これがそのお昼ご飯だよ.";
         txt2[32] = nama + ": もちろん, おじいちゃん.";
@@ -2927,10 +2927,10 @@ function changeName(){
         txt2[43] = nama + ": ハンドソープありますか?";
         txt2[45] = nama + ": わかりました, これ代金です.";
         txt2[48] = nama + ": わかりました, これ代金です.";
-        txt2[49] = "おばあちゃん: いらっやし, " + nama +". おじいちゃん, なにか言っていたかい?";
+        txt2[49] = "おばあちゃん: いらっやし, " + nama + ". おじいちゃん, なにか言っていたかい?";
         txt2[50] = nama + ": 先におじいちゃんのところによって来たんだ.";
         txt2[52] = nama + ": おじいちゃんから頼まれて、ハンドソープとトマトを買ってきたよ.";
-        txt2[53] = "おばあちゃん: ありがとう. " +nama + ". 先に洗いましょうか.";
+        txt2[53] = "おばあちゃん: ありがとう. " + nama + ". 先に洗いましょうか.";
         txt2[55] = nama + ": 洗ったよ, おばあちゃん.";
         txt2[57] = nama + ": もちろんだよ!";
         txt2[60] = nama + ": (まず消毒しなくちゃ).";
@@ -2938,7 +2938,7 @@ function changeName(){
         // LEVEL 3 text3
         txt3[9] = nama + ": はい、これです.";
         txt3[15] = nama + ": (わあ, この人マスクをしていないや. ここでは買い物しないようにしよう).";
-        txt3[16] =  nama + ": 特にありません.";
+        txt3[16] = nama + ": 特にありません.";
         txt3[22] = nama + ": すみません, ここはどういったところですか? なぜ警備しているのですか?";
         txt3[41] = nama + ":道に迷ってしまったんです.";
         txt3[44] = "親戚: やあ! " + nama + " 久しぶりだね!";
@@ -2962,8 +2962,8 @@ function changeName(){
     closeProfNav();
 }
 
-function whatLang(lang){
-    switch(lang){
+function whatLang(lang) {
+    switch (lang) {
         case 'indonesia':
             indoLang = true;
             aneuk = false;
@@ -3010,7 +3010,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'aneuk':
             indoLang = false;
             aneuk = true;
@@ -3057,7 +3057,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'nias':
             indoLang = false;
             aneuk = false;
@@ -3104,7 +3104,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'minang':
             indoLang = false;
             aneuk = false;
@@ -3151,7 +3151,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'jambi':
             indoLang = false;
             aneuk = false;
@@ -3198,7 +3198,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'kerinci':
             indoLang = false;
             aneuk = false;
@@ -3245,7 +3245,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'palembang':
             indoLang = false;
             aneuk = false;
@@ -3292,7 +3292,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'besemah':
             indoLang = false;
             aneuk = false;
@@ -3339,7 +3339,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'bangka':
             indoLang = false;
             aneuk = false;
@@ -3386,7 +3386,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'nasal':
             indoLang = false;
             aneuk = false;
@@ -3433,7 +3433,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'rejang':
             indoLang = false;
             aneuk = false;
@@ -3480,7 +3480,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'lampung':
             indoLang = false;
             aneuk = false;
@@ -3527,7 +3527,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'betawi':
             indoLang = false;
             aneuk = false;
@@ -3574,7 +3574,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'sunda':
             indoLang = false;
             aneuk = false;
@@ -3621,7 +3621,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'cirebon':
             indoLang = false;
             aneuk = false;
@@ -3668,7 +3668,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'jawa':
             indoLang = false;
             aneuk = false;
@@ -3715,7 +3715,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'pemalang':
             indoLang = false;
             aneuk = false;
@@ -3762,7 +3762,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'osing':
             indoLang = false;
             aneuk = false;
@@ -3809,7 +3809,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'madura':
             indoLang = false;
             aneuk = false;
@@ -3856,7 +3856,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'bali':
             indoLang = false;
             aneuk = false;
@@ -3903,7 +3903,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'ngaju':
             indoLang = false;
             aneuk = false;
@@ -3950,7 +3950,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'kanayan':
             indoLang = false;
             aneuk = false;
@@ -3997,7 +3997,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'maanyan':
             indoLang = false;
             aneuk = false;
@@ -4044,7 +4044,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'lebang':
             indoLang = false;
             aneuk = false;
@@ -4091,7 +4091,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'manado':
             indoLang = false;
             aneuk = false;
@@ -4138,7 +4138,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'bugis':
             indoLang = false;
             aneuk = false;
@@ -4185,7 +4185,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'tolaki':
             indoLang = false;
             aneuk = false;
@@ -4232,7 +4232,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'ciacia':
             indoLang = false;
             aneuk = false;
@@ -4279,7 +4279,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'sasak':
             indoLang = false;
             aneuk = false;
@@ -4326,7 +4326,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'kupang':
             indoLang = false;
             aneuk = false;
@@ -4373,7 +4373,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'uab':
             indoLang = false;
             aneuk = false;
@@ -4420,7 +4420,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'amarasi':
             indoLang = false;
             aneuk = false;
@@ -4467,7 +4467,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'helong':
             indoLang = false;
             aneuk = false;
@@ -4514,7 +4514,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'fataluku':
             indoLang = false;
             aneuk = false;
@@ -4561,7 +4561,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'sabu':
             indoLang = false;
             aneuk = false;
@@ -4608,7 +4608,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'lamaholot':
             indoLang = false;
             aneuk = false;
@@ -4655,7 +4655,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'mangBar':
             indoLang = false;
             aneuk = false;
@@ -4702,7 +4702,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'mangTeng':
             indoLang = false;
             aneuk = false;
@@ -4749,7 +4749,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'papua':
             indoLang = false;
             aneuk = false;
@@ -4796,7 +4796,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'biak':
             indoLang = false;
             aneuk = false;
@@ -4843,7 +4843,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'lani':
             indoLang = false;
             aneuk = false;
@@ -4890,7 +4890,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'english':
             indoLang = false;
             aneuk = false;
@@ -4937,7 +4937,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'chinese':
             indoLang = false;
             aneuk = false;
@@ -4984,7 +4984,7 @@ function whatLang(lang){
             chinese = true;
             italian = false;
             japan = false;
-        break;
+            break;
         case 'italian':
             indoLang = false;
             aneuk = false;
@@ -5031,7 +5031,7 @@ function whatLang(lang){
             chinese = false;
             italian = true;
             japan = false;
-        break;
+            break;
         case 'japan':
             indoLang = false;
             aneuk = false;
@@ -5078,7 +5078,7 @@ function whatLang(lang){
             chinese = false;
             italian = false;
             japan = true;
-        break;
+            break;
     }
 }
 
@@ -5104,46 +5104,46 @@ var onloadTextList = [
     // level 1
     "Selamat datang dalam permainan Pandemic Survival. Dalam permainan ini kamu akan berpetualang dalam situasi pandemi Covid-19." + "<br>" + "Selama berpetualang kamu harus mengikuti protokol kesehatan, seperti menjaga jarak aman, mencuci tangan dengan sabun, menggunakan cairan pembersih tangan, menggunakan masker, dan menghindari kerumunan.", //0
     "Di sisi kanan atas layar, ada garis kesehatan yang menunjukkan tingkat kesehatanmu. Jika garis tersebut habis, maka permainan akan berakhir dan kamu harus mengulang dari awal untuk level itu.", //1
-    "Petualangan kamu di level 1 selesai kalau kamu selamat pulang ke rumahmu di ujung hutan." + "<br>" + "Sebelum bertualang, ada baiknya kamu berpamitan dengan teman baikmu." + "<br>"+ "Selamat berpetualang!", //2
+    "Petualangan kamu di level 1 selesai kalau kamu selamat pulang ke rumahmu di ujung hutan." + "<br>" + "Sebelum bertualang, ada baiknya kamu berpamitan dengan teman baikmu." + "<br>" + "Selamat berpetualang!", //2
     // level 2
     "Selamat datang kembali. Di level ini kamu akan melanjutkan petualanganmu. Petualanganmu dimulai dengan percakapan dengan ibumu.", //3
     "Jangan lupa untuk tetap mengikuti protokol kesehatan karena kita masih dalam masa pandemi Covid-19. Selamat menempuh petualangan di level 2 ini.",//4
     // level 3
     "Selamat, kamu sudah sampai level terakhir petualanganmu. Di level ini kamu baru tiba di kota untuk mengunjungi saudaramu." + "<br>" + "Hati-hati saat menyeberang jalan. Tetap patuhi protokol kesehatan, terutama menjaga jarak aman, selalu memakai masker, dan hindari kerumunan.", //5
     "Sebelum kamu masuk kota, kamu harus cek suhu dan tunjukkan Kartu Kewaspadaan Kesehatan kamu. Selamat bertualang!", //6
-    "Daftar barang yang harus dibeli:" + "<br>" + "<ul>" +"<li> Ikan </li>" +"<li> Roti tawar </li>" + "<li> Masker </li>"+ "</ul>", //7
+    "Daftar barang yang harus dibeli:" + "<br>" + "<ul>" + "<li> Ikan </li>" + "<li> Roti tawar </li>" + "<li> Masker </li>" + "</ul>", //7
     // system
     "Permainan berakhir. Anda tertabrak mobil.",
     "Permainan berakhir. Tingkat kesehatanmu Anda habis.",
 ];
 
 //pop the onload text after the game opens
-function renderOnloadText(num){
+function renderOnloadText(num) {
     document.getElementById('onloadTextBox').style.display = 'block';
-	onloadText.innerHTML = onloadTextList[num];
-	pause = true;
+    onloadText.innerHTML = onloadTextList[num];
+    pause = true;
 }
 
-function toggleOnloadText(){
-	//onloadtext level 1
-	if (onloadText.innerHTML === onloadTextList[0]) { onloadText.innerHTML = onloadTextList[1];}
-	else if (onloadText.innerHTML === onloadTextList[1]){onloadText.innerHTML = onloadTextList[2];}
-	else if (onloadText.innerHTML === onloadTextList[2]){ document.getElementById("onloadTextBox").style.display = "none"; pause = false; healthSpeed = 0.5;}
-	//onloadtext level 2
-	else if (onloadText.innerHTML === onloadTextList[3]){onloadText.innerHTML = onloadTextList[4];}
-	else if (onloadText.innerHTML === onloadTextList[4]){document.getElementById("onloadTextBox").style.display = "none"; pause = false;}
-	//onloadtext level 3
-	else if (onloadText.innerHTML === onloadTextList[5]){onloadText.innerHTML = onloadTextList[6];}
-	else if (onloadText.innerHTML === onloadTextList[6]){document.getElementById("onloadTextBox").style.display = "none"; pause = false;}
-	else if (onloadText.innerHTML === onloadTextList[7]){document.getElementById("onloadTextBox").style.display = "none"; pause = false;}
-	//sign at level 3
-	else if (onloadText.innerHTML === txt3[103]){document.getElementById("onloadTextBox").style.display = "none"; pause = false;}
-	else if (onloadText.innerHTML === txt3[104]){document.getElementById("onloadTextBox").style.display = "none"; pause = false;}
+function toggleOnloadText() {
+    //onloadtext level 1
+    if (onloadText.innerHTML === onloadTextList[0]) { onloadText.innerHTML = onloadTextList[1]; }
+    else if (onloadText.innerHTML === onloadTextList[1]) { onloadText.innerHTML = onloadTextList[2]; }
+    else if (onloadText.innerHTML === onloadTextList[2]) { document.getElementById("onloadTextBox").style.display = "none"; pause = false; healthSpeed = 0.5; }
+    //onloadtext level 2
+    else if (onloadText.innerHTML === onloadTextList[3]) { onloadText.innerHTML = onloadTextList[4]; }
+    else if (onloadText.innerHTML === onloadTextList[4]) { document.getElementById("onloadTextBox").style.display = "none"; pause = false; }
+    //onloadtext level 3
+    else if (onloadText.innerHTML === onloadTextList[5]) { onloadText.innerHTML = onloadTextList[6]; }
+    else if (onloadText.innerHTML === onloadTextList[6]) { document.getElementById("onloadTextBox").style.display = "none"; pause = false; }
+    else if (onloadText.innerHTML === onloadTextList[7]) { document.getElementById("onloadTextBox").style.display = "none"; pause = false; }
+    //sign at level 3
+    else if (onloadText.innerHTML === txt3[103]) { document.getElementById("onloadTextBox").style.display = "none"; pause = false; }
+    else if (onloadText.innerHTML === txt3[104]) { document.getElementById("onloadTextBox").style.display = "none"; pause = false; }
 }
 
 //level 1 task list 
-var talkSprites1A = false; 
-var firstWash = false; 
+var talkSprites1A = false;
+var firstWash = false;
 var talkGatekeeper = false;
 var talkToGranny = false;
 var buySoap = false;
@@ -5160,22 +5160,22 @@ var txt1 = [
     "Penjaga  Gerbang: Anak muda, kenapa kamu tidak pakai masker? Ini masker untukmu.", //6
     "Masker didapatkan",
     "Penjaga Gerbang: Bagus, kamu sudah pakai masker! Silakan lewat.",
-    nama + ": Terima kasih!" ,
+    nama + ": Terima kasih!",
     "Ingat untuk selalu jaga jarak aman, ya!", //10
     "*Uhuk* Apa kamu melihat cucuku? Dia tidak pakai masker waktu pergi.", //11
-    nama + ": Oh, saya lihat dia di hutan.", 
-    "Nenek: Bisa tolong berikan masker ini ke dia, Nak?", 
-    nama + ": Tentu saja, Nek.", 
+    nama + ": Oh, saya lihat dia di hutan.",
+    "Nenek: Bisa tolong berikan masker ini ke dia, Nak?",
+    nama + ": Tentu saja, Nek.",
     nama + ": Ini masker dari nenekmu. Dipakai dulu!", //15
     "Oke, terima kasih!", // 16
-    "Ibu: Sayang, kamu sudah pulang. Tolong belikan sabun cuci tangan dulu, ya?", 
-    nama + ": Di mana, Bu?", 
-    "Ibu: Di warung bu Ani.", 
+    "Ibu: Sayang, kamu sudah pulang. Tolong belikan sabun cuci tangan dulu, ya?",
+    nama + ": Di mana, Bu?",
+    "Ibu: Di warung bu Ani.",
     "Yani: Cari apa, Kak?", //20
     nama + ": Mau beli sabun cuci tangan.", //21
-    "Yani: Oh, langsung ke dalam saja.", 
-    "Ani: Selamat datang, mau beli apa?", 
-    nama + ": Ada sabun cuci tangan?", 
+    "Yani: Oh, langsung ke dalam saja.",
+    "Ani: Selamat datang, mau beli apa?",
+    nama + ": Ada sabun cuci tangan?",
     "Ani: Oh, tentu saja. Ini, Kak!", //25
     "Sabun cuci tangan didapatkan!", //26
     "Ibu: Terima kasih, Sayang. Jangan lupa cuci tangan sebelum masuk ke rumah, ya!",
@@ -5185,137 +5185,137 @@ var txt1 = [
 ];
 
 function typeText(txtNum) {
-	pause = true;
-	tBox.style.display = 'block';
-	t.innerHTML = txt1[txtNum];
+    pause = true;
+    tBox.style.display = 'block';
+    t.innerHTML = txt1[txtNum];
 }
 
-function toggleText(){
-	//talk to sprites1A
-	if (t.innerHTML === txt1[1]){ t.innerHTML = txt1[2];} 
-	else if (t.innerHTML === txt1[2]){ 
-		healthSpeed1 = healthSpeed1 + 1;
-		t.innerHTML = txt1[3]; 
-		talkSprites1A = true;
-	}
-	//if handWasImg is shown, close it
-	else if (t.innerHTML === txt1[4] || t.innerHTML === txt1[28] ){
-		if (buySoap == true && giveMomSoap == true) {
-			handWashImg.style.display = 'none';
-			tBox.style.backgroundColor = '#99ff99';
-			t.innerHTML = txt1[29]; //game ends here
-		} else {
-			handWashImg.style.display = 'none';
-			tBox.style.display = 'none';
-			tBox.style.backgroundColor = '#99ff99';
-			tBox.style.opacity = '1';
-			healthSpeed1 = 3;
-			firstWash = true;
-			pause = false;
-		}
-	}
-	//sprites near tent
-	else if (t.innerHTML === txt1[5]){
-		//if the player has talked to granny the player will give mask to the sprite
-		if (talkToGranny == true) { 
-			t.innerHTML = txt1[15]; 
-		}
-		else { //if the player hasn't talked to granny, the text will close
-			tBox.style.display = 'none';
-			healthSpeed1 = healthSpeed1 + 2;
-			pause = false;
-		}
-	} 
-	else if (t.innerHTML === txt1[15]) {
-		healthSpeed1 = healthSpeed1 + 2;
-		t.innerHTML = txt1[16];
-	}
-	//talk to gatekeeper
-	else if (t.innerHTML === txt1[6]){
-		if (talkGatekeeper == false){ //if the player hasn't talked to gatekeeper, he will receive a mask
-			player1.picX = 192;
-			maskImg.style.display = 'block';
-			obtMaskImg.style.display = 'inline';
-			tBox.style.backgroundColor = '#f2f2f2';
-			tBox.style.opacity ='0.8';
-			t.innerHTML = txt1[7];
-		} else { //if the player has talked to gatekeeper, and they talk again the healthSpeed will increase
-			healthSpeed1 = healthSpeed1 + 1;
-			tBox.style.display = 'none';
-			tBox.style.backgroundColor = '#99ff99';
-			tBox.style.opacity = '1'; 
-			pause = false;
-		}
-	}
-	else if (t.innerHTML === txt1[7]){
-		maskImg.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		t.innerHTML = txt1[8];	
-	}
-	else if (t.innerHTML === txt1[8]){
-		setInterval(animate1a, 500); //open gate animation
-		t.innerHTML = txt1[9];
-		txt1[6] = txt1[10]
-		healthSpeed1 = healthSpeed1 - 1;
-		talkGatekeeper = true;
-	}
-	//talk to granny
-	else if (t.innerHTML === txt1[11]){ t.innerHTML = txt1[12];}
-	else if (t.innerHTML === txt1[12]){ 
-		imgList.style.display = 'block';
-		maskImg.style.display = 'block';
-		t.innerHTML = txt1[13];
-	}  
-	else if (t.innerHTML === txt1[13]){ 
-		healthSpeed1 = healthSpeed1 + 2;
-		imgList.style.display = 'none';
-		maskImg.style.display = 'none';
-		t.innerHTML = txt1[14]; 
-		talkToGranny = true; 
-	}
-	//talk to mom
-	else if (t.innerHTML === txt1[17]) {
-		t.innerHTML = txt1[18];
-		if (buySoap == true) { t.innerHTML = txt1[27]; giveMomSoap = true;}
-	}
-	else if (t.innerHTML === txt1[18]) {t.innerHTML = txt1[19];}
-	//talk to twin outside the shop
-	else if (t.innerHTML === txt1[20]) {t.innerHTML = txt1[21];}
-	else if (t.innerHTML === txt1[21]) {
-		healthSpeed1 = healthSpeed1 + 1;
-		t.innerHTML = txt1[22];
-	}
-	//talk to shopkeeper
-	else if (t.innerHTML === txt1[23]) {t.innerHTML = txt1[24];}
-	else if (t.innerHTML === txt1[24]) {t.innerHTML = txt1[25];}
-	else if (t.innerHTML === txt1[25]) {
-		imgList.style.display = 'block';
-		sanitImg.style.display = 'block';
-		obtSanitImg.style.display = 'inline';
-		tBox.style.backgroundColor = '#f2f2f2';
-		tBox.style.opacity ='0.8';
-		t.innerHTML = txt1[26];
-	}
-	else if (t.innerHTML === txt1[26]) {
-		txt1[17] = txt1[30];
-		imgList.style.display = 'none';
-		sanitImg.style.display = 'none';
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		buySoap = true; 
-		pause = false;
-	}
-	//transfer to level 2
-	else if (t.innerHTML === txt1[29]) {
+function toggleText() {
+    //talk to sprites1A
+    if (t.innerHTML === txt1[1]) { t.innerHTML = txt1[2]; }
+    else if (t.innerHTML === txt1[2]) {
+        healthSpeed1 = healthSpeed1 + 1;
+        t.innerHTML = txt1[3];
+        talkSprites1A = true;
+    }
+    //if handWasImg is shown, close it
+    else if (t.innerHTML === txt1[4] || t.innerHTML === txt1[28]) {
+        if (buySoap == true && giveMomSoap == true) {
+            handWashImg.style.display = 'none';
+            tBox.style.backgroundColor = '#99ff99';
+            t.innerHTML = txt1[29]; //game ends here
+        } else {
+            handWashImg.style.display = 'none';
+            tBox.style.display = 'none';
+            tBox.style.backgroundColor = '#99ff99';
+            tBox.style.opacity = '1';
+            healthSpeed1 = 3;
+            firstWash = true;
+            pause = false;
+        }
+    }
+    //sprites near tent
+    else if (t.innerHTML === txt1[5]) {
+        //if the player has talked to granny the player will give mask to the sprite
+        if (talkToGranny == true) {
+            t.innerHTML = txt1[15];
+        }
+        else { //if the player hasn't talked to granny, the text will close
+            tBox.style.display = 'none';
+            healthSpeed1 = healthSpeed1 + 2;
+            pause = false;
+        }
+    }
+    else if (t.innerHTML === txt1[15]) {
+        healthSpeed1 = healthSpeed1 + 2;
+        t.innerHTML = txt1[16];
+    }
+    //talk to gatekeeper
+    else if (t.innerHTML === txt1[6]) {
+        if (talkGatekeeper == false) { //if the player hasn't talked to gatekeeper, he will receive a mask
+            player1.picX = 192;
+            maskImg.style.display = 'block';
+            obtMaskImg.style.display = 'inline';
+            tBox.style.backgroundColor = '#f2f2f2';
+            tBox.style.opacity = '0.8';
+            t.innerHTML = txt1[7];
+        } else { //if the player has talked to gatekeeper, and they talk again the healthSpeed will increase
+            healthSpeed1 = healthSpeed1 + 1;
+            tBox.style.display = 'none';
+            tBox.style.backgroundColor = '#99ff99';
+            tBox.style.opacity = '1';
+            pause = false;
+        }
+    }
+    else if (t.innerHTML === txt1[7]) {
+        maskImg.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        t.innerHTML = txt1[8];
+    }
+    else if (t.innerHTML === txt1[8]) {
+        setInterval(animate1a, 500); //open gate animation
+        t.innerHTML = txt1[9];
+        txt1[6] = txt1[10]
+        healthSpeed1 = healthSpeed1 - 1;
+        talkGatekeeper = true;
+    }
+    //talk to granny
+    else if (t.innerHTML === txt1[11]) { t.innerHTML = txt1[12]; }
+    else if (t.innerHTML === txt1[12]) {
+        imgList.style.display = 'block';
+        maskImg.style.display = 'block';
+        t.innerHTML = txt1[13];
+    }
+    else if (t.innerHTML === txt1[13]) {
+        healthSpeed1 = healthSpeed1 + 2;
+        imgList.style.display = 'none';
+        maskImg.style.display = 'none';
+        t.innerHTML = txt1[14];
+        talkToGranny = true;
+    }
+    //talk to mom
+    else if (t.innerHTML === txt1[17]) {
+        t.innerHTML = txt1[18];
+        if (buySoap == true) { t.innerHTML = txt1[27]; giveMomSoap = true; }
+    }
+    else if (t.innerHTML === txt1[18]) { t.innerHTML = txt1[19]; }
+    //talk to twin outside the shop
+    else if (t.innerHTML === txt1[20]) { t.innerHTML = txt1[21]; }
+    else if (t.innerHTML === txt1[21]) {
+        healthSpeed1 = healthSpeed1 + 1;
+        t.innerHTML = txt1[22];
+    }
+    //talk to shopkeeper
+    else if (t.innerHTML === txt1[23]) { t.innerHTML = txt1[24]; }
+    else if (t.innerHTML === txt1[24]) { t.innerHTML = txt1[25]; }
+    else if (t.innerHTML === txt1[25]) {
+        imgList.style.display = 'block';
+        sanitImg.style.display = 'block';
+        obtSanitImg.style.display = 'inline';
+        tBox.style.backgroundColor = '#f2f2f2';
+        tBox.style.opacity = '0.8';
+        t.innerHTML = txt1[26];
+    }
+    else if (t.innerHTML === txt1[26]) {
+        txt1[17] = txt1[30];
+        imgList.style.display = 'none';
+        sanitImg.style.display = 'none';
         tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		document.getElementById('health1').value = '35000';
-		healthSpeed1 = 0;
-		document.getElementById('obtainMaskImg').style.display = 'none';
-		document.getElementById('obtainSanitImg').style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        buySoap = true;
+        pause = false;
+    }
+    //transfer to level 2
+    else if (t.innerHTML === txt1[29]) {
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        document.getElementById('health1').value = '35000';
+        healthSpeed1 = 0;
+        document.getElementById('obtainMaskImg').style.display = 'none';
+        document.getElementById('obtainSanitImg').style.display = 'none';
         document.getElementById('screen1').style.display = 'none';
         document.getElementById('screen2').style.display = 'block';
         health1.style.display = 'none';
@@ -5324,18 +5324,18 @@ function toggleText(){
         health2.style.display = 'block';
         analog2.style.display = 'block';
         toggleBtn2.style.display = 'block';
-		audio1.pause();
-		audio2.play();
+        audio1.pause();
+        audio2.play();
         initGame2();
     }
     else {
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		pause = false;
-	}
-	//dead
-	if (t.innerHTML === onloadTextList[9]) {location.reload();}
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        pause = false;
+    }
+    //dead
+    if (t.innerHTML === onloadTextList[9]) { location.reload(); }
 }
 
 //level 2 task list and typing
@@ -5346,248 +5346,248 @@ var buySoap2 = false;
 var washTomato = false;
 
 var txt2 = [
-   "Ibu: Kamu bisa antarkan makan siang untuk Kakek?", //0
-   nama + ": Baik, Bu.", //1
-   "Hati-hati di jalan, ya!",
-   "Tetangga: Hai, dengar-dengar bu Joko kena Covid.",
-   "Anak kecil: Hosh...hosh… Aku harus pulang sepuluh menit lagi.",
-   "Anak kecil: Hatsi...hatsi...", //5
-   nama + ": Bu, anaknya kenapa?", //6
-   "Ibu-ibu: Dia batuk, pilek, dan agak demam. Jadi kami mau rapid test.", 
-   nama + ": Oh. Semoga bukan Covid ya, Bu.", 
-   "Ibu-ibu: Terima kasih, Nak.",
-   "Kakek-kakek: UHUK UHUK", //10
-   nama + ": (Waduh, aku harus jaga jarak nih)", //11
-   nama + ": (Wah, aku harus buru-buru mengantar makanan Kakek)",
-   "Suster: Kalau mau berobat, ini nomor antriannya.",
-   nama + ": Maaf, saya tidak berobat. Terima kasih.",
-   "Ibu-ibu: Tolong jaga jarak, Nak.", //15
-   "Penjual buah: Cari apa, Kak?",
-   nama + ": Tidak Pak. Terima kasih.",
-   nama + ": (Bapak ini tidak pake masker. Aku tidak beli buah di sini.)",
-   "Ibu-ibu: Tukang rotinya ke mana, ya?",
-   "Penjual buah: Silakan dibeli. Buahnya baru datang.", //20
-   nama + ": Maaf, tidak dulu, Bu.",
-   "Penjual sembako: Cari apa, Kak?",
-   nama + ": Oh, tidak cari apa-apa, Bu.",
-   nama + ": Permisi, jalan ke menara lewat mana, ya?",
-   "Pemuda: Oh, kamu harus memutar jalan dari awal.", //25
-   "Hore, tangan tercuci!", //26
-   "Kakek: Halo, " +nama+ " Seingat Kakek, ibu menitipmu bekal untuk Kakek.",
-   nama + ": Oh, iya!",
-   nama + ": Ini bekal dari Ibu untuk Kakek.",
-   "Kakek: Oh, terima kasih.", //30
-   "Kakek: Kamu bisa tolong belikan satu botol sabun cair dan tomat untuk Nenek?", //31
-   nama + ": Tentu saja, Kek.",
-   "Kakek: Terima kasih. Ini uangnya.",
-   "Kakek: Ingat selalu jaga jarak, ya!",
-   "Penjual buah: Mari, Kak. Silakan dipilih buahnya. Buahnya masih segar.", //35
-   nama + ": Ada tomat, Bu?", //36
-   "Penjual buah: Ada, Kak. Yang ini baru datang.",
-   nama + ": Baik, Bu. Sebungkus ini berapa harganya?",
-   "Penjual buah: Rp10.000 saja.",
-   nama + ": Baik, ini uangnya, Bu.", //40
-   "Penjual buah: Terima kasih, Kak.", //41
-   "Penjual sembako: Mau cari apa, Kak?",
-   nama + ": Sabun cair ada, Bu?",
-   "Penjual sembako: Ada, Kak. Rp10.000 harganya.",
-   nama + ": Oke, ini uangnya.", //45
-   "Sabun cair didapatkan", //46
-   "Penjual sembako: Terima kasih.", 
-   "Tetangga: Oh, kamu sudah besar, ya. ",
-   "Nenek: Halo, " + nama +". Apa ada titipan dari kakekmu?",
-   nama + ": Saya ke tempat Kakek dulu, Nek.", //50
-   "Tangan tercuci!", //51
-   nama + ": Ini sabun dan tomat dari pasar titipan Kakek.", //52
-   "Nenek: Terima kasih. Tolong dicuci dulu, ya.",
-   "Tomat sudah tercuci",
-   nama + ": Sudah saya cuci, Nek.", //55
-   "Nenek: Terima kasih. Ayo, masuk. Kita minum teh di dalam.",
-   nama + ": Baik, Kek.",
-   "Tomat sudah terbeli",
-   "Hore, level 2 selesai.",
-   nama + ": (Aku pakai cairan pembersih dulu).",   //60
-] 
+    "Ibu: Kamu bisa antarkan makan siang untuk Kakek?", //0
+    nama + ": Baik, Bu.", //1
+    "Hati-hati di jalan, ya!",
+    "Tetangga: Hai, dengar-dengar bu Joko kena Covid.",
+    "Anak kecil: Hosh...hosh… Aku harus pulang sepuluh menit lagi.",
+    "Anak kecil: Hatsi...hatsi...", //5
+    nama + ": Bu, anaknya kenapa?", //6
+    "Ibu-ibu: Dia batuk, pilek, dan agak demam. Jadi kami mau rapid test.",
+    nama + ": Oh. Semoga bukan Covid ya, Bu.",
+    "Ibu-ibu: Terima kasih, Nak.",
+    "Kakek-kakek: UHUK UHUK", //10
+    nama + ": (Waduh, aku harus jaga jarak nih)", //11
+    nama + ": (Wah, aku harus buru-buru mengantar makanan Kakek)",
+    "Suster: Kalau mau berobat, ini nomor antriannya.",
+    nama + ": Maaf, saya tidak berobat. Terima kasih.",
+    "Ibu-ibu: Tolong jaga jarak, Nak.", //15
+    "Penjual buah: Cari apa, Kak?",
+    nama + ": Tidak Pak. Terima kasih.",
+    nama + ": (Bapak ini tidak pake masker. Aku tidak beli buah di sini.)",
+    "Ibu-ibu: Tukang rotinya ke mana, ya?",
+    "Penjual buah: Silakan dibeli. Buahnya baru datang.", //20
+    nama + ": Maaf, tidak dulu, Bu.",
+    "Penjual sembako: Cari apa, Kak?",
+    nama + ": Oh, tidak cari apa-apa, Bu.",
+    nama + ": Permisi, jalan ke menara lewat mana, ya?",
+    "Pemuda: Oh, kamu harus memutar jalan dari awal.", //25
+    "Hore, tangan tercuci!", //26
+    "Kakek: Halo, " + nama + " Seingat Kakek, ibu menitipmu bekal untuk Kakek.",
+    nama + ": Oh, iya!",
+    nama + ": Ini bekal dari Ibu untuk Kakek.",
+    "Kakek: Oh, terima kasih.", //30
+    "Kakek: Kamu bisa tolong belikan satu botol sabun cair dan tomat untuk Nenek?", //31
+    nama + ": Tentu saja, Kek.",
+    "Kakek: Terima kasih. Ini uangnya.",
+    "Kakek: Ingat selalu jaga jarak, ya!",
+    "Penjual buah: Mari, Kak. Silakan dipilih buahnya. Buahnya masih segar.", //35
+    nama + ": Ada tomat, Bu?", //36
+    "Penjual buah: Ada, Kak. Yang ini baru datang.",
+    nama + ": Baik, Bu. Sebungkus ini berapa harganya?",
+    "Penjual buah: Rp10.000 saja.",
+    nama + ": Baik, ini uangnya, Bu.", //40
+    "Penjual buah: Terima kasih, Kak.", //41
+    "Penjual sembako: Mau cari apa, Kak?",
+    nama + ": Sabun cair ada, Bu?",
+    "Penjual sembako: Ada, Kak. Rp10.000 harganya.",
+    nama + ": Oke, ini uangnya.", //45
+    "Sabun cair didapatkan", //46
+    "Penjual sembako: Terima kasih.",
+    "Tetangga: Oh, kamu sudah besar, ya. ",
+    "Nenek: Halo, " + nama + ". Apa ada titipan dari kakekmu?",
+    nama + ": Saya ke tempat Kakek dulu, Nek.", //50
+    "Tangan tercuci!", //51
+    nama + ": Ini sabun dan tomat dari pasar titipan Kakek.", //52
+    "Nenek: Terima kasih. Tolong dicuci dulu, ya.",
+    "Tomat sudah tercuci",
+    nama + ": Sudah saya cuci, Nek.", //55
+    "Nenek: Terima kasih. Ayo, masuk. Kita minum teh di dalam.",
+    nama + ": Baik, Kek.",
+    "Tomat sudah terbeli",
+    "Hore, level 2 selesai.",
+    nama + ": (Aku pakai cairan pembersih dulu).",   //60
+]
 
-function typeText2(txtNum){
-	pause = true;
-	tBox.style.display = 'block';
-	t.innerHTML = txt2[txtNum];
+function typeText2(txtNum) {
+    pause = true;
+    tBox.style.display = 'block';
+    t.innerHTML = txt2[txtNum];
 }
 
-function toggleText2(){
-	//talk to mom
-	if (t.innerHTML === txt2[0]) {
-		obtFoodboxImg.style.display ='inline';
-		t.innerHTML = txt2[1];
-		txt2[0] = txt2[2];
-		txt2[27] = txt2[29];
-		talkToMom = true;	
-	}
-	//if handWasImg is shown, close it
-	else if (t.innerHTML === txt1[26] || t.innerHTML === txt1[51] ){
-		handWashImg.style.display = 'none';
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		healthSpeed2 = 2;
-		pause = false;
-	}
-	//percakapan ibu dan anak dket puskesmas
-	else if (t.innerHTML === txt2[5]){
-		healthSpeed2 = healthSpeed2 + 4;
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		pause = false; 
-	}
-	else if (t.innerHTML === txt2[6]) {t.innerHTML = txt2[7];}
-	else if (t.innerHTML === txt2[7]) {t.innerHTML = txt2[8];}
-	else if (t.innerHTML === txt2[8]) {
-		t.innerHTML = txt2[9];
-		healthSpeed2 = healthSpeed2 + 2;
-	}
-	//talk to kakek near puskesmas
-	else if (t.innerHTML === txt2[10]) {
-		setInterval(animate2b, 20);
-		healthSpeed2 = healthSpeed2 + 4;
-		t.innerHTML = txt2[11];
-	} 
-	//talk to clothes shop buyer
-	else if (t.innerHTML === txt2[13]) {
-		healthSpeed2 = healthSpeed2 + 2;
-		t.innerHTML = txt2[14];
-	}
-	//talk to fruit shop
-	else if (t.innerHTML === txt2[16]) {
-		if (talkToGrandpa == true){ 
-			healthSpeed2 = healthSpeed2 + 1;
-			tBox.style.display = 'none'; pause = false; 
-		}
-		else {
-			healthSpeed2 = healthSpeed2 + 3;
-			t.innerHTML = txt2[17];
-		}
-	}
-	//talk to fruit hawker 
-	else if (t.innerHTML === txt2[20]) { 
-		if (talkToGrandpa == true){ 
-			t.innerHTML = txt2[36]; 
-		}
-		else {
-			healthSpeed2 = healthSpeed2 + 2;
-			t.innerHTML = txt2[21];
-		}
-	}
-	else if (t.innerHTML === txt2[36]) {t.innerHTML = txt2[37];}
-	else if (t.innerHTML === txt2[37]) {t.innerHTML = txt2[38];}
-	else if (t.innerHTML === txt2[38]) {t.innerHTML = txt2[39];}
-	else if (t.innerHTML === txt2[39]) {t.innerHTML = txt2[40];}
-	else if (t.innerHTML === txt2[40]) {
-		obtTomatoImg.style.display ='inline';
-		tomatoImg.style.display = 'block';
-		tBox.style.backgroundColor = '#f2f2f2';
-		tBox.style.opacity ='0.8';
-		t.innerHTML = txt2[58];
-	 }
-	else if (t.innerHTML === txt2[58]) {
-		tomatoImg.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		t.innerHTML = txt2[41];
-	}
-	else if (t.innerHTML === txt2[41]) {
-		healthSpeed2 = healthSpeed2 + 2;
-		tBox.style.display = 'none';
-		buyTomato = true; 
-		pause = false;
-	}
-	//talk to props shop
-	else if (t.innerHTML === txt2[22]) {
-		if (talkToGrandpa == true){ t.innerHTML = txt2[43]; }
-		else {
-			healthSpeed2 = healthSpeed2 + 2;
-			t.innerHTML = txt2[23];
-		}
-	}
-	else if (t.innerHTML === txt2[43]) {t.innerHTML = txt2[44];}
-	else if (t.innerHTML === txt2[44]) {t.innerHTML = txt2[45];}
-	else if (t.innerHTML === txt2[45]) {
-		obtSanitImg.style.display = 'inline';
-		sanitImg.style.display = 'block';
-		tBox.style.backgroundColor = '#f2f2f2';
-		tBox.style.opacity ='0.8';
-		t.innerHTML = txt2[46];
-	}
-	else if (t.innerHTML === txt2[46]) {
-		healthSpeed2 = healthSpeed2 + 2;
-		sanitImg.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity ='1';
-		t.innerHTML = txt2[47]; 
-		buySoap2 = true;
-	}
-	else if (t.innerHTML === txt2[47]) {t.innerHTML = txt2[60];}
+function toggleText2() {
+    //talk to mom
+    if (t.innerHTML === txt2[0]) {
+        obtFoodboxImg.style.display = 'inline';
+        t.innerHTML = txt2[1];
+        txt2[0] = txt2[2];
+        txt2[27] = txt2[29];
+        talkToMom = true;
+    }
+    //if handWasImg is shown, close it
+    else if (t.innerHTML === txt1[26] || t.innerHTML === txt1[51]) {
+        handWashImg.style.display = 'none';
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        healthSpeed2 = 2;
+        pause = false;
+    }
+    //percakapan ibu dan anak dket puskesmas
+    else if (t.innerHTML === txt2[5]) {
+        healthSpeed2 = healthSpeed2 + 4;
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        pause = false;
+    }
+    else if (t.innerHTML === txt2[6]) { t.innerHTML = txt2[7]; }
+    else if (t.innerHTML === txt2[7]) { t.innerHTML = txt2[8]; }
+    else if (t.innerHTML === txt2[8]) {
+        t.innerHTML = txt2[9];
+        healthSpeed2 = healthSpeed2 + 2;
+    }
+    //talk to kakek near puskesmas
+    else if (t.innerHTML === txt2[10]) {
+        setInterval(animate2b, 20);
+        healthSpeed2 = healthSpeed2 + 4;
+        t.innerHTML = txt2[11];
+    }
+    //talk to clothes shop buyer
+    else if (t.innerHTML === txt2[13]) {
+        healthSpeed2 = healthSpeed2 + 2;
+        t.innerHTML = txt2[14];
+    }
+    //talk to fruit shop
+    else if (t.innerHTML === txt2[16]) {
+        if (talkToGrandpa == true) {
+            healthSpeed2 = healthSpeed2 + 1;
+            tBox.style.display = 'none'; pause = false;
+        }
+        else {
+            healthSpeed2 = healthSpeed2 + 3;
+            t.innerHTML = txt2[17];
+        }
+    }
+    //talk to fruit hawker 
+    else if (t.innerHTML === txt2[20]) {
+        if (talkToGrandpa == true) {
+            t.innerHTML = txt2[36];
+        }
+        else {
+            healthSpeed2 = healthSpeed2 + 2;
+            t.innerHTML = txt2[21];
+        }
+    }
+    else if (t.innerHTML === txt2[36]) { t.innerHTML = txt2[37]; }
+    else if (t.innerHTML === txt2[37]) { t.innerHTML = txt2[38]; }
+    else if (t.innerHTML === txt2[38]) { t.innerHTML = txt2[39]; }
+    else if (t.innerHTML === txt2[39]) { t.innerHTML = txt2[40]; }
+    else if (t.innerHTML === txt2[40]) {
+        obtTomatoImg.style.display = 'inline';
+        tomatoImg.style.display = 'block';
+        tBox.style.backgroundColor = '#f2f2f2';
+        tBox.style.opacity = '0.8';
+        t.innerHTML = txt2[58];
+    }
+    else if (t.innerHTML === txt2[58]) {
+        tomatoImg.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        t.innerHTML = txt2[41];
+    }
+    else if (t.innerHTML === txt2[41]) {
+        healthSpeed2 = healthSpeed2 + 2;
+        tBox.style.display = 'none';
+        buyTomato = true;
+        pause = false;
+    }
+    //talk to props shop
+    else if (t.innerHTML === txt2[22]) {
+        if (talkToGrandpa == true) { t.innerHTML = txt2[43]; }
+        else {
+            healthSpeed2 = healthSpeed2 + 2;
+            t.innerHTML = txt2[23];
+        }
+    }
+    else if (t.innerHTML === txt2[43]) { t.innerHTML = txt2[44]; }
+    else if (t.innerHTML === txt2[44]) { t.innerHTML = txt2[45]; }
+    else if (t.innerHTML === txt2[45]) {
+        obtSanitImg.style.display = 'inline';
+        sanitImg.style.display = 'block';
+        tBox.style.backgroundColor = '#f2f2f2';
+        tBox.style.opacity = '0.8';
+        t.innerHTML = txt2[46];
+    }
+    else if (t.innerHTML === txt2[46]) {
+        healthSpeed2 = healthSpeed2 + 2;
+        sanitImg.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        t.innerHTML = txt2[47];
+        buySoap2 = true;
+    }
+    else if (t.innerHTML === txt2[47]) { t.innerHTML = txt2[60]; }
 
-	//talk to scout boy
-	else if (t.innerHTML === txt2[24]) {
-		healthSpeed2 = healthSpeed2 + 2;
-		t.innerHTML = txt2[25];
-	}
-	//talk to grandpa
-	else if (t.innerHTML === txt2[27]) {
-		if (talkToMom == true && talkToGrandpa == false) {
-			obtFoodboxImg.style.display ='none';
-			t.innerHTML = txt2[30];
-		}
-		else if (talkToMom == true && talkToGrandpa == true) {t.innerHTML = txt2[57];}
-		else {
-			tBox.style.display = 'none';
-			tBox.style.backgroundColor = '#99ff99';
-			tBox.style.opacity = '1';
-			pause = false;
-		}
-	}
-	else if (t.innerHTML === txt2[30]) {t.innerHTML = txt2[31];}
-	else if (t.innerHTML === txt2[31]) {t.innerHTML = txt2[32];}
-	else if (t.innerHTML === txt2[32]) {
-		t.innerHTML = txt2[33];
-		txt2[16] = txt2[18]; //fruit shop
-		txt2[20] = txt2[35]; //fruit hawker
-		txt2[22] = txt2[42];
-		txt2[27] = txt2[34]; //kakek mengingatkan jaga jarak
-		talkToGrandpa = true;
-	}
-	//talk to grandma
-	else if (t.innerHTML === txt2[49]) {
-		if (buySoap2 == true && buyTomato == true && washTomato == false) {
-			obtSanitImg.style.display ='none';
-			obtTomatoImg.style.display ='none';
-			t.innerHTML = txt2[52]; 
-		}
-		else if (buySoap2 == true && buyTomato == true && washTomato == true) {t.innerHTML = txt2[56]; }
-		else {t.innerHTML = txt2[50];}
-	}
-	else if (t.innerHTML === txt2[52]) { 
-		t.innerHTML = txt2[53]; 
-		txt2[51] = txt2[54];  
-	}
-	//wash tomato
-	else if (t.innerHTML === txt2[54]) {
-		tBox.style.display = 'none';
-		handWashImg.style.display = 'none';
-		pause = false;
-		washTomato = true;
-		txt2[49] = txt2[55];
-	 }
-	 //ending
-	else if (t.innerHTML === txt2[56]) {t.innerHTML = txt2[59];}
-	else if (t.innerHTML === txt2[59]) { //transfer to level 3
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		healthSpeed2 = 0;
-		document.getElementById('health2').value = '60000';
+    //talk to scout boy
+    else if (t.innerHTML === txt2[24]) {
+        healthSpeed2 = healthSpeed2 + 2;
+        t.innerHTML = txt2[25];
+    }
+    //talk to grandpa
+    else if (t.innerHTML === txt2[27]) {
+        if (talkToMom == true && talkToGrandpa == false) {
+            obtFoodboxImg.style.display = 'none';
+            t.innerHTML = txt2[30];
+        }
+        else if (talkToMom == true && talkToGrandpa == true) { t.innerHTML = txt2[57]; }
+        else {
+            tBox.style.display = 'none';
+            tBox.style.backgroundColor = '#99ff99';
+            tBox.style.opacity = '1';
+            pause = false;
+        }
+    }
+    else if (t.innerHTML === txt2[30]) { t.innerHTML = txt2[31]; }
+    else if (t.innerHTML === txt2[31]) { t.innerHTML = txt2[32]; }
+    else if (t.innerHTML === txt2[32]) {
+        t.innerHTML = txt2[33];
+        txt2[16] = txt2[18]; //fruit shop
+        txt2[20] = txt2[35]; //fruit hawker
+        txt2[22] = txt2[42];
+        txt2[27] = txt2[34]; //kakek mengingatkan jaga jarak
+        talkToGrandpa = true;
+    }
+    //talk to grandma
+    else if (t.innerHTML === txt2[49]) {
+        if (buySoap2 == true && buyTomato == true && washTomato == false) {
+            obtSanitImg.style.display = 'none';
+            obtTomatoImg.style.display = 'none';
+            t.innerHTML = txt2[52];
+        }
+        else if (buySoap2 == true && buyTomato == true && washTomato == true) { t.innerHTML = txt2[56]; }
+        else { t.innerHTML = txt2[50]; }
+    }
+    else if (t.innerHTML === txt2[52]) {
+        t.innerHTML = txt2[53];
+        txt2[51] = txt2[54];
+    }
+    //wash tomato
+    else if (t.innerHTML === txt2[54]) {
+        tBox.style.display = 'none';
+        handWashImg.style.display = 'none';
+        pause = false;
+        washTomato = true;
+        txt2[49] = txt2[55];
+    }
+    //ending
+    else if (t.innerHTML === txt2[56]) { t.innerHTML = txt2[59]; }
+    else if (t.innerHTML === txt2[59]) { //transfer to level 3
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        healthSpeed2 = 0;
+        document.getElementById('health2').value = '60000';
         document.getElementById('screen2').style.display = 'none';
         document.getElementById('screen3').style.display = 'block';
         health2.style.display = 'none';
@@ -5596,19 +5596,19 @@ function toggleText2(){
         health3.style.display = 'block';
         analog3.style.display = 'block';
         toggleBtn3.style.display = 'block';
-		audio2.pause();
-		audio3.play();
+        audio2.pause();
+        audio3.play();
         initGame3();
-	}
-	else {
-		handWashImg.style.display = 'none';
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		pause = false;
-	}
-	//dead
-	if (t.innerHTML === onloadTextList[9]) {location.reload();}
+    }
+    else {
+        handWashImg.style.display = 'none';
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        pause = false;
+    }
+    //dead
+    if (t.innerHTML === onloadTextList[9]) { location.reload(); }
 }
 
 //level 3 task list and typing
@@ -5619,1385 +5619,1385 @@ var buyFish = false;
 var buyBread = false;
 var buyMask = false;
 var txt3 = [
-		"Supir bus: Terima kasih sudah menggunakan jasa kami. Silakan cek suhu tubuh di sana sebelum memasuki kota.",
-		"Pemudi: Kalau suhu kamu di atas 37,5 derajat, kamu tidak boleh masuk kota ya.", //1
-		"Pemudi: Duh lama sekali sih.",
-		"Pemuda: Berapa suhu saya, Mbak?",
-		"Pemeriksa suhu: 36,8 derajat silakan masuk.",
-		"Pemeriksa suhu: Saya cek suhunya sebentar ya, Kak.", //5
-		"Pemeriksa suhu: 36,2 derajat. Silakan tunjukkan Kartu Kewaspadaan Kesehatan di sana", //6
-		"Pemeriksa suhu: Kak, cek suhu dulu di sini!",
-		"Pemeriksa KKK: Boleh lihat Kartu Kewaspadaan Kesehatannya, Kak?",
-		nama + ": Silakan, Pak.",
-		"Pemeriksa KKK: Baik, hasil tes non-reaktif. Silakan masuk kota.", //10
-		"Pemeriksa KKK: Kak, periksa Kartu Kewaspadaan Kesehatan dulu di sini!", //11
-		"Pembeli: Bu, jadi berapa total jagung dan tomatnya?",
-		"Penyual sayur: Totalnya Rp25.000, Bu.",
-		"Penyual sayur: Cari apa, Kak?",
-		nama + ": (Wah, ibu ini tidak pakai masker. Aku tidak beli di sini deh).", //15
-		nama + ": Nggak, Bu.", //16
-		"Ibu-ibu: Hmmm, penjual sayur yang biasa di sini ke mana, ya?",
-		"Bapak-bapak: Wah, kunci gudang aku taruh di mana, ya?",
-		"Penjaga pabrik: Aku harus tetap bekerja keras meskipun masih pandemi.",
-		"Ibu-ibu: Duh, mana jemputannya, ya?", //20
-		"Tukang parkir: Wah, ini yang parkir bus ke mana, ya? Kok parkir sembarangan.", //21
-		nama + ": Mohon tanya, ini tempat apa? Kenapa dijaga?",
-		"Suster: Oh, ini rumah karantina pasien Covid-19.",
-		"Suster: Jaga kesehatan ya, Kak. Jangan sampai kamu masuk ke sini.",
-		"Dokter: Karena pasien Covid-19 sudah semakin banyak, kapasitas di rumah sakit pun semakin terbatas.", //25
-		"Dokter: Kalau kamu merasa demam, batuk kering, atau pilek, segeralah periksa ke rumah sakit, ya.", //26
-		"Pengusaha: Di masa pandemi ini, banyak pengusaha yang bisnisnya terdampak.",
-		"Pemudi: Saat pandemi, hindari kumpul-kumpul di luar.",
-		"Petugas Covid: Di sini ada sekeluarga yang sedang isolasi mandiri karena Covid.",
-		"Pegawai: Saat pandemi banyak orang yang kehilangan pekerjaan.", //30
-		"Anak-anak: Aku harus rajin berolahraga!", //31
-		"Nenek-nenek: Nak, apakah kamu melihat suamiku?",
-		"Kakek-kakek: Nak, apakah kamu melihat istriku?",
-		"Nenek-nenek: Saat menyeberang jalan, kamu harus berhati-hati, ya.",
-		"Wartawan: Apa yang ingin Bapak sampaikan kepada masyarakat agar tidak tertular Covid?", //35
-		"Walikota: Tetaplah menjaga jarak aman, pakai masker, dan tidak berkerumun.", //36
-		"Wartawan: Berapa denda bagi pelanggar protokol Covid-19, Pak?", 
-		"Walikota: Di wilayah kita Rp250.000.", 
-		"Petugas Covid: Waduh, jumlah korban bertambah terus setiap harinya.",
-		"Petugas Covid: Ada urusan apa, Kak? Mau nyekar, ya?", //40
-		nama + ": Saya kesasar, Pak.", //41
-		"Petugas COVID: Ini kuburan korban Covid-19.",
-		"Penjaga toko: Aduh, barangnya lama sekali sampainya.",
-		"Saudara: Hai, lama tidak jumpa!",
-		nama + ": Ya, lama tidak jumpa. Kok kamu di luar tidak pakai masker?", //45
-		"Saudara: Tenanglah, hanya di depan rumah saja kok! Oh ya, adikku sudah menunggumu.", //46
-		"Saudara: Hey, kamu sudah tiba! Kenapa lama sekali? Aku baru mau belikan kamu makan.",
-		nama + ": Iya, sebelum ke terminal aku rapid dulu. Jadi tadi ketinggalan bus pertama.",
-		"Saudara: Buat apa rapid? Aku sering kok tidak pakai masker kalau pergi-pergi.",
-		nama + ": Jangan anggap remeh, semakin hari banyak yang tertular tahu!", //50
-		nama + ": Kalau kamu tidak mau pakai masker, biar aku saja yang beli makan. Nanti aku kembali lagi.", //51
-		nama + ": (Hmmm, nanti aku beli masker untuk mereka).",
-		"Saudara: Oh, terima kasih, sekaligus tolong belikan roti di Pasar Baru.",
-		"Penjual barang: Ya, silakan dipilih barangnya, Kak.",
-		nama + ": (Hmmm, barang yang ingin kubeli tidak ada di sini).", //55
-		"Ibu-ibu: Hmmm, beli apa, ya?", //56
-		"Penjual: Cari masker ya, Kak? Sebelah toko saudaraku ada jual di Pasar Lama.",
-		"Pembeli: Bu, jadi berapa harga semua sayur, daging, dan ikannya?",
-		"Penjual: Rp45.000, Bu.",
-		"Penjual Ikan: Silakan dipilih, Kak ikan dan sayurnya.", //60
-		"Penjual Ikan: Silakan dipilih, Kak sayur dan ikannya.", //61
-		nama + ": Berapa harga sekilo ikan, Bu?",
-		"Penjual Ikan: Rp35.000, Kak.",
-		nama + ": Baik, beli sekilo ya, Bu. Ini uangnya.",
-		"Penjual Ikan: Terima kasih. Ini belanjaannya.", //65
-		"Ibu-ibu: Numpang tanya, penjual roti yang biasa di sana ke mana, ya?", //66
-		"Penjual daging: Cari apa, Kak?",
-		nama + ": (Wah bapak itu tidak pakai masker, aku tidak belanja sama dia deh).", 
-		nama + ": Tidak, Pak.", 
-		"Pembeli: Pak, harga buahnya jadi berapa semuanya?", //70
-		"Penjual buah: Jadi total Rp50.000, Bu.", //71
-		"Penjual buah: Silakan dibeli, Kak. Buahnya segar loh.",
-		"Ibu-ibu: Tukang roti di sana, pindah ke pasar, Kak.",
-		"Ikan terbeli!",
-		"Pedagang kaki-lima: Pasar? Oh, cukup jalan lurus dari sini saja, Kak.", //75
-		"Penjual: Masker? Oh, bisa beli di toko sebelah, Kak!", //76
-		"Petugas: Saya akan menegur bapak yang tidak memakai masker itu.",
-		"Ibu-ibu: Bu, sudah dengar? Katanya satu keluarga besar di pusat kota yang diisolasi di rumah loh!",
-		"Ibu-ibu: Iya, Bu. Jumlah orang yang terpapar Covid-19 bertambah terus.",
-		"Pembeli: Jadi berapa harga dua masker ini, Bu?", //80
-		"Penjual baju: Rp20.000, Bu.", //81
-		"Penjual roti: Silakan dibeli rotinya, Kak.",
-		"Penjual roti: Silakan dibeli, Kak. Rotinya masih hangat.",
-		nama + ": Tiga bungkus roti ini berapa, Pak?",
-		"Penjual Roti: Rp30.000, Kak.", //85
-		nama + ": Baik, ini uangnya, Pak.", //86
-		"Penjual Roti: Terima kasih. Ini rotinya.", 
-		"Roti terbeli!",
-		"Penjual baju: Cari apa, Kak?",
-		"Penjual baju: Cari apa, Kak? Maskernya bagus-bagus loh.", //90
-		nama + ": Berapa harga empat masker, Bu?", //91
-		"Penjual baju: Rp40.000, Kak.", 
-		nama + ": Baik, saya beli empat masker, Bu. Ini uangnya.", 
-		"Penjual Roti: Terima kasih. Ini maskernya.", 
-		"Masker terbeli!", //95
-		nama + ": Ada apa ini!?", //96
-		"Petugas Covid: Temanmu ini saya bawa untuk isolasi karena hasil tesnya positif Covid.",
-		nama + ": Wah, saya baru ketemu dia tadi.",
-		"Petugas Covid: Kalau begitu kamu harus dites juga. Alat tesnya ada di teman saya.",
-		"Tes...Hasil: Non-reaktif!", //100
-		"Petugas Covid: Kamu harus isolasi mandiri selama 14 hari. Sampai jumpa!",
-		"Permainan berakhir, terima kasih sudah memainkan permainan ini.",
-		"Kiri kota:" + "<br>" + "<ul>" +"<li> Pasar Baru </li>" +"<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>"+ "</ul>", //103	
-		"Kanan kota:" + "<br>" + "<ul>" +"<li> Tempat pemakaman </li>" +"<li> Kantor walikota </li>" + "<li> Pasar lama </li>"+ "</ul>", //104
-		"Permainan berakhir, Anda tertabrak mobil.", //105
+    "Supir bus: Terima kasih sudah menggunakan jasa kami. Silakan cek suhu tubuh di sana sebelum memasuki kota.",
+    "Pemudi: Kalau suhu kamu di atas 37,5 derajat, kamu tidak boleh masuk kota ya.", //1
+    "Pemudi: Duh lama sekali sih.",
+    "Pemuda: Berapa suhu saya, Mbak?",
+    "Pemeriksa suhu: 36,8 derajat silakan masuk.",
+    "Pemeriksa suhu: Saya cek suhunya sebentar ya, Kak.", //5
+    "Pemeriksa suhu: 36,2 derajat. Silakan tunjukkan Kartu Kewaspadaan Kesehatan di sana", //6
+    "Pemeriksa suhu: Kak, cek suhu dulu di sini!",
+    "Pemeriksa KKK: Boleh lihat Kartu Kewaspadaan Kesehatannya, Kak?",
+    nama + ": Silakan, Pak.",
+    "Pemeriksa KKK: Baik, hasil tes non-reaktif. Silakan masuk kota.", //10
+    "Pemeriksa KKK: Kak, periksa Kartu Kewaspadaan Kesehatan dulu di sini!", //11
+    "Pembeli: Bu, jadi berapa total jagung dan tomatnya?",
+    "Penyual sayur: Totalnya Rp25.000, Bu.",
+    "Penyual sayur: Cari apa, Kak?",
+    nama + ": (Wah, ibu ini tidak pakai masker. Aku tidak beli di sini deh).", //15
+    nama + ": Nggak, Bu.", //16
+    "Ibu-ibu: Hmmm, penjual sayur yang biasa di sini ke mana, ya?",
+    "Bapak-bapak: Wah, kunci gudang aku taruh di mana, ya?",
+    "Penjaga pabrik: Aku harus tetap bekerja keras meskipun masih pandemi.",
+    "Ibu-ibu: Duh, mana jemputannya, ya?", //20
+    "Tukang parkir: Wah, ini yang parkir bus ke mana, ya? Kok parkir sembarangan.", //21
+    nama + ": Mohon tanya, ini tempat apa? Kenapa dijaga?",
+    "Suster: Oh, ini rumah karantina pasien Covid-19.",
+    "Suster: Jaga kesehatan ya, Kak. Jangan sampai kamu masuk ke sini.",
+    "Dokter: Karena pasien Covid-19 sudah semakin banyak, kapasitas di rumah sakit pun semakin terbatas.", //25
+    "Dokter: Kalau kamu merasa demam, batuk kering, atau pilek, segeralah periksa ke rumah sakit, ya.", //26
+    "Pengusaha: Di masa pandemi ini, banyak pengusaha yang bisnisnya terdampak.",
+    "Pemudi: Saat pandemi, hindari kumpul-kumpul di luar.",
+    "Petugas Covid: Di sini ada sekeluarga yang sedang isolasi mandiri karena Covid.",
+    "Pegawai: Saat pandemi banyak orang yang kehilangan pekerjaan.", //30
+    "Anak-anak: Aku harus rajin berolahraga!", //31
+    "Nenek-nenek: Nak, apakah kamu melihat suamiku?",
+    "Kakek-kakek: Nak, apakah kamu melihat istriku?",
+    "Nenek-nenek: Saat menyeberang jalan, kamu harus berhati-hati, ya.",
+    "Wartawan: Apa yang ingin Bapak sampaikan kepada masyarakat agar tidak tertular Covid?", //35
+    "Walikota: Tetaplah menjaga jarak aman, pakai masker, dan tidak berkerumun.", //36
+    "Wartawan: Berapa denda bagi pelanggar protokol Covid-19, Pak?",
+    "Walikota: Di wilayah kita Rp250.000.",
+    "Petugas Covid: Waduh, jumlah korban bertambah terus setiap harinya.",
+    "Petugas Covid: Ada urusan apa, Kak? Mau nyekar, ya?", //40
+    nama + ": Saya kesasar, Pak.", //41
+    "Petugas COVID: Ini kuburan korban Covid-19.",
+    "Penjaga toko: Aduh, barangnya lama sekali sampainya.",
+    "Saudara: Hai, lama tidak jumpa!",
+    nama + ": Ya, lama tidak jumpa. Kok kamu di luar tidak pakai masker?", //45
+    "Saudara: Tenanglah, hanya di depan rumah saja kok! Oh ya, adikku sudah menunggumu.", //46
+    "Saudara: Hey, kamu sudah tiba! Kenapa lama sekali? Aku baru mau belikan kamu makan.",
+    nama + ": Iya, sebelum ke terminal aku rapid dulu. Jadi tadi ketinggalan bus pertama.",
+    "Saudara: Buat apa rapid? Aku sering kok tidak pakai masker kalau pergi-pergi.",
+    nama + ": Jangan anggap remeh, semakin hari banyak yang tertular tahu!", //50
+    nama + ": Kalau kamu tidak mau pakai masker, biar aku saja yang beli makan. Nanti aku kembali lagi.", //51
+    nama + ": (Hmmm, nanti aku beli masker untuk mereka).",
+    "Saudara: Oh, terima kasih, sekaligus tolong belikan roti di Pasar Baru.",
+    "Penjual barang: Ya, silakan dipilih barangnya, Kak.",
+    nama + ": (Hmmm, barang yang ingin kubeli tidak ada di sini).", //55
+    "Ibu-ibu: Hmmm, beli apa, ya?", //56
+    "Penjual: Cari masker ya, Kak? Sebelah toko saudaraku ada jual di Pasar Lama.",
+    "Pembeli: Bu, jadi berapa harga semua sayur, daging, dan ikannya?",
+    "Penjual: Rp45.000, Bu.",
+    "Penjual Ikan: Silakan dipilih, Kak ikan dan sayurnya.", //60
+    "Penjual Ikan: Silakan dipilih, Kak sayur dan ikannya.", //61
+    nama + ": Berapa harga sekilo ikan, Bu?",
+    "Penjual Ikan: Rp35.000, Kak.",
+    nama + ": Baik, beli sekilo ya, Bu. Ini uangnya.",
+    "Penjual Ikan: Terima kasih. Ini belanjaannya.", //65
+    "Ibu-ibu: Numpang tanya, penjual roti yang biasa di sana ke mana, ya?", //66
+    "Penjual daging: Cari apa, Kak?",
+    nama + ": (Wah bapak itu tidak pakai masker, aku tidak belanja sama dia deh).",
+    nama + ": Tidak, Pak.",
+    "Pembeli: Pak, harga buahnya jadi berapa semuanya?", //70
+    "Penjual buah: Jadi total Rp50.000, Bu.", //71
+    "Penjual buah: Silakan dibeli, Kak. Buahnya segar loh.",
+    "Ibu-ibu: Tukang roti di sana, pindah ke pasar, Kak.",
+    "Ikan terbeli!",
+    "Pedagang kaki-lima: Pasar? Oh, cukup jalan lurus dari sini saja, Kak.", //75
+    "Penjual: Masker? Oh, bisa beli di toko sebelah, Kak!", //76
+    "Petugas: Saya akan menegur bapak yang tidak memakai masker itu.",
+    "Ibu-ibu: Bu, sudah dengar? Katanya satu keluarga besar di pusat kota yang diisolasi di rumah loh!",
+    "Ibu-ibu: Iya, Bu. Jumlah orang yang terpapar Covid-19 bertambah terus.",
+    "Pembeli: Jadi berapa harga dua masker ini, Bu?", //80
+    "Penjual baju: Rp20.000, Bu.", //81
+    "Penjual roti: Silakan dibeli rotinya, Kak.",
+    "Penjual roti: Silakan dibeli, Kak. Rotinya masih hangat.",
+    nama + ": Tiga bungkus roti ini berapa, Pak?",
+    "Penjual Roti: Rp30.000, Kak.", //85
+    nama + ": Baik, ini uangnya, Pak.", //86
+    "Penjual Roti: Terima kasih. Ini rotinya.",
+    "Roti terbeli!",
+    "Penjual baju: Cari apa, Kak?",
+    "Penjual baju: Cari apa, Kak? Maskernya bagus-bagus loh.", //90
+    nama + ": Berapa harga empat masker, Bu?", //91
+    "Penjual baju: Rp40.000, Kak.",
+    nama + ": Baik, saya beli empat masker, Bu. Ini uangnya.",
+    "Penjual Roti: Terima kasih. Ini maskernya.",
+    "Masker terbeli!", //95
+    nama + ": Ada apa ini!?", //96
+    "Petugas Covid: Temanmu ini saya bawa untuk isolasi karena hasil tesnya positif Covid.",
+    nama + ": Wah, saya baru ketemu dia tadi.",
+    "Petugas Covid: Kalau begitu kamu harus dites juga. Alat tesnya ada di teman saya.",
+    "Tes...Hasil: Non-reaktif!", //100
+    "Petugas Covid: Kamu harus isolasi mandiri selama 14 hari. Sampai jumpa!",
+    "Permainan berakhir, terima kasih sudah memainkan permainan ini.",
+    "Kiri kota:" + "<br>" + "<ul>" + "<li> Pasar Baru </li>" + "<li> Rumah sakit </li>" + "<li> Perumahan apartemen </li>" + "</ul>", //103	
+    "Kanan kota:" + "<br>" + "<ul>" + "<li> Tempat pemakaman </li>" + "<li> Kantor walikota </li>" + "<li> Pasar lama </li>" + "</ul>", //104
+    "Permainan berakhir, Anda tertabrak mobil.", //105
 ];
 
-function typeText3(txtNum){
-	pause = true;
-	tBox.style.display = 'block';
-	t.innerHTML = txt3[txtNum];
+function typeText3(txtNum) {
+    pause = true;
+    tBox.style.display = 'block';
+    t.innerHTML = txt3[txtNum];
 }
 
-function toggleText3(){
-	//pemuda yang bertanya pada pemeriksaan suhu
-	if (t.innerHTML === txt3[3]) { t.innerHTML = txt3[4];}
-	//cek suhu
-	else if (t.innerHTML === txt3[5]) {t.innerHTML = txt3[6]; tempCheck = true;}
-	//cek KKK
-	else if (t.innerHTML === txt3[8]) {t.innerHTML = txt3[9];}
-	else if (t.innerHTML === txt3[9]) {t.innerHTML = txt3[10]; KKKcheck = true;}
-	//conversation of vegetable buyer and seller (stand3a)
-	else if (t.innerHTML === txt3[12]) {t.innerHTML = txt3[13]; healthSpeed3 = healthSpeed3 + 1;}
-	//conversation when talking with vegetable seller (stand3b)
-	else if (t.innerHTML === txt3[14]) {t.innerHTML = txt3[15]}
-	else if (t.innerHTML === txt3[15]) {t.innerHTML = txt3[16]; healthSpeed3 = healthSpeed3 + 1;}
-	//nurse in front of quarantine house
-	else if (t.innerHTML === txt3[22]) {t.innerHTML = txt3[23]; healthSpeed3 = healthSpeed3 + 1;}
-	//walikota and wartawan
-	else if (t.innerHTML === txt3[35]) {t.innerHTML = txt3[36]}
-	else if (t.innerHTML === txt3[37]) {t.innerHTML = txt3[38]; healthSpeed3 = healthSpeed3 + 1;}
-	//COVID tombkeeper
-	else if (t.innerHTML === txt3[40]) {t.innerHTML = txt3[41]; healthSpeed3 = healthSpeed3 + 1;}
-	//saudara 1
-	else if (t.innerHTML === txt3[44]) {t.innerHTML = txt3[45]}
-	else if (t.innerHTML === txt3[45]) {t.innerHTML = txt3[46]; healthSpeed3 = healthSpeed3 + 2;}
-	//saudara 2
-	else if (t.innerHTML === txt3[47]) {t.innerHTML = txt3[48]}
-	else if (t.innerHTML === txt3[48]) {t.innerHTML = txt3[49]}
-	else if (t.innerHTML === txt3[49]) {t.innerHTML = txt3[50]}
-	else if (t.innerHTML === txt3[50]) {t.innerHTML = txt3[51]}
-	else if (t.innerHTML === txt3[51]) {t.innerHTML = txt3[52]}
-	else if (t.innerHTML === txt3[52]) {
-		t.innerHTML = txt3[53]; 
-		txt3[60] = txt3[61]; //change vegetable seller text
-		txt3[82] = txt3[83]; //change bread seller text
-		txt3[89] = txt3[90]; //change mask seller text
-		talkToRelative = true;
-	}
-	else if (t.innerHTML === txt3[53]) {
-		tBox.style.display = 'none';
-		onloadTextBox.style.display = 'block';
-		onloadText.innerHTML = onloadTextList[7];
-		healthSpeed3 = healthSpeed3 + 2;
-		pause = true;
-	}
-	//pasar barat 
-	//vertical stand
-	else if (t.innerHTML === txt3[54]) {t.innerHTML = txt3[55]}
-	//vegetable and fish buyer
-	else if (t.innerHTML === txt3[58]) {t.innerHTML = txt3[59]; healthSpeed3 = healthSpeed3 + 1;}
-	//vegetable and fish seller
-	else if (t.innerHTML === txt3[61]) {t.innerHTML = txt3[62]}
-	else if (t.innerHTML === txt3[62]) {t.innerHTML = txt3[63]}
-	else if (t.innerHTML === txt3[63]) {t.innerHTML = txt3[64]}
-	else if (t.innerHTML === txt3[64]) {t.innerHTML = txt3[65];}
-	else if (t.innerHTML === txt3[65]) {
-		t.innerHTML = txt3[74]; 
-		tBox.style.backgroundColor = '#f2f2f2';
-		tBox.style.opacity ='0.8';
-		obtFishImg.style.display = 'inline';
-		fishImg.style.display = 'block';
-	}
-	else if (t.innerHTML === txt3[74]){
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		fishImg.style.display = 'none';
-		buyFish = true;
-		healthSpeed3 = healthSpeed3 + 1;
-		pause = false;
-	}
-	//meat seller
-	else if (t.innerHTML === txt3[67]) {t.innerHTML = txt3[68]}
-	else if (t.innerHTML === txt3[68]) {t.innerHTML = txt3[69]; healthSpeed3 = healthSpeed3 + 2;}
-	//fruit buyer
-	else if (t.innerHTML === txt3[70]) {t.innerHTML = txt3[71]; healthSpeed3 = healthSpeed3 + 1;}
-	//ibu-ibu ngerumpi
-	else if (t.innerHTML === txt3[78]) {t.innerHTML = txt3[79]; healthSpeed3 = healthSpeed3 + 2;}
-	//mask buyer
-	else if (t.innerHTML === txt3[80]) {t.innerHTML = txt3[81]; healthSpeed3 = healthSpeed3 + 1;}
-	//bread seller
-	else if (t.innerHTML === txt3[83]) {t.innerHTML = txt3[84]}
-	else if (t.innerHTML === txt3[84]) {t.innerHTML = txt3[85]}
-	else if (t.innerHTML === txt3[85]) {t.innerHTML = txt3[86]}
-	else if (t.innerHTML === txt3[86]) {t.innerHTML = txt3[87]}
-	else if (t.innerHTML === txt3[87]) {
-		t.innerHTML = txt3[88]; 
-		tBox.style.backgroundColor = '#f2f2f2';
-		tBox.style.opacity ='0.8';
-		obtBreadImg.style.display = 'inline';
-		breadImg.style.display = 'block';
-	}
-	else if (t.innerHTML === txt3[88]) {
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		breadImg.style.display = 'none';
-		buyBread = true;
-		healthSpeed3 = healthSpeed3 + 1;
-		pause = false;
-	}
-	//cloth seller
-	else if (t.innerHTML === txt3[90]) {t.innerHTML = txt3[91]}
-	else if (t.innerHTML === txt3[91]) {t.innerHTML = txt3[92]}
-	else if (t.innerHTML === txt3[92]) {t.innerHTML = txt3[93]}
-	else if (t.innerHTML === txt3[93]) {t.innerHTML = txt3[94]}
-	else if (t.innerHTML === txt3[94]) {
-		t.innerHTML = txt3[95]; 
-		tBox.style.backgroundColor = '#f2f2f2';
-		tBox.style.opacity ='0.8';
-		obtMaskImg.style.display = 'inline';
-		maskImg.style.display = 'block';
-	}
-	else if (t.innerHTML === txt3[95]) {
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		maskImg.style.display = 'none';
-		buyMask = true;
-		healthSpeed3 = healthSpeed3 + 1;
-		pause = false;
-	}
-	//APD endgame
-	else if (t.innerHTML === txt3[96]) {t.innerHTML = txt3[97]}
-	else if (t.innerHTML === txt3[97]) {t.innerHTML = txt3[98]}
-	else if (t.innerHTML === txt3[98]) {t.innerHTML = txt3[99]}
-	else if (t.innerHTML === txt3[99]) {t.innerHTML = txt3[100]}
-	else if (t.innerHTML === txt3[100]) {t.innerHTML = txt3[101]}
-	else if (t.innerHTML === txt3[101]) {t.innerHTML = txt3[102]}
-	else if (t.innerHTML === txt3[102]) {
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		healthSpeed3 = 0;
-		document.getElementById('health3').value = '90000';
-		document.getElementById('screen3').style.display = 'none';
-		document.getElementById('gameScreen').style.display = 'none';
+function toggleText3() {
+    //pemuda yang bertanya pada pemeriksaan suhu
+    if (t.innerHTML === txt3[3]) { t.innerHTML = txt3[4]; }
+    //cek suhu
+    else if (t.innerHTML === txt3[5]) { t.innerHTML = txt3[6]; tempCheck = true; }
+    //cek KKK
+    else if (t.innerHTML === txt3[8]) { t.innerHTML = txt3[9]; }
+    else if (t.innerHTML === txt3[9]) { t.innerHTML = txt3[10]; KKKcheck = true; }
+    //conversation of vegetable buyer and seller (stand3a)
+    else if (t.innerHTML === txt3[12]) { t.innerHTML = txt3[13]; healthSpeed3 = healthSpeed3 + 1; }
+    //conversation when talking with vegetable seller (stand3b)
+    else if (t.innerHTML === txt3[14]) { t.innerHTML = txt3[15] }
+    else if (t.innerHTML === txt3[15]) { t.innerHTML = txt3[16]; healthSpeed3 = healthSpeed3 + 1; }
+    //nurse in front of quarantine house
+    else if (t.innerHTML === txt3[22]) { t.innerHTML = txt3[23]; healthSpeed3 = healthSpeed3 + 1; }
+    //walikota and wartawan
+    else if (t.innerHTML === txt3[35]) { t.innerHTML = txt3[36] }
+    else if (t.innerHTML === txt3[37]) { t.innerHTML = txt3[38]; healthSpeed3 = healthSpeed3 + 1; }
+    //COVID tombkeeper
+    else if (t.innerHTML === txt3[40]) { t.innerHTML = txt3[41]; healthSpeed3 = healthSpeed3 + 1; }
+    //saudara 1
+    else if (t.innerHTML === txt3[44]) { t.innerHTML = txt3[45] }
+    else if (t.innerHTML === txt3[45]) { t.innerHTML = txt3[46]; healthSpeed3 = healthSpeed3 + 2; }
+    //saudara 2
+    else if (t.innerHTML === txt3[47]) { t.innerHTML = txt3[48] }
+    else if (t.innerHTML === txt3[48]) { t.innerHTML = txt3[49] }
+    else if (t.innerHTML === txt3[49]) { t.innerHTML = txt3[50] }
+    else if (t.innerHTML === txt3[50]) { t.innerHTML = txt3[51] }
+    else if (t.innerHTML === txt3[51]) { t.innerHTML = txt3[52] }
+    else if (t.innerHTML === txt3[52]) {
+        t.innerHTML = txt3[53];
+        txt3[60] = txt3[61]; //change vegetable seller text
+        txt3[82] = txt3[83]; //change bread seller text
+        txt3[89] = txt3[90]; //change mask seller text
+        talkToRelative = true;
+    }
+    else if (t.innerHTML === txt3[53]) {
+        tBox.style.display = 'none';
+        onloadTextBox.style.display = 'block';
+        onloadText.innerHTML = onloadTextList[7];
+        healthSpeed3 = healthSpeed3 + 2;
+        pause = true;
+    }
+    //pasar barat 
+    //vertical stand
+    else if (t.innerHTML === txt3[54]) { t.innerHTML = txt3[55] }
+    //vegetable and fish buyer
+    else if (t.innerHTML === txt3[58]) { t.innerHTML = txt3[59]; healthSpeed3 = healthSpeed3 + 1; }
+    //vegetable and fish seller
+    else if (t.innerHTML === txt3[61]) { t.innerHTML = txt3[62] }
+    else if (t.innerHTML === txt3[62]) { t.innerHTML = txt3[63] }
+    else if (t.innerHTML === txt3[63]) { t.innerHTML = txt3[64] }
+    else if (t.innerHTML === txt3[64]) { t.innerHTML = txt3[65]; }
+    else if (t.innerHTML === txt3[65]) {
+        t.innerHTML = txt3[74];
+        tBox.style.backgroundColor = '#f2f2f2';
+        tBox.style.opacity = '0.8';
+        obtFishImg.style.display = 'inline';
+        fishImg.style.display = 'block';
+    }
+    else if (t.innerHTML === txt3[74]) {
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        fishImg.style.display = 'none';
+        buyFish = true;
+        healthSpeed3 = healthSpeed3 + 1;
+        pause = false;
+    }
+    //meat seller
+    else if (t.innerHTML === txt3[67]) { t.innerHTML = txt3[68] }
+    else if (t.innerHTML === txt3[68]) { t.innerHTML = txt3[69]; healthSpeed3 = healthSpeed3 + 2; }
+    //fruit buyer
+    else if (t.innerHTML === txt3[70]) { t.innerHTML = txt3[71]; healthSpeed3 = healthSpeed3 + 1; }
+    //ibu-ibu ngerumpi
+    else if (t.innerHTML === txt3[78]) { t.innerHTML = txt3[79]; healthSpeed3 = healthSpeed3 + 2; }
+    //mask buyer
+    else if (t.innerHTML === txt3[80]) { t.innerHTML = txt3[81]; healthSpeed3 = healthSpeed3 + 1; }
+    //bread seller
+    else if (t.innerHTML === txt3[83]) { t.innerHTML = txt3[84] }
+    else if (t.innerHTML === txt3[84]) { t.innerHTML = txt3[85] }
+    else if (t.innerHTML === txt3[85]) { t.innerHTML = txt3[86] }
+    else if (t.innerHTML === txt3[86]) { t.innerHTML = txt3[87] }
+    else if (t.innerHTML === txt3[87]) {
+        t.innerHTML = txt3[88];
+        tBox.style.backgroundColor = '#f2f2f2';
+        tBox.style.opacity = '0.8';
+        obtBreadImg.style.display = 'inline';
+        breadImg.style.display = 'block';
+    }
+    else if (t.innerHTML === txt3[88]) {
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        breadImg.style.display = 'none';
+        buyBread = true;
+        healthSpeed3 = healthSpeed3 + 1;
+        pause = false;
+    }
+    //cloth seller
+    else if (t.innerHTML === txt3[90]) { t.innerHTML = txt3[91] }
+    else if (t.innerHTML === txt3[91]) { t.innerHTML = txt3[92] }
+    else if (t.innerHTML === txt3[92]) { t.innerHTML = txt3[93] }
+    else if (t.innerHTML === txt3[93]) { t.innerHTML = txt3[94] }
+    else if (t.innerHTML === txt3[94]) {
+        t.innerHTML = txt3[95];
+        tBox.style.backgroundColor = '#f2f2f2';
+        tBox.style.opacity = '0.8';
+        obtMaskImg.style.display = 'inline';
+        maskImg.style.display = 'block';
+    }
+    else if (t.innerHTML === txt3[95]) {
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        maskImg.style.display = 'none';
+        buyMask = true;
+        healthSpeed3 = healthSpeed3 + 1;
+        pause = false;
+    }
+    //APD endgame
+    else if (t.innerHTML === txt3[96]) { t.innerHTML = txt3[97] }
+    else if (t.innerHTML === txt3[97]) { t.innerHTML = txt3[98] }
+    else if (t.innerHTML === txt3[98]) { t.innerHTML = txt3[99] }
+    else if (t.innerHTML === txt3[99]) { t.innerHTML = txt3[100] }
+    else if (t.innerHTML === txt3[100]) { t.innerHTML = txt3[101] }
+    else if (t.innerHTML === txt3[101]) { t.innerHTML = txt3[102] }
+    else if (t.innerHTML === txt3[102]) {
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        healthSpeed3 = 0;
+        document.getElementById('health3').value = '90000';
+        document.getElementById('screen3').style.display = 'none';
+        document.getElementById('gameScreen').style.display = 'none';
         document.getElementById('menuScreen').style.display = 'block';
-		document.getElementById('obtainBreadImg').style.display = 'none';
-		document.getElementById('obtainFishImg').style.display = 'none';
-		document.getElementById('obtainMaskImg').style.display = 'none';
+        document.getElementById('obtainBreadImg').style.display = 'none';
+        document.getElementById('obtainFishImg').style.display = 'none';
+        document.getElementById('obtainMaskImg').style.display = 'none';
         health3.style.display = 'none';
         analog3.style.display = 'none';
         toggleBtn3.style.display = 'none';
-		audio3.pause();
-	}
-	//carCrash
-	else if (t.innerHTML === txt3[105]) {location.reload();}
-	else {
-		handWashImg.style.display = 'none';
-		tBox.style.display = 'none';
-		tBox.style.backgroundColor = '#99ff99';
-		tBox.style.opacity = '1';
-		pause = false;
-	}
+        audio3.pause();
+    }
+    //carCrash
+    else if (t.innerHTML === txt3[105]) { location.reload(); }
+    else {
+        handWashImg.style.display = 'none';
+        tBox.style.display = 'none';
+        tBox.style.backgroundColor = '#99ff99';
+        tBox.style.opacity = '1';
+        pause = false;
+    }
 }
 
 // language change
 function changeLang(lang) {
-    switch(lang){
-      case 'indonesia':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextIndo[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextIndo[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Indo[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Indo[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Indo[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        indoLang = true;
-        whatLang(lang);
-        changeName();
-        closeAsingNav();
-        closeLangNav();
-      break;
-      // sumatra lang
-      case 'aneuk':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextAneuk[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextAneuk[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Aneuk[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Aneuk[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Aneuk[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'nias':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextNias[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextNias[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Nias[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Nias[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Nias[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'minang':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextMinang[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextMinang[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Minang[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Minang[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Minang[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'jambi':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextJambi[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextJambi[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Jambi[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Jambi[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Jambi[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'kerinci':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextKerinci[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextKerinci[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Kerinci[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Kerinci[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Kerinci[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'palembang':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextPalembang[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextPalembang[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Palembang[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Palembang[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Palembang[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'besemah':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextBesemah[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextBesemah[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Besemah[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Besemah[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Besemah[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'bangka':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextBangka[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextBangka[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Bangka[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Bangka[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Bangka[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'nasal':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextNasal[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextNasal[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Nasal[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Nasal[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Nasal[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'rejang':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextRejang[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextRejang[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Rejang[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Rejang[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Rejang[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        closeSumNav();
-        closeLangNav();
-      break;
-      case 'lampung':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextLampung[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextLampung[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Lampung[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Lampung[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Lampung[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeSumNav();
-        closeLangNav();
-      break;
-      // jawa lang
-      case 'betawi':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextBetawi[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextBetawi[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Betawi[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Betawi[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Betawi[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeJawaNav();
-        closeLangNav();
-      break;
-      case 'sunda':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextSunda[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextSunda[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Sunda[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Sunda[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Sunda[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeJawaNav();
-        closeLangNav();
-      break;
-      case 'cirebon':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextCirebon[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextCirebon[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Cirebon[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Cirebon[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Cirebon[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeJawaNav();
-        closeLangNav();
-      break;
-      case 'jawa':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextJawa[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextJawa[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Jawa[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Jawa[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Jawa[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeJawaNav();
-        closeLangNav();
-      break;
-      case 'pemalang':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextPemalang[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextPemalang[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Pemalang[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Pemalang[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Pemalang[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeJawaNav();
-        closeLangNav();
-      break;
-      case 'osing':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextOsing[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextOsing[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Osing[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Osing[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Osing[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeJawaNav();
-        closeLangNav();
-      break;
-      case 'madura':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextMadura[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextMadura[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Madura[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Madura[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Madura[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeJawaNav();
-        closeLangNav();
-      break;
-      case 'bali':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextBali[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextBali[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Bali[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Bali[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Bali[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeJawaNav();
-        closeLangNav();
-      break;
-      // kalSul Lang
-      case 'ngaju':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextNgaju[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextNgaju[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Ngaju[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Ngaju[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Ngaju[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeKalSulNav();
-        closeLangNav();
-      break;
-      case 'kanayan':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextKanayan[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextKanayan[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Kanayan[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Kanayan[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Kanayan[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeKalSulNav();
-        closeLangNav();
-      break;
-      case 'maanyan':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextMaanyan[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextMaanyan[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Maanyan[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Maanyan[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Maanyan[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeKalSulNav();
-        closeLangNav();
-      break;
-      case 'lebang':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextLebang[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextLebang[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Lebang[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Lebang[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Lebang[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeKalSulNav();
-        closeLangNav();
-      break;
-      case 'manado':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextManado[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextManado[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Manado[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Manado[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Manado[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeKalSulNav();
-        closeLangNav();
-      break;
-      case 'bugis':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextBugis[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextBugis[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Bugis[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Bugis[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Bugis[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeKalSulNav();
-        closeLangNav();
-      break;
-      case 'tolaki':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextTolaki[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextTolaki[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Tolaki[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Tolaki[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Tolaki[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeKalSulNav();
-        closeLangNav();
-      break;
-      case 'ciacia':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextCiacia[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextCiacia[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Ciacia[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Ciacia[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Ciacia[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeKalSulNav();
-        closeLangNav();
-      break;
-      // NTT & NTB
-      case 'sasak':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextSasak[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextSasak[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Sasak[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Sasak[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Sasak[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'kupang':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextKupang[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextKupang[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Kupang[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Kupang[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Kupang[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'uab':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextUab[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextUab[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Uab[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Uab[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Uab[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'amarasi':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextAmarasi[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextAmarasi[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Amarasi[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Amarasi[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Amarasi[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'helong':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextHelong[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextHelong[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Helong[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Helong[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Helong[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'fataluku':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextFataluku[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextFataluku[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Fataluku[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Fataluku[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Fataluku[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'sabu':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextSabu[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextSabu[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Sabu[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Sabu[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Sabu[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'lamaholot':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextLamaholot[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextLamaholot[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Lamaholot[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Lamaholot[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Lamaholot[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'mangBar':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextMangBar[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextMangBar[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1MangBar[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2MangBar[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3MangBar[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'mangTeng':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextMangTeng[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextMangTeng[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1MangTeng[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2MangTeng[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3MangTeng[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'ende':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextEnde[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextEnde[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Ende[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Ende[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Ende[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      case 'adonara':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextAdonara[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextAdonara[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Adonara[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Adonara[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Adonara[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
+    switch (lang) {
+        case 'indonesia':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextIndo[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextIndo[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Indo[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Indo[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Indo[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            indoLang = true;
+            whatLang(lang);
+            changeName();
+            closeAsingNav();
+            closeLangNav();
+            break;
+        // sumatra lang
+        case 'aneuk':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextAneuk[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextAneuk[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Aneuk[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Aneuk[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Aneuk[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'nias':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextNias[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextNias[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Nias[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Nias[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Nias[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'minang':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextMinang[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextMinang[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Minang[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Minang[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Minang[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'jambi':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextJambi[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextJambi[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Jambi[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Jambi[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Jambi[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'kerinci':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextKerinci[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextKerinci[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Kerinci[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Kerinci[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Kerinci[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'palembang':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextPalembang[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextPalembang[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Palembang[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Palembang[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Palembang[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'besemah':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextBesemah[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextBesemah[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Besemah[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Besemah[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Besemah[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'bangka':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextBangka[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextBangka[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Bangka[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Bangka[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Bangka[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'nasal':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextNasal[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextNasal[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Nasal[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Nasal[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Nasal[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'rejang':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextRejang[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextRejang[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Rejang[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Rejang[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Rejang[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            closeSumNav();
+            closeLangNav();
+            break;
+        case 'lampung':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextLampung[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextLampung[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Lampung[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Lampung[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Lampung[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeSumNav();
+            closeLangNav();
+            break;
+        // jawa lang
+        case 'betawi':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextBetawi[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextBetawi[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Betawi[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Betawi[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Betawi[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeJawaNav();
+            closeLangNav();
+            break;
+        case 'sunda':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextSunda[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextSunda[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Sunda[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Sunda[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Sunda[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeJawaNav();
+            closeLangNav();
+            break;
+        case 'cirebon':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextCirebon[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextCirebon[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Cirebon[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Cirebon[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Cirebon[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeJawaNav();
+            closeLangNav();
+            break;
+        case 'jawa':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextJawa[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextJawa[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Jawa[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Jawa[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Jawa[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeJawaNav();
+            closeLangNav();
+            break;
+        case 'pemalang':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextPemalang[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextPemalang[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Pemalang[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Pemalang[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Pemalang[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeJawaNav();
+            closeLangNav();
+            break;
+        case 'osing':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextOsing[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextOsing[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Osing[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Osing[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Osing[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeJawaNav();
+            closeLangNav();
+            break;
+        case 'madura':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextMadura[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextMadura[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Madura[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Madura[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Madura[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeJawaNav();
+            closeLangNav();
+            break;
+        case 'bali':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextBali[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextBali[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Bali[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Bali[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Bali[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeJawaNav();
+            closeLangNav();
+            break;
+        // kalSul Lang
+        case 'ngaju':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextNgaju[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextNgaju[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Ngaju[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Ngaju[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Ngaju[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeKalSulNav();
+            closeLangNav();
+            break;
+        case 'kanayan':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextKanayan[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextKanayan[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Kanayan[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Kanayan[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Kanayan[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeKalSulNav();
+            closeLangNav();
+            break;
+        case 'maanyan':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextMaanyan[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextMaanyan[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Maanyan[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Maanyan[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Maanyan[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeKalSulNav();
+            closeLangNav();
+            break;
+        case 'lebang':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextLebang[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextLebang[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Lebang[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Lebang[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Lebang[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeKalSulNav();
+            closeLangNav();
+            break;
+        case 'manado':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextManado[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextManado[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Manado[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Manado[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Manado[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeKalSulNav();
+            closeLangNav();
+            break;
+        case 'bugis':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextBugis[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextBugis[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Bugis[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Bugis[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Bugis[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeKalSulNav();
+            closeLangNav();
+            break;
+        case 'tolaki':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextTolaki[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextTolaki[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Tolaki[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Tolaki[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Tolaki[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeKalSulNav();
+            closeLangNav();
+            break;
+        case 'ciacia':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextCiacia[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextCiacia[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Ciacia[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Ciacia[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Ciacia[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeKalSulNav();
+            closeLangNav();
+            break;
+        // NTT & NTB
+        case 'sasak':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextSasak[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextSasak[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Sasak[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Sasak[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Sasak[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'kupang':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextKupang[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextKupang[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Kupang[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Kupang[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Kupang[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'uab':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextUab[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextUab[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Uab[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Uab[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Uab[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'amarasi':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextAmarasi[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextAmarasi[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Amarasi[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Amarasi[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Amarasi[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'helong':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextHelong[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextHelong[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Helong[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Helong[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Helong[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'fataluku':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextFataluku[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextFataluku[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Fataluku[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Fataluku[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Fataluku[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'sabu':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextSabu[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextSabu[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Sabu[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Sabu[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Sabu[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'lamaholot':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextLamaholot[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextLamaholot[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Lamaholot[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Lamaholot[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Lamaholot[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'mangBar':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextMangBar[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextMangBar[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1MangBar[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2MangBar[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3MangBar[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'mangTeng':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextMangTeng[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextMangTeng[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1MangTeng[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2MangTeng[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3MangTeng[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'ende':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextEnde[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextEnde[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Ende[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Ende[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Ende[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        case 'adonara':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextAdonara[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextAdonara[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Adonara[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Adonara[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Adonara[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
         case 'kedang':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextKedang[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextKedang[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Kedang[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Kedang[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Kedang[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        changeName();
-        closeNTNav();
-        closeLangNav();
-      break;
-      // amPa
-      case 'papua':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextPapua[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextPapua[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Papua[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Papua[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Papua[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeAmPaNav();
-        closeLangNav();
-      break;
-      case 'biak':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextBiak[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextBiak[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Biak[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Biak[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Biak[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeAmPaNav();
-        closeLangNav();
-      break;
-      case 'lani':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextLani[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextLani[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Lani[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Lani[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Lani[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeAmPaNav();
-        closeLangNav();
-      break;
-      // asing & nasional
-      case 'english':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextEng[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextEng[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Eng[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Eng[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Eng[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeAsingNav();
-        closeLangNav();
-      break;
-      case 'chinese':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextChinese[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextChinese[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Chinese[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Chinese[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Chinese[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeAsingNav();
-        closeLangNav();
-      break;
-      case 'italian':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextItalian[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextItalian[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Italian[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Italian[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Italian[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeAsingNav();
-        closeLangNav();
-      break;
-      case 'japan':
-        for (let i = 0; i < indexTextList.length; i++) {indexTextList[i]= indexTextJapan[i];}
-        for (let i = 0; i < onloadTextList.length; i++) {onloadTextList[i]= onloadTextJapan[i];}
-        for (let i = 0; i < txt1.length; i++) {txt1[i]= txt1Japan[i];}
-        for (let i = 0; i < txt2.length; i++) {txt2[i]= txt2Japan[i];}
-        for (let i = 0; i < txt3.length; i++) {txt3[i]= txt3Japan[i];}
-        newGameBtn.innerHTML = indexTextList[0];
-        contBtn.innerHTML = indexTextList[1];
-        langBtn.innerHTML = indexTextList[8];
-        chooseLang.innerHTML = indexTextList[8];
-        profBtn.innerHTML = indexTextList[2];
-        enterName.innerHTML = indexTextList[10];
-        chooseGender.innerHTML = indexTextList[5];
-        maleBtn.innerHTML = indexTextList[6];
-        femaleBtn.innerHTML = indexTextList[7];
-        creditBtn.innerHTML = indexTextList[3];
-        sideNavNewGame.innerHTML = indexTextList[0];
-        sideNavBack.innerHTML= indexTextList[11];
-        whatLang(lang);
-        changeName();
-        closeAsingNav();
-        closeLangNav();
-      break;
-  }
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextKedang[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextKedang[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Kedang[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Kedang[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Kedang[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            changeName();
+            closeNTNav();
+            closeLangNav();
+            break;
+        // amPa
+        case 'papua':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextPapua[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextPapua[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Papua[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Papua[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Papua[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeAmPaNav();
+            closeLangNav();
+            break;
+        case 'biak':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextBiak[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextBiak[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Biak[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Biak[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Biak[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeAmPaNav();
+            closeLangNav();
+            break;
+        case 'lani':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextLani[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextLani[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Lani[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Lani[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Lani[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeAmPaNav();
+            closeLangNav();
+            break;
+        // asing & nasional
+        case 'english':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextEng[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextEng[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Eng[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Eng[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Eng[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeAsingNav();
+            closeLangNav();
+            break;
+        case 'chinese':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextChinese[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextChinese[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Chinese[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Chinese[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Chinese[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeAsingNav();
+            closeLangNav();
+            break;
+        case 'italian':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextItalian[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextItalian[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Italian[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Italian[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Italian[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeAsingNav();
+            closeLangNav();
+            break;
+        case 'japan':
+            for (let i = 0; i < indexTextList.length; i++) { indexTextList[i] = indexTextJapan[i]; }
+            for (let i = 0; i < onloadTextList.length; i++) { onloadTextList[i] = onloadTextJapan[i]; }
+            for (let i = 0; i < txt1.length; i++) { txt1[i] = txt1Japan[i]; }
+            for (let i = 0; i < txt2.length; i++) { txt2[i] = txt2Japan[i]; }
+            for (let i = 0; i < txt3.length; i++) { txt3[i] = txt3Japan[i]; }
+            newGameBtn.innerHTML = indexTextList[0];
+            contBtn.innerHTML = indexTextList[1];
+            langBtn.innerHTML = indexTextList[8];
+            chooseLang.innerHTML = indexTextList[8];
+            profBtn.innerHTML = indexTextList[2];
+            enterName.innerHTML = indexTextList[10];
+            chooseGender.innerHTML = indexTextList[5];
+            maleBtn.innerHTML = indexTextList[6];
+            femaleBtn.innerHTML = indexTextList[7];
+            creditBtn.innerHTML = indexTextList[3];
+            sideNavNewGame.innerHTML = indexTextList[0];
+            sideNavBack.innerHTML = indexTextList[11];
+            whatLang(lang);
+            changeName();
+            closeAsingNav();
+            closeLangNav();
+            break;
+    }
 }

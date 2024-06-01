@@ -1,20 +1,21 @@
 body {
-    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-    /* -webkit-user-select: none;                  prevent copy paste, to allow, change 'none' to 'text' */
-    font-family: monospace;
-    overflow:hidden;
-    width:75%;
-    height:75%;
-    /* Padding to avoid the "unsafe" areas behind notches in the screen */
-    padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
-    background: url('phoneBG.jpeg');
-    background-size: cover;
+  -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+  /* -webkit-user-select: none;                  prevent copy paste, to allow, change 'none' to 'text' */
+  font-family: monospace;
+  overflow: hidden;
+  width: 75%;
+  height: 75%;
+  /* Padding to avoid the "unsafe" areas behind notches in the screen */
+  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
+    env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  background: url("phoneBG.jpeg");
+  background-size: cover;
 }
 
 /* main menu */
 #mainMenuDiv {
-    display:block;
+  display: block;
 }
 
 /* Center the loader */
@@ -48,238 +49,232 @@ body {
 } */
 
 /* main menu buttons */
-#menuScreen { display: block; }
+#menuScreen {
+  display: block;
+}
 #menuList {
-    position: relative;
-    left:15%;
+  position: relative;
+  left: 15%;
 }
 #menuList button {
-    background-color: #ffffff;
-    color:black;
-    width:100%;
-    font-family: monospace;
-    font-size:20px;
-    font-weight:bold;
-    padding:10px;
-    margin:10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px lightblue;
+  background-color: #ffffff;
+  color: black;
+  width: 100%;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px lightblue;
 }
 @keyframes menuSideNav {
-    from {width: 0;}
-    to {width: 300px; }
+  from {
+    width: 0;
+  }
+  to {
+    width: 300px;
+  }
 }
 
 #contNav {
-    display: none;
-    z-index: 1;
-    position: absolute;
-    overflow: scroll;
-    left:0;
-    top:0;
-    width:0;
-    height: 100%;
-    border: 1px solid black;
-    animation: menuSideNav 0.5s;
-    background-color: lightblue;
-    font-size: 22px;
-    background: url('phoneBG.jpeg');
-    background-size: cover;
+  display: none;
+  z-index: 1;
+  position: absolute;
+  overflow: scroll;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  border: 1px solid black;
+  animation: menuSideNav 0.5s;
+  background-color: lightblue;
+  font-size: 22px;
+  background: url("phoneBG.jpeg");
+  background-size: cover;
 }
 #contNav a {
-    position: relative;
-    top:1%;
-    left:85%;
-    font-size: 50px;
-    color: white;
-    text-shadow: 3px 3px lightblue;
-    text-decoration: none;
-    padding:5px;
-    
+  position: relative;
+  top: 1%;
+  left: 85%;
+  font-size: 50px;
+  color: white;
+  text-shadow: 3px 3px lightblue;
+  text-decoration: none;
+  padding: 5px;
 }
 #contNav a:hover {
-    color:lightblue;
-    text-shadow:3px 3px white;
+  color: lightblue;
+  text-shadow: 3px 3px white;
 }
 
 #contNav button {
-    background-color: white;
-    color:black;
-    display: block;
-    font-size:22px;
-    font-weight: bold;
-    font-family: monospace;
-    border-radius: 10px;
-    box-shadow: 5px 5px lightblue;
-    width:95%;
-    padding:5px;
-    margin: 10px;
+  background-color: white;
+  color: black;
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 10px;
+  box-shadow: 5px 5px lightblue;
+  width: 95%;
+  padding: 5px;
+  margin: 10px;
 }
-
 
 #langNav {
-    display: none;
-    z-index: 1;
-    position: absolute;
-    overflow: scroll;
-    left:0;
-    top:0;
-    width:0;
-    height: 100%;
-    border: 1px solid black;
-    animation: menuSideNav 0.5s;
-    background-color: lightblue;
-    font-size: 22px;
-    background: url('phoneBG.jpeg');
-    background-size: cover;
+  display: none;
+  z-index: 1;
+  position: absolute;
+  overflow: scroll;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  border: 1px solid black;
+  animation: menuSideNav 0.5s;
+  background-color: lightblue;
+  font-size: 22px;
+  background: url("phoneBG.jpeg");
+  background-size: cover;
 }
 #langNav a {
-    position: relative;
-    top:1%;
-    left:85%;
-    font-size: 50px;
-    color: white;
-    text-shadow: 3px 3px lightblue;
-    text-decoration: none;
-    padding:5px;
-    
+  position: relative;
+  top: 1%;
+  left: 85%;
+  font-size: 50px;
+  color: white;
+  text-shadow: 3px 3px lightblue;
+  text-decoration: none;
+  padding: 5px;
 }
 #langNav a:hover {
-    color:lightblue;
-    text-shadow:3px 3px white;
+  color: lightblue;
+  text-shadow: 3px 3px white;
 }
 #langNav p {
-    background-color:lightblue;
-    font-weight: bold;
-    font-size: 22px;
-    text-align: center;
-    border: 3px solid white;
-    border-radius:5px;
-    padding:3px;
-    width:80%;
-    margin-left: 20px;
+  background-color: lightblue;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 3px;
+  width: 80%;
+  margin-left: 20px;
 }
 #langNav button {
-    background-color: white;
-    color:black;
-    display: block;
-    font-size:22px;
-    font-weight: bold;
-    font-family: monospace;
-    border-radius: 10px;
-    box-shadow: 5px 5px lightblue;
-    padding:5px;
-    margin: 10px 10px 10px 20px;
-    width:85%;
+  background-color: white;
+  color: black;
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 10px;
+  box-shadow: 5px 5px lightblue;
+  padding: 5px;
+  margin: 10px 10px 10px 20px;
+  width: 85%;
 }
 
 #profNav {
-    display: none;
-    z-index: 1;
-    position: absolute;
-    left:0;
-    top:0;
-    width:0;
-    height: 100%;
-    border: 1px solid black;
-    animation: menuSideNav 0.5s;
-    font-size: 22px;
-    background: url('phoneBG.jpeg');
-    background-size: cover;
-    overflow:scroll;
+  display: none;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  border: 1px solid black;
+  animation: menuSideNav 0.5s;
+  font-size: 22px;
+  background: url("phoneBG.jpeg");
+  background-size: cover;
+  overflow: scroll;
 }
 #profNav a {
-    position: relative;
-    top:1%;
-    left:85%;
-    font-size: 60px;
-    color: white;
-    text-shadow: 3px 3px lightblue;
-    padding:5px;
-    text-decoration: none;
+  position: relative;
+  top: 1%;
+  left: 85%;
+  font-size: 60px;
+  color: white;
+  text-shadow: 3px 3px lightblue;
+  padding: 5px;
+  text-decoration: none;
 }
 #profNav a:hover {
-    color:lightblue;
-    text-shadow:3px 3px white;
+  color: lightblue;
+  text-shadow: 3px 3px white;
 }
 #profNav p {
-    font-size:36px;
-    font-weight: bold;
-    color:white;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
 }
 #profNav button {
-    background-color: white;
-    color:black;
-    display: block;
-    font-size:22px;
-    font-weight: bold;
-    font-family: monospace;
-    border-radius: 10px;
-    box-shadow: 5px 5px lightblue;
-    padding:5px;
-    margin: 10px 10px 10px 20px;
-    width:85%;
+  background-color: white;
+  color: black;
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 10px;
+  box-shadow: 5px 5px lightblue;
+  padding: 5px;
+  margin: 10px 10px 10px 20px;
+  width: 85%;
 }
-input[type=text] {
-    background-color: white;
-    color:black;
-    width: 100%;
-    padding: 20px;
-    font-size:28px;
-    box-sizing: border-box;
-    border: 3px solid lightblue;
-    border-radius: 4px;
+input[type="text"] {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 20px;
+  font-size: 28px;
+  box-sizing: border-box;
+  border: 3px solid lightblue;
+  border-radius: 4px;
 }
-
-
 
 #creditNav {
-    display: none;
-    z-index: 1;
-    position: absolute;
-    left:10%;
-    top:0;
-    width:80%;
-    height: 100%;
-    border: 1px solid black;
-    animation: creditNavAnimate 1s;
-    background-color: lightblue;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 22px;
-    background: url('phoneBG.jpeg');
-    background-size: cover;
-    overflow:scroll;
-} 
+  display: none;
+  z-index: 1;
+  position: fixed;
+  left: 7.5%;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  border: 1px solid black;
+  animation: creditNavAnimate 1s;
+  overflow: scroll;
+  background: white;
+  padding: 1rem;
+}
 @keyframes creditNavAnimate {
-    from {height: 0;}
-    to {height: 100%; }
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
 }
 #creditNav img {
-    width:90%;
-    height:90%;
+  width: 90%;
+  height: auto;
 }
-#creditNav a {
-    position: relative;
-    top:1%;
-    left:85%;
-    font-size: 60px;
-    color: white;
-    text-shadow: 3px 3px lightblue;
-    padding:5px;
-    text-decoration: none;
-}
-#creditNav a:hover {
-    color:lightblue;
-    text-shadow:3px 3px white;
+#creditNav #closeCreditNavBtn {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  border-radius: 50%;
+  background: white;
+  padding: 1rem;
+  border: 1px solid black;
 }
 
 #creditNav #acknowledge {
-    font-size:16px;
-    background-color: grey;
-    color:white;
-}
-#creditNav #acknowledge p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 5px;
-    display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  background: white;
+  color: black;
+  line-height: 1.5rem;
 }
