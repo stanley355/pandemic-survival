@@ -1,7 +1,0 @@
-    <platform name="android">
-        <!-- splash -->
-        <splash src="www/assets/hdpi.png" density="hdpi" />
-        <splash src="www/assets/ldpi.png" density="ldpi" />
-        <splash src="www/assets/mdpi.png" density="mdpi" />
-        <splash src="www/assets/xhdpi.png" density="xhdpi" />
-    </platform>
