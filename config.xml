@@ -30,16 +30,9 @@
         <icon src="www/assets/hdpi.png" density="hdpi" />
         <icon src="www/assets/xdpi.png" density="xhdpi" />
         <icon src="www/assets/xxdpi.png" density="xxhdpi" />
-        <!-- splash -->
-        <splash src="www/assets/hdpi.png" density="hdpi" />
-        <splash src="www/assets/ldpi.png" density="ldpi" />
-        <splash src="www/assets/mdpi.png" density="mdpi" />
-        <splash src="www/assets/xhdpi.png" density="xhdpi" />
 
-        <!-- <splash src="www/assets/hdpi.png" density="port-hdpi" />
-        <splash src="www/assets/ldpi.png" density="port-ldpi" />
-        <splash src="www/assets/mdpi.png" density="port-mdpi" />
-        <splash src="www/assets/xhdpi.png" density="port-xhdpi" /> -->
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splashscreen.xml" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splashscreen.xml" />
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">

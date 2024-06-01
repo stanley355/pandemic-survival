@@ -1,0 +1,13 @@
+    <platform name="android">
+        <!-- icon -->
+        <icon src="www/assets/mdpi.png" density="mdpi" />
+        <icon src="www/assets/ldpi.png" density="ldpi" />
+        <icon src="www/assets/hdpi.png" density="hdpi" />
+        <icon src="www/assets/xdpi.png" density="xhdpi" />
+        <icon src="www/assets/xxdpi.png" density="xxhdpi" />
+        <!-- splash -->
+        <splash src="www/assets/hdpi.png" density="hdpi" />
+        <splash src="www/assets/ldpi.png" density="ldpi" />
+        <splash src="www/assets/mdpi.png" density="mdpi" />
+        <splash src="www/assets/xhdpi.png" density="xhdpi" />
+    </platform>
