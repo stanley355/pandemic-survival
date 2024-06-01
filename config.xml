@@ -29,6 +29,12 @@
         <icon src="www/assets/xdpi.png" density="xhdpi" />
         <icon src="www/assets/xxdpi.png" density="xxhdpi" />
 
+  <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/assets/xxdpi.png.png"/>
+   <preference name="AndroidWindowSplashScreenBackground" value="#FFF" />
+   <preference name="SplashScreenDelay" value="100" />
+   <preference name="AutoHideSplashScreen" value="true" />
+   <preference name="FadeSplashScreen" value="true"/>
+   <preference name="FadeSplashScreenDuration" value="100"/>
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
