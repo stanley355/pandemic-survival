@@ -373,8 +373,3 @@ function initGame3() {
     renderOnloadText(5);
     requestAnimationFrame(draw3);
 }
-
-setTimeout(()=> {
-    const splashScreen = document.getElementById('splash_screen');
-    splashScreen.style.display = 'none';
-}, 2000)
