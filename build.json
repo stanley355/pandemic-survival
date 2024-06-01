@@ -1,7 +1,7 @@
 {
     "android": {
         "debug": {
-            "keystore": "../SCLkeystore.jks",
+            "keystore": "SCLkeystore.jks",
             "storePassword": "setanpbi2017",
             "alias": "Surviving Covid Labyrinth",
             "password" : "setanpbi2017",
@@ -9,7 +9,7 @@
             "packageType": "apk"
         },
         "release": {
-            "keystore": "../SCLkeystore.jks",
+            "keystore": "SCLkeystore.jks",
             "storePassword": "setanpbi2017",
             "alias": "Surviving Covid Labyrinth",
             "password" : "setanpbi2017",
