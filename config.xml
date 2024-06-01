@@ -31,8 +31,8 @@
         <icon src="www/assets/xdpi.png" density="xhdpi" />
         <icon src="www/assets/xxdpi.png" density="xxhdpi" />
 
-        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splashscreen.xml" />
-        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splashscreen.xml" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/assets/xxdpi.png" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#FFFFFF" />
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
