@@ -52,7 +52,6 @@
   #menuList button {font-size:30px}
   #langNav p {font-size:28px;}
   #langNav button {font-size:24px;}
-  #sideNavBtn img {width:60px; height:60px}
   #sideNav button {font-size:24px;}
   #obtainItemList {left:14%;}
   #obtainItemList img {width:80px; height:80px;}
@@ -67,7 +66,6 @@
   #menuList button {font-size:30px}
   #langNav p {font-size:28px;}
   #langNav button {font-size:24px;}
-  #sideNavBtn img {width:60px; height:60px}
   #sideNav button {font-size:20px;}
   #obtainItemList {left:14%;}
   #obtainItemList img {width:80px; height:80px;}
@@ -80,7 +78,6 @@
   progress {top:1%;}
   #text {font-size:22px;}
   #imgList img {width:200px; height:200px;}
-  #sideNavBtn img { width: 50px; height: 50px;}
   #obtainItemList img{ width: 70px; height: 70px;}
   progress {top:1%;}
 }
@@ -92,7 +89,6 @@
   #menuList button {font-size:30px}
   #langNav p {font-size:28px;}
   #langNav button {font-size:24px;}
-  #sideNavBtn img {width:60px; height:60px}
   #sideNav button {font-size:20px;}
   #obtainItemList {left:14%;}
   #obtainItemList img {width:80px; height:80px;}
@@ -108,7 +104,6 @@
   #profNav p {font-size:24px; text-align:center;}
   #profNav button {font-size:30px;}
   #creditNav #acknowledge {font-size:24px;}
-  #sideNavBtn img {width:70px; height:70px}
   #sideNav button {font-size:24px;}
   #obtainItemList {left:14%;}
   #obtainItemList img {width:100px; height:100px;}
@@ -130,8 +125,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:50px; height:50px;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
@@ -156,8 +149,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:50px; height:50px;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
@@ -182,8 +173,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:50px; height:50px;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
@@ -208,8 +197,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:50px; height:50px;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
@@ -234,8 +221,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:50px; height:50px;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
@@ -260,8 +245,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:50px; height:50px;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
@@ -286,8 +269,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:50px; height:50px;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
@@ -313,8 +294,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:60px; height:60px;}
   #sideNav a { top:0; font-size: 50px;}
   #sideNav button {font-size:24px; margin:5px;}
   #healthBar {top:5%;}
@@ -341,8 +320,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:60px; height:60px;}
   #sideNav a { top:0; font-size: 50px;}
   #sideNav button {font-size:24px; margin:5px;}
   #healthBar {top:5%;}
@@ -369,8 +346,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:50px; height:50px;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
@@ -395,8 +370,6 @@
   input[type=text] {font-size:20px; padding:3px;}
   #getName {padding:1px;}
   #onloadTextBox { height:90%;}
-  #sideNavBtn {top:3%;}
-  #sideNavBtn img {width:50px; height:50px;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
