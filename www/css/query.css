@@ -56,9 +56,6 @@
   #sideNav button {font-size:24px;}
   #obtainItemList {left:14%;}
   #obtainItemList img {width:80px; height:80px;}
-  #analog1 img {width:70px; height:70px;}
-  #analog2 img {width:70px; height:70px;}
-  #analog3 img {width:70px; height:70px;}
   progress {top:1%;}
   #textBox {width:97%;}
 }
@@ -74,18 +71,6 @@
   #sideNav button {font-size:20px;}
   #obtainItemList {left:14%;}
   #obtainItemList img {width:80px; height:80px;}
-  #analog1 img {width:80px; height:80px;}
-  #topArrow1 {margin-left:70px;}
-  #downArrow1 {margin-left:70px;}
-  #rightArrow1 {margin-left:50px;}
-  #analog2 img {width:80px; height:80px;}
-  #topArrow2 {margin-left:70px;}
-  #downArrow2 {margin-left:70px;}
-  #rightArrow2 {margin-left:50px;}
-  #analog3 img {width:80px; height:80px;}
-  #topArrow3 {margin-left:70px;}
-  #downArrow3 {margin-left:70px;}
-  #rightArrow3 {margin-left:50px;}
 }
 
 /* 480 x 854 */
@@ -97,9 +82,6 @@
   #imgList img {width:200px; height:200px;}
   #sideNavBtn img { width: 50px; height: 50px;}
   #obtainItemList img{ width: 70px; height: 70px;}
-  #analog1 img {width:70px; height:70px;}
-  #analog2 img {width:70px; height:70px;}
-  #analog3 img {width:70px; height:70px;}
   progress {top:1%;}
 }
 
@@ -114,18 +96,6 @@
   #sideNav button {font-size:20px;}
   #obtainItemList {left:14%;}
   #obtainItemList img {width:80px; height:80px;}
-  #analog1 img {width:80px; height:80px;}
-  #topArrow1 {margin-left:70px;}
-  #downArrow1 {margin-left:70px;}
-  #rightArrow1 {margin-left:50px;}
-  #analog2 img {width:80px; height:80px;}
-  #topArrow2 {margin-left:70px;}
-  #downArrow2 {margin-left:70px;}
-  #rightArrow2 {margin-left:50px;}
-  #analog3 img {width:80px; height:80px;}
-  #topArrow3 {margin-left:70px;}
-  #downArrow3 {margin-left:70px;}
-  #rightArrow3 {margin-left:50px;}
 }
 
 /* samsung a31 */
@@ -144,18 +114,6 @@
   #obtainItemList img {width:100px; height:100px;}
   #imgList img {    width: 300px; height: 300px;}
   #text {font-size:28px;}
-  #analog1 img {width:100px; height:100px;}
-  #topArrow1 {margin-left:90px;}
-  #downArrow1 {margin-left:90px;}
-  #rightArrow1 {margin-left:70px;}
-  #analog2 img {width:100px; height:100px;}
-  #topArrow2 {margin-left:90px;}
-  #downArrow2 {margin-left:90px;}
-  #rightArrow2 {margin-left:70px;}
-  #analog3 img {width:100px; height:100px;}
-  #topArrow3 {margin-left:90px;}
-  #downArrow3 {margin-left:90px;}
-  #rightArrow3 {margin-left:70px;}
 }
 
 /* horitzontally .......................................................................................*/
@@ -177,21 +135,6 @@
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:50px; height:50px;}
-  #topArrow1 {margin-left:50px;}
-  #downArrow1 {margin-left:50px;}
-  #rightArrow1 {margin-left:30px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:50px; height:50px;}
-  #topArrow2 {margin-left:50px;}
-  #downArrow2 {margin-left:50px;}
-  #rightArrow2 {margin-left:30px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:50px; height:50px;}
-  #topArrow3 {margin-left:50px;}
-  #downArrow3 {margin-left:50px;}
-  #rightArrow3 {margin-left:30px;}
   #text {font-size:14px;}
   #textBox {top:70%; left: 30%; width:50%; height:25%;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -218,21 +161,6 @@
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:50px; height:50px;}
-  #topArrow1 {margin-left:50px;}
-  #downArrow1 {margin-left:50px;}
-  #rightArrow1 {margin-left:30px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:50px; height:50px;}
-  #topArrow2 {margin-left:50px;}
-  #downArrow2 {margin-left:50px;}
-  #rightArrow2 {margin-left:30px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:50px; height:50px;}
-  #topArrow3 {margin-left:50px;}
-  #downArrow3 {margin-left:50px;}
-  #rightArrow3 {margin-left:30px;}
   #text {font-size:14px;}
   #textBox {top:70%; left: 30%; width:50%; height:25%;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -259,21 +187,6 @@
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:50px; height:50px;}
-  #topArrow1 {margin-left:50px;}
-  #downArrow1 {margin-left:50px;}
-  #rightArrow1 {margin-left:30px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:50px; height:50px;}
-  #topArrow2 {margin-left:50px;}
-  #downArrow2 {margin-left:50px;}
-  #rightArrow2 {margin-left:30px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:50px; height:50px;}
-  #topArrow3 {margin-left:50px;}
-  #downArrow3 {margin-left:50px;}
-  #rightArrow3 {margin-left:30px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -300,21 +213,6 @@
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:50px; height:50px;}
-  #topArrow1 {margin-left:50px;}
-  #downArrow1 {margin-left:50px;}
-  #rightArrow1 {margin-left:30px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:50px; height:50px;}
-  #topArrow2 {margin-left:50px;}
-  #downArrow2 {margin-left:50px;}
-  #rightArrow2 {margin-left:30px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:50px; height:50px;}
-  #topArrow3 {margin-left:50px;}
-  #downArrow3 {margin-left:50px;}
-  #rightArrow3 {margin-left:30px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -341,21 +239,6 @@
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:50px; height:50px;}
-  #topArrow1 {margin-left:50px;}
-  #downArrow1 {margin-left:50px;}
-  #rightArrow1 {margin-left:30px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:50px; height:50px;}
-  #topArrow2 {margin-left:50px;}
-  #downArrow2 {margin-left:50px;}
-  #rightArrow2 {margin-left:30px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:50px; height:50px;}
-  #topArrow3 {margin-left:50px;}
-  #downArrow3 {margin-left:50px;}
-  #rightArrow3 {margin-left:30px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -382,21 +265,6 @@
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:45%;}
-  #analog1 img {width:50px; height:50px;}
-  #topArrow1 {margin-left:50px;}
-  #downArrow1 {margin-left:50px;}
-  #rightArrow1 {margin-left:30px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:50px; height:50px;}
-  #topArrow2 {margin-left:50px;}
-  #downArrow2 {margin-left:50px;}
-  #rightArrow2 {margin-left:30px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:50px; height:50px;}
-  #topArrow3 {margin-left:50px;}
-  #downArrow3 {margin-left:50px;}
-  #rightArrow3 {margin-left:30px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -423,21 +291,6 @@
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:50px; height:50px;}
-  #topArrow1 {margin-left:50px;}
-  #downArrow1 {margin-left:50px;}
-  #rightArrow1 {margin-left:30px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:50px; height:50px;}
-  #topArrow2 {margin-left:50px;}
-  #downArrow2 {margin-left:50px;}
-  #rightArrow2 {margin-left:30px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:50px; height:50px;}
-  #topArrow3 {margin-left:50px;}
-  #downArrow3 {margin-left:50px;}
-  #rightArrow3 {margin-left:30px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -465,21 +318,6 @@
   #sideNav a { top:0; font-size: 50px;}
   #sideNav button {font-size:24px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:60px; height:60px;}
-  #topArrow1 {margin-left:60px;}
-  #downArrow1 {margin-left:60px;}
-  #rightArrow1 {margin-left:40px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:60px; height:60px;}
-  #topArrow2 {margin-left:60px;}
-  #downArrow2 {margin-left:60px;}
-  #rightArrow2 {margin-left:40px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:60px; height:60px;}
-  #topArrow3 {margin-left:60px;}
-  #downArrow3 {margin-left:60px;}
-  #rightArrow3 {margin-left:40px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:18px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -508,21 +346,7 @@
   #sideNav a { top:0; font-size: 50px;}
   #sideNav button {font-size:24px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:60px; height:60px;}
-  #topArrow1 {margin-left:60px;}
-  #downArrow1 {margin-left:60px;}
-  #rightArrow1 {margin-left:40px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:60px; height:60px;}
-  #topArrow2 {margin-left:60px;}
-  #downArrow2 {margin-left:60px;}
-  #rightArrow2 {margin-left:40px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:60px; height:60px;}
-  #topArrow3 {margin-left:60px;}
-  #downArrow3 {margin-left:60px;}
-  #rightArrow3 {margin-left:40px;}
+
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:18px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -550,21 +374,6 @@
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:50px; height:50px;}
-  #topArrow1 {margin-left:50px;}
-  #downArrow1 {margin-left:50px;}
-  #rightArrow1 {margin-left:30px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:50px; height:50px;}
-  #topArrow2 {margin-left:50px;}
-  #downArrow2 {margin-left:50px;}
-  #rightArrow2 {margin-left:30px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:50px; height:50px;}
-  #topArrow3 {margin-left:50px;}
-  #downArrow3 {margin-left:50px;}
-  #rightArrow3 {margin-left:30px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -591,21 +400,6 @@
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
   #healthBar {top:5%;}
-  #analog1 {top:40%;}
-  #analog1 img {width:50px; height:50px;}
-  #topArrow1 {margin-left:50px;}
-  #downArrow1 {margin-left:50px;}
-  #rightArrow1 {margin-left:30px;}
-  #analog2 {top:40%;}
-  #analog2 img {width:50px; height:50px;}
-  #topArrow2 {margin-left:50px;}
-  #downArrow2 {margin-left:50px;}
-  #rightArrow2 {margin-left:30px;}
-  #analog3 {top:40%;}
-  #analog3 img {width:50px; height:50px;}
-  #topArrow3 {margin-left:50px;}
-  #downArrow3 {margin-left:50px;}
-  #rightArrow3 {margin-left:30px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:12px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }

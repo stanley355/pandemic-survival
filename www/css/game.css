@@ -276,99 +276,64 @@ canvas {
 /* ................................................. */
 
 /* top, right, down, left button level 1*/
-#analog1 {
-  display: none;
-  position: absolute;
-  top: 60%;
-  left: 2%;
-  z-index: 0;
-}
-#analog1 img {
-  width: 60px;
-  height: 60px;
-}
-#topArrow1 {
-  margin-left: 60px;
-  background: none;
-  border: none;
-}
-#leftArrow1 {
-  background: none;
-  border: none;
-}
-#rightArrow1 {
-  margin-left: 40px;
-  background: none;
-  border: none;
-}
-#downArrow1 {
-  margin-left: 60px;
-  background: none;
-  border: none;
-}
-
-/* top, right, down, left button level 2*/
-#analog2 {
-  display: none;
-  position: absolute;
-  top: 60%;
-  left: 2%;
-  z-index: 0;
-}
-#analog2 img {
-  width: 60px;
-  height: 60px;
-}
-#topArrow2 {
-  margin-left: 60px;
-  background: none;
-  border: none;
-}
-#leftArrow2 {
-  background: none;
-  border: none;
-}
-#rightArrow2 {
-  margin-left: 40px;
-  background: none;
-  border: none;
-}
-#downArrow2 {
-  margin-left: 60px;
-  background: none;
-  border: none;
-}
-
-/* top, right, down, left button level 3*/
+#analog1,
+#analog2,
 #analog3 {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 60%;
   left: 2%;
   z-index: 0;
+  width: 50%;
+  flex-direction: column;
 }
+#analog1 img,
+#analog2 img,
 #analog3 img {
-  width: 60px;
-  height: 60px;
+  width: 4rem;
+  height: 4rem;
+  box-shadow: 3px 3px black;
+  border-radius: 50%;
 }
+
+#analog1 div,
+#analog2 div,
+#analog3 div {
+  display: flex;
+  justify-content: space-between;
+}
+#topArrow1,
+#topArrow2,
 #topArrow3 {
-  margin-left: 60px;
   background: none;
   border: none;
 }
+#leftArrow1,
+#leftArrow2,
 #leftArrow3 {
   background: none;
   border: none;
 }
+#rightArrow1,
+#rightArrow2,
 #rightArrow3 {
-  margin-left: 40px;
   background: none;
   border: none;
 }
+#downArrow1,
+#downArrow2,
 #downArrow3 {
-  margin-left: 60px;
   background: none;
   border: none;
+}
+
+@media screen and (min-width: 500px) {
+  #analog1,
+  #analog2,
+  #analog3 {
+    top: 45%;
+    width: 30%;
+  }
 }
 
 /* ................................................. */
@@ -417,7 +382,9 @@ canvas {
 /* ................................................. */
 
 /* toggle button */
-#toggleBtn1, #toggleBtn2, #toggleBtn3 {
+#toggleBtn1,
+#toggleBtn2,
+#toggleBtn3 {
   display: none;
   position: fixed;
   color: white;
@@ -431,7 +398,9 @@ canvas {
   background: white;
 }
 
-#toggleBtn1 div, #toggleBtn2 div, #toggleBtn3 div {
+#toggleBtn1 div,
+#toggleBtn2 div,
+#toggleBtn3 div {
   width: 4rem;
   height: 4rem;
   border: 3px solid black;
