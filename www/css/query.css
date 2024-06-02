@@ -78,17 +78,14 @@
   #topArrow1 {margin-left:70px;}
   #downArrow1 {margin-left:70px;}
   #rightArrow1 {margin-left:50px;}
-  #toggleBtn1 img {width:80px; height:80px;}
   #analog2 img {width:80px; height:80px;}
   #topArrow2 {margin-left:70px;}
   #downArrow2 {margin-left:70px;}
   #rightArrow2 {margin-left:50px;}
-  #toggleBtn2 img {width:80px; height:80px;}
   #analog3 img {width:80px; height:80px;}
   #topArrow3 {margin-left:70px;}
   #downArrow3 {margin-left:70px;}
   #rightArrow3 {margin-left:50px;}
-  #toggleBtn2 img {width:80px; height:80px;}
 }
 
 /* 480 x 854 */
@@ -121,17 +118,14 @@
   #topArrow1 {margin-left:70px;}
   #downArrow1 {margin-left:70px;}
   #rightArrow1 {margin-left:50px;}
-  #toggleBtn1 img {width:80px; height:80px;}
   #analog2 img {width:80px; height:80px;}
   #topArrow2 {margin-left:70px;}
   #downArrow2 {margin-left:70px;}
   #rightArrow2 {margin-left:50px;}
-  #toggleBtn2 img {width:80px; height:80px;}
   #analog3 img {width:80px; height:80px;}
   #topArrow3 {margin-left:70px;}
   #downArrow3 {margin-left:70px;}
   #rightArrow3 {margin-left:50px;}
-  #toggleBtn2 img {width:80px; height:80px;}
 }
 
 /* samsung a31 */
@@ -154,20 +148,14 @@
   #topArrow1 {margin-left:90px;}
   #downArrow1 {margin-left:90px;}
   #rightArrow1 {margin-left:70px;}
-  #toggleBtn1 img {width:100px; height:100px;}
-  #toggleBtn1 { left:75%;}
   #analog2 img {width:100px; height:100px;}
   #topArrow2 {margin-left:90px;}
   #downArrow2 {margin-left:90px;}
   #rightArrow2 {margin-left:70px;}
-  #toggleBtn2 img {width:100px; height:100px;}
-  #toggleBtn2 { left:75%;}
   #analog3 img {width:100px; height:100px;}
   #topArrow3 {margin-left:90px;}
   #downArrow3 {margin-left:90px;}
   #rightArrow3 {margin-left:70px;}
-  #toggleBtn3 img {width:100px; height:100px;}
-  #toggleBtn3 { left:75%;}
 }
 
 /* horitzontally .......................................................................................*/
@@ -204,12 +192,6 @@
   #topArrow3 {margin-left:50px;}
   #downArrow3 {margin-left:50px;}
   #rightArrow3 {margin-left:30px;}
-  #toggleBtn1 {top:50%; left:83%;}
-  #toggleBtn1 img {width:50px; height:50px;}
-  #toggleBtn2 {top:50%; left:83%;}
-  #toggleBtn2 img {width:50px; height:50px;}
-  #toggleBtn3 {top:50%; left:83%;}
-  #toggleBtn3 img {width:50px; height:50px;}
   #text {font-size:14px;}
   #textBox {top:70%; left: 30%; width:50%; height:25%;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -251,12 +233,6 @@
   #topArrow3 {margin-left:50px;}
   #downArrow3 {margin-left:50px;}
   #rightArrow3 {margin-left:30px;}
-  #toggleBtn1 {top:50%; left:83%;}
-  #toggleBtn1 img {width:50px; height:50px;}
-  #toggleBtn2 {top:50%; left:83%;}
-  #toggleBtn2 img {width:50px; height:50px;}
-  #toggleBtn3 {top:50%; left:83%;}
-  #toggleBtn3 img {width:50px; height:50px;}
   #text {font-size:14px;}
   #textBox {top:70%; left: 30%; width:50%; height:25%;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -298,12 +274,6 @@
   #topArrow3 {margin-left:50px;}
   #downArrow3 {margin-left:50px;}
   #rightArrow3 {margin-left:30px;}
-  #toggleBtn1 {top:50%; left:83%;}
-  #toggleBtn1 img {width:60px; height:60px;}
-  #toggleBtn2 {top:50%; left:83%;}
-  #toggleBtn2 img {width:60px; height:60px;}
-  #toggleBtn3 {top:50%; left:83%;}
-  #toggleBtn3 img {width:60px; height:60px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -345,12 +315,6 @@
   #topArrow3 {margin-left:50px;}
   #downArrow3 {margin-left:50px;}
   #rightArrow3 {margin-left:30px;}
-  #toggleBtn1 {top:50%; left:83%;}
-  #toggleBtn1 img {width:60px; height:60px;}
-  #toggleBtn2 {top:50%; left:83%;}
-  #toggleBtn2 img {width:60px; height:60px;}
-  #toggleBtn3 {top:50%; left:83%;}
-  #toggleBtn3 img {width:60px; height:60px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -392,12 +356,6 @@
   #topArrow3 {margin-left:50px;}
   #downArrow3 {margin-left:50px;}
   #rightArrow3 {margin-left:30px;}
-  #toggleBtn1 {top:50%; left:83%;}
-  #toggleBtn1 img {width:60px; height:60px;}
-  #toggleBtn2 {top:50%; left:83%;}
-  #toggleBtn2 img {width:60px; height:60px;}
-  #toggleBtn3 {top:50%; left:83%;}
-  #toggleBtn3 img {width:60px; height:60px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -439,12 +397,6 @@
   #topArrow3 {margin-left:50px;}
   #downArrow3 {margin-left:50px;}
   #rightArrow3 {margin-left:30px;}
-  #toggleBtn1 {top:55%; left:85%;}
-  #toggleBtn1 img {width:60px; height:60px;}
-  #toggleBtn2 {top:50%; left:83%;}
-  #toggleBtn2 img {width:60px; height:60px;}
-  #toggleBtn3 {top:50%; left:83%;}
-  #toggleBtn3 img {width:60px; height:60px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -486,12 +438,6 @@
   #topArrow3 {margin-left:50px;}
   #downArrow3 {margin-left:50px;}
   #rightArrow3 {margin-left:30px;}
-  #toggleBtn1 {top:50%; left:83%;}
-  #toggleBtn1 img {width:60px; height:60px;}
-  #toggleBtn2 {top:50%; left:83%;}
-  #toggleBtn2 img {width:60px; height:60px;}
-  #toggleBtn3 {top:50%; left:83%;}
-  #toggleBtn3 img {width:60px; height:60px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -534,12 +480,6 @@
   #topArrow3 {margin-left:60px;}
   #downArrow3 {margin-left:60px;}
   #rightArrow3 {margin-left:40px;}
-  #toggleBtn1 {top:50%; left:85%;}
-  #toggleBtn1 img {width:60px; height:60px;}
-  #toggleBtn2 {top:50%; left:85%;}
-  #toggleBtn2 img {width:60px; height:60px;}
-  #toggleBtn3 {top:50%; left:85%;}
-  #toggleBtn3 img {width:60px; height:60px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:18px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -583,12 +523,6 @@
   #topArrow3 {margin-left:60px;}
   #downArrow3 {margin-left:60px;}
   #rightArrow3 {margin-left:40px;}
-  #toggleBtn1 {top:50%; left:85%;}
-  #toggleBtn1 img {width:60px; height:60px;}
-  #toggleBtn2 {top:50%; left:85%;}
-  #toggleBtn2 img {width:60px; height:60px;}
-  #toggleBtn3 {top:50%; left:85%;}
-  #toggleBtn3 img {width:60px; height:60px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:18px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -631,12 +565,6 @@
   #topArrow3 {margin-left:50px;}
   #downArrow3 {margin-left:50px;}
   #rightArrow3 {margin-left:30px;}
-  #toggleBtn1 {top:50%; left:83%;}
-  #toggleBtn1 img {width:60px; height:60px;}
-  #toggleBtn2 {top:50%; left:83%;}
-  #toggleBtn2 img {width:60px; height:60px;}
-  #toggleBtn3 {top:50%; left:83%;}
-  #toggleBtn3 img {width:60px; height:60px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:14px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
@@ -678,12 +606,6 @@
   #topArrow3 {margin-left:50px;}
   #downArrow3 {margin-left:50px;}
   #rightArrow3 {margin-left:30px;}
-  #toggleBtn1 {top:50%; left:83%;}
-  #toggleBtn1 img {width:60px; height:60px;}
-  #toggleBtn2 {top:50%; left:83%;}
-  #toggleBtn2 img {width:60px; height:60px;}
-  #toggleBtn3 {top:50%; left:83%;}
-  #toggleBtn3 img {width:60px; height:60px;}
   #textBox {top:70%; left: 26%; width:55%; height:25%;}
   #text {font-size:12px;}
   @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
