@@ -4,8 +4,6 @@
   #loaderText {font-size: 22px;}
   #menuList button {font-size:22px}
   #imgList img {width:150px; height:150px;}
-  #textBox {width:97%;}
-  #text {font-size:18px;}
 }
 
 /* iphone 5/se */
@@ -13,36 +11,26 @@
   #loaderText {font-size: 22px;}
   #menuList button {font-size:22px}
   #imgList img {width:150px; height:150px;}
-  #textBox {width:97%;}
-  #text {font-size:18px;}
 }
 
 /* 360 x 640 */
 @media screen and (min-width: 341px) and (max-width: 375px) and (min-height: 550px) and (max-height: 600px) {
   #loaderText {font-size: 22px;}
   #menuList button {font-size:22px}
-  progress {top:2%;}
   #imgList img {width:150px; height:150px;}
-  #textBox {width:97%; top: 43%;}
-  #text {font-size:18px;}
 }
 
 /* 384 x 640 */
 @media screen and (min-width: 376px) and (max-width: 400px) and (min-height: 601px) and (max-height: 650px) {
   #loaderText {font-size: 26px;}
   #menuList button {font-size:26px}
-  progress {top:2%;}
   #imgList img {width:150px; height:150px;}
-  #textBox {top: 43%; width:97%;}
-  #text {font-size:18px;}
 }
 
 /* 412 x 732px */
 @media screen and (min-width: 401px) and (max-width: 450px) and (min-height: 700px) and (max-height: 750px) {
   #loaderText {font-size: 36px;}
   #menuList button {font-size:32px}
-  progress {top:1%;}
-  #text {font-size:22px;}
 }
 
 /* 411x823 */
@@ -55,8 +43,6 @@
   #sideNav button {font-size:24px;}
   #obtainItemList {left:14%;}
   #obtainItemList img {width:80px; height:80px;}
-  progress {top:1%;}
-  #textBox {width:97%;}
 }
 
 /* samsung A50 */
@@ -75,11 +61,8 @@
 @media screen and (min-width: 451px) and (max-width: 500px) and (min-height: 841px) and (max-height: 880px) {
   #loaderText {font-size: 36px;}
   #menuList button {font-size:32px}
-  progress {top:1%;}
-  #text {font-size:22px;}
   #imgList img {width:200px; height:200px;}
   #obtainItemList img{ width: 70px; height: 70px;}
-  progress {top:1%;}
 }
 
 /* samsung note 20 */
@@ -108,7 +91,6 @@
   #obtainItemList {left:14%;}
   #obtainItemList img {width:100px; height:100px;}
   #imgList img {    width: 300px; height: 300px;}
-  #text {font-size:28px;}
 }
 
 /* horitzontally .......................................................................................*/
@@ -127,10 +109,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
-  #healthBar {top:5%;}
-  #text {font-size:14px;}
-  #textBox {top:70%; left: 30%; width:50%; height:25%;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:35%;}
   #obtainItemList {left:10%;}
   #obtainItemList img {width:70px; height:70px;}
@@ -151,10 +129,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
-  #healthBar {top:5%;}
-  #text {font-size:14px;}
-  #textBox {top:70%; left: 30%; width:50%; height:25%;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:35%;}
   #obtainItemList {left:10%;}
   #obtainItemList img {width:70px; height:70px;}
@@ -175,10 +149,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
-  #healthBar {top:5%;}
-  #textBox {top:70%; left: 26%; width:55%; height:25%;}
-  #text {font-size:14px;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:35%;}
   #obtainItemList {left:10%;}
   #obtainItemList img {width:70px; height:70px;}
@@ -199,10 +169,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
-  #healthBar {top:5%;}
-  #textBox {top:70%; left: 26%; width:55%; height:25%;}
-  #text {font-size:14px;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:35%;}
   #obtainItemList {left:10%;}
   #obtainItemList img {width:70px; height:70px;}
@@ -223,10 +189,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
-  #healthBar {top:5%;}
-  #textBox {top:70%; left: 26%; width:55%; height:25%;}
-  #text {font-size:14px;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:37%;}
   #obtainItemList {left:10%;}
   #obtainItemList img {width:70px; height:70px;}
@@ -247,10 +209,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
-  #healthBar {top:5%;}
-  #textBox {top:70%; left: 26%; width:55%; height:25%;}
-  #text {font-size:14px;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:37%;}
   #obtainItemList {left:10%;}
   #obtainItemList img {width:70px; height:70px;}
@@ -271,10 +229,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
-  #healthBar {top:5%;}
-  #textBox {top:70%; left: 26%; width:55%; height:25%;}
-  #text {font-size:14px;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:37%;}
   #obtainItemList {left:10%;}
   #obtainItemList img {width:70px; height:70px;}
@@ -296,10 +250,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 50px;}
   #sideNav button {font-size:24px; margin:5px;}
-  #healthBar {top:5%;}
-  #textBox {top:70%; left: 26%; width:55%; height:25%;}
-  #text {font-size:18px;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:37%;}
   #imgList img {width:250px; height:250px;}
   #obtainItemList {left:10%;}
@@ -322,11 +272,7 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 50px;}
   #sideNav button {font-size:24px; margin:5px;}
-  #healthBar {top:5%;}
 
-  #textBox {top:70%; left: 26%; width:55%; height:25%;}
-  #text {font-size:18px;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:37%;}
   #imgList img {width:250px; height:250px;}
   #obtainItemList {left:10%;}
@@ -348,10 +294,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
-  #healthBar {top:5%;}
-  #textBox {top:70%; left: 26%; width:55%; height:25%;}
-  #text {font-size:14px;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:37%;}
   #obtainItemList {left:10%;}
   #obtainItemList img {width:70px; height:70px;}
@@ -372,10 +314,6 @@
   #onloadTextBox { height:90%;}
   #sideNav a { top:0; font-size: 40px;}
   #sideNav button {font-size:20px; margin:5px;}
-  #healthBar {top:5%;}
-  #textBox {top:70%; left: 26%; width:55%; height:25%;}
-  #text {font-size:12px;}
-  @keyframes textBoxAnimate { from {height: 0%;} to {height: 25%;} }
   #imgList {left:37%;}
   #obtainItemList {left:10%;}
   #obtainItemList img {width:70px; height:70px;}

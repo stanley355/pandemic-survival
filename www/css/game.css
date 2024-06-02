@@ -137,36 +137,14 @@ audio {
 
 progress {
   position: absolute;
-  top: 4%;
-  left: 60%;
-  width: 35%;
-  height: 7%;
+  top: .5%;
+  /* left: 60%; */
+  width: 40%;
+  height: 5%;
   color: red;
+  right: 2%;
 }
-progress::-webkit-progress-bar {
-  position: absolute;
-  top: 5%;
-  left: 65%;
-  width: 30%;
-  height: 10%;
-  color: red;
-}
-progress::-webkit-progress-value {
-  position: absolute;
-  top: 5%;
-  left: 65%;
-  width: 30%;
-  height: 10%;
-  color: red;
-}
-progress::-moz-progress-bar {
-  position: absolute;
-  top: 5%;
-  left: 65%;
-  width: 30%;
-  height: 10%;
-  color: red;
-}
+
 #health1 {
   display: block;
 }
@@ -176,6 +154,14 @@ progress::-moz-progress-bar {
 #health3 {
   display: none;
 }
+
+@media screen and (min-width: 500px) {
+  progress {
+   top: 2.5%;
+   height: 7.5%;
+  }
+}
+
 /* ................................................. */
 
 /* onload game screen Text */
@@ -199,6 +185,7 @@ progress::-moz-progress-bar {
   animation-name: animateLoadText;
   animation-duration: 2s;
   padding: 1rem;
+  box-shadow: 3px 3px black;
 }
 
 @media screen and (min-width: 500px) {
@@ -276,11 +263,17 @@ progress::-moz-progress-bar {
 /* Canvas */
 canvas {
   width: 95%;
-  height: 55%;
+  height: 50vh;
   border: 5px solid whitesmoke;
-  border-radius: 5px;
+  border-radius: .5rem;
   position: relative;
   z-index: -1;
+}
+
+@media screen and (min-width: 500px) {
+  canvas {
+    height: 95vh;
+  }
 }
 /* ................................................. */
 
@@ -348,46 +341,46 @@ canvas {
 /* ................................................. */
 
 /* Textbox */
+
 #textBox {
   display: none;
-  position: absolute;
-  background-color: #99ff99;
+  position: fixed;
+  background-color: white;
   top: 40%;
   left: 2%;
-  width: 95%;
-  height: 16%;
-  border-radius: 10px;
-  border: 1px solid white;
+  width: 92.5%;
+  height: 15%;
+  border-radius: 0.5rem;
+  border: 1px solid black;
   animation-name: textBoxAnimate;
   animation-duration: 1s;
-  z-index: 0;
+  z-index: 10;
+  padding: 0.5rem;
+  box-shadow: 3px 3px black;
 }
 @keyframes textBoxAnimate {
   from {
     height: 0%;
   }
   to {
-    height: 16%;
+    height: 15%;
   }
 }
 #text {
   color: black;
   text-transform: none;
   font-family: monospace;
-  font-size: 20px;
-  margin-top: 0;
-  margin-left: 5px;
-  animation-name: textAnimate;
-  animation-duration: 2s;
+  font-size: 1rem;
+  margin: 0;
 }
-@keyframes textAnimate {
-  from {
-    color: greenyellow;
-  }
-  to {
-    color: black;
+
+@media screen and (min-width: 500px) {
+  #textBox {
+    top: 2.5%;
+    width: 94%;
   }
 }
+
 /* ................................................. */
 
 /* toggle button */
@@ -405,6 +398,7 @@ canvas {
   z-index: 0;
   padding: 0.5rem;
   background: white;
+  box-shadow: 3px 3px black;
 }
 
 #toggleBtn1 div,
@@ -416,21 +410,4 @@ canvas {
   border-radius: 50%;
 }
 
-/* healthbar */
-#healthBar {
-  position: absolute;
-  top: 3%;
-  left: 60%;
-  width: 35%;
-  background-color: #ddd;
-  border-radius: 10px;
-  /* z-index:1; */
-}
 
-#healthLine {
-  width: 100%;
-  height: 15%;
-  background-color: red;
-  color: red;
-  border-radius: 5px;
-}
