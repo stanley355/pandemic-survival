@@ -1,8 +1,7 @@
 #gameScreen {
     display:none;
-    overflow: hidden;
-    width: 355px;
-    height: 635px;
+    width: 102vw;
+    height: 160vh;
 }
 
 audio {display:none;}
@@ -154,29 +153,32 @@ progress {
 #onloadTextBox {
     display:block;
     z-index: 1;
-    position: absolute;
-    left: 2%;
+    position: fixed;
+    top: 1%;
+    left: .5%;
     width:95%;
-    height: 55%;
+    height: 50%;
     color: black;
     background-color: #f2f2f2;
     opacity: 0.9;
     border: 1px solid black;
-    border-radius: 3%;
+    border-radius:0.5rem;
     text-transform: none;
     font-family: monospace;
-    font-size:16px;
+    font-size:1rem;
     text-align: justify;
     animation-name: animateLoadText;
     animation-duration:2s;
+    padding: 1rem;
 }
 #onloadTextButton {
     color:black;
     background:none;
     border: none;
-    margin-left: 5px;
+    padding: 1rem;
     font-size: inherit;
     text-decoration: underline;
+    float: right;
 }
 @keyframes animateLoadText {
     from { opacity: 0; }
