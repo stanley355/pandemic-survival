@@ -91,19 +91,28 @@ audio {
 
 /* obtain item list */
 #obtainItemList {
+  display: flex;
   position: absolute;
   top: 1%;
-  left: 12%;
-  width: 400px;
-  height: 70px;
+  left: 15%;
   display: block;
   z-index: 1;
 }
 #obtainItemList img {
-  width: 60px;
-  height: 60px;
+  width: 20%;
+  height:100%;
   animation-name: obtainImgAnimate;
   animation-duration: 2s;
+}
+
+@media screen and (min-width: 500px) {
+  #obtainItemList {
+    left: 7.5%;
+  }
+  #obtainItemList img {
+    width: 7.5%;
+    height: 50%;
+  }
 }
 #obtainMaskImg {
   display: none;

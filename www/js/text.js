@@ -5229,6 +5229,7 @@ function toggleText() {
     }
     else if (t.innerHTML === txt1[15]) {
         healthSpeed1 = healthSpeed1 + 2;
+        obtMaskImg.style.display = 'none';
         t.innerHTML = txt1[16];
     }
     //talk to gatekeeper
@@ -5236,7 +5237,7 @@ function toggleText() {
         if (talkGatekeeper == false) { //if the player hasn't talked to gatekeeper, he will receive a mask
             player1.picX = 192;
             maskImg.style.display = 'block';
-            obtMaskImg.style.display = 'inline';
+            obtMaskImg.style.display = 'block';
             tBox.style.backgroundColor = '#f2f2f2';
             tBox.style.opacity = '0.8';
             t.innerHTML = txt1[7];

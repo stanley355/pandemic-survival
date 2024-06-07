@@ -9,10 +9,11 @@ var rightArrow1 = document.getElementById('rightArrow1');
 var downArrow1 = document.getElementById('downArrow1');
 var toggleBtn1 = document.getElementById('toggleBtn1');
 // toparrow
-topArrow1.ontouchstart = function () { player1.moveUp(); }
+topArrow1.onkeydown = function () { player1.moveUp(); }
 topArrow1.ontouchend = function () { player1.moveUp(); }
 topArrow1.ontouchmove = function () { player1.moveUp(); }
 topArrow1.onclick = function () { player1.moveUp(); }
+
 // leftarrow
 leftArrow1.ontouchstart = function () { player1.moveLeft(); }
 leftArrow1.ontouchend = function () { player1.moveLeft(); }
