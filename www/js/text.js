@@ -5200,6 +5200,7 @@ function toggleText() {
     }
     //if handWasImg is shown, close it
     else if (t.innerHTML === txt1[4] || t.innerHTML === txt1[28]) {
+        console.log("here");
         if (buySoap == true && giveMomSoap == true) {
             handWashImg.style.display = 'none';
             tBox.style.backgroundColor = '#99ff99';
