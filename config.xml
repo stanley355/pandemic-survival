@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.atmajaya.gamepandemic1"
-    version="1.0.4"
-    android-versionCode="10004"
+    version="1.0.5"
+    android-versionCode="10005"
     xmlns="http://www.w3.org/ns/widgets"
     xmlns:cdv="http://cordova.apache.org/ns/1.0"
 >
